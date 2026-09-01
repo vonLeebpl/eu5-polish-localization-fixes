@@ -1,0 +1,11 @@
+﻿{
+	"name":	"Polish localization fixes",
+	"id":	"vonleebpl.polish_localization_fixes",
+	"version":	"0.1",
+	"supported_game_version":	"1.3.11",
+	"short_description":	"Various fixes for polish localization of EU5.",
+	"tags":	["Fixes", "Translation"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}

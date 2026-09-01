@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../SteamLibrary/steamapps/common/Europa Universalis V/game"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.txt": "paradox-eu5",
+			"*.gui": "paradox-gui",
+			"*.mod": "paradox-mod",
+			"**/localization/**/*.yml": "paradox-loc"
+		}
+	}
+}

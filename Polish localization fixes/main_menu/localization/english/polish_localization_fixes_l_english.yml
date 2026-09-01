@@ -1,0 +1,42 @@
+﻿l_english:
+ ##
+ ## CultureView Fixes
+ culturelateralview_culturenamewithnotooltip_localization: "[CountryCultureLateralView.GetCulture.GetNameWithNoTooltip]"
+ culturelateralview_dialectnamewithnotooltip_localization: "[CountryCultureLateralView.GetCountry.GetCommonDialect.GetNameWithLanguageWithNoTooltip]"
+ culturelateralview_importantculturenamewithnotooltip_localization: "[ImportantCultureItem.GetCulture.GetNameWithNoTooltip]"
+ cultureview_interactiontarget_getnamewntt_localization: "[InteractionTarget.GetCulture.GetNameWithNoTooltip|L]"
+ popeditorview_popentry_culturegetnamewntt_localisation: "[PopEntry.GetCulture.GetNameWithNoTooltip]"
+ popeditorview_culturegetnamewntt_localisation: "[Culture.GetNameWithNoTooltip]"
+ characterlateralview_getchar_getculturegetnamewntt_localisation: "[CharacterLateralview.GetCharacter.GetCulture.GetNameWithNoTooltip]"
+ countrieslist_country_getculture_getnamewntt_localisation: "[Country.GetCulture.GetNameWithNoTooltip|L]"
+ locationwindow_popcultureitem_getname_localisation: "[PopCultureItem.GetName]"
+ locationlistviewitem_getlocation_getdominantculture_getnamewntt_localisation: "[LocationsListViewItem.GetLocation.GetDominantCulture.GetNameWithNoTooltip|L]"
+ subjectitem_getcountry_getculture_getname_localisation: "[SubjectItem.GetCountry.GetCulture.GetName|L] @culture!"
+ peoplepopitem_getpop_getculture_getname_localisation: "[PeoplePopItem.GetPop.GetCulture.GetName]"
+ pop_get_culture_getnamewithntt_localisation: "[Pop.GetCulture.GetNameWithNoTooltip]"
+ country_getculture_getname_localisation: "[Country.GetCulture.GetName]"
+ character_getculture_getname_yellow_localisation: "[Character.GetCulture.GetName]"
+ subunit_getculture_getname_withicon_localisation: "[SubUnit.GetCulture.GetName] [culture_icon]"
+ location_getdominantculture_getnamewntt_localisation: "[Location.GetDominantCulture.GetNameWithNoTooltip]"
+ popcultureitem_getname_localisation: "[PopCultureItem.GetName]"
+ pop_getculture_getname_localisation: "[Pop.GetCulture.GetName]"
+ popspiechartwidget_getowner_getculture_getname: "[PopsPiechartWidget.GetOwner.GetCulture.GetName]"
+ culturelateralview_culturegroup_getname_localisation: "[CultureGroup.GetName]"
+ ##
+ ## ReligionLateralView Fixes
+ religionlateralview_liturgicallanguagegetnamewithnotooltip_localization: "[CountryReligionLateralView.GetCountry.GetLiturgicalLanguage.GetNameWithNoTooltip]"
+ character_getreligion_getadj_yellow_localisation: "[Character.GetReligion.GetAdjective]"
+ pop_getreligion_getadj_localisation: "[Pop.GetReligion.GetName]"
+ ##
+ ## ForeignCountryLateralView Fixes
+ foreigncountrylateralview_liturgicallanguagegetnamewithnotooltip_localization: "[ForeignCountryView.GetCountry.GetLiturgicalLanguage.GetNameWithNoTooltip]"
+ foreigncountrylateralview_courtlanguagegetnamewithnotooltip_localization: "[ForeignCountryView.GetCountry.GetCourtLanguage.GetNameWithNoTooltip]"
+ foreigncountrylateralview_culturegetnamewithnotooltip_localization: "[Country.GetCulture.GetNameWithNoTooltip]"
+ ##
+ ## CultureLedger Fixes
+ cultureitem_culturegetnamewithnotooltip_localization: "[CultureItem.GetCulture.GetNameWithNoTooltip]"
+ ##
+ ## SocietyTooltips Fixes
+ culture_getnamewithnotooltip_localisation: "[Culture.GetNameWithNoTooltip]"
+ culturegroup_getnamewithnotooltip_localisation: "[CultureGroup.GetNameWithNoTooltip]"
+ ##

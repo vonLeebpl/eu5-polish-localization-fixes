@@ -1,0 +1,320 @@
+﻿country_name_construction = {
+	type = country
+
+	# =========================================================================
+	# SEKRETY ARCHITEKTURY - SEKCJA 1: ORYGINALNE WYJĄTKI STARTOWE NA SAMYM SZCZYCIE
+	# =========================================================================
+	text = {
+		localization_key = country_name_construction_ROM_republic # Senatus Populusque Romanus
+		trigger = {
+			tag = ROM
+			government_type = government_type:republic
+
+			OR = {
+				court_language ?= language:latin_language
+				culture.language = language:latin_language
+			}
+		}
+	}
+	text = {
+		localization_key = country_name_construction_BYZ_greek # Basileía Rhōmaíōn
+		trigger = {
+			has_game_rule = byz_name_greek
+
+			OR = {
+				tag = BYZ
+				tag = ROM
+			}
+
+			country_rank = country_rank:rank_empire
+			government_type = government_type:monarchy
+
+			OR = {
+				court_language ?= language:greek_language
+				culture.language = language:greek_language
+			}
+		}
+	}
+	text = {
+		localization_key = country_name_construction_name
+		trigger = {
+			OR = {
+				AND = {
+					tag = PAP
+					has_reform = government_reform:papacy_reform
+				}
+			}
+		}
+	}
+	
+	# UNIKALNE KORONY DYNASTYCZNE (Kastylia, Aragonia, Czechy, unia Polski)
+	# Przechwytywane na szczycie, obsługiwane przez Twój filtr w pliku .yml
+	text = {
+		localization_key = country_name_construction_crown
+		trigger = {
+			country_rank_is_kingdom = yes
+			OR = {
+				tag = ARA
+				tag = CAS
+				AND = {
+					tag = POL
+					OR = {
+						is_in_union = yes
+						is_junior_partner = yes
+					}
+				}
+				AND = {
+					tag = BOH
+					has_variable = crown_of_bohemia_variable
+				}
+			}
+		}
+	}
+
+	# =========================================================================
+	# SEKCJA 2: NASZE WSPÓLNE POLSKIE DZIEŁO GRAMATYCZNE (BEZ IS_LOCALIZATION_LANGUAGE)
+	# =========================================================================
+	
+	# 1. SZTYWNY SZYK OPISOWY (Maroko, Plemiona oraz Wolne Miasta / Państwa-Miasta)
+	text = {
+		localization_key = country_name_construction_pol_static_name
+		trigger = { 
+			OR = {
+				tag = MOR
+				government_type = government_type:tribe
+				international_organization:hre ?= {
+					country_has_special_status = {
+						type = special_status:free_city
+						country = ROOT
+					}
+				}
+				AND = {
+					government_type = government_type:republic
+					country_rank = country_rank:rank_county
+				}
+			}
+		}
+	}
+
+	# 2. WYJĄTEK SPECJALNY: Zakon Szpitalników (Tag: KNI)
+	text = {
+		localization_key = country_name_construction_pol_knights_hospitaller
+		trigger = { tag = KNI }
+	}
+
+	# 3. POZOSTAŁE ZAKONY RYCERSKIE (Szyk: Prefix + Ranga + Przymiotnik ki)
+	text = {
+		localization_key = country_name_construction_pol_military_order
+		trigger = {
+			has_reform = government_reform:military_order_reform
+			NOT = { tag = KNI }
+		}
+	}
+
+	# 4. ORDY (Koczownicy) - CAŁKOWICIE WYDZIELONE (Żeńska końcówka -ka)
+	text = {
+		localization_key = country_name_construction_pol_horde
+		trigger = {
+			government_type = government_type:steppe_horde
+		}
+	}
+
+	# 5. ŚWIAT ISLAMU (Sułtanaty i Emiraty) - Z WYKLUCZENIEM ORD! (Męska końcówka -ki)
+	text = {
+		localization_key = country_name_construction_pol_islamic_rank
+		trigger = {
+			religion.group = religion_group:muslim
+			NOT = { government_type = government_type:steppe_horde }
+		}
+	}
+
+	# 6. Europejskie Monarchie Biskupie Wyższe (Teokracje o randze Cesarstwa, Królestwa i Księstwa)
+	text = {
+		localization_key = country_name_construction_pol_bishopric_monarchy
+		trigger = {
+			government_type = government_type:theocracy
+			religion.group = religion_group:christian
+			OR = {
+				country_rank = country_rank:rank_empire
+				country_rank = country_rank:rank_kingdom
+				country_rank = country_rank:rank_duchy
+			}
+		}
+	}
+
+	# 7. Europejskie Teokracje Niższe / Biskupstwa (Pozostała ranga Hrabstwa - County)
+	text = {
+		localization_key = country_name_construction_pol_theocracy_county
+		trigger = {
+			government_type = government_type:theocracy
+			religion.group = religion_group:christian
+			country_rank = country_rank:rank_county
+		}
+	}
+
+	# 8. Europejskie Republiki (Szyk Przymiotnikowy Żeński. Marchie łapane są w locie przez .yml!)
+	text = {
+		localization_key = country_name_construction_pol_republic_march
+		trigger = {
+			government_type = government_type:republic
+		}
+	}
+
+
+	# 9. Wyjątki przymiotnikowe monarchii świeckich w Europie (Polska, Litwa, Moskwa, Czechy)
+	text = {
+		localization_key = country_name_construction_pol_euro_adjective_monarchy
+		trigger = {
+			OR = { tag = POL tag = LIT tag = MOS tag = BOH }
+		}
+	}
+
+	# 10. EUROPA: REGULARNE MONARCHIE ŚWIECKIE - PODZIAŁ NA CESARSTWA
+	text = {
+		localization_key = country_name_construction_pol_euro_empire
+		trigger = {
+			government_type = government_type:monarchy
+			country_rank = country_rank:rank_empire
+		}
+	}
+
+	# 11. EUROPA: REGULARNE MONARCHIE ŚWIECKIE - PODZIAŁ NA KRÓLESTWA I KSIĘSTWA
+	text = {
+		localization_key = country_name_construction_pol_euro_kingdom_duchy
+		trigger = {
+			government_type = government_type:monarchy
+			OR = {
+				country_rank = country_rank:rank_kingdom
+				country_rank = country_rank:rank_duchy
+			}
+		}
+	}
+
+	# 12. EUROPA: REGULARNE MONARCHIE ŚWIECKIE - PODZIAŁ NA HRABSTWA
+	text = {
+		localization_key = country_name_construction_pol_euro_county
+		trigger = {
+			government_type = government_type:monarchy
+			country_rank = country_rank:rank_county
+		}
+	}
+
+	# =========================================================================
+	# SEKCJA 3: POZOSTAŁY, ORYGINALNY KOD GRY VANILLA (FALLBACK DLA POZOSTAŁYCH UNII)
+	# =========================================================================
+	text = {
+		localization_key = country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank
+		trigger = {
+			OR = {
+				AND = {
+					tag = GBR
+					coa_def_GBR_uk_trigger = yes
+				}
+				AND = {
+					tag = MAM
+					OR = {
+						country_rank = country_rank:rank_empire
+						country_rank = country_rank:rank_kingdom
+					}
+					religion.group = religion_group:muslim
+				}
+				AND = {
+					tag = DAU
+					OR = {
+						country_rank = country_rank:rank_duchy
+						country_rank = country_rank:rank_county
+					}
+				}
+				AND = {
+					tag = PAL
+					OR = {
+						country_rank = country_rank:rank_duchy
+						country_rank = country_rank:rank_county
+					}
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = country_name_construction_prefix_name_rank
+		trigger = {
+			government_type = government_type:monarchy
+			OR = {
+				country_rank = country_rank:rank_kingdom 
+				country_rank = country_rank:rank_empire
+			}
+			tag = MAL
+		}
+	}
+	text = {
+		localization_key = country_name_construction_prefix_name
+		trigger = {
+			country_rank ?= country_rank:rank_empire
+			court_language ?= { language_family ?= language_family:chinese_language_family }
+		}
+	}
+	text = {
+		localization_key = country_name_construction_prefix_name_horde
+		trigger = {
+			government_type = government_type:steppe_horde
+		}
+	}
+	text = {
+		localization_key = country_name_construction_prefix_name_bank_special
+		trigger = {
+			OR = {
+				tag = HBURG
+				tag = BGIRO
+			}
+		}
+	}
+	text = {
+		localization_key = country_name_construction_prefix_adjective_rank
+		trigger = {
+			OR = {
+				AND = {
+					country_rank = country_rank:rank_empire 
+					NOT = { tag = LAT }
+				}
+				tag = TIM
+				tag = GLH
+				tag = CHG
+				tag = LAT
+				AND = {
+					tag = PLC
+					country_rank = country_rank:rank_kingdom
+				}
+				AND = {
+					country_rank = country_rank:rank_duchy
+					government_type = government_type:republic
+					culture = culture:frisian
+				}
+				AND = {
+					tag = HSA
+					government_type = government_type:republic
+				}
+				AND = {
+					has_reform = government_reform:military_order_reform
+					OR = {
+						country_rank = country_rank:rank_kingdom
+						country_rank = country_rank:rank_duchy
+					}
+					NOT = { tag = KNI }
+				}
+				has_reform = government_reform:japanese_clan
+				country_type = pop
+			}
+		}
+	}
+	text = {
+		localization_key = country_name_construction_sultanate
+		trigger = {
+			religion.group = religion_group:muslim
+		}
+	}
+	text = {
+		localization_key = country_name_construction_prefix_rank_of_name
+		fallback = yes
+	}
+}
+country_name_construction_map = { parent = country_name_construction suffix = "_map" }

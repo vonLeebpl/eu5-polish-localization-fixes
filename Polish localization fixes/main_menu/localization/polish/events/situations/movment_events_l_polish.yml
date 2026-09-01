@@ -1,0 +1,11 @@
+﻿l_polish:
+ movements.10.title: "Latinitas"
+ movements.10.desc: "Świętując powrót do wielkiego Cesarstwa Rzymskiego, lojalni mieszkańcy miasta [target_location.GetName], którzy posługują się językiem romańskim, odżyli dzięki ideom mowy #L [ShowLanguageName('latin_language')|l]ej#! i starożytnej kultury łacińskiej. \n\nCi nowi Rzymianie dążą do przywrócenia dawnej świetności Cesarstwa Rzymskiego. Są dumni ze swojego dziedzictwa, jak również pragną szerzyć kulturę oraz wpływy na całym świecie."
+ movements.10.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ movements.10.b: "Nasza postawa jest zbyt [ShowCultureNameWithNoTooltip('roman_culture')|l]ka!"
+ movements.10.tt: "[ShowMovementDefinitionName('roman_culture_movement')] występuje w mieście [target_location.GetName]"
+ movements.20.title: "Emanacja Jedni"
+ movements.20.desc: "Krąg uczonych i filozofów wyznających [ShowMovementDefinitionName('hellenism_religion_movement')|l] zaczął nauczać, że najwyższa prawda tkwi nie w piśmie, lecz umyśle: całe istnienie bierze się z Jedni poprzez emanację boskiego intelektu na nasz świat materialny.\n\nCzerpiąc z Platona, Plotyna i Proklosa, myśliciele ci ostrożnie wskazują na [ShowReligionGroupName('christian')|l]. Jednia, jak twierdzą, nie jest taka odmienna od Boga: jest wieczna, poza granicami poznania i stanowi źródło wszechrzeczy.\n\nMimo to [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] się niepokoją, twierdząc, że jest to po prostu #L [ShowReligionAdjective('hellenism_religion')|l]e#! pogaństwo.\n\nCzy pozwolimy rozkwitnąć temu ożywieniu filozoficznemu, czy też zdecydujemy się je zdławić?"
+ movements.20.a: "Poszukiwania Jedni wiodą do prawdy."
+ movements.20.b: "Ta filozofia wiedzie dusze na manowce."
+ movements.20.tt: "[ShowMovementDefinitionName('hellenism_religion_movement')] szerzy się w mieście [ROOT.GetCountry.GetCapital.GetName]"
