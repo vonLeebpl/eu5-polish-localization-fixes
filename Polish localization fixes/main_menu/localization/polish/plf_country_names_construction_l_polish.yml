@@ -2,6 +2,8 @@
  # --- Dedykowany, oryginalny klucz dla Unii Dynastycznych (Koron na szczycie pliku .txt) ---
  country_name_construction_crown: "[AddTextIf(EqualTo_string('Polska', '$NAME$'), '$PREFIX$ $RANK$ Polska')][AddTextIf(EqualTo_string('Kastylia', '$NAME$'), '$PREFIX$ $CAS_LONG$')][AddTextIf(EqualTo_string('Aragon', '$NAME$'), '$PREFIX$ $ARA_LONG$')][AddTextIf(EqualTo_string('Czechy', '$NAME$'), '$PREFIX$ $RANK$ Czech')]"
  country_name_construction_crown_map: "$NAME$"
+ country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank: "[AddTextIf(EqualTo_string('$NAME$','Wielka Brytania'), '$NAME$')][AddTextIf(EqualTo_string('$NAME$', 'Egipt'), '$PREFIX$ $RANK$ Egipski')][AddTextIf(Or(EqualTo_string('$NAME$', 'Viennois'),EqualTo_string('$NAME$', 'Ren')), '$RANK$ $NAME$')]"
+ country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank_map: "[AddTextIf(EqualTo_string('$NAME$','Wielka Brytania'), '$NAME$')][AddTextIf(EqualTo_string('$NAME$', 'Egipt'), '$RANK$ $PREFIX$')][AddTextIf(Or(EqualTo_string('$NAME$', 'Viennois'),EqualTo_string('$NAME$', 'Ren')), '$RANK$ $NAME$')]"
 
  # --- Reszta Twoich kluczy z debugowaniem pozostaje całkowicie nienaruszona ---
  country_name_construction_pol_static_name: "$PREFIX$ $RANK$ $NAME$ (pure)"
@@ -12,22 +14,24 @@
  country_name_construction_pol_military_order_map: "$RANK$ $ADJ$ki"
  country_name_construction_pol_horde: "$PREFIX$ $RANK$ $ADJ$ka (Ordy)"
  country_name_construction_pol_horde_map: "$PREFIX$ $RANK$ $ADJ$ka"
- country_name_construction_pol_islamic_rank: "$PREFIX$ $RANK$ $ADJ$[Select_CString(Not(EndsWith('$RANK$', 'at')),'kie', 'ki')] (Islam)"
- country_name_construction_pol_islamic_rank_map: "$PREFIX$ $RANK$ $ADJ$ki"
+ country_name_construction_pol_islamic_rank: "$PREFIX$ $RANK$ $ADJ$[Select_CString(EndsWith('$RANK$', 'two'),'kie', 'ki')] (Islam)"
+ country_name_construction_pol_islamic_rank_map: "$RANK$ $ADJ$[Select_CString(EndsWith('$RANK$', 'two'),'kie', 'ki')]"
  country_name_construction_pol_march: "$PREFIX$ $RANK$ $ADJ$ka (March_m)"
  country_name_construction_pol_march_map: "$NAME$"
- country_name_construction_pol_bishopric_monarchy: "$PREFIX$ $ADJ$ie $RANK$ (teokr-wyzsze)"
+ country_name_construction_pol_march_isolated: "$PREFIX$ $RANK$ $ADJ$ka (March_i)"
+ country_name_construction_pol_march_isolated_map: "$NAME$"
+ country_name_construction_pol_bishopric_monarchy: "$PREFIX$ $ADJ$kie $RANK$ (teokr-wyzsze)"
  country_name_construction_pol_bishopric_monarchy_map: "$ADJ$kie $RANK$"
  country_name_construction_pol_theocracy_county: "$PREFIX$ $RANK$ $ADJ$kie (teokr-County)"
  country_name_construction_pol_theocracy_county_map: "$RANK$ $ADJ$kie"
  country_name_construction_pol_republic_march: "$PREFIX$ $RANK$ $ADJ$ka (March i Rep)"
  country_name_construction_pol_republic_march_map: "$NAME$"
- country_name_construction_pol_theocracy: "$PREFIX$ $RANK$ $ADJ$kie"
+ country_name_construction_pol_theocracy: "$PREFIX$ $RANK$ $ADJ$kie (teokr)"
  country_name_construction_pol_theocracy_map: "$RANK$ $ADJ$kie"
- country_name_construction_pol_euro_adjective_monarchy: "$PREFIX$ $RANK$ $ADJ$kie"
+ country_name_construction_pol_euro_adjective_monarchy: "$PREFIX$ $RANK$ $ADJ$kie (monarchia)"
  country_name_construction_pol_euro_adjective_monarchy_map: "$RANK$ $ADJ$kie"
  country_name_construction_pol_euro_empire: "$PREFIX$ $RANK$ $ADJ$kie (Imperium)"
- country_name_construction_pol_euro_empire_map: "$NAME$"
+ country_name_construction_pol_euro_empire_map: "$RANK$ $ADJ$kie"
 
  # =========================================================================
  # ROZWIĄZANIE BŁĘDU PARSERA: Wyciągamy listy dopełniaczy poza nawiasy AddTextIf.
@@ -36,20 +40,24 @@
  # Jeśli to nie jest Marchia -> pierwszy blok zwróci pusty tekst, a silnik przejdzie
  # do kolejnego bloku, sprawdzając całą Twoją listę dopełniaczy!
 
-#  # --- Europa: Świeckie monarchie, Królestwa i Księstwa (Zintegrowane z Twoim łańcuchem) ---
-#  # Całkowicie płaska struktura, która nie zrywa parsera Jomini:
-#  country_name_construction_pol_euro_kingdom_duchy: "[AddTextIf(EqualTo_string('Marchia', '$RANK$'), '$PREFIX$ $RANK$ $ADJ$ka (Marchia)')][AddTextIf(Not(EqualTo_string('Marchia', '$RANK$')), '$PREFIX$ $RANK$ ')][AddTextIf(Not(EqualTo_string('Marchia', '$RANK$')), '$plf_country_dop$')]"
-#  country_name_construction_pol_euro_kingdom_duchy_map: "$NAME$"
-
-#  # --- Europa: Hrabstwa ORAZ Marchie o randze hrabstwa ---
-#  country_name_construction_pol_euro_county: "[AddTextIf(EqualTo_string('Marchia', '$RANK$'), '$PREFIX$ $RANK$ $ADJ$ka (Marchia)')][AddTextIf(Not(EqualTo_string('Marchia', '$RANK$')), '$PREFIX$ $RANK$ ')][AddTextIf(Not(EqualTo_string('Marchia', '$RANK$')), '$plf_country_dop$')]"
-#  country_name_construction_pol_euro_county_map: "$NAME$"
 
  # --- Świeckie monarchie w Europie (Królestwa, Księstwa, Hrabstwa) ---
  # Twój potężny łańcuch dopełniaczy $plf_country_dop$ stoi na czysto, bez żadnych funkcji wokół!
  # Wynik: Gra wydrukuje "Królestwo " / "Księstwo " i od razu odpali Twój łańcuch podmieniający nazwę.
- country_name_construction_pol_euro_kingdom_duchy: "$PREFIX$ $RANK$ $plf_country_dop$"
- country_name_construction_pol_euro_kingdom_duchy_map: "$NAME$"
+#  country_name_construction_pol_euro_kingdom_duchy: "$PREFIX$ $RANK$ $plf_country_dop$ (Kingdom/Duchy)"
+#  country_name_construction_pol_euro_kingdom_duchy_map: "$NAME$"
 
- country_name_construction_pol_euro_county: "$PREFIX$ $RANK$ $plf_country_dop$"
+#  country_name_construction_pol_euro_county: "$PREFIX$ $RANK$ $plf_country_dop$ (County)"
+#  country_name_construction_pol_euro_county_map: "$NAME$"
+
+  # --- Europa: Świeckie monarchie o randze Królestwa lub Księstwa ---
+ # Zabezpieczamy też ten blok, gdyby w trakcie gry jakieś Księstwo awansowało na Marchię.
+ # Jeśli to Marchia -> przymiotnik "-ka". Jeśli regularny kraj -> drukuje rangę i Twój czysty łańcuch dopełniaczy!
+ country_name_construction_pol_euro_kingdom_duchy: "[AddTextIf(EqualTo_string('Marchia', '$RANK$'), '$PREFIX$ $RANK$ $ADJ$ka (March in duch)')][AddTextIf(Not(EqualTo_string('Marchia', '$RANK$')), '$PREFIX$ $RANK$ ')]$plf_country_dop$ (Kingdom)"
+ country_name_construction_pol_euro_kingdom_duchy_map: "$RANK$ $NAME$"
+
+ # --- Europa: Świeckie monarchie o randze Hrabstwa (Tutaj na start wpadną Brandenburgia, Miśnia i Łużyce!) ---
+ # Genialny bezpiecznik: Dopóki gra podstawi pod $RANK$ słowo "Marchia", system wyrenderuje idealne: Marchia Brandenburska / Marchia Łużycka.
+ # Gdy kraje te urosną, zmienią ustrój i staną się Królestwem -> automatycznie opuszczą ten blok, przejdą wyżej i Twój łańcuch dopełniaczy bezbłędnie obsłuży ich nową formę!
+ country_name_construction_pol_euro_county: "[AddTextIf(EqualTo_string('Marchia', '$RANK$'), '$PREFIX$ $RANK$ $ADJ$ka (March in cty)')][AddTextIf(Not(EqualTo_string('Marchia', '$RANK$')), '$PREFIX$ $RANK$ ')]$plf_country_dop$ (County)"
  country_name_construction_pol_euro_county_map: "$NAME$"
