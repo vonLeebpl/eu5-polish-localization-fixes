@@ -43,12 +43,13 @@
 					tag = PAP
 					has_reform = government_reform:papacy_reform
 				}
+				# WYJĄTEK PRIORYTETOWY: Saksonia-Lauenburg omija dynamiczne sita
+				tag = LAU
 			}
 		}
 	}
 	
 	# UNIKALNE KORONY DYNASTYCZNE (Kastylia, Aragonia, Czechy, unia Polski)
-	# Przechwytywane na szczycie, obsługiwane przez Twój filtr w pliku .yml
 	text = {
 		localization_key = country_name_construction_crown
 		trigger = {
@@ -71,55 +72,15 @@
 		}
 	}
 
-	# =========================================================================
-	# SEKCJA 2: NASZE WSPÓLNE POLSKIE DZIEŁO GRAMATYCZNE (BEZ IS_LOCALIZATION_LANGUAGE)
-	# =========================================================================
-	
-	# 1. SZTYWNY SZYK OPISOWY (Maroko, Plemiona oraz Wolne Miasta / Państwa-Miasta)
 	text = {
-		localization_key = country_name_construction_pol_static_name
-		trigger = { 
-			OR = {
-				tag = MOR
-				tag = DLH
-				government_type = government_type:tribe
-				international_organization:hre ?= {
-					country_has_special_status = {
-						type = special_status:free_city
-						country = ROOT
-					}
-				}
-				AND = {
-					government_type = government_type:republic
-					country_rank = country_rank:rank_county
-				}
-				# NOWOŚĆ: Wyłapywanie Thikan w Indiach (Ranga County + Kultura indyjska)
-				# Automatycznie skieruje je do bezpiecznego szyku opisowego z mianownikiem!
-				AND = {
-					country_rank = country_rank:rank_county
-					OR = {
-						court_language ?= { language_family ?= language_family:indic_language_family }
-						culture.language ?= { language_family ?= language_family:indic_language_family }
-					}
-				}
-			}
-		}
-	}
-
-	# 2. WYJĄTEK SPECJALNY: Zakon Szpitalników (Tag: KNI)
-	text = {
-		localization_key = country_name_construction_pol_knights_hospitaller
-		trigger = { tag = KNI }
-	}
-
-	# 3. POZOSTAŁE ZAKONY RYCERSKIE (Szyk: Prefix + Ranga + Przymiotnik ki)
-	text = {
-		localization_key = country_name_construction_pol_military_order
+		localization_key = country_name_construction_prefix_name
 		trigger = {
-			has_reform = government_reform:military_order_reform
-			NOT = { tag = KNI }
-		}
+					country_rank ?= country_rank:rank_empire
+					court_language ?= { language_family ?= language_family:chinese_language_family }
+			}
 	}
+
+	# SPECYFICZNE UNIE I REFORMY PARADOXU (Przeniesione na szczyt dla bezbłędnej detekcji GBR/MAM/DAU/PAL)
 	text = {
 		localization_key = country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank
 		trigger = {
@@ -154,6 +115,51 @@
 		}
 	}
 
+	# =========================================================================
+	# SEKCJA 2: NASZE WSPÓLNE POLSKIE DZIEŁO GRAMATYCZNE
+	# =========================================================================
+	
+	# 1. SZTYWNY SZYK OPISOWY (Ograniczony - Wyjęto z niego republiki!)
+	text = {
+		localization_key = country_name_construction_pol_static_name
+		trigger = { 
+			OR = {
+				tag = MOR
+				tag = DLH
+				government_type = government_type:tribe
+				international_organization:hre ?= {
+					country_has_special_status = {
+						type = special_status:free_city
+						country = ROOT
+					}
+				}
+				# REFORMA: Całkowicie usunięto stąd AND = { government_type = republic ... }
+				AND = {
+					country_rank = country_rank:rank_county
+					OR = {
+						court_language ?= { language_family ?= language_family:indic_language_family }
+						culture.language ?= { language_family ?= language_family:indic_language_family }
+					}
+				}
+			}
+		}
+	}
+
+	# 2. WYJĄTEK SPECJALNY: Zakon Szpitalników (Tag: KNI)
+	text = {
+		localization_key = country_name_construction_pol_knights_hospitaller
+		trigger = { tag = KNI }
+	}
+
+	# 3. POZOSTAŁE ZAKONY RYCERSKIE (Szyk: Prefix + Ranga + Przymiotnik ki)
+	text = {
+		localization_key = country_name_construction_pol_military_order
+		trigger = {
+			has_reform = government_reform:military_order_reform
+			NOT = { tag = KNI }
+		}
+	}
+
 	# 4. ORDY (Koczownicy) - CAŁKOWICIE WYDZIELONE (Żeńska końcówka -ka)
 	text = {
 		localization_key = country_name_construction_pol_horde
@@ -162,7 +168,7 @@
 		}
 	}
 
-	# 5. ŚWIAT ISLAMU (Sułtanaty i Emiraty) - Z WYKLUCZENIEM ORD! (Męska końcówka -ki)
+	# 5. ŚWIAT ISLAMU (Sułtanaty i Emiraty) - Z WYKLUCZENIEM ORD!
 	text = {
 		localization_key = country_name_construction_pol_islamic_rank
 		trigger = {
@@ -170,7 +176,6 @@
 			NOT = { government_type = government_type:steppe_horde }
 		}
 	}
-
 
 	# 6. Europejskie Monarchie Biskupie Wyższe (Teokracje o randze Cesarstwa, Królestwa i Księstwa)
 	text = {
@@ -204,15 +209,6 @@
 		}
 	}
 
-
-	# 9. Wyjątki przymiotnikowe monarchii świeckich w Europie (Polska, Litwa, Moskwa, Czechy)
-	text = {
-		localization_key = country_name_construction_pol_euro_adjective_monarchy
-		trigger = {
-			OR = { tag = POL tag = LIT tag = MOS tag = BOH }
-		}
-	}
-
 	# 10. EUROPA: REGULARNE MONARCHIE ŚWIECKIE - PODZIAŁ NA CESARSTWA
 	text = {
 		localization_key = country_name_construction_pol_euro_empire
@@ -222,29 +218,55 @@
 		}
 	}
 
-	# 11. EUROPA: REGULARNE MONARCHIE ŚWIECKIE - PODZIAŁ NA KRÓLESTWA I KSIĘSTWA
+	# =========================================================================
+	# 11. SITO 1: MONARCHIE EUROPEJSKIE W DOPEŁNIACZU (WYŻSZY PRIORYTET)
+	# =========================================================================
 	text = {
-		localization_key = country_name_construction_pol_euro_kingdom_duchy
+		localization_key = country_name_construction_pol_euro_monarchy_master
 		trigger = {
 			government_type = government_type:monarchy
 			OR = {
 				country_rank = country_rank:rank_kingdom
 				country_rank = country_rank:rank_duchy
+				country_rank = country_rank:rank_county
+			}
+			OR = {
+				# Główne Monarchie, Bałkany i regiony rdzennie toponimiczne
+				tag = FRA tag = ENG tag = ARA tag = CAS tag = NAV tag = POR tag = SCO tag = DAN tag = SWE tag = NOR tag = HUN tag = BOS tag = SER tag = BUL tag = WAL tag = MOL tag = ALB tag = HUM tag = ZET tag = CRO
+				# Kraje Alpejskie, Rzesza i Krym (HAB dla Austrii, LBV - Dolna Bawaria, UBV - Górna Bawaria, THE - Teodoro, LAU - Saksonia-Lauenburg)
+				tag = LBV tag = UBV tag = PAL tag = WUR tag = BAD tag = HAB tag = STY tag = CAR tag = TYR tag = SLZ tag = MKL tag = ANH tag = ERF tag = LAU tag = THE
+				# Niderlandy i Dolna Nadrenia
+				tag = LUX tag = BRB tag = FLA tag = HOL tag = GEL
+				# Inne kraje europejskie, które nie pasują do powyższych kategorii
+				tag = GEO tag = BOH
 			}
 		}
 	}
-
-	# 12. EUROPA: REGULARNE MONARCHIE ŚWIECKIE - PODZIAŁ NA HRABSTWA
+	
+	# =========================================================================
+	# 12. SITO 2: MONARCHIE GLOBALNE, DYNAMICZNE I MARCHIE (NISKI PRIORYTET)
+	# =========================================================================
+	# Uniwersalny, bezpieczny dla procesora kosz. Wszystkie kraje bez dopełniacza
+	# spadają tutaj, a filtrację gramatyczną rodzaju żeńskiego/męskiego wykona .yml!
 	text = {
-		localization_key = country_name_construction_pol_euro_county
-		trigger = {
-			government_type = government_type:monarchy
-			country_rank = country_rank:rank_county
+		localization_key = country_name_construction_pol_euro_adjective_monarchy
+		trigger = { 
+			government_type = government_type:monarchy 
 		}
 	}
 
+
+	# 12. EUROPA: REGULARNE MONARCHIE ŚWIECKIE - PODZIAŁ NA HRABSTWA
+	# text = {
+	# 	localization_key = country_name_construction_pol_euro_county
+	# 	trigger = {
+	# 		government_type = government_type:monarchy
+	# 		country_rank = country_rank:rank_county
+	# 	}
+	# }
+
 	# =========================================================================
-	# SEKCJA 3: POZOSTAŁY, ORYGINALNY KOD GRY VANILLA (FALLBACK DLA POZOSTAŁYCH UNII)
+	# SEKCJA 3: POZOSTAŁY, ORYGINALNY KOD GRY VANILLA
 	# =========================================================================
 
 	text = {
@@ -258,13 +280,7 @@
 			tag = MAL
 		}
 	}
-	text = {
-		localization_key = country_name_construction_prefix_name
-		trigger = {
-			country_rank ?= country_rank:rank_empire
-			court_language ?= { language_family ?= language_family:chinese_language_family }
-		}
-	}
+
 	text = {
 		localization_key = country_name_construction_prefix_name_horde
 		trigger = {

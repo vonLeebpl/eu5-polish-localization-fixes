@@ -1,17 +1,4 @@
 ﻿l_polish:
-l_polish:
- # --- Wariant Dopełniaczowy (Dla Europy) ---
- # W dyplomacji: Gra weźmie $RANK$ (np. Królestwo) i połączy z Twoim plikiem (np. FRA_DOP -> Francji)
- # country_name_construction_prefix_rank_of_name: "$PREFIX$ $RANK$ $NAME$"
- # Na mapie: Dzięki oryginalnemu wpisowi, który już miałeś, gra użyje surowego mianownika:
- # country_name_construction_prefix_rank_of_name_map: "$NAME$"
-
-
- # --- Wariant Przymiotnikowy (Dla reszty świata, ord oraz Polski/Rosji) ---
- # W dyplomacji i na mapie: Połączy rangę i przymiotnik (np. Sułtanat Omański / Orda Krymska)
- # country_name_construction_prefix_adjective_rank: "$PREFIX$$RANK$ [ADJECTIVE]"
- # country_name_construction_prefix_adjective_rank_map: "$PREFIX$$RANK$ [ADJECTIVE]"
-
  country_name_construction_name: "$NAME$"
  country_name_construction_name_map: "$NAME$"
  country_name_construction_name_with_article: "$ARTICLE$$NAME$"
@@ -23,12 +10,12 @@ l_polish:
 # country_name_construction_prefix_adjective_rank_map: "$PLF_rank_name_78_full$"
 # country_name_construction_prefix_rank_of_name: "$PLF_rank_name_9_full$"
 # country_name_construction_prefix_rank_of_name_map: "$NAME$"
-#  country_name_construction_prefix_name: "$PREFIX$ $NAME$"
-#  country_name_construction_prefix_name_map: "$PREFIX$ $NAME$"
+  country_name_construction_prefix_name: "$PREFIX$ $NAME$"
+  country_name_construction_prefix_name_map: "$PREFIX$ $NAME$"
 #  country_name_construction_prefix_name_horde: "$country_name_construction_prefix_adjective_rank$"
 #  country_name_construction_prefix_name_horde_map: "$country_name_construction_prefix_adjective_rank_map$"
-#  country_name_construction_prefix_name_bank_special: "$country_name_construction_prefix_name$"
-#  country_name_construction_prefix_name_bank_special_map: "$country_name_construction_prefix_name_map$"
+  country_name_construction_prefix_name_bank_special: "$country_name_construction_prefix_name$"
+  country_name_construction_prefix_name_bank_special_map: "$country_name_construction_prefix_name_map$"
 #  country_name_construction_sultanate: "$country_name_construction_prefix_rank_of_name$"
 #  country_name_construction_sultanate_map: "$country_name_construction_prefix_rank_of_name_map$"
  # country_name_construction_crown: "$country_name_construction_prefix_rank_of_name$"
