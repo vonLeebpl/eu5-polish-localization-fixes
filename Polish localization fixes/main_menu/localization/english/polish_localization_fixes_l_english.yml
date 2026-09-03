@@ -27,6 +27,8 @@
  religionlateralview_liturgicallanguagegetnamewithnotooltip_localization: "[CountryReligionLateralView.GetCountry.GetLiturgicalLanguage.GetNameWithNoTooltip]"
  character_getreligion_getadj_yellow_localisation: "[Character.GetReligion.GetAdjective]"
  pop_getreligion_getadj_localisation: "[Pop.GetReligion.GetName]"
+ pop_get_religion_getnamewithntt_localisation: "[Pop.GetReligion.GetAdjectiveWithNoTooltip]"
+ characterlateralview_getchar_getreligiongetadjwntt_localisation: "[CharacterLateralview.GetCharacter.GetReligion.GetAdjectiveWithNoTooltip]"
  ##
  ## ForeignCountryLateralView Fixes
  foreigncountrylateralview_liturgicallanguagegetnamewithnotooltip_localization: "[ForeignCountryView.GetCountry.GetLiturgicalLanguage.GetNameWithNoTooltip]"

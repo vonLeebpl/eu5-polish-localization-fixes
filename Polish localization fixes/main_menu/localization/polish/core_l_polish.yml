@@ -362,7 +362,7 @@
  CULTURE_SPECIFIC_LOBBY_DESCRIPTION_TT: "Premie kulturowe"
  CULTURE_GROUP_SPECIFIC_LOBBY_DESCRIPTION: "[ROOT.GetCultureGroup.GetName]ka [culture_group|el] odblokowuje:\n$BONUSES$"   
  CULTURE_GROUP_SPECIFIC_LOBBY_DESCRIPTION_TT: "Premie grupy kulturowej"
- RELIGION_SPECIFIC_LOBBY_DESCRIPTION: "W kraju [COUNTRY.GetName] wyznawana jest wiara #L [ROOT.GetReligion.GetAdjective|l][Select_CString(Or5(StringContains(ROOT.GetReligion.GetAdjectiveWithNoTooltip, 'wosł'),StringContains(ROOT.GetReligion.GetAdjectiveWithNoTooltip, 'sty'),StringContains(ROOT.GetReligion.GetAdjectiveWithNoTooltip, 'szaman'),StringContains(ROOT.GetReligion.GetAdjectiveWithNoTooltip, 'szinto'),StringContains(ROOT.GetReligion.GetAdjectiveWithNoTooltip, 'tonal')),'a','ka')]#!, co zapewnia:\n$BONUSES$"
+ RELIGION_SPECIFIC_LOBBY_DESCRIPTION: "W kraju [COUNTRY.GetName] wyznawana jest wiara #L [ROOT.GetReligion.GetAdjective|l][Select_CString(Or(EndsWith(ROOT.GetReligion.GetAdjectiveWithNoTooltip, 'k'),Or(EndsWith(ROOT.GetReligion.GetAdjectiveWithNoTooltip, 'n'),EndsWith(ROOT.GetReligion.GetAdjectiveWithNoTooltip, 'ł'))),'a','ka')]#!, co zapewnia:\n$BONUSES$"
  RELIGION_SPECIFIC_LOBBY_DESCRIPTION_TT: "Premie religijne"
  RELIGION_GROUP_SPECIFIC_LOBBY_DESCRIPTION: "[religion_group|e], do której należy kraj [COUNTRY.GetName], to [ROOT.GetReligionGroup.GetName|l], co pozwala na:\n$BONUSES$"
  RELIGION_GROUP_SPECIFIC_LOBBY_DESCRIPTION_TT: "Premie grupy religii"

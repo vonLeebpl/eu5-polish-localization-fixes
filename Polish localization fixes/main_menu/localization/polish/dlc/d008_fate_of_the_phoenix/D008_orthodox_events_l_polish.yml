@@ -16,7 +16,7 @@
  d008_orthodox_events.4.b: "Jest już nasza!"
  d008_orthodox_events.5.title: "$d008_orthodox_events.4.title$"
  d008_orthodox_events.5.desc: "Wypożyczenie ikony [target_art.GetName] państwu [target_country.GetLongName] dobiegło końca. W rezultacie zwrócili ją ze stosowym ceremoniałem, wypełniając należycie warunki naszej umowy."
- d008_orthodox_events.5.a: "Tak właśnie powinien się zachowywać kraj [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l][Select_CString(Or5(StringContains(ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip, 'wosł'),StringContains(ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip, 'sty'),StringContains(ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip, 'szaman'),StringContains(ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip, 'szinto'),StringContains(ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip, 'tonal')),'y','ki')]."
+ d008_orthodox_events.5.a: "Tak właśnie powinien się zachowywać kraj [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l][Select_CString(Or(EndsWith(ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip, 'k'),Or(EndsWith(ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip, 'n'),EndsWith(ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip, 'ł'))),'y','ki')]."
  d008_orthodox_events.6.title: "$d008_orthodox_events.4.title$"
  d008_orthodox_events.6.desc: "Wypożyczenie ikony [target_art.GetName] dobiegło końca. Jednak [target_country.GetLongName] odmawia jej zwrotu. [target_country.GetName] przedstawia tylko słabe wymówki w próbie usprawiedliwienia tej skandalicznej odmowy."
  d008_orthodox_events.6.a: "Zapłacą za tę zniewagę!"

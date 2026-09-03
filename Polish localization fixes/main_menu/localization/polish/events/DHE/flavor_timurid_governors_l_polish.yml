@@ -27,7 +27,7 @@
  flavor_tim_governor.4.c.entry: "Postać dołączy do nich."
  flavor_tim_governor.4.d: "Nie dostaną od nas żadnego wsparcia."
  flavor_tim_governor.5.title: "[ROOT.GetCountry.GetGovernment.GetCourtTitle]: masowy napływ ludzi"
- flavor_tim_governor.5.desc: "Dobrze umocniliśmy naszą władzę, więc nowi ludzie pragną wziąć udział w naszym przedsięwzięciu. Jedną z tych osób jest mąż o rozlicznych talentach zwany [target_character.GetName]. Wywodzi się z tradycji wyznania #L [target_religion.GetAdjective|l][Select_CString(Or5(StringContains(target_religion.GetAdjectiveWithNoTooltip, 'wosł'),StringContains(target_religion.GetAdjectiveWithNoTooltip, 'sty'),StringContains(target_religion.GetAdjectiveWithNoTooltip, 'szaman'),StringContains(target_religion.GetAdjectiveWithNoTooltip, 'szinto'),StringContains(target_religion.GetAdjectiveWithNoTooltip, 'tonal')),'ego','kiego')]#! i posiada wiele umiejętności, które moglibyśmy wykorzystać."
+ flavor_tim_governor.5.desc: "Dobrze umocniliśmy naszą władzę, więc nowi ludzie pragną wziąć udział w naszym przedsięwzięciu. Jedną z tych osób jest mąż o rozlicznych talentach zwany [target_character.GetName]. Wywodzi się z tradycji wyznania #L [target_religion.GetAdjective|l][Select_CString(Or(EndsWith(target_religion.GetAdjectiveWithNoTooltip, 'k'),Or(EndsWith(target_religion.GetAdjectiveWithNoTooltip, 'n'),EndsWith(target_religion.GetAdjectiveWithNoTooltip, 'ł'))),'ego','kiego')]#! i posiada wiele umiejętności, które moglibyśmy wykorzystać."
  flavor_tim_governor.5.a: "Zatrudnijmy tę osobę."
  flavor_tim_governor.5.b: "Będzie świetnym nauczycielem."
  flavor_tim_governor.5.c: "Wciąż mamy niewyrównane rachunki..."

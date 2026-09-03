@@ -106,7 +106,7 @@
  dynastic.26.title: "Cierń z obcego kraju"
  dynastic.26.desc: "Dziewczyna, choć niska jakość obrazu może nieco wpływać na odbiór jej urody, ewidentnie nie została obdarzona zbyt łaskawie przez stwórcę, jeśli chodzi o wygląd. [bachelorette_country.GetGovernment.GetRuler.GetName] ([bachelorette_country.GetName]) proponuje nam zawarcie z nią małżeństwa, a [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] nie wie, czy ma potraktować to jako żart, czy obelgę. Z drugiej strony – trzeba pamiętać o kwestii dziedziczenia."
  opinion_dynastic_united: "Zjednoczone dynastie"
- dynastic.26.a: "To bez wątpienia porządna, [bachelorette_country.GetReligion.GetAdjectiveWithNoTooltip|l][Select_CString(Or5(StringContains(bachelorette_country.GetReligion.GetAdjectiveWithNoTooltip, 'wosł'),StringContains(bachelorette_country.GetReligion.GetAdjectiveWithNoTooltip, 'sty'),StringContains(bachelorette_country.GetReligion.GetAdjectiveWithNoTooltip, 'szaman'),StringContains(bachelorette_country.GetReligion.GetAdjectiveWithNoTooltip, 'szinto'),StringContains(bachelorette_country.GetReligion.GetAdjectiveWithNoTooltip, 'tonal')),'a','ka')] kobieta."
+ dynastic.26.a: "To bez wątpienia porządna, [bachelorette_country.GetReligion.GetAdjectiveWithNoTooltip|l][Select_CString(Or(EndsWith(bachelorette_country.GetReligion.GetAdjectiveWithNoTooltip, 'k'),Or(EndsWith(bachelorette_country.GetReligion.GetAdjectiveWithNoTooltip, 'n'),EndsWith(bachelorette_country.GetReligion.GetAdjectiveWithNoTooltip, 'ł'))),'a','ka')] kobieta."
  opinion_dynastic_refused: "Odrzucenie propozycji małżeństwa"
  dynastic.26.b: "To zdecydowanie nie wchodzi w grę."
  dynastic.27.title: "Następstwa"

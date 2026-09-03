@@ -560,7 +560,8 @@ lateralview = {
 											layoutpolicy_horizontal = expanding
 											expand = {}
 											text_single = {
-												text = "[CharacterLateralview.GetCharacter.GetReligion.GetAdjectiveWithNoTooltip]"
+												# text = "[CharacterLateralview.GetCharacter.GetReligion.GetAdjectiveWithNoTooltip]"
+												text = "characterlateralview_getchar_getreligiongetadjwntt_localisation"
 											}
 										}
 									}

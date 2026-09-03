@@ -6,7 +6,7 @@
  ABANDON_COLONY_TT_NO_COST: "Opuszczenie karty kolonialnej wstrzyma migrację [pops|el]. [pops], które przeniosły się do nienależących do nas [Concept('locations','lokacji')|e], zostaną porzucone."
  ABANDON_BUTTON: "Porzuć kartę kolonialną"
  NO_COLONIAL_CHARTER_EXCLUSIVE: "Ten obszar został przejęty przez kraj [COUNTRY.GetName] ze względu na: $NAME$."
- NO_COLONIAL_CHARTER_RELIGION: "$NAME|Y$ sprawia, że tylko kraj [COUNTRY.GetName] może skolonizować ten teren, a wszystkie inne państwa wyznające religię #L [COUNTRY.GetReligion.GetAdjective|l][Select_CString(Or5(StringContains(COUNTRY.GetReligion.GetAdjectiveWithNoTooltip, 'wosł'),StringContains(COUNTRY.GetReligion.GetAdjectiveWithNoTooltip, 'sty'),StringContains(COUNTRY.GetReligion.GetAdjectiveWithNoTooltip, 'szaman'),StringContains(COUNTRY.GetReligion.GetAdjectiveWithNoTooltip, 'szinto'),StringContains(COUNTRY.GetReligion.GetAdjectiveWithNoTooltip, 'tonal')),'ą','ką')]#! nie mają do niego dostępu."
+ NO_COLONIAL_CHARTER_RELIGION: "$NAME|Y$ sprawia, że tylko kraj [COUNTRY.GetName] może skolonizować ten teren, a wszystkie inne państwa wyznające religię #L [COUNTRY.GetReligion.GetAdjective|l][Select_CString(Or(EndsWith(COUNTRY.GetReligion.GetAdjectiveWithNoTooltip, 'k'),Or(EndsWith(COUNTRY.GetReligion.GetAdjectiveWithNoTooltip, 'n'),EndsWith(COUNTRY.GetReligion.GetAdjectiveWithNoTooltip, 'ł'))),'ą','ką')]#! nie mają do niego dostępu."
  treaty_of_noteborg: "Pokój zawarty w Twierdzy #Y $oreshek$#!, na mocy którego Nowogród i Szwecja zakończyły swój spór dotyczący Finlandii oraz Karelii."
  COLONIAL_PROGRESS_POT_HEADER: "Postępy kolonizacyjne"
  COLONIAL_MIGRATION_HEADER_TT: "[ColonialCharter.GetNameWithNoTooltip]: miesięczna migracja"
