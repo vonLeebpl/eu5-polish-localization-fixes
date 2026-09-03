@@ -72,8 +72,9 @@
 		}
 	}
 
+	# Cesarstwo chińskie: "Wielka Dynastia $NAME$" (Yuán -> Míng bez zmiany szyku)
 	text = {
-		localization_key = country_name_construction_prefix_name
+		localization_key = country_name_construction_pol_china_empire
 		trigger = {
 					country_rank ?= country_rank:rank_empire
 					court_language ?= { language_family ?= language_family:chinese_language_family }
@@ -160,11 +161,53 @@
 		}
 	}
 
+	# 3b. WYJĄTEK: Złota Orda (Tag: GLH) - $NAME$ zawiera już pełną nazwę "Złota Orda"
+	text = {
+		localization_key = country_name_construction_pol_golden_horde
+		trigger = {
+			tag = GLH
+			government_type = government_type:steppe_horde
+		}
+	}
+
 	# 4. ORDY (Koczownicy) - CAŁKOWICIE WYDZIELONE (Żeńska końcówka -ka)
 	text = {
 		localization_key = country_name_construction_pol_horde
 		trigger = {
 			government_type = government_type:steppe_horde
+		}
+	}
+
+	# 4b. WYJĄTEK: Mali (tag MAL) - zawsze mianownik, mimo islamu
+	text = {
+		localization_key = country_name_construction_pol_far_east_descriptive
+		trigger = {
+			tag = MAL
+		}
+	}
+
+	# 4c. WYJĄTEK: Tybet / Guge - forma przymiotnikowa ("Teokracja Tybetańska")
+	text = {
+		localization_key = country_name_construction_pol_tibet
+		trigger = {
+			OR = { tag = TIB tag = GUG }
+		}
+	}
+
+	# 4d. RANGI INDYJSKIE (Thikana / Rāj / Mahārājya) - zawsze mianownik, także muzułmańskie.
+	#     Warunek jak w country_ranks.txt: język (dworu lub kultury) indyjski/drawidyjski/malajski, ranga < cesarstwo.
+	text = {
+		localization_key = country_name_construction_pol_far_east_descriptive
+		trigger = {
+			NOT = { country_rank = country_rank:rank_empire }
+			OR = {
+				culture.language ?= { language_family ?= language_family:indic_language_family }
+				culture.language ?= { language_family ?= language_family:dravidian_language_family }
+				culture.language ?= language:malay_language
+				court_language ?= { language_family ?= language_family:indic_language_family }
+				court_language ?= { language_family ?= language_family:dravidian_language_family }
+				court_language ?= language:malay_language
+			}
 		}
 	}
 
@@ -174,6 +217,48 @@
 		trigger = {
 			religion.group = religion_group:muslim
 			NOT = { government_type = government_type:steppe_horde }
+		}
+	}
+
+	# 5b. NIE-EUROPA - szyk opisowy (mianownik). ODWROCONE: łapie WSZYSTKO poza rodzinami
+	#     językowymi o utrwalonej polskiej przymiotnikowości. Wyjątek: khmerski (-> przymiotnik).
+	#     Ordy/plemiona/muzułmanie/Chiny-cesarstwo/szogunat łapią wcześniejsze bloki.
+	text = {
+		localization_key = country_name_construction_pol_far_east_descriptive
+		trigger = {
+			# Zachodnia półkula - bliżej reguł europejskich (przymiotnik), pomijamy.
+			NOT = { capital.continent = continent:america }
+			NOT = { capital.continent = continent:north_america }
+			NOT = { capital.continent = continent:south_america }
+			NOT = { court_language ?= language:khmer_language }
+			NOT = { culture.language ?= language:khmer_language }
+			NOT = { court_language ?= { language_family ?= language_family:germanic_language_family } }
+			NOT = { court_language ?= { language_family ?= language_family:romance_language_family } }
+			NOT = { court_language ?= { language_family ?= language_family:slavic_language_family } }
+			NOT = { court_language ?= { language_family ?= language_family:celtic_language_family } }
+			NOT = { court_language ?= { language_family ?= language_family:iranic_language_family } }
+			NOT = { court_language ?= { language_family ?= language_family:uralic_language_family } }
+			NOT = { court_language ?= { language_family ?= language_family:semitic_language_family } }
+			NOT = { culture.language ?= { language_family ?= language_family:germanic_language_family } }
+			NOT = { culture.language ?= { language_family ?= language_family:romance_language_family } }
+			NOT = { culture.language ?= { language_family ?= language_family:slavic_language_family } }
+			NOT = { culture.language ?= { language_family ?= language_family:celtic_language_family } }
+			NOT = { culture.language ?= { language_family ?= language_family:iranic_language_family } }
+			NOT = { culture.language ?= { language_family ?= language_family:uralic_language_family } }
+			NOT = { culture.language ?= { language_family ?= language_family:semitic_language_family } }
+			# Języki europejskie BEZ przypisanej rodziny (utrwalone polskie przymiotniki / lista dopełniaczowa)
+			NOT = { court_language ?= language:greek_language }
+			NOT = { court_language ?= language:albanian_language }
+			NOT = { court_language ?= language:armenian_language }
+			NOT = { court_language ?= language:georgian_language }
+			NOT = { court_language ?= language:basque_language }
+			NOT = { court_language ?= language:baltic_language }
+			NOT = { culture.language ?= language:greek_language }
+			NOT = { culture.language ?= language:albanian_language }
+			NOT = { culture.language ?= language:armenian_language }
+			NOT = { culture.language ?= language:georgian_language }
+			NOT = { culture.language ?= language:basque_language }
+			NOT = { culture.language ?= language:baltic_language }
 		}
 	}
 
@@ -201,11 +286,28 @@
 		}
 	}
 
+	# 7b. WYJĄTEK: Nowogród Wielki (Tag: NOV) - historyczny tytuł "Suwerenny Pan Wielki Nowogród"
+	text = {
+		localization_key = country_name_construction_pol_novgorod
+		trigger = {
+			tag = NOV
+			government_type = government_type:republic
+		}
+	}
+
 	# 8. Europejskie Republiki (Szyk Przymiotnikowy Żeński. Marchie łapane są w locie przez .yml!)
 	text = {
 		localization_key = country_name_construction_pol_republic_march
 		trigger = {
 			government_type = government_type:republic
+		}
+	}
+
+	# 9b. WYJĄTEK: Szogunat japoński ($RANK$ = "Szogunat", nie "Cesarstwo" -> szyk opisowy)
+	text = {
+		localization_key = country_name_construction_pol_empire_descriptive
+		trigger = {
+			has_reform = government_reform:shogunate
 		}
 	}
 
