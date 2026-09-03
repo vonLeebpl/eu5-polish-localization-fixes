@@ -226,10 +226,9 @@
 	text = {
 		localization_key = country_name_construction_pol_far_east_descriptive
 		trigger = {
-			# Zachodnia półkula - bliżej reguł europejskich (przymiotnik), pomijamy.
+			# Zachodnia półkula (Ameryka Płn. i Pd. są zagnieżdżone pod 'america')
+			# - bliżej reguł europejskich (przymiotnik), pomijamy.
 			NOT = { capital.continent = continent:america }
-			NOT = { capital.continent = continent:north_america }
-			NOT = { capital.continent = continent:south_america }
 			NOT = { court_language ?= language:khmer_language }
 			NOT = { culture.language ?= language:khmer_language }
 			NOT = { court_language ?= { language_family ?= language_family:germanic_language_family } }

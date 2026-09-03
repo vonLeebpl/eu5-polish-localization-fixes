@@ -4362,7 +4362,7 @@
  MODIFIER_TYPE_DESC_enabled_union_enforcement_actions: "To sprawia, że [ShowSpecialStatusName('senior_partner')|l] w [Concept('union','unii')|e] może używać [Concept('country_interaction','interakcji')|e] [ShowCountryInteractionName('union_enforce_religion')] oraz [ShowCountryInteractionName('union_enforce_culture')]."
  MODIFIER_TYPE_NAME_country_bans_saffron_shirts: "Zakaz żółtych koszul"
  MODIFIER_TYPE_DESC_country_bans_saffron_shirts: "Zakazuje [Concept('pops','społecznościom')|e] posługującym się [Concept('language','językiem')|e] #L [ShowLanguageName('gaelic_language')|l]m#! i należącym do #L [ShowCultureGroupName('hibernian_group'|l)]kiej#! [Concept('culture_group','grupy kultur')|e] noszenia tunik #italic léine chróich#! wśród celtów, co zmniejszy [demand|el] na [ShowGoodsName('saffron')|l] na ich [Concept('market','rynku')|e]. Będą wyglądać jak cywilizowani ludzie, gdy ubiorą się jak my."
- MODIFIER_TYPE_NAME_country_can_use_lordship_of_ireland_cb: "Może użyć casus beli „[GetUniqueInternationalOrganization('lordship_of_ireland').GetNameWithNoTooltip]”"
+ MODIFIER_TYPE_NAME_country_can_use_lordship_of_ireland_cb: "Może użyć casus beli [GetUniqueInternationalOrganization('lordship_of_ireland').GetNameWithNoTooltip]"
  MODIFIER_TYPE_DESC_country_can_use_lordship_of_ireland_cb: "Umożliwia państwu w organizacji [GetUniqueInternationalOrganization('lordship_of_ireland').GetName] wykorzystanie działania „[ShowGenericActionName('lordship_of_ireland_casus_belli')]” by stworzyć [casus_belli|el] „[ShowCasusBelliName('cb_subjugation')]”."
  MODIFIER_TYPE_NAME_country_marriage_banned: "Zakaz małżeństw"
  MODIFIER_TYPE_DESC_country_marriage_banned: "Uniemożliwia państwu zawieranie [Concept('royal_marriages','małżeństw królewskich')|e]."

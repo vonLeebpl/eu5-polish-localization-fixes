@@ -283,7 +283,7 @@
  LOCATION_CORE_CAPITAL_TOOLTIP: "[LOCATION.GetRank.GetName] [LOCATION.GetNameWithNoTooltip] w [Concept('province','prowincji')|e] [LOCATION.GetProvince.GetName] to [capital|el] kraju [LOCATION.GetOwner.GetName]."
  LOCATION_OWNER_TOOLTIP: "[LOCATION.GetRank.GetName] [LOCATION.GetNameWithNoTooltip] to miejsce znajdujące się w [Concept('province','prowincji')|e] [LOCATION.GetProvince.GetName] i [Concept('owned','należące')|e] do kraju [LOCATION.GetOwner.GetName]."
  LOCATION_NOOWNER_TOOLTIP: "[LOCATION.GetNameWithNoTooltip] w prowincji [LOCATION.GetProvinceDefinition.GetName] nie posiada właściciela."
- PROVINCE_HEADER_INFO: "Leży na [Concept('area','obszarze')|e] „[PROVINCE.GetArea.GetName]” [Concept('continent','kontynentu')|e] [PROVINCE.GetContinent.GetName]."
+ PROVINCE_HEADER_INFO: "Leży na [Concept('area','obszarze')|e] [PROVINCE.GetArea.GetName] [Concept('continent','kontynentu')|e] [PROVINCE.GetContinent.GetName]."
  PROVINCE_GEOGRAPHY_INFO: "@province! [province_definition|e]: [Province.GetDefinition.GetName]\n@area! [area|e]: [Province.GetArea.GetName]\n@continent! [continent|e]: [Province.GetContinent.GetName]"
  PROVINCE_ECONOMY_INFO: "[population|e]: [Province.GetTotalPopulation]@population!\n[tax_base|e]: [Province.GetTotalTaxBase|2]@tax_base!\nŚrednia [control|e]: [Province.GetAverageControl|V%2]"
  PROVINCE_LEVY_INFO: "[army_levies|e]: [GetTotalProvinceArmyLevySize(Province.Self)]@levy!\n[navy_levies|e]: [GetTotalProvinceNavyLevySize(Province.Self)]@naval_levy!"

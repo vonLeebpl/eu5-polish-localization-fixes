@@ -131,7 +131,7 @@
  HEIR_SUCCESSION_OTHER_RELIGION_GROUP_ELIGIBLE: "[heir|e] NIE może należeć do [Concept('religion_group','grupy religii')|e] [target_country.GetReligion.GetGroup.GetName]."
  #Isolationism versus Openness
  isolationism_tt: "Nasze społeczeństwo staje się bardziej odizolowane, a [societal_values|el] przesuną się w stronę wartości [ShowSocietyDirectionName('traditionalist')], [ShowSocietyDirectionName('communalism')] i [ShowSocietyDirectionName('inward')], jeśli włączymy tę opcję."
- openness_tt: "Nasze społeczeństwo staje się bardziej otwarte, a [societal_values|el] przesuną się w stronę wartości [ShowSocietyDirectionName('innovative')], [ShowSocietyDirectionName('individualism')] i [ShowSocietyDirectionName('outward'), jeśli włączymy tę opcję."
+ openness_tt: "Nasze społeczeństwo staje się bardziej otwarte, a [societal_values|el] przesuną się w stronę wartości [ShowSocietyDirectionName('innovative')], [ShowSocietyDirectionName('individualism')] i [ShowSocietyDirectionName('outward')], jeśli włączymy tę opcję."
  #Harmony
  harmony_mild_towards_equilibrium_tt: "Przesuń równowagę o #G 10#! pkt. w stronę [Concept('harmony','harmonii')|e]"
  harmony_weak_towards_equilibrium_tt: "Przesuń równowagę o #G 5#! pkt. w stronę [Concept('harmony','harmonii')|e]"

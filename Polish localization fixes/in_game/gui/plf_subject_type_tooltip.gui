@@ -1,0 +1,61 @@
+﻿# plf: nadpisanie waniliowych szablonów SubjectType_Tooltip / SubjectType2_Tooltip
+# z main_menu/gui/shared/diplomatic_tooltips.gui (l. 913 / 940).
+# Wanilia ma w title_text zahardkodowany angielski spójnik:
+#   "[...GetSubjectType.GetNameWithNoTooltip] of [Country.GetNameWithNoTooltip]"
+# -> "Typ poddanego of Kastylia". Zamieniamy "of" na polską formę dopełniacza
+# nazwy państwa (funkcja C_DOP): "[typ] [państwo w dopełniaczu]" -> "Lenno Barcelony".
+# Reszta szablonu = wierna kopia wanilii.
+
+template SubjectType_Tooltip {
+	# datacontext = "[Country]"
+	ContextualTooltipType = {
+		blockoverride "title_icon" {
+			icon = {
+				using = tooltip_title_icon_size
+				texture = "[GetSubjectTypeIcon(Country.GetDiplomacy.GetSubjectType)]"
+			}
+		}
+
+		blockoverride "title_text" {
+			text = "[Country.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip] [Country.Custom('C_DOP')]"
+		}
+
+		blockoverride "concept_link" {
+			text = [subject|E]
+		}
+		blockoverride "tooltip_content" {
+			TooltipTextBlock = {
+				blockoverride "text" {
+					text = "SUBJECT_TYPE_TOOLTIP_TEXT"
+				}
+			}
+		}
+	}
+}
+
+template SubjectType2_Tooltip {
+	# datacontext = "[Country]"
+	ContextualTooltipType = {
+		blockoverride "title_icon" {
+			icon = {
+				using = tooltip_title_icon_size
+				texture = "[GetSubjectTypeIcon(Country.GetDiplomacy.GetSubjectType)]"
+			}
+		}
+
+		blockoverride "title_text" {
+			text = "[Country.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip] [Country.Custom('C_DOP')]"
+		}
+
+		blockoverride "concept_link" {
+			text = [subject|E]
+		}
+		blockoverride "tooltip_content" {
+			TooltipTextBlock = {
+				blockoverride "text" {
+					text = "SUBJECT_TYPE2_TOOLTIP_TEXT"
+				}
+			}
+		}
+	}
+}

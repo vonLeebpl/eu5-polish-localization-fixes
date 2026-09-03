@@ -479,7 +479,7 @@
  ASSIMILATE_TARGET_HAS_MARKET_LANGUAGE: "[market_language|e] – [LANGUAGE.GetName|l] – jest używany przez kulturę #L [TARGET_CULTURE.Custom('Culture_adj')|l]ką#! ([LOCATION.GetMarketAccess|2%V]): $VAL|+=%2$"
  ASSIMILATE_SHARED_CULTURE_GROUPS: "$NUM$ z $TOTAL$ współdzielonych [Concept('culture_groups','grup kulturowych')|e]: $VAL|+=%2$"
  ASSIMILATE_ALREADY_CULTURE: "[CULTURE.GetName] jest już jedyną [Concept('culture','kulturą')|e] w lokacji [LOCATION.GetName]"
- INTEGRATE_BLOCKED_BY_OCCUPATION: "@trigger_no! Lokacja „[LOCATION.GetName]” jest obecnie okupowana, dlatego integracja została wstrzymana."
+ INTEGRATE_BLOCKED_BY_OCCUPATION: "@trigger_no! Lokacja [LOCATION.GetName] jest obecnie okupowana, dlatego integracja została wstrzymana."
  INTEGRATE_CLAMPED_NEGATIVE: "@trigger_no!Postępy zostaną wstrzymane, dopóki te modyfikatory znów nie osiągną wartości dodatnich."
  ASSIMILATE_CULTURE_INDIVIDUAL: "Asymilacja [Concept('pops','społeczności')|e] #L [TARGET_CULTURE.Custom('Culture_adj')|l]ich#! do kultury #L [CULTURE.Custom('Culture_adj')|l]kiej#!: $VAL|+=2$"
  ASSIMILATE_CULTURE_NON_PRIMARY_HEADER: "Miesięczna [assimilation_with_icon|el] w kulturę #L [CULTURE.Custom('Culture_adj')|l]ką#! wynosi $VAL$ ze względu na:"

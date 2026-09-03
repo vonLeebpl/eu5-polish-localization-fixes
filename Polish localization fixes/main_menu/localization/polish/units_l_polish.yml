@@ -1515,7 +1515,7 @@
  NO_ADMIRAL: "Brak admirała"
  #Garrison
  GARRISON_FORT: "Obecny garnizon: $CURR|Y$\nMaksymalny [garrison|el] to $MAX$ żołnierzy obsadzających fortyfikacje. Na tym obszarze istnieje $FORT|Y$ poziomów fortyfikacji."
- NO_TYPES_OF_FORTS_HERE: "@trigger_no! Brak [Concept('fortifications','fortyfikacji')|e] w lokacji „[Location.GetName]”."
+ NO_TYPES_OF_FORTS_HERE: "@trigger_no! Brak [Concept('fortifications','fortyfikacji')|e] w lokacji [Location.GetName]."
  GARRISON_TT: "#T [garrison|e]#!\n$WHY$"
  CURRENT_GARRISON: "Obecny [garrison|el]"
  MAX_GARRISON: "Maks. garnizon"
@@ -1625,7 +1625,7 @@
  UNIT_GATHERING_FOOD: "[army|e] zbierze w tym miesiącu $VAL|G2$ [Concept('food','żywności')|e] ze względu na:\n$WHY$"
  UNIT_LOSING_MIGHT_LOSE_FOOD: "Jeśli jednostka nie będzie mieć lokalnego dostępu do [Concept('food','żywności')|e], będzie co miesiąc zużywać jej $VAL|Y2$."
  WILL_LOSE_TROOPS_TO_ATTRITION: "#R Żołnierze będą co miesiąc umierać z powodu braku [Concept('food','żywności')|e], [Concept('climate','klimatu')|e] bądź innych trudnych warunków!#!"
- WILL_GAIN_FOOD: "Ta [army|el] przebywa w lokacji „[LOCATION.GetProvince.GetName]”, gdzie kontroluje produkcję [Concept('food','żywności')|e]."
+ WILL_GAIN_FOOD: "Ta [army|el] przebywa w lokacji [LOCATION.GetProvince.GetName], gdzie kontroluje produkcję [Concept('food','żywności')|e]."
  FOOD_LAST_MONTH: "$SOURCE$: $VAL|=+2$@food!"
  DISTRIBUTED_FOOD_NAVY: "\nTa [navy|el] [Concept('distributing_food','dystrybuuje obecnie żywność')|e] do potrzebujących jej pobliskich [Concept('armies','armii')|e]. W ubiegłym miesiącu rozdystrybuowała $VAL|-=2$ żywności."
  WILL_GAIN_FOOD_NAVY: "\nTa [navy|el] [Concept('gathering_food','pozyskuje obecnie żywność')|e] z pobliskich portów. W ubiegłym miesiącu zdobyła $VAL|=+2$ żywności."

@@ -120,7 +120,7 @@
  ALERT_NO_SUPPLIES_TRADE: "Brak zaopatrzenia handlowego"
  ALERT_NO_SUPPLIES_ENTRY_SELF: "[TRADE.GetName]: brak zaopatrzenia; wykorzystujemy wszystko w ramach innych [Concept('exports','eksportów')|e]."
  ALERT_NO_SUPPLIES_ENTRY_DEFAULT: "[TRADE.GetName]: brak zaopatrzenia; żadne towary nie są dostępne do [Concept('export','eksportu')|e]."
- ALERT_NO_SUPPLIES_ENTRY: "[TRADE.GetName]: konkurencja ($WHO$) dominuje ze względu na [Concept('merchant_power','przewagę handlową')|e] na rynku „[TRADE.GetFromMarket.GetName]”."
+ ALERT_NO_SUPPLIES_ENTRY: "[TRADE.GetName]: konkurencja ($WHO$) dominuje ze względu na [Concept('merchant_power','przewagę handlową')|e] na rynku [TRADE.GetFromMarket.GetName]."
  ALERT_CAN_HAVE_MORE_REFORMS_TITLE: "Możliwe reformy"
  ALERT_CAN_HAVE_MORE_REFORMS: "Możesz dodać jeszcze do $VAL|Y$ [Concept('government_reforms','reform rządowych')|e]."
  ALERT_CAN_UPGRADE_COUNTRY_RANK_TITLE: "Możemy podnieść rangę kraju"

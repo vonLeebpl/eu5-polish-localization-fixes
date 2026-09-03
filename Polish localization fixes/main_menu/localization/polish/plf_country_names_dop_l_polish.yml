@@ -1,4 +1,5 @@
 ﻿l_polish:
+  plf_country_genitive_fallback: "[ROOT.GetCountry.GetNameWithNoTooltip]"
   ANC_DOP: "Ankony"
   LUC_DOP: "Lukki"
   MAN_DOP: "Mantui"

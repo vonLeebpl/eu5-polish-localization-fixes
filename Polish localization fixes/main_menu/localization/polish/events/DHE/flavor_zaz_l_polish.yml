@@ -6,7 +6,7 @@
  flavor_zaz.1.a: "Ci [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')] chcą się teraz sami rządzić?"
  flavor_zaz.1.a.entry: "$cossacks_estate$ chcą teraz rządzić?"
  flavor_zaz.1.b: "Uczynią z nas możnych panów."
- zaz_gains_cores_in_all_of_zaporizhzhia_area_tt: "$ZAZ$ zyska [cores|e] na całym [Concept('area','obszarze')|e]: [ShowAreaName('zaporizhzhia_area')."
+ zaz_gains_cores_in_all_of_zaporizhzhia_area_tt: "$ZAZ$ zyska [cores|e] w całym [Concept('area','obszarze')|e] [ShowAreaName('zaporizhzhia_area')]."
  flavor_zaz.2.title: "[target_international_organization.GetNameWithNoTooltip] i nasza przyszłość"
  flavor_zaz.2.entry: "$autocephalous_patriarchate$ stanowi naszą przyszłość"
  flavor_zaz.2.desc: "Choć pozostajemy wiernymi kościoła #L [ROOT.GetCountry.GetReligion.GetAdjective|l][Select_CString(Or(EndsWith(ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip, 'k'),Or(EndsWith(ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip, 'n'),EndsWith(ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip, 'ł'))),'ego','kiego')]#! i [ROOT.GetCountry.GetFlavorRank], a [target_international_organization.GetName] sprawują nad nami zwierzchnictwo duchowe, to wielu, w tym [target_character.GetName], dostrzega, że [ROOT.GetCountry.GetName] i [target_country.GetName] łączy słabnąca więź. Zamiast patrzeć bezczynnie na ten narastający trend, [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] oraz [ROOT.GetCountry.GetGovernment.GetCourtTitle] pragną przerwać obecny stan rzeczy. Jednakże są też tacy, którzy sądzą, że [ROOT.GetCountry.GetNameWithNoTooltip|l] stoi przed szansą, by rozwinąć odrębną kulturę, wolną od wścibstwa dygnitarzy z obcych nam miejsc jak [target_country.GetCapital.GetName]."

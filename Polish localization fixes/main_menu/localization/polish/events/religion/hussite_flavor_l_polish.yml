@@ -36,7 +36,7 @@
  hussite_flavor.7.b: "[target_character.GetNameWithNoTooltip] otrzyma pochwały w tej pieśni."
  hussite_flavor.7.c: "Niech śpiewają na cześć wytrwałości i dobrobytu naszego ludu."
  hussite_flavor.8.title: "Religijna zawierucha w regionie [target_location.GetNameWithNoTooltip]"
- hussite_flavor.8.desc: "Debata wokół spraw związanych z wiarą nierzadko przemienia się w gorące dysputy pełne wściekłości. Niedawna dyskusja między mniejszościami w regionie [target_location.GetName] a przedstawicielami, których [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] wysłali, sprawiła, że ci ostatni uciekli w obawie o swoje życie. W efekcie przysłali nam gniewne żądania. Mamy interweniować w lokacji [target_location.GetNameWithNoTooltip, by zwalczyć rodzący się bunt..."
+ hussite_flavor.8.desc: "Debata wokół spraw związanych z wiarą nierzadko przemienia się w gorące dysputy pełne wściekłości. Niedawna dyskusja między mniejszościami w regionie [target_location.GetName] a przedstawicielami, których [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] wysłali, sprawiła, że ci ostatni uciekli w obawie o swoje życie. W efekcie przysłali nam gniewne żądania. Mamy interweniować w lokacji [target_location.GetNameWithNoTooltip], by zwalczyć rodzący się bunt..."
  hussite_flavor.8.a: "Musimy interweniować."
  hussite_flavor.8.b: "Niech [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] się martwią. To nie nasza sprawa."
  hussite_flavor.9.title: "Rozprzestrzenia się nauczanie Jana Husa"
