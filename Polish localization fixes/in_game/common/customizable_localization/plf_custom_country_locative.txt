@@ -1,0 +1,114 @@
+﻿C_LOC = {
+    type = country
+
+    text = { localization_key = ADA_LOC trigger = {tag = ADA}}
+    text = { localization_key = ALB_LOC trigger = {tag = ALB}}
+    text = { localization_key = ALG_LOC trigger = {tag = ALG}}
+    text = { localization_key = ANS_LOC trigger = {tag = ANS}}
+    text = { localization_key = ARA_LOC trigger = {tag = ARA}}
+    text = { localization_key = ATR_LOC trigger = {tag = ATR}}
+    text = { localization_key = BAM_LOC trigger = {tag = BAM}}
+    text = { localization_key = BAV_LOC trigger = {tag = BAV}}
+    text = { localization_key = BEN_LOC trigger = {tag = BEN}}
+    text = { localization_key = BNG_LOC trigger = {tag = BNG}}
+    text = { localization_key = BOH_LOC trigger = {tag = BOH}}
+    text = { localization_key = BOS_LOC trigger = {tag = BOS}}
+    text = { localization_key = BRA_LOC trigger = {tag = BRA}}
+    text = { localization_key = BRB_LOC trigger = {tag = BRB}}
+    text = { localization_key = BUL_LOC trigger = {tag = BUL}}
+    text = { localization_key = BUR_LOC trigger = {tag = BUR}}
+    text = { localization_key = BYZ_LOC trigger = {tag = BYZ}}
+    text = { localization_key = CAS_LOC trigger = {tag = CAS}}
+    text = { localization_key = CRI_LOC trigger = {tag = CRI}}
+    text = { localization_key = CRO_LOC trigger = {tag = CRO}}
+    text = { localization_key = DAN_LOC trigger = {tag = DAN}}
+    text = { localization_key = DLH_LOC trigger = {tag = DLH}}
+    text = { localization_key = ENG_LOC trigger = {tag = ENG}}
+    text = { localization_key = ETH_LOC trigger = {tag = ETH}}
+    text = { localization_key = FER_LOC trigger = {tag = FER}}
+    text = { localization_key = FEZ_LOC trigger = {tag = FEZ}}
+    text = { localization_key = FLA_LOC trigger = {tag = FLA}}
+    text = { localization_key = FLO_LOC trigger = {tag = FLO}}
+    text = { localization_key = FRA_LOC trigger = {tag = FRA}}
+    text = { localization_key = GBR_LOC trigger = {tag = GBR}}
+    text = { localization_key = GEN_LOC trigger = {tag = GEN}}
+    text = { localization_key = GRA_LOC trigger = {tag = GRA}}
+    text = { localization_key = HAB_LOC trigger = {tag = HAB}}
+    text = { localization_key = HOL_LOC trigger = {tag = HOL}}
+    text = { localization_key = HRE_LOC trigger = {tag = HRE}}
+    text = { localization_key = HUN_LOC trigger = {tag = HUN}}
+    text = { localization_key = IRA_LOC trigger = {tag = IRA}}
+    text = { localization_key = IRE_LOC trigger = {tag = IRE}}
+    text = { localization_key = JAP_LOC trigger = {tag = JAP}}
+    text = { localization_key = KAR_LOC trigger = {tag = KAR}}
+    text = { localization_key = KOL_LOC trigger = {tag = KOL}}
+    text = { localization_key = KON_LOC trigger = {tag = KON}}
+    text = { localization_key = KUR_LOC trigger = {tag = KUR}}
+    text = { localization_key = LIT_LOC trigger = {tag = LIT}}
+    text = { localization_key = LIV_LOC trigger = {tag = LIV}}
+    text = { localization_key = LOR_LOC trigger = {tag = LOR}}
+    text = { localization_key = MAG_LOC trigger = {tag = MAG}}
+    text = { localization_key = MAI_LOC trigger = {tag = MAI}}
+    text = { localization_key = MAL_LOC trigger = {tag = MAL}}
+    text = { localization_key = MAM_LOC trigger = {tag = MAM}}
+    text = { localization_key = MAN_LOC trigger = {tag = MAN}}
+    text = { localization_key = MEW_LOC trigger = {tag = MEW}}
+    text = { localization_key = MKL_LOC trigger = {tag = MKL}}
+    text = { localization_key = MLO_LOC trigger = {tag = MLO}}
+    text = { localization_key = MLW_LOC trigger = {tag = MLW}}
+    text = { localization_key = MNG_LOC trigger = {tag = MNG}}
+    text = { localization_key = MOD_LOC trigger = {tag = MOD}}
+    text = { localization_key = MOL_LOC trigger = {tag = MOL}}
+    text = { localization_key = MOR_LOC trigger = {tag = MOR}}
+    text = { localization_key = MOS_LOC trigger = {tag = MOS}}
+    text = { localization_key = NAP_LOC trigger = {tag = NAP}}
+    text = { localization_key = NAV_LOC trigger = {tag = NAV}}
+    text = { localization_key = NED_LOC trigger = {tag = NED}}
+    text = { localization_key = NOG_LOC trigger = {tag = NOG}}
+    text = { localization_key = NOR_LOC trigger = {tag = NOR}}
+    text = { localization_key = NOV_LOC trigger = {tag = NOV}}
+    text = { localization_key = NPL_LOC trigger = {tag = NPL}}
+    text = { localization_key = ORI_LOC trigger = {tag = ORI}}
+    text = { localization_key = PAP_LOC trigger = {tag = PAP}}
+    text = { localization_key = PLC_LOC trigger = {tag = PLC}}
+    text = { localization_key = POL_LOC trigger = {tag = POL}}
+    text = { localization_key = POM_LOC trigger = {tag = POM}}
+    text = { localization_key = POR_LOC trigger = {tag = POR}}
+    text = { localization_key = PRO_LOC trigger = {tag = PRO}}
+    text = { localization_key = PRU_LOC trigger = {tag = PRU}}
+    text = { localization_key = PSK_LOC trigger = {tag = PSK}}
+    text = { localization_key = RAG_LOC trigger = {tag = RAG}}
+    text = { localization_key = RUS_LOC trigger = {tag = RUS}}
+    text = { localization_key = RYA_LOC trigger = {tag = RYA}}
+    text = { localization_key = SAL_LOC trigger = {tag = SAL}}
+    text = { localization_key = SAR_LOC trigger = {tag = SAR}}
+    text = { localization_key = SAV_LOC trigger = {tag = SAV}}
+    text = { localization_key = SAX_LOC trigger = {tag = SAX}}
+    text = { localization_key = SCO_LOC trigger = {tag = SCO}}
+    text = { localization_key = SER_LOC trigger = {tag = SER}}
+    text = { localization_key = SIC_LOC trigger = {tag = SIC}}
+    text = { localization_key = SIE_LOC trigger = {tag = SIE}}
+    text = { localization_key = SMO_LOC trigger = {tag = SMO}}
+    text = { localization_key = SON_LOC trigger = {tag = SON}}
+    text = { localization_key = SPA_LOC trigger = {tag = SPA}}
+    text = { localization_key = SWE_LOC trigger = {tag = SWE}}
+    text = { localization_key = SWI_LOC trigger = {tag = SWI}}
+    text = { localization_key = TEU_LOC trigger = {tag = TEU}}
+    text = { localization_key = TIM_LOC trigger = {tag = TIM}}
+    text = { localization_key = TRI_LOC trigger = {tag = TRI}}
+    text = { localization_key = TUN_LOC trigger = {tag = TUN}}
+    text = { localization_key = TUR_LOC trigger = {tag = TUR}}
+    text = { localization_key = TVE_LOC trigger = {tag = TVE}}
+    text = { localization_key = VEN_LOC trigger = {tag = VEN}}
+    text = { localization_key = VIJ_LOC trigger = {tag = VIJ}}
+    text = { localization_key = WAL_LOC trigger = {tag = WAL}}
+    text = { localization_key = WLS_LOC trigger = {tag = WLS}}
+    text = { localization_key = WUR_LOC trigger = {tag = WUR}}
+
+    text = {
+        localization_key = plf_country_locative_fallback
+        fallback = yes
+    }
+
+    if_invalid_loc = fallback_to_next_entry
+}
