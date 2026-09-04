@@ -878,7 +878,7 @@
  DIPLOREASON_COMMON_RIVALS_AND_ENEMIES: "Wspólni [rivals|el] i [enemies|el]"
  OPEN_HRE_DIPLOMACY: "Otwórz dyplomację Świętego Cesarstwa Rzymskiego"
  DIPLO_PRICE_NOT_ENOUGH_VALUE_BAD: "@trigger_no! Za dużo [$KEY$_i] w: $NAME$, aby móc dodać: $NEED|Y$\n"
- DIPLO_PRICE_NOT_ENOUGH_VALUE_GOOD: "@trigger_no! Brakuje nam $NEED|2Y$ [$KEY$_icon] wymaganych w $NAME$! (Obecnie $CURRENT|2Y$ [$KEY$_icon])\n"
+ DIPLO_PRICE_NOT_ENOUGH_VALUE_GOOD: "@trigger_no! Brakuje nam $NEED|2Y$ [$KEY$_icon] wymaganych w: $NAME$! (Obecnie $CURRENT|2Y$ [$KEY$_icon])\n"
  DIPLO_NONE_AVAILABLE: "@trigger_no! Nie posiadamy [Concept('diplomat','dyplomaty')|e] niezbędnego do tego działania."
  DIPLO_ENROUTE: "@trigger_fail! Mamy dyplomatę w drodze – powróci $DATE|Y$."
  DIPLO_REBELS_OR_PIRATES: "@trigger_no! Buntownicy ani piraci nie przyjmą żadnego dyplomaty!"
