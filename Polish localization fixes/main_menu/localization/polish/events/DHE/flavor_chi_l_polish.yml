@@ -803,7 +803,7 @@
  flavor_chi.2001.title: "Koniec epoki"
  flavor_chi.2001.desc: "Dziś kraj [ROOT.GetCountry.GetName] spogląda wstecz na osiągnięcia rejsów ze skarbami i nie widzi niczego prócz daremnego trwonienia funduszy tylko po to, by zdobyć nieco prestiżu. Byłoby dobrze, gdyby historycy zwyczajnie przemilczeli, że takie wyczyny miały miejsce."
  flavor_chi.2001.a: "Nic nie poradzimy."
- chi_unable_to_send_treasure_voyages: "Kraj [ROOT.GetCountry.GetName] nie będzie już mógł skorzystać z akcji „[ShowGenericActionName('start_a_treasure_voyage')]”."
+ chi_unable_to_send_treasure_voyages: "[ROOT.GetCountry.GetName] nie będzie już mógł skorzystać z akcji „[ShowGenericActionName('start_a_treasure_voyage')]”."
  flavor_chi.2002.title: "Początek ekspedycji"
  flavor_chi.2002.desc: "Po tygodniach przygotowań nasza wielka flota jest w końcu gotowa wyruszyć w podróż do obszaru [target_area.GetName]. Nie wiemy, na jakie dobre i złe przygody natrafią na swojej drodze $expedition_leader_name$ i $expedition_leader_name_herhis$ załoga, ale skoro [ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetName] [Select_CString(ROOT.GetCountry.GetGovernment.GetRulerOrRegent.IsFemale,'powierzyła','powierzył')] im tak odpowiedzialne zadanie, jesteśmy przekonani, że nie zawiodą.\n\nZgodnie z planem flota wyruszy o świcie z portu miasta [start_location.GetName] i mogą minąć całe lata, zanim z powrotem przybiją do naszego brzegu. Niech im sprzyjają wiatry!"
  flavor_chi.2002.a: "Powodzenia!"

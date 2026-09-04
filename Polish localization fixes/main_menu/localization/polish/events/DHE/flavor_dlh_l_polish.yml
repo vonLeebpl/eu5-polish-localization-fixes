@@ -437,7 +437,7 @@
  flavor_dlh.1202.b: "Nie ma sensu ciągnąć tego dalej, skoro jest jasne, że to tylko doprowadzi do konfliktu."
  dlh_abandon_rebellion_plans_tt: "Porzucimy nasze plany podważenia rządów kraju [target_country.GetName]."
  flavor_dlh.1203.title: "$flavor_dlh_1200_title_shared$"
- flavor_dlh.1203.desc: "Kraj [target_country2.GetName] domaga się wolności. Twierdzą, że nie są zadowoleni z naszych rządów i że to [target_character.GetName] [Select_CString(target_character.IsFemale,'powinna','powinien')] rządzić państwem [target_country2.GetNameWithNoTooltip], a nie najeźdźca."
+ flavor_dlh.1203.desc: "[target_country2.GetName] domaga się wolności. Twierdzą, że nie są zadowoleni z naszych rządów i że to [target_character.GetName] [Select_CString(target_character.IsFemale,'powinna','powinien')] rządzić państwem [target_country2.GetNameWithNoTooltip], a nie najeźdźca."
  flavor_dlh.1203.a: "Kim jesteśmy, by im tego odmawiać?"
  flavor_dlh.1203.b: "Swoją wolność mogą zdobyć tylko poprzez rozlew krwi!"
  flavor_dlh.1204.title: "$flavor_dlh_1200_title_shared$"

@@ -55,7 +55,7 @@
  flavor_teu.11.b: "Będziemy musieli się z tym przemęczyć."
  flavor_teu.12.title: "Monopol na [ShowGoodsNameWithNoTooltip('amber')|l]"
  flavor_teu.12.entry: "Monopol na bursztyn"
- flavor_teu.12.desc: "Kraj [ROOT.GetCountry.GetLongName] posiada wiele zasobów oraz bogactw naturalnych, ale niewiele z nich jest tak znaczących i poszukiwanych jak [target_goods.GetName|l]. Dlatego też kraj [ROOT.GetCountry.GetFlavorRank] znalazł się w jurysdykcji #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]kiej#! i będzie traktowany jak cenny monopol. Taki protekcjonizm jednak zwiększa ryzyko, że zirytują się [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l], którzy chcą mieć swoje udziały w handlu i mogą bardzo skorzystać na kupczeniu tak cennym zasobem."
+ flavor_teu.12.desc: "[ROOT.GetCountry.GetLongName] posiada wiele zasobów oraz bogactw naturalnych, ale niewiele z nich jest tak znaczących i poszukiwanych jak [target_goods.GetName|l]. Dlatego też kraj [ROOT.GetCountry.GetFlavorRank] znalazł się w jurysdykcji #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]kiej#! i będzie traktowany jak cenny monopol. Taki protekcjonizm jednak zwiększa ryzyko, że zirytują się [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l], którzy chcą mieć swoje udziały w handlu i mogą bardzo skorzystać na kupczeniu tak cennym zasobem."
  flavor_teu.12.a: "Wzmocnić kontrolę nad zasobem."
  flavor_teu.12.b: "Wyjawmy nasz monopol."
  flavor_teu.12.c: "Niech mają go [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l]."

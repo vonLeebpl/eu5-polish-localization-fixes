@@ -639,7 +639,7 @@
  flavor_hab.1005.desc: "[target_emperor.GetName] nie wykrył naszego fałszerstwa dokumentów i przyznał nam pełne pozwolenie na uznanie państwa [ROOT.GetCountry.GetName] za arcyksięstwo, co wiąże się z otrzymaniem wszystkich przywilejów, o które prosiliśmy."
  flavor_hab.1005.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  flavor_hab.1005.a.entry: "$common_string_brilliant$"
- flavor_hab.1006.title: "Państwo [target_emperor_country.GetNameWithNoTooltip] odrzuca naszą łapówkę"
+ flavor_hab.1006.title: "[target_emperor_country.GetNameWithNoTooltip] odrzuca naszą łapówkę"
  flavor_hab.1006.entry: "Odrzucono przekupstwo"
  flavor_hab.1006.desc: "[target_emperor.GetName] okazał się nieprzekupny i odrzucił nasz łaskawy dar. Co więcej, postanowił poddać w wątpliwość nasze roszczenia i dokładnie zbadać nasze dokumenty."
  flavor_hab.1006.a: "Możemy jedynie czekać na werdykt."

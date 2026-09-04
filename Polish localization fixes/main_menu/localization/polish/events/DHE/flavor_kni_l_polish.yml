@@ -195,7 +195,7 @@
  flavor_kni.2002.a: "To było potrzebne..."
  flavor_kni.2002.a.t: "Z powodzeniem sprzedaliśmy nasze kolonie krajowi [target_country.GetName]"
  #The Sale of the Colonies - Target Country Disagrees
- flavor_kni.2003.title: "Kraj [target_country.GetNameWithNoTooltip] odrzuca naszą ofertę"
+ flavor_kni.2003.title: "[target_country.GetNameWithNoTooltip] odrzuca naszą ofertę"
  flavor_kni.2003.desc: "Mimo naszej oferty kraj [target_country.GetName] odrzucił możliwość zakupu naszych wysp w regionie [ShowRegionName('caribbean_region')]. Wygląda na to, że te odległe terytoria nie stanowią dla nich wystarczającej wartości lub nie chcą zainwestować w nie potrzebnych zasobów. Na tę chwilę pozostajemy władcami tych wysp, choć obciążenia finansowe potrzebne, by je utrzymać, pozostają naszym palącym problemem."
  flavor_kni.2003.a: "Rozwiążemy to w inny sposób."
  flavor_kni.2003.a.t: "Kraj [target_country.GetName] odmówił zakupienia naszych kolonii"

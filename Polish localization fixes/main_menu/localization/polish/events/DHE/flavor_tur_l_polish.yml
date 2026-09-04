@@ -1591,7 +1591,7 @@
  tur_demand_subjugation_of_zaz_tt: "[target_country.GetName] – zażądamy uczynienia ich poddanym typu [ShowSubjectTypeName('vassal')]"
  flavor_tur.1101.title: "$flavor_tur.1100.title$"
  flavor_tur.1101.entry: "$flavor_tur.1101.title$"
- flavor_tur.1101.desc: "Kraj [target_country2.GetName] wysyła nam żądanie. Chce, abyśmy zostali jego poddanymi. Obiecują nam ochronę przed zagranicznymi wrogami i przypominają, jak wielką dysponują potęgą. Najwyraźniej [target_character2.GetName] liczy, że padniemy na kolana."
+ flavor_tur.1101.desc: "[target_country2.GetName] wysyła nam żądanie. Chce, abyśmy zostali jego poddanymi. Obiecują nam ochronę przed zagranicznymi wrogami i przypominają, jak wielką dysponują potęgą. Najwyraźniej [target_character2.GetName] liczy, że padniemy na kolana."
  flavor_tur.1101.a: "Nie mamy wyboru."
  flavor_tur.1101.b: "Nie potrzebujemy ich ochrony."
  flavor_tur.1101.c: "Ty #L [target_country.GetGovernment.GetRulerTitle|l]ie#!, diable [target_country.GetAdjectiveWithNoTooltip|l]ki..."

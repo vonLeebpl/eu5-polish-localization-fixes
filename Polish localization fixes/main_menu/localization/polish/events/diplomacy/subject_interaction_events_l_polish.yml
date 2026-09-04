@@ -4,7 +4,7 @@
  subject_interaction_events.1.a: "Może kraj [ROOT.GetCountry.GetDiplomacy.GetOverlord.GetLongNameWithNoTooltip] nam pomoże."
  subject_interaction_events.ask_overlord_for_help: "Wyślemy poselstwo z prośbą o pomoc!"
  subject_interaction_events.1.b: "Zajmijmy się tym sami."
- subject_interaction_events.2.title: "Kraj [subject_in_need.GetName] prosi o pomoc"
+ subject_interaction_events.2.title: "[subject_in_need.GetName] prosi o pomoc"
  subject_interaction_events.2.desc: "Rebeliancka armia pod dowództwem pretendenta do tronu maszeruje na stolicę państwa [subject_in_need.GetName] – [subject_in_need.GetCapital.GetName]! Członkowie rodziny [Select_CString(subject_in_need.GetGovernment.GetRuler.IsFemale,'odsuniętej monarchini','odsuniętego monarchy')] zyskali znaczne poparcie i zamierzają sprawić, że [subject_in_need.GetGovernment.GetFullRulerName] straci tron."
  subject_interaction_events.2.a: "Wyślijcie złoto i armię."
  opinion_sent_help: "Pomoc wysłana"

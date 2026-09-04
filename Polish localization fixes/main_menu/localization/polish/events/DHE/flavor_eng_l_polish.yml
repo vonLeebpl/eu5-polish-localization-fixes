@@ -1994,7 +1994,7 @@
  flavor_eng.242.tt1: "Próby wymierzenia sprawiedliwości odpowiedzialnym kolonistom wzbudzają jeszcze większy opór przed [target_root_country.GetAdjectiveWithNoTooltip|l]ką władzą."
  flavor_eng.242.tt2: "[target_country.GetName]: administracja tworzy sieć komunikacyjną i koordynacyjną mającą budzić poczucie jedności wśród kolonii i organizować opór przeciw polityce kolonialnej."
  flavor_eng.242.b: "Przemilczmy incydent."
- flavor_eng.242.tt3: "Kraj [target_root_country.GetNameWithNoTooltip] nie stara się egzekwować prawa, co zachęca do zwiększenia przemytu."
+ flavor_eng.242.tt3: "[target_root_country.GetNameWithNoTooltip] nie stara się egzekwować prawa, co zachęca do zwiększenia przemytu."
  flavor_eng.242.c: "Przyjmijmy ich petycję."
  flavor_eng.242.tt4: "[target_character.GetName]: pojednawcza „Petycja Gałązki Oliwnej” spisana przez administrację pomaga zmniejszyć napięcia."
  flavor_eng.242.historical_info: "Gaspee był brytyjskim szkunerem celnym, którego zadaniem było egzekwować przepisy handlowe i zwalczać przemyt w amerykańskich koloniach. Podczas rutynowej misji ruszył w pościg za statkiem z kontrabandą i przypadkowo wszedł na mieliznę. Sfrustrowani polityką rządu koloniści postanowili zbliżyć się do okrętu, wdali się w krótką, lecz pełną napięcia strzelaninę z brytyjską załogą, po czym podpalili jednostkę."

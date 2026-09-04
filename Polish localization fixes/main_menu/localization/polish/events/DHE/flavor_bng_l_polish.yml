@@ -89,4 +89,4 @@
  flavor_bng.1001.desc: "Nasza stolica – [ROOT.GetCountry.GetCapital.GetName] – przyjęła ambasadorów z państwa [target_country2.GetName], którzy liczą na nawiązanie z nami ciepłych stosunków i chcą poznać nasze metody zarządzania. Chociaż moglibyśmy zwiększyć tam nasze wpływy, dzielenie się naszymi pomysłami z osobami z zewnątrz nie wydaje się najlepszym pomysłem."
  flavor_bng.1001.a: "Powitajmy ich!"
  flavor_bng.1001.b: "Nie są tu mile widziani."
- bng_rejected_agreement_tt: "Państwo [target_country2.GetName] nie otrzyma żadnych premii."
+ bng_rejected_agreement_tt: "[target_country2.GetName] nie otrzyma żadnych premii."

@@ -27,7 +27,7 @@
  ALERT_NO_LEADER: "Wymienione [units|el] nie posiadają [Concept('commander','dowódców')|e]:"
  ALERT_RELATION_ABOUT_TO_BE_BROKEN_TITLE: "Zerwanie stosunków"
  ALERT_RELATION_ABOUT_TO_BE_BROKEN: "Zerwane zostaną następujące relacje z innymi państwami:"
- ALERT_RELATION_ABOUT_TO_BE_BROKEN_ENTRY: "Kraj [COUNTRY.GetName] zrywa relację typu „[RELATION_TYPE.GetName]”: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+2$#!"
+ ALERT_RELATION_ABOUT_TO_BE_BROKEN_ENTRY: "[COUNTRY.GetName] zrywa relację typu „[RELATION_TYPE.GetName]”: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+2$#!"
  ALERT_VERY_LOW_FOOD_TITLE: "Poważne braki żywności"
  ALERT_VERY_LOW_FOOD: "Wymienionym [Concept('armies','armiom')|e] brakuje [Concept('food','żywności')|e], a jej zapasy osiągnęły poziom krytyczny, i jednostki zaczną ulegać [Concept('attrition','osłabieniu')|e]:"
  ALERT_LOW_FOOD_TITLE: "Braki żywności"

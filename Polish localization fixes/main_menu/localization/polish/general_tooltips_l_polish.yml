@@ -231,7 +231,7 @@
  RELIGION_HAS_RELIGIOUS_FACTIONS: "Umożliwia tworzenie [Concept('religious_factions','frakcji religijnych')|e]"
  RELIGION_HAS_RELIGIOUS_FOCUSES: "Umożliwia wywieranie [Concept('religious_focuses','nacisków religijnych')|e]"
  RELIGION_HAS_RELIGIOUS_HEAD: "Posiada oficjalną [Concept('religious_head','głowę religii')|e]"
- RELIGION_HAS_IMPORTANT_COUNTRY: "Kraj [COUNTRY.GetName] ma specjalny status"
+ RELIGION_HAS_IMPORTANT_COUNTRY: "[COUNTRY.GetName] ma specjalny status"
  RELIGION_HAS_CARDINALS: "Posiada kolegium [Concept('cardinals','kardynałów')|e]"
  RELIGION_NOT_ENABLED: "Jeszcze nie powstała"
  RELIGION_FOUNDED_IN: "Założono $DATE|Y$"

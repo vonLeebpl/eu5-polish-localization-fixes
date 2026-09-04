@@ -356,7 +356,7 @@
  england_has_enforced_union_through_claim_french_throne_treaty_tt: "Kraj [GetCountry('ENG').GetName] wymusił [peace_treaty|el] „[ShowPeaceTreatyTypeName('claim_french_throne')]”"
  matter_of_robert_is_settled_tt: "Sprawa ściganego ([GetCharacter('eng_robert_iii_artois').GetName]) została rozwiązana"
  gain_claim_for_core_tt: "Zdobędziemy [casus_belli|el], które pozwoli podbić ponownie nieposiadaną przez nas obecnie wybraną [Concept('location','lokację')|e] [Concept('core','główną')|e]"
- target_country_will_be_asked_to_join_hyw_tt: "Kraj [target_country.GetName] otrzyma prośbę o dołączenie do nas na czas, kiedy trwa [ShowSituationName('hundred_years_war')|l]"
+ target_country_will_be_asked_to_join_hyw_tt: "[target_country.GetName] otrzyma prośbę o dołączenie do nas na czas, kiedy trwa [ShowSituationName('hundred_years_war')|l]"
  selected_country_will_be_asked_to_join_hyw_tt: "Wybrany [country|el] otrzyma prośbę o dołączenie do nas na czas, kiedy trwa [ShowSituationName('hundred_years_war')|l]"
  owned_by_fra_tt: "[owner|e] to [GetCountry('FRA').GetName]"
  RELATIVE_MILITARY_STRENGTH_ENG_TT_TITLE: "[GetCountry('ENG').GetAdjectiveWithNoTooltip]ka siła wojskowa"

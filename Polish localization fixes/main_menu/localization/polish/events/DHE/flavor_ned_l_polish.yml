@@ -85,7 +85,7 @@
  flavor_ned.14.title: "[target_character.GetNameWithNoTooltip] [Select_CString(CHARACTER.IsFemale,'zjedzona','zjedzony')]"
  flavor_ned.14.entry: "Zjedzenie wielkiego pensjonariusza"
  flavor_ned.14.desc: "Kraj [ROOT.GetCountry.GetName] dręczą wojna i nędza. Miasto [ROOT.GetCountry.GetCapital.GetName] zostało zajęte przez siły kraju [target_country.GetName], a [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] w przeważającej części sądzą, że za ten stan rzeczy odpowiada [target_character.GetName] i [target_character.GetHisHer] ambicje. Przed [target_character.GetHisHer] posiadłością zebrał się rozwścieczony tłum, gotów dokonać egzekucji. [target_character.GetNameWithNoTooltip] [Select_CString(CHARACTER.IsFemale,'wygłosiła','wygłosił')] płomienną przemowę, lecz ta nie przekonała ludzi. Ruszyli na [Select_CString(CHARACTER.IsFemale,'nią','niego')] niczym zwierzęta i [Select_CString(CHARACTER.IsFemale,'ją','go')] skatowali. Odnalezione po zajściu zwłoki były pozbawione kilku części ciała – zostały zjedzone przez rozjuszoną tłuszczę odpowiedzialną za napaść."
- flavor_ned.14.a: "Państwo [ROOT.GetCountry.GetNameWithNoTooltip] nie jest bezpieczne..."
+ flavor_ned.14.a: "[ROOT.GetCountry.GetNameWithNoTooltip] nie jest bezpieczne..."
  flavor_ned.14.a.entry: "Nawet teraz nie jesteśmy bezpieczni..."
  flavor_ned.15.title: "Siedem prowincji"
  flavor_ned.15.entry: "$flavor_ned.15.title$"

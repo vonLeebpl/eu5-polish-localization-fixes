@@ -562,7 +562,7 @@
  flavor_mos.65.entry: "$flavor_mos.65.title$"
  flavor_mos.65.desc: "Region [ShowAreaName('baltic_area')] od dawna cieszy się korzystną pozycją handlową dzięki pobliskiemu Morzu Bałtyckiemu, które jest filarem handlu w Europie Północnej. Jednak czerpanie zysków z wymiany towarowej okazało się wyzwaniem ze względu na odległość geograficzną. Musimy wykorzystać naszą przewagę i przejąć kontrolę nad regionem, jeśli chcemy skierować część bogactwa z powrotem do regionu [target_location.GetName]."
  flavor_mos.65.a: "Miejmy w tym swój udział."
- flavor_mos.65.a.custom: "Państwo [target_root_country.GetName] zyskuje [casus_belli|el] „[ShowCasusBelliName('cb_conquer_province')]” dla każdej [Concept('province','prowincji')|e] i [casus_belli|el] „[ShowCasusBelliName('cb_subjugation')]” dla każdego [Concept('subject','poddanego')|e] na obszarze [ShowAreaName('baltic_area')]."
+ flavor_mos.65.a.custom: "[target_root_country.GetName] zyskuje [casus_belli|el] „[ShowCasusBelliName('cb_conquer_province')]” dla każdej [Concept('province','prowincji')|e] i [casus_belli|el] „[ShowCasusBelliName('cb_subjugation')]” dla każdego [Concept('subject','poddanego')|e] na obszarze [ShowAreaName('baltic_area')]."
  flavor_mos.65.b: "Pokój jest korzystny dla interesów."
  flavor_mos.65.historical_info: "Rosyjskie próby podboju regionu bałtyckiego doprowadziły do długiej i bezowocnej wojny inflanckiej, która zrujnowała rosyjską gospodarkę, przynosząc niewiele korzyści terytorialnych. Wojna zakończyła się rozejmem w Jamie Zapolskim w 1582 roku oraz traktatem pliuskim w 1583 roku, sankcjonującym podział Inflantów i ziem Estonii pomiędzy Rzeczpospolitą Obojga Narodów, Szwecję i Danię."
  flavor_mos.66.title: "Tragiczne synobójstwo"

@@ -28,7 +28,7 @@
  court_flavor_events.10.A.tt1: "[advisor.GetName] jest [Select_CString(advisor.IsFemale,'lojalna','lojalny')]."
  court_flavor_events.10.A.tt2: "[advisor.GetName] [Select_CString(advisor.IsFemale,'utraciła','utracił')] nasze zaufanie."
  court_flavor_events.10.b: "Lepiej nie ryzykować. Aresztować [Select_CString(advisor.IsFemale,'ją','go')]!"
- court_flavor_events.10.B.tt: "Kraj [advisor_liaisons_target_country.GetLongName] może zaprotestować."
+ court_flavor_events.10.B.tt: "[advisor_liaisons_target_country.GetLongName] może zaprotestować."
  court_flavor_events.11.title: "Zdrada"
  court_flavor_events.11.desc: "[advisor.GetName] nas [Select_CString(advisor.IsFemale,'zdradziła','zdradził')]! Jeden z [advisor.GetHerHis] rywali ma niepodważalne dowody na to, że [Select_CString(advisor.IsFemale,'ujawniła ona','ujawnił on')] krajowi [advisor_liaisons_target_country.GetLongName] różne tajemnice państwowe, udając, że reprezentuje nasze interesy. Niestety [Select_CString(advisor.IsFemale,'doradczyni zbiegła','doradca zbiegł')] za granicę, zanim udało nam się [Select_CString(advisor.IsFemale,'ją','go')] aresztować."
  court_flavor_events.11.a: "$common_string_this_is_not_good$"

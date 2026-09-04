@@ -32,6 +32,6 @@
  calvinist.8.a: "Wprowadźmy zakaz."
  calvinist.8.b: "Zignorujmy te opinie."
  calvinist.9.title: "Ikonoklastyczny ferwor"
- calvinist.9.desc: "Państwo [ROOT.GetCountry.GetName] jest teraz epicentrum religijnej przemocy, a wściekłe tłumy wyznające [ShowReligionName('calvinist')|l] dewastują kościoły oraz niszczą katolickie dzieła sztuki. Katolicka większość, zamieszkująca państwo [ROOT.GetCountry.GetName], oczekuje natychmiastowych działań ze strony władz."
+ calvinist.9.desc: "[ROOT.GetCountry.GetName] jest teraz epicentrum religijnej przemocy, a wściekłe tłumy wyznające [ShowReligionName('calvinist')|l] dewastują kościoły oraz niszczą katolickie dzieła sztuki. Katolicka większość, zamieszkująca państwo [ROOT.GetCountry.GetName], oczekuje natychmiastowych działań ze strony władz."
  calvinist.9.a: "Wyślijmy wojsko, aby to powstrzymać!"
  calvinist.9.b: "Pochwalamy to!"

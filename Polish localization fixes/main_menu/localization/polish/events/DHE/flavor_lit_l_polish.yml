@@ -297,7 +297,7 @@
  flavor_lit.1000.a.entry: "Zaprośmy tych kupców, aby pomogli miastu."
  flavor_lit.1000.b: "Nie potrzebujemy do tego [target_country2.GetCulture.Custom('Culture_adj')|l]kiej pomocy."
  flavor_lit.1000.b.entry: "Nie potrzebujemy ich pomocy."
- lit_no_offer_on_hansa_tt: "Kraj [target_country2.GetName] nie otrzyma propozycji."
+ lit_no_offer_on_hansa_tt: "[target_country2.GetName] nie otrzyma propozycji."
  flavor_lit.1001.title: "$flavor_lit.1000.title$"
  flavor_lit.1001.entry: "$flavor_lit.1001.title$"
  flavor_lit.1001.desc: "Zarządca obszaru [target_location.GetName] oraz [target_character.GetName] złożyli nam ofertę: prawo dla naszych kupców do osiedlenia się w miejscu [target_location.GetRank.GetName]. Mają oni nadzieję, że nasz udział przekształci to miejsce w rozwijający się ośrodek handlu kraju [target_country.GetName]. To kusząca oferta, jednakże musimy zastanowić się nad ryzykiem utraty naszych inwestycji, gdyby w przyszłości zechcieli przejąć nasze majątki."

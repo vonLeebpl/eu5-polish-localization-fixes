@@ -37,7 +37,7 @@
  COLONIAL_FLIP_HEADER: "[LOCATION.GetNameWithNoTooltip]: postępy kolonizacyjne"
  COLONIAL_TARGET_LOCATION_ALREADY_OWNED: "Ta [location|el] posiada już właściciela – [COUNTRY.GetName]."
  COLONIAL_TARGET_LOCATION_TRUCE_WITH_OWNER: "$BULLET_WITH_TAB$ Kraj [COUNTRY.GetName] ma [truce|el] z krajem [TARGET_COUNTRY.GetName]."
- COLONIAL_TARGET_LOCATION_NOT_ENOUGH_POWER_PROJECTION: "$BULLET_WITH_TAB$Kraj [TARGET_COUNTRY.GetName] musi posiadać o $VAL|0Y$ większą [Concept('power_projection','projekcję siły')|e] niż obecny właściciel ([COUNTRY.GetName]: [COUNTRY.GetPowerProjection|0]), aby mieć szansę na przejęcie tej lokacji dla swojego [Concept('country','kraju')|e]."
+ COLONIAL_TARGET_LOCATION_NOT_ENOUGH_POWER_PROJECTION: "$BULLET_WITH_TAB$[TARGET_COUNTRY.GetName] musi posiadać o $VAL|0Y$ większą [Concept('power_projection','projekcję siły')|e] niż obecny właściciel ([COUNTRY.GetName]: [COUNTRY.GetPowerProjection|0]), aby mieć szansę na przejęcie tej lokacji dla swojego [Concept('country','kraju')|e]."
  COLONIAL_TARGET_LOCATION_NOT_ENOUGH_MIGRANTS: "$BULLET_WITH_TAB$Do lokacji [LOCATION.GetName] udało się przenieść tylko $MOVED|V$ z naszych [pops|el]. Kiedy będzie ich tam co najmniej #TOOLTIP:$BREAKDOWN_TAG$ $NEED|%L2$#!, lokacja będzie nasza."
  COLONIAL_TARGET_LOCATION_NOBODY_LIVES_THERE: "$BULLET_WITH_TAB$[LOCATION.GetName] to obszar zamieszkiwany przez zbyt małą populację.\nObecna populacja: [LOCATION.GetTotalPopulation]\nMinimalna wymagana populacja: #TOOLTIP:$BREAKDOWN_TAG$ $NEED|V$#!"
  COLONIAL_TARGET_LOCATION_CAN_FLIP: "Obszar [LOCATION.GetName] może przejść w #L [COUNTRY.GetAdjective|l]kie#! posiadanie."

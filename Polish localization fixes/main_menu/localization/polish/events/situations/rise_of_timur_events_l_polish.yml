@@ -132,7 +132,7 @@
  rise_of_timur.1032.title: "[target_country.GetNameWithNoTooltip]: podporządkowanie"
  rise_of_timur.1032.desc: "Mądry [target_country.GetAdjective|l]ki lud dostrzegł swój błąd i uznał, że [ShowCultureGroupName('turkic_group')|l] [ROOT.GetCountry.GetFlavorRank|l] o największej potędze w regionie [ShowRegionName('anatolia_region')] to właśnie my, dlatego też postanowili podporządkować się naszej wspaniałomyślnej władzy i obiecali dążyć do wspólnych interesów."
  rise_of_timur.1032.a: "Mądra decyzja."
- rise_of_timur.1033.title: "Kraj [target_country.GetNameWithNoTooltip] wybiera wojnę"
+ rise_of_timur.1033.title: "[target_country.GetNameWithNoTooltip] wybiera wojnę"
  rise_of_timur.1033.desc: "[target_country.GetAdjective|l]cy głupcy nie dostrzegają swojej oczywistej niższości wobec potęgi, jaką charakteryzuje się [ROOT.GetCountry.GetFlavorRank|l]. Wydaje im się, że mają z nami szanse w walce, dlatego odrzucili naszą łaskawą propozycję i przygotowują armie do boju. Będziemy musieli siłą pokazać im, w jak wielkim są błędzie."
  rise_of_timur.1033.a: "W takim razie wojna."
  rise_of_timur.1040.title: "[target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'pojmana','pojmany')]"

@@ -189,7 +189,7 @@
  VIJ_ALL_MYSORE_POPS_LOSE_20_SATISFACTION_AND_10_CONTROL: "Wszystkie [pops|e] w regionie [ShowProvinceDefinitionName('mysore_plateau')] stracą [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction','satysfakcji')|e], a każda [location|e] utraci [ShowNamedValue('control_mild_penalty')|+=2%] [Concept('control','kontroli')|e]."
  flavor_vij.33.title: "[ROOT.GetCountry.GetNameWithNoTooltip] wymaga umocnień"
  flavor_vij.33.entry: "$flavor_vij.33.title$"
- flavor_vij.33.desc: "Państwo [ROOT.GetCountry.GetName] jest usiane potężnymi umocnieniami i zamkami. Forty, jak te w regionach [target_location.GetName] i [target_location2.GetName], pozwoliły tamtejszej ludności żyć dostatnie oraz z dala od najazdów i ataków, dzięki czemu miejsca te wspięły się na wyżyny rozwoju."
+ flavor_vij.33.desc: "[ROOT.GetCountry.GetName] jest usiane potężnymi umocnieniami i zamkami. Forty, jak te w regionach [target_location.GetName] i [target_location2.GetName], pozwoliły tamtejszej ludności żyć dostatnie oraz z dala od najazdów i ataków, dzięki czemu miejsca te wspięły się na wyżyny rozwoju."
  flavor_vij.33.a: "Niech się rozwijają."
  flavor_vij.33.b: "Wykorzystaj umocnienia, by skuteczniej kontrolować sąsiednie obszary."
  flavor_vij.33.c: "Zainwestujmy jeszcze bardziej w te miejsca."

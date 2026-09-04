@@ -60,7 +60,7 @@
  canonize_desc: "[Concept('canonize','Kanonizuj')|e] [character|el], ogłaszając ją świętą i zyskując dla naszego kraju dodatkowe korzyści zależne od jej zdolności za życia."
  canonize_select_character: "Wybierz [character|el] do [Concept('canonize','kanonizacji')|e]"
  CONVERT_RELIGION_NEVER_FROM_GROUP: "@trigger_no![RELIGION.GetName] należy do innej [Concept('religion_group','grupy religii')|e], a możemy nawrócić się wyłącznie na wiarę z tej samej grupy."
- CONVERT_RELIGION_NEVER: "@trigger_no!Kraj [COUNTRY.GetName] nie może nigdy zmienić religii, ponieważ [COUNTRY.GetReligion.GetName|l] uznaje go za ważne dla siebie państwo."
+ CONVERT_RELIGION_NEVER: "@trigger_no![COUNTRY.GetName] nie może nigdy zmienić religii, ponieważ [COUNTRY.GetReligion.GetName|l] uznaje go za ważne dla siebie państwo."
  CONVERT_RELIGION_TT: "Nawrócenie, w rezultacie którego [RELIGION.GetName|l] stanie się naszą oficjalną [Concept('religion','religią')|e], będzie kosztować $COST$."
  RESOLUTION_EFFECT_INFO: "Jeśli propozycja zostanie przyjęta:\n$PASS$\n\nJeśli nie zostanie przyjęta:\n$REJECT$\n\n"
  CURIA_EFFECT_INFO: "Jeśli kuria przyjmie propozycję:\n$PASS$\n\nJeśli jej nie przyjmie:\n$REJECT$\n\n"

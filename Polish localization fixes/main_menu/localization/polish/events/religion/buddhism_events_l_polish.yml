@@ -114,7 +114,7 @@
  STATIC_MODIFIER_NAME_forced_labor: "Praca przymusowa"
  STATIC_MODIFIER_DESC_forced_labor: "Zmusiliśmy rolników z okolicznych wiosek do pomocy w ulepszaniu tego regionu dla wspólnego dobra."
  buddhism_events.1000.title: "Schwytany biały słoń"
- buddhism_events.1000.desc: "Kraj [ROOT.GetCountry.GetName] jest teraz w posiadaniu białego słonia, schwytanego w głębi lądu. Niełatwo jest spotkać takie zwierzę, dlatego ten pomyślny znak został powszechnie zinterpretowany jako świadectwo mądrych i życzliwych rządów, które sprawuje [target_ruler.GetName]."
+ buddhism_events.1000.desc: "[ROOT.GetCountry.GetName] jest teraz w posiadaniu białego słonia, schwytanego w głębi lądu. Niełatwo jest spotkać takie zwierzę, dlatego ten pomyślny znak został powszechnie zinterpretowany jako świadectwo mądrych i życzliwych rządów, które sprawuje [target_ruler.GetName]."
  buddhism_events.1000.a: "Zaopiekujmy się nim."
  buddhism_events.1000.b: "Sprzedajmy go."
  buddhism_events.1000.c: "Będzie wspaniałym darem!"
