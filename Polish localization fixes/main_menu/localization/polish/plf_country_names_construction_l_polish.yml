@@ -125,6 +125,6 @@
 
 
  # =========================================================================
- # RESTRYKCYJNY ŁAŃCUCH DOPEŁNIACZY (Dokładnie 40 czystych wywołań)
+ # RESTRYKCYJNY ŁAŃCUCH DOPEŁNIACZY
  # =========================================================================
  plf_country_dop_gen: "$plf_dop_1$$plf_dop_2$$plf_dop_3$$plf_dop_4$$plf_dop_5$$plf_dop_6$$plf_dop_7$$plf_dop_8$$plf_dop_9$$plf_dop_10$$plf_dop_11$$plf_dop_12$$plf_dop_13$$plf_dop_14$$plf_dop_15$$plf_dop_16$$plf_dop_17$$plf_dop_18$$plf_dop_19$$plf_dop_20$$plf_dop_21$$plf_dop_22$$plf_dop_23$$plf_dop_24$$plf_dop_25$$plf_dop_26$$plf_dop_27$$plf_dop_28$$plf_dop_29$$plf_dop_30$$plf_dop_31$$plf_dop_32$$plf_dop_33$$plf_dop_34$$plf_dop_35$$plf_dop_36$$plf_dop_37$$plf_dop_38$$plf_dop_39$$plf_dop_40$$plf_dop_41$$plf_dop_42$"
