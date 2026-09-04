@@ -4,7 +4,7 @@
 	"version":	"0.1",
 	"supported_game_version":	"1.3.11",
 	"short_description":	"Various fixes for polish localization of EU5.",
-	"picture":	"thumbnail.jpg",
+	"picture":	"thumbnail.png",
 	"tags":	["Fixes", "Translation"],
 	"relationships":	[],
 	"game_custom_data":	{
