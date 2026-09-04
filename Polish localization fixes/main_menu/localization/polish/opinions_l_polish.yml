@@ -1,7 +1,7 @@
 ﻿l_polish:
  RELATION_VALUES: "$VAL|=+$"
- COUNTRY_OPINION_OF_SELF: "#T Opinia państwa $WHO$ #!\nKraj $TARGET|Y$ ma o sobie zdecydowanie dobre zdanie."
- COUNTRY_OPINION_OF_SELF_PLAYER: "#T Opinia państwa $WHO$ #!\nPaństwo $TARGET|Y$ to nasz własny kraj!"
+ COUNTRY_OPINION_OF_SELF: "#T Opinia państwa $WHO$ #!\n$TARGET|Y$ ma o sobie zdecydowanie dobre zdanie."
+ COUNTRY_OPINION_OF_SELF_PLAYER: "#T Opinia państwa $WHO$ #!\n$TARGET|Y$ to nasz własny kraj!"
  COUNTRY_OPINION_OF: "#T [COUNTRY.GetAdjectiveWithNoTooltip]ka opinia na temat [TARGET_COUNTRY.Custom('C_DOP')]#!\n[Select_CString(TARGET_COUNTRY.IsPlayer,'Ich','Nasza')] opinia ($OPINION|2+=$) ze względu na:"
  COUNTRY_OPINION_OF_TT: "Obecna opinia ($OPINION|2+=$) ze względu na:"
  COUNTRY_TRUST_OF_SELF: "#T $WHO$ – zaufanie#!\nNajwyraźniej państwo $TARGET|Y$ w pełni ufa samemu sobie."

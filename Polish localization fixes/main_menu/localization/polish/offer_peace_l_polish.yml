@@ -241,7 +241,7 @@
  PEACE_OFFER_INCWARSCORETOOLTIP: "[PeaceOfferWarScoreTreatyGlue.GetIncWarScoreTooltip]"
  PEACE_OFFER_DECWARSCORETOOLTIP: "[PeaceOfferWarScoreTreatyGlue.GetDecWarScoreTooltip]"
  PEACE_OFFER_GOLDINFLATIONTOOLTIP: "[PeaceOfferWarScoreTreatyGlue.GetInflationFromTreaty]"
- PEACE_OFFER_WITHGOLD: "Kraj $DEMANDING_COUNTRY$ otrzyma [PeaceOfferWarScoreTreatyGlue.GetValue], co przełoży się na wzrost [Concept('inflation', 'inflacji')|e] w wysokości $INFLATION|V2%R$."
+ PEACE_OFFER_WITHGOLD: "$DEMANDING_COUNTRY|U$ otrzyma [PeaceOfferWarScoreTreatyGlue.GetValue], co przełoży się na wzrost [Concept('inflation', 'inflacji')|e] w wysokości $INFLATION|V2%R$."
  PEACE_OFFER_WITHOUTGOLD: "Ten traktat nie zawiera żądań złota, nie ma więc wpływu na gospodarkę żądającego państwa."
  PEACE_OFFER_NO_WHITE_PEACE: "@trigger_no! [CASUS_BELLI.GetName] NIE zezwala na status quo ante bellum!"
  PEACE_OFFER_REQUIRES_PEACE_TREATY: "@trigger_no! [CASUS_BELLI.GetName] wymaga [Concept('peace_treaty','traktatu pokojowego')|e] „$NAME$”, albo nie da się wynegocjować pokoju"

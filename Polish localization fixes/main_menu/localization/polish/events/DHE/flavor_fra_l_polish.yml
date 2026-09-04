@@ -680,7 +680,7 @@
  flavor_fra.2103.entry: "$flavor_fra.2103.t$"
  flavor_fra.2103.desc: "Po tym, jak [ruler_mlo.GetName] wystosował prośbę, nasza najwyższa władza – [ruler_fra.GetName] – zebrała spore siły i rozpoczęła inwazję, na co liczył [ruler_mlo.GetShortNameWithNoTooltip]. Chociaż [ruler_fra.GetShortNameWithNoTooltip] wykorzystuje tę okazję i wywrzeć nacisk w kwestii prawa do ziem państwa [GetCountry('NAP').GetLongName], decyzja ta spotkała się ona z ogromnym sprzeciwem na całej #L [ShowCultureGroupName('italian_group')|l]kiej#! arenie politycznej. Nawet nasi przyjaciele z państwa [GetCountry('MLO').GetName] zerwali z nami relacje. Jeśli nie wycofamy się z kraju [GetCountry('NAP').GetNameWithNoTooltip], [ruler_fra.GetShortNameWithNoTooltip] ryzykuje potencjalne starcie z koalicją [ShowCultureGroupNameWithNoTooltip('italian_group')|l]ką, która zechce wyprzeć wpływy państwa [GetCountry('FRA').GetAdjectiveWithNoTooltip|l]kiego w regionie [ShowRegionName('italy_region')]."
  flavor_fra.2103.a: "[GetCountry('NAP').GetNameWithNoTooltip] to nasze ziemie i nadal będziemy tam rządzić!"
- flavor_fra.2103.a.entry: "Kraj $NAP$ należy się nam i nadal będziemy nim rządzić!"
+ flavor_fra.2103.a.entry: "$NAP|U$ należy się nam i nadal będziemy nim rządzić!"
  flavor_fra.2103.b: "Złupimy #L [GetCountry('NAP').GetAdjectiveWithNoTooltip|l]ki#! skarbiec i opuścimy [GetCountry('NAP').GetNameWithNoTooltip]."
  flavor_fra.2103.b.entry: "Ograbić neapolitański skarbiec i wycofać się z kraju $NAP$."
  flavor_fra.2103.c: "W pełni wyrzekamy się [GetCountry('FRA').GetAdjectiveWithNoTooltip|l]kich roszczeń do państwa [GetCountry('NAP').GetNameWithNoTooltip] i wycofamy się."

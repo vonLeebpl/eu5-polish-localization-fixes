@@ -436,7 +436,7 @@
  flavor_pol.1600.entry: "Przysięga Szepes"
  flavor_pol.1600.desc: "Po naszych ostatnich wyczynach skarbiec jest niemal pusty. Skończyły się nie tylko fundusze na wojsko – z powodu deficytu będziemy praktycznie bezbronni wobec naszych bogatszych wrogów. W takim przypadku moglibyśmy zwrócić się do naszych przyjaciół z [pol_the_loan_provider.Custom('C_DOP')]. Dzięki ich wsparciu pieniężnemu moglibyśmy zdobyć dodatkowe fundusze bez konieczności użerania się z naszymi żądnymi władzy możnymi, zawsze chętnymi do zapewnienia sobie dodatkowych praw w zamian za „życzliwe” pozwolenie na nakładanie kolejnych podatków. Pożyczka od innego władcy z pewnością będzie bezpieczniejszym rozwiązaniem."
  flavor_pol.1600.a: "[pol_the_loan_provider.GetNameWithNoTooltip] otrzyma wioski w regionie [ShowProvinceDefinitionNameWithNoTooltip('szepes_province')]."
- flavor_pol.1600.a.entry: "Kraj $POL$ otrzyma wioski w regionie [ShowProvinceDefinitionNameWithNoTooltip('szepes_province')]."
+ flavor_pol.1600.a.entry: "$POL|U$ otrzyma wioski w regionie [ShowProvinceDefinitionNameWithNoTooltip('szepes_province')]."
  flavor_pol.1600.b: "Sami poradzimy sobie z deficytem."
  flavor_pol.1601.title: "$flavor_pol.1600.title$"
  flavor_pol.1601.entry: "$flavor_pol.1601.title$"

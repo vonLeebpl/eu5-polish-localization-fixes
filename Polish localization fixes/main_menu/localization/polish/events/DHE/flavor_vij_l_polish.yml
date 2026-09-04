@@ -236,7 +236,7 @@
  flavor_vij.1103.entry: "$flavor_vij.1103.title$"
  flavor_vij.1103.desc: "[target.GetName] nie żyje. Po reakcji ludności #L [ShowCultureName('tamil')|l]kiej#! można ostrożnie stwierdzić, że powstanie zdławiono, a dążenia rebeliantów, by oderwać się od naszego państwa, zostało udaremnione."
  flavor_vij.1103.a: "[ROOT.GetCountry.GetNameWithNoTooltip|l] może odetchnąć z ulgą."
- flavor_vij.1103.a.entry: "Kraj $VIJ$ może odetchnąć z ulgą."
+ flavor_vij.1103.a.entry: "$VIJ|U$ może odetchnąć z ulgą."
  VIJ_EVERY_TAMIL_POP_GAINS_10_SATISFACTION: "Wszystkie [ShowCultureName('tamil')|l]kie [pops|el] zyskają [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [Concept('pop_satisfaction','satysfakcji')|e]."
  flavor_vij.1200.title: "[ShowReligionGroupAdjectiveWithNoTooltip('muslim')|l]i arcywróg"
  flavor_vij.1200.entry: "Postępy na północ – dynamiczna rywalizacja między Bahmanidami a Vijayanagar"
