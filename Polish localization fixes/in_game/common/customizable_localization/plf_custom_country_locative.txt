@@ -100,6 +100,7 @@
     text = { localization_key = TUR_LOC trigger = {tag = TUR}}
     text = { localization_key = TVE_LOC trigger = {tag = TVE}}
     text = { localization_key = VEN_LOC trigger = {tag = VEN}}
+    text = { localization_key = VER_LOC trigger = {tag = VER}}
     text = { localization_key = VIJ_LOC trigger = {tag = VIJ}}
     text = { localization_key = WAL_LOC trigger = {tag = WAL}}
     text = { localization_key = WLS_LOC trigger = {tag = WLS}}
