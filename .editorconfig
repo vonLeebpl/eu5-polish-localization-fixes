@@ -1,0 +1,17 @@
+root = true
+
+# Pliki lokalizacji Paradoksa: UTF-8 z BOM, LF, bez przycinania spacji
+# (przycinanie spacji potrafi zepsuć wcięcia w plikach .yml Paradoksa).
+[*.{yml,txt,gui}]
+charset = utf-8-bom
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = false
+indent_style = space
+indent_size = 1
+
+[*.{md,json}]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true

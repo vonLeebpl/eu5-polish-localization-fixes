@@ -1,0 +1,17 @@
+# Deterministyczne końce linii niezależnie od ustawień core.autocrlf u współpracowników.
+# Pliki Paradoksa trzymamy w LF; gra czyta oba warianty, ale LF eliminuje szum w diffach.
+*.yml   text eol=lf
+*.txt   text eol=lf
+*.gui   text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.gitattributes text eol=lf
+*.gitignore     text eol=lf
+*.editorconfig  text eol=lf
+
+# Nie normalizuj niczego innego (grafika, dźwięk, dds itp.)
+*.dds   binary
+*.tga   binary
+*.png   binary
+*.mp3   binary
+*.ogg   binary

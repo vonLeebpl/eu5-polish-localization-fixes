@@ -1,0 +1,33 @@
+# === System operacyjny ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Edytory / IDE ===
+.idea/
+*.swp
+*~
+# .code-workspace zawiera lokalną ścieżkę do plików gry (inna na każdym komputerze)
+*.code-workspace
+# .vscode/settings.json zostaje w repo (wspólne skojarzenia składni Paradoksa);
+# reszta katalogu .vscode jest lokalna
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# === Logi gry ===
+*.log
+
+# === Pliki pomocnicze / robocze — NIE trafiają do repo ani do moda ===
+all_tags.txt
+dopelniacze*.txt
+
+# kopie, wersje oryginalne, wersje pośrednie, backupy
+*.yml_copy
+*.yml_oryg
+*.yml_orig
+*.yml_mid
+*.yml_bak
+*_copy
+*_oryg
+*.bak
