@@ -68,7 +68,7 @@
  flavor_teu.13.b: "Wysłuchajmy odwołań jej wrogów."
  flavor_teu.14.title: "[target_character.GetNameWithNoTooltip]"
  flavor_teu.14.entry: "Johann von Posilge, kronikarz"
- flavor_teu.14.desc: "[ROOT.GetCountry.GetFlavorRank] zna tego kleryka o wielkim potencjalnie, a #L [ROOT.GetCountry.GetAdjective|l]ki#! [ROOT.GetCountry.GetGovernment.GetCourtTitle], gdzie bywa, ma świadomość, jak zdolnym jest kronikarzem i że może pomóc wypełnić luki w dziele [target_work_of_art.GetName], które [target_work_of_art.GetCreator.GetName] stworzył w [target_work_of_art.GetCreationDate]."
+ flavor_teu.14.desc: "[ROOT.GetCountry.GetFlavorRank] zna tego kleryka o wielkim potencjalnie, a #L [ROOT.GetCountry.GetAdjective|l]ki#! [ROOT.GetCountry.GetGovernment.GetCourtTitle], gdzie bywa, ma świadomość, jak zdolnym jest kronikarzem i że może pomóc wypełnić luki w dziele [target_work_of_art.GetName], które [target_work_of_art.GetCreator.GetName] stworzył ([target_work_of_art.GetCreationDate])."
  flavor_teu.14.a: "Potrzebujemy jego usług!"
  flavor_teu.14.b: "Odprawmy go."
  teu_event_within_5_to_10_years: "[event|e] aktywuje się za 5 do 10 lat, pod warunkiem że wciąż żyje [target_character.GetName]."

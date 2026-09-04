@@ -137,7 +137,7 @@
  ART_WAS_CAPTURED: "Następujące [works_of_art|el] zostały przejęte i zabrane do miasta [COUNTRY.GetCapital.GetName]: $LIST$."
  WORK_OF_ART_DATA: "[art_quality|e]: [WORK_OF_ART.GetQualityName|V] ([WORK_OF_ART.GetQuality|Y]%)\nTyp: [WORK_OF_ART.GetDefinition.GetName]\nStworzono: [WORK_OF_ART.GetCreationDate]\nPochodzenie: [WORK_OF_ART.GetOrigin.GetName]"
  WORK_OF_ART_CREATOR: "[WORK_OF_ART.GetCreator.GetArtistType.GetName]: [WORK_OF_ART.GetCreatorName]"
- WORK_OF_ART_DESTROYED: "Niestety, zostało ono zniszczone w [WORK_OF_ART.GetDestructionDate]."
+ WORK_OF_ART_DESTROYED: "Niestety, zostało ono zniszczone i utracone dnia: [WORK_OF_ART.GetDestructionDate]."
  WORK_OF_ART_LOCATION: "[owner|e]: [WORK_OF_ART.GetLocation.GetOwner.GetName]\n[location|e]: [WORK_OF_ART.GetLocation.GetName]"
  WORK_OF_ART_NAME: "[WORK_OF_ART.GetCreator.GetArtistType.GetBasicWorkName] "
  WORK_OF_ART_COUNTRY_MODS: "Modyfikatory stosowane dla kraju ze względu na posiadanie dzieła sztuki tego typu:"
