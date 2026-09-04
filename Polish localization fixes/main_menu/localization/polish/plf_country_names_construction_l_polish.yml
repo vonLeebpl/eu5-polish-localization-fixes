@@ -94,7 +94,7 @@
  plf_dop_12: "[AddTextIf(EqualTo_string('Bośnia', '$NAME$'), 'Bośni')]"
  plf_dop_13: "[AddTextIf(EqualTo_string('Serbia', '$NAME$'), 'Serbii')]"
  plf_dop_14: "[AddTextIf(EqualTo_string('Bułgaria', '$NAME$'), 'Bułgarii')]"
- plf_dop_15: "[AddTextIf(EqualTo_string('Wołoszczyzna', '$NAME$'), 'Wołoszczyzny')]"
+ plf_dop_15: "[AddTextIf(EqualTo_string('Wołoszczyzna', '$NAME$'), '')]"
  plf_dop_16: "[AddTextIf(EqualTo_string('Mołdawia', '$NAME$'), 'Mołdawii')]"
  plf_dop_17: "[AddTextIf(EqualTo_string('Albania', '$NAME$'), 'Albanii')]"
  plf_dop_18: "[AddTextIf(EqualTo_string('Chum', '$NAME$'), 'Chumu')]"
@@ -103,7 +103,7 @@
  plf_dop_21: "[AddTextIf(EqualTo_string('Górna Bawaria', '$NAME$'), 'Górnej Bawarii')]" # Zgodne z country_names dla UBV
  plf_dop_22: "[AddTextIf(EqualTo_string('Palatynat', '$NAME$'), 'Palatynatu')]"
  plf_dop_23: "[AddTextIf(EqualTo_string('Wirtembergia', '$NAME$'), 'Wirtembergii')]"
- plf_dop_24: "[AddTextIf(EqualTo_string('Badenia', '$NAME$'), 'Badenii')]"
+ plf_dop_24: "[AddTextIf(EqualTo_string('Baden', '$NAME$'), 'Badenii')]"
  plf_dop_25: "[AddTextIf(EqualTo_string('Austria', '$NAME$'), 'Austrii')]" # Zgodne z country_names dla HAB
  plf_dop_26: "[AddTextIf(EqualTo_string('Styria', '$NAME$'), 'Styrii')]"
  plf_dop_27: "[AddTextIf(EqualTo_string('Karyntia', '$NAME$'), 'Karyntii')]"
