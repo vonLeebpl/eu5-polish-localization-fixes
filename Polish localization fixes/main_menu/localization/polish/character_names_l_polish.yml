@@ -468,7 +468,7 @@
  Arista: "Arista"
  the_handsome: "Piękn[Select_CString(Character.IsFemale,'a','y')]"
  the_strict: "Surow[Select_CString(Character.IsFemale,'a','y')]"
- nick_the_great: "Wielk[Select_CString(Character.IsFemale,'a','i')]"
+ nick_the_great: "Wielki"
  nick_the_greek: "Greck[Select_CString(Character.IsFemale,'a','i')]"
  nick_the_soldier_king: "Król-Żołnierz"
  nick_the_great_elector: "Wielki Elektor"
