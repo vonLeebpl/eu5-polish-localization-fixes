@@ -333,7 +333,7 @@
 			}
 			OR = {
 				# Główne Monarchie, Bałkany i regiony rdzennie toponimiczne
-				tag = FRA tag = ENG tag = ARA tag = CAS tag = NAV tag = POR tag = SCO tag = DAN tag = SWE tag = NOR tag = HUN tag = BOS tag = SER tag = BUL tag = MOL tag = ALB tag = HUM tag = ZTA tag = CRO
+				tag = FRA tag = ENG tag = ARA tag = CAS tag = NAV tag = POR tag = SCO tag = DAN tag = SWE tag = NOR tag = HUN tag = BOS tag = SER tag = BUL tag = MOL tag = ALB tag = HUM tag = ZTA tag = CRO tag = THS
 				# Kraje Alpejskie, Rzesza i Krym (HAB dla Austrii, LBV - Dolna Bawaria, UBV - Górna Bawaria, THE - Teodoro, LAU - Saksonia-Lauenburg)
 				tag = LBV tag = UBV tag = PAL tag = WUR tag = BDE tag = HAB tag = STY tag = CAR tag = TYR tag = SLZ tag = MKL tag = ANH tag = ERF tag = LAU tag = THE
 				# Niderlandy i Dolna Nadrenia

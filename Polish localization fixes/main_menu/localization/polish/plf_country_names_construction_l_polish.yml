@@ -115,7 +115,7 @@
  plf_dop_33: "[AddTextIf(EqualTo_string('Brabant', '$NAME$'), 'Brabantu')]"
  plf_dop_34: "[AddTextIf(EqualTo_string('Teodoro', '$NAME$'), 'Teodoro')]" # Zgodne z country_names dla THE
  plf_dop_35: "[AddTextIf(EqualTo_string('Luksemburg', '$NAME$'), 'Luksemburga')]"
- plf_dop_36: ""
+ plf_dop_36: "[AddTextIf(EqualTo_string('Tesalia', '$NAME$'), 'Tesalii')]"
  plf_dop_37: "[AddTextIf(EqualTo_string('Flandria', '$NAME$'), 'Flandrii')]"
  plf_dop_38: "[AddTextIf(EqualTo_string('Holandia', '$NAME$'), 'Holandii')]"
  plf_dop_39: "[AddTextIf(EqualTo_string('Geldria', '$NAME$'), 'Geldrii')]"
