@@ -6,7 +6,7 @@
  country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank_map: "[AddTextIf(EqualTo_string('$NAME$','Wielka Brytania'), '$NAME$')][AddTextIf(EqualTo_string('$NAME$', 'Egipt'), '$RANK$ $PREFIX$')][AddTextIf(Or(EqualTo_string('$NAME$', 'Viennois'),EqualTo_string('$NAME$', 'Ren')), '$RANK$ $NAME$')]"
  
  # --- Reszta Twoich kluczy z debugowaniem pozostaje całkowicie nienaruszona ---
- country_name_construction_pol_static_name: "$PREFIX$ $RANK$ $NAME$ (pure)"
+ country_name_construction_pol_static_name: "$PREFIX$ $RANK$ $NAME$"
  country_name_construction_pol_static_name_map: "$RANK$ $NAME$"
  country_name_construction_pol_knights_hospitaller: "$PREFIX$ $RANK$ Szpitalników"
  country_name_construction_pol_knights_hospitaller_map: "Szpitalnicy"
@@ -14,31 +14,31 @@
  country_name_construction_pol_military_order_map: "$RANK$ $ADJ$ki"
  country_name_construction_pol_golden_horde: "$NAME$"
  country_name_construction_pol_golden_horde_map: "$NAME$"
- country_name_construction_pol_horde: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$PREFIX$ $RANK$ $ADJ$ka (Ordy)')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$ (adj=name)')]"
+ country_name_construction_pol_horde: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$PREFIX$ $RANK$ $ADJ$ka')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$')]"
  country_name_construction_pol_horde_map: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$PREFIX$ $RANK$ $ADJ$ka')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$RANK$ $NAME$')]"
- country_name_construction_pol_islamic_rank: "[AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$ (adj=name)')][AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$PREFIX$ $RANK$ $ADJ$')][AddTextIf(And(Not(EqualTo_string('$ADJ$','$NAME$')),EndsWith('$RANK$','two')), 'kie')][AddTextIf(And(Not(EqualTo_string('$ADJ$','$NAME$')),And(Not(EndsWith('$RANK$','two')),EqualTo_string('$RANK$','Republika'))), 'ka')][AddTextIf(And(Not(EqualTo_string('$ADJ$','$NAME$')),And(Not(EndsWith('$RANK$','two')),Not(EqualTo_string('$RANK$','Republika')))), 'ki')][AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), ' (Islam)')]"
+ country_name_construction_pol_islamic_rank: "[AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$')][AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$PREFIX$ $RANK$ $ADJ$')][AddTextIf(And(Not(EqualTo_string('$ADJ$','$NAME$')),EndsWith('$RANK$','two')), 'kie')][AddTextIf(And(Not(EqualTo_string('$ADJ$','$NAME$')),And(Not(EndsWith('$RANK$','two')),EqualTo_string('$RANK$','Republika'))), 'ka')][AddTextIf(And(Not(EqualTo_string('$ADJ$','$NAME$')),And(Not(EndsWith('$RANK$','two')),Not(EqualTo_string('$RANK$','Republika')))), 'ki')][AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '')]"
  country_name_construction_pol_islamic_rank_map: "$NAME$"
- country_name_construction_pol_march: "$PREFIX$ $RANK$ $ADJ$ka (March_m)"
+ country_name_construction_pol_march: "$PREFIX$ $RANK$ $ADJ$ka"
  country_name_construction_pol_march_map: "$NAME$"
- country_name_construction_pol_march_isolated: "$PREFIX$ $RANK$ $ADJ$ka (March_i)"
+ country_name_construction_pol_march_isolated: "$PREFIX$ $RANK$ $ADJ$ka"
  country_name_construction_pol_march_isolated_map: "$NAME$"
- country_name_construction_pol_bishopric_monarchy: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$PREFIX$ $ADJ$kie $RANK$ (teokr-wyzsze)')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$ (adj=name)')]"
+ country_name_construction_pol_bishopric_monarchy: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$PREFIX$ $ADJ$kie $RANK$')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$')]"
  country_name_construction_pol_bishopric_monarchy_map: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$ADJ$kie $RANK$')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$RANK$ $NAME$')]"
- country_name_construction_pol_theocracy_county: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$PREFIX$ $RANK$ $ADJ$kie (teokr-County)')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$ (adj=name)')]"
+ country_name_construction_pol_theocracy_county: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$PREFIX$ $RANK$ $ADJ$kie')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$')]"
  country_name_construction_pol_theocracy_county_map: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$RANK$ $ADJ$kie')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$RANK$ $NAME$')]"
  country_name_construction_pol_novgorod: "Suwerenny Pan Wielki Nowogród"
  country_name_construction_pol_novgorod_map: "Nowogród"
- country_name_construction_pol_republic_march: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$PREFIX$ $RANK$ $ADJ$ka (March i Rep)')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$ (adj=name)')]"
+ country_name_construction_pol_republic_march: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$PREFIX$ $RANK$ $ADJ$ka')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$')]"
  country_name_construction_pol_republic_march_map: "$NAME$"
- country_name_construction_pol_republic_adjective_ka: "$PREFIX$ $RANK$ $ADJ$ka (Rep)"
+ country_name_construction_pol_republic_adjective_ka: "$PREFIX$ $RANK$ $ADJ$ka"
  country_name_construction_pol_republic_adjective_ka_map: "$NAME$"
- country_name_construction_pol_theocracy: "$PREFIX$ $RANK$ $ADJ$kie (teokr)"
+ country_name_construction_pol_theocracy: "$PREFIX$ $RANK$ $ADJ$kie"
  country_name_construction_pol_theocracy_map: "$RANK$ $ADJ$kie"
 #  country_name_construction_pol_euro_adjective_monarchy: "$PREFIX$ $RANK$ $ADJ$kie (monarchia)"
 #  country_name_construction_pol_euro_adjective_monarchy_map: "$RANK$ $ADJ$kie"
- country_name_construction_pol_euro_empire: "$PREFIX$ $RANK$ $ADJ$kie (Imperium)"
+ country_name_construction_pol_euro_empire: "$PREFIX$ $RANK$ $ADJ$kie"
  country_name_construction_pol_euro_empire_map: "$RANK$ $ADJ$kie"
- country_name_construction_pol_empire_descriptive: "$PREFIX$ $RANK$ $NAME$ (Imp-opis)"
+ country_name_construction_pol_empire_descriptive: "$PREFIX$ $RANK$ $NAME$"
  country_name_construction_pol_empire_descriptive_map: "$RANK$ $NAME$"
  country_name_construction_pol_china_empire: "$PREFIX$ $RANK$ $NAME$"
  country_name_construction_pol_china_empire_map: "$RANK$ $NAME$"
@@ -59,7 +59,7 @@
  # --- Główny Master-Klucz wywoływany przez skrócony blok .txt ---
  # Silnik gry dynamicznie podstawi aktualną rangę ($RANK$) oraz automatycznie 
  # złoży tag z przyrostkiem _DOP, pobierając surowy tekst bezpośrednio z pamięci RAM (O(1)).
- country_name_construction_pol_euro_monarchy_master: "$PREFIX$ $RANK$ $plf_country_dop_gen$ (dopelniacz)"
+ country_name_construction_pol_euro_monarchy_master: "$PREFIX$ $RANK$ $plf_country_dop_gen$"
  country_name_construction_pol_euro_monarchy_master_map: "$RANK$ $plf_country_dop_gen$"
 
  # =========================================================================
@@ -76,7 +76,7 @@
  # --- 2. Uniwersalne Sito Przymiotnikowe (Zabezpieczenie Marchii i Kolonii w .yml) ---
  # Pełna ochrona fleksyjna: Marchie dostają "-ka", a cała reszta dynamicznego świata oraz Polska/Prusy dostają "-kie".
  # Zero zagnieżdżeń, zero mega-zmiennych wewnątrz funkcji – parser Jomini przeczyta to w locie.
- country_name_construction_pol_euro_adjective_monarchy: "[AddTextIf(And(EqualTo_string('Elektorat', '$RANK$'), Not(EqualTo_string('$ADJ$','$NAME$'))), '$PREFIX$ $RANK$ $ADJ$ki')][AddTextIf(And(EqualTo_string('Marchia', '$RANK$'), Not(EqualTo_string('$ADJ$','$NAME$'))), '$PREFIX$ $RANK$ $ADJ$ka')][AddTextIf(And(And(Not(EqualTo_string('Marchia', '$RANK$')), Not(EqualTo_string('Elektorat', '$RANK$'))), Not(EqualTo_string('$ADJ$','$NAME$'))), '$PREFIX$ $RANK$ $ADJ$kie (kingdom rest)')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$ (adj=name)')]"
+ country_name_construction_pol_euro_adjective_monarchy: "[AddTextIf(And(EqualTo_string('Elektorat', '$RANK$'), Not(EqualTo_string('$ADJ$','$NAME$'))), '$PREFIX$ $RANK$ $ADJ$ki')][AddTextIf(And(EqualTo_string('Marchia', '$RANK$'), Not(EqualTo_string('$ADJ$','$NAME$'))), '$PREFIX$ $RANK$ $ADJ$ka')][AddTextIf(And(And(Not(EqualTo_string('Marchia', '$RANK$')), Not(EqualTo_string('Elektorat', '$RANK$'))), Not(EqualTo_string('$ADJ$','$NAME$'))), '$PREFIX$ $RANK$ $ADJ$kie')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$')]"
  # country_name_construction_pol_euro_adjective_monarchy_map: "[AddTextIf(Or(EqualTo_string('Marchia', '$RANK$'),EqualTo_string('Elektorat', '$RANK$')), '$NAME$')][AddTextIf(And(Not(EqualTo_string('Marchia', '$RANK$')), Not(EqualTo_string('Elektorat', '$RANK$'))), '$PREFIX$ $RANK$ $ADJ$kie')]"
  country_name_construction_pol_euro_adjective_monarchy_map: "$NAME$"
 
