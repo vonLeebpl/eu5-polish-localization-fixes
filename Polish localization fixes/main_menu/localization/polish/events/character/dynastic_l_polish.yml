@@ -60,7 +60,7 @@
  dynastic.12.a: "Użyjmy tej informacji, aby umocnić tron."
  dynastic.12.b: "Opublikujmy te informacje za granicą."
  dynastic.13.title: "[ruler_char.GetDynasty.GetNameWithNoTooltip]"
- dynastic.13.desc: "W innym kraju [ruler_char.GetDynasty.GetName] mają kłopoty – gałąź rodu jest w poważnych tarapatach. W wyniku destabilizacji kraju [other_ruler_char.GetName] walczy teraz o utrzymanie się przy władzy. Jeśli nie pomożemy, sytuacja może się znacznie pogorszyć."
+ dynastic.13.desc: "W innym kraju [ruler_char.GetDynasty.GetName] mają kłopoty – gałąź rodu jest w poważnych tarapatach. W wyniku destabilizacji [other_ruler_char.Custom('C_DOP')] walczy teraz o utrzymanie się przy władzy. Jeśli nie pomożemy, sytuacja może się znacznie pogorszyć."
  dynastic.13.a: "Rodzina jest najważniejsza."
  opinion_dynastic_helper: "Pomoc naszej dynastii królewskiej"
  dynastic.13.b: "Czemu ma dostać jeszcze więcej na zmarnowanie?"

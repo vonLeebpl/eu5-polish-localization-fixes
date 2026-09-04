@@ -22,7 +22,7 @@
  russian_principality_events.7.a: "Ograniczmy migracje."
  russian_principality_events.7.b: "Nie wyłączymy tych ziem spod naszych praw."
  russian_principality_events.8.title: "Śmierć posiadacza apanaży"
- russian_principality_events.8.desc: "Książę państwa [ROOT.GetCountry.GetName] zmarł, a [ROOT.GetCountry.GetGovernment.GetRuler.GetName] opłakuje stratę brata. [ROOT.GetCountry.GetGovernment.GetRulerTitle] musi dokonać teraz redystrybucji ziem, które zmarły posiadał jako apanaże. Pozostali bracia bez wątpienia będą oczekiwać, że otrzymają część własności, ale możemy spróbować wykorzystać tę okazję, aby zwiększyć rozmiar naszych własnych włości..."
+ russian_principality_events.8.desc: "Książę [ROOT.GetCountry.Custom('C_DOP')] zmarł, a [ROOT.GetCountry.GetGovernment.GetRuler.GetName] opłakuje stratę brata. [ROOT.GetCountry.GetGovernment.GetRulerTitle] musi dokonać teraz redystrybucji ziem, które zmarły posiadał jako apanaże. Pozostali bracia bez wątpienia będą oczekiwać, że otrzymają część własności, ale możemy spróbować wykorzystać tę okazję, aby zwiększyć rozmiar naszych własnych włości..."
  russian_principality_events.8.a: "Skonfiskujmy ziemię dla siebie."
  russian_principality_events.8.b: "Warto zapewnić sobie wsparcie własnych braci."
  russian_principality_events.9.title: "Tatarskie lenna"

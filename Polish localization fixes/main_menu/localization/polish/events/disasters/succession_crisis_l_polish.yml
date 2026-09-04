@@ -30,7 +30,7 @@
  if_they_accept_a_tt: "Jeśli nasz prośba zostanie zaakceptowana, wystąpią następujące efekty:"
  sc_seek_foreign_aid_tt: "Wybrany [country|e] może zaoferować warunkowe wsparcie lub rozejm w zamian za coś"
  succession_crisis.7.title: "Prośba o pomoc"
- succession_crisis.7.desc: "[target_character1.GetName] przysyła posła z prośbą o pomoc w sytuacji kryzysowej, gdyż w państwie [target_country2.GetName] trwa [ShowDisasterName('succession_crisis')|l]. W trudnych i niestabilnych czasach warto nawiązać oraz utrzymać dobre stosunki z wpływowymi sąsiadami. [target_character1.GetShortNameWithNoTooltip] składa nam poprzez swojego posła konkretne propozycje udzielenia jakże potrzebnego wsparcia."
+ succession_crisis.7.desc: "[target_character1.GetName] przysyła posła z prośbą o pomoc w sytuacji kryzysowej, gdyż [target_country2.Custom('C_LOC')] trwa [ShowDisasterName('succession_crisis')|l]. W trudnych i niestabilnych czasach warto nawiązać oraz utrzymać dobre stosunki z wpływowymi sąsiadami. [target_character1.GetShortNameWithNoTooltip] składa nam poprzez swojego posła konkretne propozycje udzielenia jakże potrzebnego wsparcia."
  succession_crisis.7.a: "Podpiszmy propozycję."
  succession_crisis.7.c: "Nie możemy się zgodzić."
  succession_crisis.8.title: "Spisanie historii naszej dynastii"

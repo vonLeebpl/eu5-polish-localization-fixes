@@ -7,7 +7,7 @@
  rite_power: "Siła rytuałów"
  GODS_OF_THE_COUNTRY: "[Player.GetLongNameWithNoTooltip]: bogowie"
  CORE_TENETS_OF: "$NAME$: podstawowe zasady"
- RELIGIOUS_UNITY_EFFECT: "Przeciętna $game_concept_religious_unity$ w kraju [COUNTRY.GetName] wynosi $VAL|%2Y$, co przynosi następujące efekty:\n\n$EFFECT$"
+ RELIGIOUS_UNITY_EFFECT: "Przeciętna $game_concept_religious_unity$ [COUNTRY.Custom('C_LOC')] wynosi $VAL|%2Y$, co przynosi następujące efekty:\n\n$EFFECT$"
  PROPOSE: "Propozycja"
  RELIGIONS_CARDINAL: "Obecni kardynałowie"
  CARDINAL_NAME: "[CARDINAL.GetLocation.GetNameWithNoTooltip]"

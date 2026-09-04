@@ -36,7 +36,7 @@
  kirishitan.8.a: "Przeprowadźmy dochodzenie i ukarzemy sprawców."
  kirishitan.8.b: "Niewiele możemy poradzić na wypadki."
  kirishitan.9.title: "Zerwanie z tradycją?"
- kirishitan.9.desc: "Nie jest tajemnicą, że [target_ruler.GetName] i [Select_CString(target_ruler.IsFemale,'jej','jego')] ród mają związki z wiarą #L [ShowReligionGroupAdjective('christian')|l]ą#!. Z biegiem czasu wyznanie [ShowReligionGroupAdjectiveWithNoTooltip('christian')|l]ie wyprzedziło nasze tradycje w państwie [ROOT.GetCountry.GetName] i stała się przewodnią krajową ideologią. Teraz, gdy jesteśmy bardziej zjednoczonym i uporządkowanym społeczeństwem, być może nadszedł czas, aby zakończyć transformację i przyjąć [ShowReligionName('catholic')] jako państwową religię?"
+ kirishitan.9.desc: "Nie jest tajemnicą, że [target_ruler.GetName] i [Select_CString(target_ruler.IsFemale,'jej','jego')] ród mają związki z wiarą #L [ShowReligionGroupAdjective('christian')|l]ą#!. Z biegiem czasu wyznanie [ShowReligionGroupAdjectiveWithNoTooltip('christian')|l]ie wyprzedziło nasze tradycje [ROOT.GetCountry.Custom('C_LOC')] i stała się przewodnią krajową ideologią. Teraz, gdy jesteśmy bardziej zjednoczonym i uporządkowanym społeczeństwem, być może nadszedł czas, aby zakończyć transformację i przyjąć [ShowReligionName('catholic')] jako państwową religię?"
  kirishitan.9.a: "Nigdy nie możemy całkiem odwrócić się od tradycji!"
  kirishitan.9.b: "Nadszedł czas na zmiany!"
  kirishitan.10.title: "Kirishitańskie państwo"

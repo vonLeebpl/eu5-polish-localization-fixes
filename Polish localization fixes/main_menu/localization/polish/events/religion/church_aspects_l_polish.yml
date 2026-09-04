@@ -112,7 +112,7 @@
  church_aspects.28.a: "Niech robią, co chcą."
  church_aspects.28.b: "Muszą stamtąd zniknąć."
  church_aspects.29.title: "Kredo zyskuje popularność."
- church_aspects.29.desc: "Umożliwienie każdemu wierzącemu samodzielny wybór kreda, osiągnęliśmy coś naprawdę imponującego – nowe wyznanie wiary, dotychczas obejmujące tylko ograniczony obszar, [target_location.GetName], zyskało popularność i zainspirowało nasz lud. Choć promujemy wolność jednostki, wiara w kraju [ROOT.GetCountry.GetName] jest silniejsza niż kiedykolwiek wcześniej."
+ church_aspects.29.desc: "Umożliwienie każdemu wierzącemu samodzielny wybór kreda, osiągnęliśmy coś naprawdę imponującego – nowe wyznanie wiary, dotychczas obejmujące tylko ograniczony obszar, [target_location.GetName], zyskało popularność i zainspirowało nasz lud. Choć promujemy wolność jednostki, wiara [ROOT.GetCountry.Custom('C_LOC')] jest silniejsza niż kiedykolwiek wcześniej."
  church_aspects.29.a: "Uczcijmy to osiągnięcie naszego ludu."
  church_aspects.29.b: "[ROOT.GetCountry.Custom('common_string_positive')]"
  church_aspects.30.title: "Nowe źródło wiary"

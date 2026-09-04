@@ -103,4 +103,4 @@
  WAL_LOC: "na Wołoszczyźnie"
  WLS_LOC: "w Walii"
  WUR_LOC: "w Wirtembergii"
- plf_country_locative_fallback: "w kraju [ROOT.GetCountry.GetNameWithNoTooltip]"
+ plf_country_locative_fallback: "[ROOT.GetCountry.Custom('C_LOC')]"

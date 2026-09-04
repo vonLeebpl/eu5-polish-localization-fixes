@@ -41,7 +41,7 @@
  flavor_vol.1000.d.entry: "Władca z czasem doczeka się potomka."
  flavor_vol.1001.title: "[target_country.GetNameWithNoTooltip] otrzymuje następcę tronu"
  flavor_vol.1001.entry: "Informacja dotycząca Polski i Litwy"
- flavor_vol.1001.desc: "[target_country.GetGovernment.GetEstateName('nobles_estate')] w kraju [target_country.GetName] postawili na swoim – [target_ruler.GetName] ma wyłonić swojego następcę z ich grona. Będzie nim [target_heir.GetName]. [target_ruler.GetShortNameWithNoTooltip] ma z nami więzy krwi, dzięki czemu [target_country.GetFlavorRank] pozostaje w strefie naszych bezpośrednich wpływów w razie jego śmierci, jednak bieżący obrót spraw niweczy te plany. Jeśli [target_country.GetNameWithNoTooltip] odmówi nam prawa dziedziczenia, to wywalczymy je sobie siłą."
+ flavor_vol.1001.desc: "[target_country.GetGovernment.GetEstateName('nobles_estate')] [target_country.Custom('C_LOC')] postawili na swoim – [target_ruler.GetName] ma wyłonić swojego następcę z ich grona. Będzie nim [target_heir.GetName]. [target_ruler.GetShortNameWithNoTooltip] ma z nami więzy krwi, dzięki czemu [target_country.GetFlavorRank] pozostaje w strefie naszych bezpośrednich wpływów w razie jego śmierci, jednak bieżący obrót spraw niweczy te plany. Jeśli [target_country.GetNameWithNoTooltip] odmówi nam prawa dziedziczenia, to wywalczymy je sobie siłą."
  flavor_vol.1001.a: "Zebrać wojsko!"
  flavor_vol.1002.title: "[target_ruler.GetNameWithNoTooltip] i jego religia"
  flavor_vol.1002.entry: "Żądania szlachty – religia władcy"

@@ -494,7 +494,7 @@
  COUNTRY_AFFECTED_BY_FALL_OF_DELHI: "Ten kraj bierze udział w [Concept('situation','sytuacji')|e] „[GetSituationByKey('fall_of_delhi').GetNameWithNoTooltip]”. Może poprzeć [GetCountry('DLH').GetName] lub naród roszczący sobie prawa do niego."
  fall_of_delhi_delhi_progress: "#T [GetSituationByKey('fall_of_delhi').GetNameWithNoTooltip]#!\nTo [share_of_power_gc|el] [GetCountry('DLH').GetName]. Jeśli osiągnie #Y 100%#!, zanim nastąpi [disaster|el] „[ShowDisasterName('dissolution_of_delhi')]”, osiągnie ono zwycięstwo."
  fall_of_delhi_opposers_progress: "#T [GetSituationByKey('fall_of_delhi').GetNameWithNoTooltip]#!\nTo [share_of_power_gc|el] przeciwników [GetCountry('DLH').GetName]. Jeśli osiągnie #R 80%#!, może nastąpić [disaster|el] „[ShowDisasterName('dissolution_of_delhi')]” w państwie [GetCountry('DLH').GetNameWithNoTooltip]"
- SUPPORTERS_OF_COUNTRY: "Poparcie ze strony kraju [Country.GetLongName]"
+ SUPPORTERS_OF_COUNTRY: "Poparcie ze strony [Country.Custom('C_DOP')]"
  #Tooltips
  has_never_had_situation_before_tt: "Ta [situation|el] nie miała u nich wcześniej miejsca"
  delhi_situation_info_tt: "Wkrótce może wystąpić [situation|el] „[ShowSituationName('fall_of_delhi')]”. W tych niespokojnych czasach na naszych ziemiach dojdzie do wielkiego buntu, a jeśli nie odzyskamy na czas władzy, nasi sąsiedzi oraz poddani prawdopodobnie staną do walki przeciwko nam. W kraju z kolei podstępni [ShowEstateTypeName('nobles_estate')|l] pragną obalić naszą niestabilną władzę...\n"
@@ -840,7 +840,7 @@
  estate_satisfaction_gain_scales_with_estate_power_tt: "Poniższe wartości skalują się wraz ze [Concept('estate_power','wpływami')|e] każdego [Concept('estate','stanu')|e]:"
  spread_revolutionary_sentiment: "Szerzenie sentymentów rewolucyjnych"
  spread_revolutionary_sentiment_desc: "Walka zwykłych ludzi o wyzwolenie się z niewoli jest długa i żmudna. Często musimy spojrzeć poza granice naszego kraju i przekonać zagraniczne mocarstwa do przyjęcia naszych ideałów. Nie jest to łatwe, ale wszystko to służy wyższemu celowi!"
- revolution_in_selected_country_tt: "W kraju [target_country.GetName] powstanie rewolucyjny ruch [Concept('rebel','buntowników')|e]. Jeśli jednak taki już istnieje, zwiększymy zamiast tego jego postępy i siłę."
+ revolution_in_selected_country_tt: "W [target_country.Custom('C_DOP')] powstanie rewolucyjny ruch [Concept('rebel','buntowników')|e]. Jeśli jednak taki już istnieje, zwiększymy zamiast tego jego postępy i siłę."
  revolution_in_country_tt: "W wybranym [Concept('country','kraju')|e] powstanie rewolucyjny ruch [Concept('rebel','buntowników')|e]. Jeśli jednak taki już istnieje, zwiększymy zamiast tego jego postępy i siłę."
  LEADER_OF_THE_REVOLUTION_TOOLTIP: "To [revolutionary_target|el]"
  WRESTLING_WITH_THE_REVOLUTION_TOOLTIP: "W tym [Concept('country','kraju')|e] trwa obecnie [disaster|el] „[ShowDisasterName('revolution_disaster')]”"

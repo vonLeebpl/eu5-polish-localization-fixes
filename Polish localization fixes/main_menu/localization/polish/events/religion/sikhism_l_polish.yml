@@ -53,6 +53,6 @@
  sikhism.12.b: "Nie będziemy słuchać takich pogańskich słów!"
  sikhism.12.b.tt: "Wszystkie #L [ShowReligionAdjective('hindu')|l]e#! i #L [ShowReligionGroupAdjective('muslim')|l]kie#! [pops|el] w regionie [target_location.GetName] stracą [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [Concept('pop_satisfaction', 'satysfakcji')|e]"
  sikhism.13.title: "$character_title_guru$ znika"
- sikhism.13.desc: "[ShowReligionName('sikhism')] jest w rozsypce po tym, jak $character_title_guru$ i ciągłość tego tytułu znikają. To w naszych rękach, jako osób wyznających religię [ShowReligionAdjectiveWithNoTooltip('sikhism')|l]ką, leży odnalezienie nowej ciągłości $character_title_guru$, która powróci do regionu [target_location.GetName] w państwie [guru_country.GetLongName]."
+ sikhism.13.desc: "[ShowReligionName('sikhism')] jest w rozsypce po tym, jak $character_title_guru$ i ciągłość tego tytułu znikają. To w naszych rękach, jako osób wyznających religię [ShowReligionAdjectiveWithNoTooltip('sikhism')|l]ką, leży odnalezienie nowej ciągłości $character_title_guru$, która powróci do regionu [target_location.GetName] [guru_country.Custom('C_LOC')]."
  sikhism.13.a: "$character_title_guru$ wyznający religię [ShowReligionAdjectiveWithNoTooltip('sikhism')|l]ką nigdy nie umierają."
  sikhism.13.b: "To my będziemy przewodzić w tej nowej epoce."

@@ -56,7 +56,7 @@
  mysticism_vs_jurisprudence.14.a: "Wprowadźmy ograniczenia."
  mysticism_vs_jurisprudence.14.b: "Niech będzie, [ShowGoodsNameWithNoTooltip('coffee')|l] im się należy."
  mysticism_vs_jurisprudence.15.title: "Bractwa sufickie zyskują na popularności w regionie [new_province.GetNameWithNoTooltip]."
- mysticism_vs_jurisprudence.15.desc: "Niektóre z popularniejszych bractw sufickich państwa [ROOT.GetCountry.GetName] szybko zaczęły zajmować ziemie w nowo zajętym regionie [new_province.GetName]. Chociaż miejscowi wydają się nieco podejrzliwi wobec nowych rządów, przyjęli bractwa, dzięki czemu [new_province.GetRank.GetName] ulegnie szybszemu przyłączeniu do naszego kraju."
+ mysticism_vs_jurisprudence.15.desc: "Niektóre z popularniejszych bractw sufickich [ROOT.GetCountry.Custom('C_DOP')] szybko zaczęły zajmować ziemie w nowo zajętym regionie [new_province.GetName]. Chociaż miejscowi wydają się nieco podejrzliwi wobec nowych rządów, przyjęli bractwa, dzięki czemu [new_province.GetRank.GetName] ulegnie szybszemu przyłączeniu do naszego kraju."
  mysticism_vs_jurisprudence.15.a: "Zamiast tego należy wzmocnić instytucje prawne."
  mysticism_vs_jurisprudence.15.b: "Wspaniałe wieści."
  mysticism_vs_jurisprudence.16.title: "$sharia$ lekceważony?"

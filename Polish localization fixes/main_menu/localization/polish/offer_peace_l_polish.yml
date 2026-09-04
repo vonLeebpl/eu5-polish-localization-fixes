@@ -138,7 +138,7 @@
  peace_revoke_clan_autonomy: "Cofnięcie autonomii rodu"
  peace_revoke_clan_autonomy_entry: "Ograniczenie autonomii państwa [TARGET_COUNTRY.GetNameWithFlag] i zmiana w [Concept('extraterritorial_country','kraj eksterytorialny')|e]"
  peace_revoke_clan_autonomy_entry_short: "Ograniczenie autonomii państwa [TARGET_COUNTRY.GetNameWithFlag]"
- turn_japanese_clan_into_building_based.tt: "[loser.GetName]: nastąpi scedowanie całego terytorium na rzecz państwa [winner.GetName] i powrót do statusu [Concept('extraterritorial_country','kraju eksterytorialnego')|e]"
+ turn_japanese_clan_into_building_based.tt: "[loser.GetName]: nastąpi scedowanie całego terytorium na rzecz [winner.Custom('C_DOP')] i powrót do statusu [Concept('extraterritorial_country','kraju eksterytorialnego')|e]"
  peace_nanbokuchou_force_imperial_abdication: "Wymuś abdykację cesarską"
  peace_nanbokuchou_force_imperial_abdication_entry: "Wymuś abdykację cesarskiego rodu"
  peace_nanbokuchou_force_imperial_abdication_entry_short: "$peace_nanbokuchou_force_imperial_abdication_entry$"
@@ -352,7 +352,7 @@
  supress_hussite_faith: "Supresja #L [ShowReligionName('hussite')|l]u#!"
  supress_hussite_faith_entry: "$supress_hussite_faith$"
  supress_hussite_faith_entry_short: "$supress_hussite_faith$"
- enforce_conversion_hussite_wars_tt: "Spora liczba wyznających wiarę #L [ShowReligionAdjective('hussite')|l]ką#! na terenie państwa [loser.GetLongName] zostanie zmuszona do nawrócenia na [ShowReligionName('catholic')|l], co sprawi, że znajdziemy się o krok bliżej usunięcia ich herezji i zakończenia [Concept('situation','sytuacji')|e] „[ShowSituationName('hussite_wars')|l]”."
+ enforce_conversion_hussite_wars_tt: "Spora liczba wyznających wiarę #L [ShowReligionAdjective('hussite')|l]ką#! na terenie [loser.Custom('C_DOP')] zostanie zmuszona do nawrócenia na [ShowReligionName('catholic')|l], co sprawi, że znajdziemy się o krok bliżej usunięcia ich herezji i zakończenia [Concept('situation','sytuacji')|e] „[ShowSituationName('hussite_wars')|l]”."
  hussite_pop_numbers_tt: "Odsetek jaki stanowi [population|el] wyznająca religię [ShowReligionName('hussite')|l] w kraju [GetCountry('BOH').GetName]"
  #Tatar Yoke
  break_from_tatar_yoke: "Oderwij się od organizacji $tatar_yoke$"

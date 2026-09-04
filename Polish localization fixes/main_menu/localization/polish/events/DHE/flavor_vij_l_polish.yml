@@ -197,7 +197,7 @@
  VIJ_ALL_DEFENSE_PROVINCES_GAIN_CONTROL: "Każda lokacja posiadająca [Concept('building','budowlę')|e] #Y obronną#! zyska [ShowNamedValue('control_mild_bonus')|+=2%] [Concept('development','rozwoju')|e]."
  flavor_vij.1000.title: "[target_country.GetNameWithNoTooltip] i jego świątynie"
  flavor_vij.1000.entry: "Świątynie hinduskie pod panowaniem islamskim"
- flavor_vij.1000.desc: "#L [ShowReligionGroupAdjective('muslim')|l]i#! władca państwa [target_country.GetName] kontroluje jedno z naszych najważniejszych miejsc duchowych. Chociaż taki układ może być akceptowalny, jest zbyt niestabilny na dłuższą metę, abyśmy zachowali bierność. Powinniśmy zażądać od nich podporządkowania się i przygotować inwazję, aby mieć pewność, że te świątynie nigdy nie zostaną zbezczeszczone przez pogan."
+ flavor_vij.1000.desc: "#L [ShowReligionGroupAdjective('muslim')|l]i#! władca [target_country.Custom('C_DOP')] kontroluje jedno z naszych najważniejszych miejsc duchowych. Chociaż taki układ może być akceptowalny, jest zbyt niestabilny na dłuższą metę, abyśmy zachowali bierność. Powinniśmy zażądać od nich podporządkowania się i przygotować inwazję, aby mieć pewność, że te świątynie nigdy nie zostaną zbezczeszczone przez pogan."
  flavor_vij.1000.historical_info: "Chociaż znaczna część Indii jest zdominowana pod względem ludności przez hinduistów, większość ich najważniejszych świątyń znajduje się w południowej części subkontynentu. Ten stan rzeczy, w połączeniu z niestabilnością muzułmańskich sułtanatów na tym obszarze, sprawił, że Harihara i Bukka I mogli skonsolidować te ziemie, tworzą niejako bastion przeciwko północnym sułtanatom."
  flavor_vij.1000.a: "Pora przejść do ataku."
  flavor_vij.1000.b: "Powinniśmy unikać takich konfliktów."

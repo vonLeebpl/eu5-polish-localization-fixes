@@ -44,7 +44,7 @@
  ikko_ikki.9.d: "#italic Namu amida butsu#!, ale nie możemy pozwolić im rządzić."
  ikko_ikki_lots_of_mahayana.tt: "Wiele z naszych [pops|el] nawróci się na religię [ShowReligionName('mahayana')|l]."
  ikko_ikki.10.title: "$ikko_ikki$"
- ikko_ikki.10.desc: "Niedawne narodziny w kraju [target_origin_country.GetLongName] nowej wiary, jaką jest [target_io.GetName|l], to zapowiedź ważnej zmiany dla wszystkich krajów wyznających [ShowReligionName('shinto')|l], które będą musiały zdecydować, jak wejść w interakcję z tą nowo powstałą frakcją. Czy postanowią wspierać tę nową wiarę, czy też wzgardzić jej wyznawcami, nie można zaprzeczyć, że jej wpływ będzie się dało odczuć wszędzie."
+ ikko_ikki.10.desc: "Niedawne narodziny [target_origin_country.Custom('C_LOC')] nowej wiary, jaką jest [target_io.GetName|l], to zapowiedź ważnej zmiany dla wszystkich krajów wyznających [ShowReligionName('shinto')|l], które będą musiały zdecydować, jak wejść w interakcję z tą nowo powstałą frakcją. Czy postanowią wspierać tę nową wiarę, czy też wzgardzić jej wyznawcami, nie można zaprzeczyć, że jej wpływ będzie się dało odczuć wszędzie."
  ikko_ikki.10.a: "Czekają nas ciekawe czasy."
  ikko_ikki_enabled.tt: "Mamy teraz dostęp do [Concept('religious_faction','frakcji religijnej')|e] $ikko_ikki$."
  ikko_ikki.11.title: "$ikko_ikki.6.title$"

@@ -173,7 +173,7 @@
  buddhism_events.1301.b: "Nie wolno im!"
  no_lankan_monks_sent: "Odmowa edukacji klasztornej"
  buddhism_events.1302.title: "[target_country.GetAdjectiveWithNoTooltip]ka odpowiedź"
- buddhism_events.1302.desc: "[target_country.GetGovernment.GetRulerTitle], czyli najwyższa władza państwa [target_country.GetName], zezwala 40 mnichom na przyjęcie święceń kapłańskich w [target_ruler.GetHerHis] kraju i przysyła do nas mnichów ze swoich ziem, by mieć pewność, że [ShowReligionName('theravada')|l] i tradycje tej wiary zostaną przyjęte w odpowiedni sposób."
+ buddhism_events.1302.desc: "[target_country.GetGovernment.GetRulerTitle], czyli najwyższa władza [target_country.Custom('C_DOP')], zezwala 40 mnichom na przyjęcie święceń kapłańskich w [target_ruler.GetHerHis] kraju i przysyła do nas mnichów ze swoich ziem, by mieć pewność, że [ShowReligionName('theravada')|l] i tradycje tej wiary zostaną przyjęte w odpowiedni sposób."
  buddhism_events.1302.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  STATIC_MODIFIER_NAME_monks_from_ceylon: "Wpływ z regionu [ShowAreaName('sailan_area')]"
  STATIC_MODIFIER_DESC_monks_from_ceylon: "Wywieramy ogromny wpływ na region [ShowAreaName('sailan_area')] i tamtejsze zakony. Pozwoliło nam to zacieśnić więzi z szanowanymi tradycjami, którymi kieruje się [ShowReligionName('theravada')] z tej wyspy."

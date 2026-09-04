@@ -13,7 +13,7 @@
  flavor_bos.2.a: "Wykorzystajmy podziały, by poszerzyć nasze wpływy."
  flavor_bos.2.b: "Skupmy się na sprawach wewnętrznych."
  flavor_bos.2.historical_info: "Wraz z wygaśnięciem dynastii Nemaniczów tron serbski pozostał nieobsadzony, a poszczególne lokalne rody sprawowały władzę nad rozdrobnionymi częściami dawnego imperium. Tvrtko I wykorzystał tę próżnię i powołując się na swoje pochodzenie z dynastii Nemaniczów po stronie babki ze strony ojca, zgłosił roszczenia do korony serbskiej oraz dążył do rozszerzenia wpływów Bośni na wschód."
- flavor_bos.3.title: "Pierwszy król państwa [ROOT.GetCountry.GetNameWithNoTooltip]"
+ flavor_bos.3.title: "Pierwszy król [ROOT.GetCountry.Custom('C_DOP')]"
  flavor_bos.3.entry: "$flavor_bos.3.title$"
  flavor_bos.3.desc: "Po udanej kampanii zagarnęliśmy ogromne obszary dawnych ziem #L [GetCountry('SER').GetAdjective|l]kich#!. Po tym zwycięstwie [target_ruler.GetName] ma dość odwagi, by przedstawić śmiałą propozycję. Pragnie nie tylko oficjalnie objąć tron państwa [GetCountry('SER').GetNameWithNoTooltip], ale także nadać krajowi [ROOT.GetCountry.GetName] status królestwa, stając pierwszym królem w historii naszego kraju."
  flavor_bos.3.a: "Nasz naród potrzebuje króla."

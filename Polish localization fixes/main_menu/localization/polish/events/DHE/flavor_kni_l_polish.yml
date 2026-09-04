@@ -39,7 +39,7 @@
  flavor_kni.9.b: "Nie potrzebujemy się bronić."
  flavor_kni.10.title: "[target_country.GetCulture.Custom('Culture_adj')]kie piractwo"
  flavor_kni.10.entry: "Tureckie piractwo na Morzu Egejskim"
- flavor_kni.10.desc: "Wraz z ustanowieniem #italic frankokracji#! w południowej części regionu [ShowRegionName('balkan_region')] oraz następującą po tym ekspansją handlową republik kupieckich z regionu [ShowRegionName('italy_region')] liczba statków handlowych przemierzających prowincję [ShowProvinceDefinitionName('aegean_sea_province')] przez ostatnie dziesięciolecia stale rosła. Jednakże koniunktura ta przyciąga również naszych wrogów, którzy wszelkimi sposobami pragną nam zaszkodzić. Dlatego też wrogowie naszej religii z kraju [target_country.GetName] zdecydowali się pozyskać korsarzy, którzy obecnie otwarcie atakują #L [ROOT.GetCountry.GetReligion.GetGroup.GetAdjective|l]ką#! flotę."
+ flavor_kni.10.desc: "Wraz z ustanowieniem #italic frankokracji#! w południowej części regionu [ShowRegionName('balkan_region')] oraz następującą po tym ekspansją handlową republik kupieckich z regionu [ShowRegionName('italy_region')] liczba statków handlowych przemierzających prowincję [ShowProvinceDefinitionName('aegean_sea_province')] przez ostatnie dziesięciolecia stale rosła. Jednakże koniunktura ta przyciąga również naszych wrogów, którzy wszelkimi sposobami pragną nam zaszkodzić. Dlatego też wrogowie naszej religii z [target_country.Custom('C_DOP')] zdecydowali się pozyskać korsarzy, którzy obecnie otwarcie atakują #L [ROOT.GetCountry.GetReligion.GetGroup.GetAdjective|l]ką#! flotę."
  flavor_kni.10.a: "Wymierzymy im karę!"
  flavor_kni.11.title: "Fidei Defensor"
  flavor_kni.11.entry: "$flavor_kni.11.title$"
@@ -106,7 +106,7 @@
  flavor_kni.110.entry: "$flavor_kni.110.title$"
  flavor_kni.110.desc: "W roku 1291 [ShowLocationName('acre')] upadła pod naporem kraju [GetCountry('MAM').GetLongName], a wraz z nią nasz ostatni przyczółek na terytoriach Ziemi Świętej. Nasze nadzieje i wiara zostały wystawione na próbę, gdy zostaliśmy wypchnięci przez niewiernych, a efektem naszych krwawych zmagań były jedynie stosy poległych oraz hańba.\n\nOd tamtej pory wycofaliśmy się do prowincji [ShowProvinceDefinitionName('cyprus_province')], a następnie na [ShowLocationName('rodos')], by odzyskać równowagę i koniec końców – należne nam ziemie. Jednakże w miarę upływu czasu, gdy stara gwardia broniąca Akki w trakcie oblężenia opuściła już ten świat, na naszym dworze pojawiły się głosy kwestionujące charakter naszego zakonu..."
  flavor_kni.110.a: "Głęboko w sercu wciąż jesteśmy krzyżowcami!"
- pap_gets_flavor_kni.111_tt: "Wydarzenie „#Y Wznowienie wypraw krzyżowych zakonów rycerskich#!” odbywa się w kraju [target_pope_country.GetName]"
+ pap_gets_flavor_kni.111_tt: "Wydarzenie „#Y Wznowienie wypraw krzyżowych zakonów rycerskich#!” odbywa się [target_pope_country.Custom('C_LOC')]"
  flavor_kni.110.b: "Spójrzmy w siebie, musimy rozbudować naszą twierdzę."
  lose_100_opinion_with_pope_tt: "Nasze relacje z krajem [target_pope_country.GetName] pogorszą się o #R 100#!"
  kni_receive_stronger_events_about_building_capital_tt: "Potencjalne wydarzenia dotyczące rozwoju naszej stolicy będą intensywniejsze"
@@ -152,14 +152,14 @@
  #Expanding the Caribbean Possessions
  flavor_kni.1000.title: "Poszerzanie terytorium w regionie [ShowRegionNameWithNoTooltip('caribbean_region')]"
  flavor_kni.1000.entry: "Rozszerzanie majętności na Karaibach"
- flavor_kni.1000.desc: "Nasz [ROOT.GetCountry.GetFlavorRank|l] długo był bastionem walczącym z niewiernymi w rejonie Morza Śródziemnego, lecz nasze ambicje nie są ograniczane jedynie do tych wybrzeży. Zasiedlając region [ShowRegionName('caribbean_region')], wiemy, że wyspy te są bogate w zasoby oraz położone są wzdłuż kluczowych szlaków handlowych. Niektórzy nasi doradcy proponują rozszerzenie naszych wpływów poprzez wykup wyspy od kraju [target_country.GetLongName]. [ROOT.GetCountry.GetGovernment.GetCabinetTitle] i jego najważniejsi członkowie są szczególnie zainteresowani zakupem lokacji [target_location.GetName]."
+ flavor_kni.1000.desc: "Nasz [ROOT.GetCountry.GetFlavorRank|l] długo był bastionem walczącym z niewiernymi w rejonie Morza Śródziemnego, lecz nasze ambicje nie są ograniczane jedynie do tych wybrzeży. Zasiedlając region [ShowRegionName('caribbean_region')], wiemy, że wyspy te są bogate w zasoby oraz położone są wzdłuż kluczowych szlaków handlowych. Niektórzy nasi doradcy proponują rozszerzenie naszych wpływów poprzez wykup wyspy od [target_country.Custom('C_DOP')]. [ROOT.GetCountry.GetGovernment.GetCabinetTitle] i jego najważniejsi członkowie są szczególnie zainteresowani zakupem lokacji [target_location.GetName]."
  flavor_kni.1000.a: "Wyślijmy ofertę zakupu tej wyspy."
  kni_if_target_agrees: "Jeśli [target_country.GetName] się zgadza:"
  flavor_kni.1000.b: "Nie potrzebujemy tego."
  flavor_kni.1000.historical_info: "W roku 1651, pod przywództwem Wielkiego Mistrza Giovanniego Paolo Lascarisa, Rycerze Szpitalnicy rozszerzyli swoje wpływy poza basen Morza Śródziemnego, zakupując kilka wysp karaibskich od francuskiej kompanii o nazwie #italic Compagnie des Îles de l'Amérique#!. Zakupy obejmowały Saint Christopher, Saint Martin, Saint Barthélemy i Saint Croix. Zakon miał jednak problemy z utrzymaniem swojego przyczółku z powodu trudności logistycznych, problemów finansowych oraz zagrożeń ze strony wrogich potęg europejskich. Koniec końców w roku 1665 Rycerze Szpitalnicy odsprzedali karaibskie terytoria z powrotem w ręce Francuzów."
  #An Offer from the Knights
- flavor_kni.1001.title: "Oferta z kraju [from_country.GetNameWithNoTooltip]"
- flavor_kni.1001.desc: "Z kraju [from_country.GetName] przybyła nieoczekiwana propozycja. Choć są oni znani głównie z obrony Morza Śródziemnego, chcą teraz ustanowić przyczółek na terenach Nowego Świata. Ich oferta jest prosta: chcą kupić jedno z naszych terytoriów w regionie [ShowRegionName('caribbean_region')], a konkretnie [target_location.GetName], aby rozszerzyć swoją misję."
+ flavor_kni.1001.title: "Oferta z [from_country.Custom('C_DOP')]"
+ flavor_kni.1001.desc: "Z [from_country.Custom('C_DOP')] przybyła nieoczekiwana propozycja. Choć są oni znani głównie z obrony Morza Śródziemnego, chcą teraz ustanowić przyczółek na terenach Nowego Świata. Ich oferta jest prosta: chcą kupić jedno z naszych terytoriów w regionie [ShowRegionName('caribbean_region')], a konkretnie [target_location.GetName], aby rozszerzyć swoją misję."
  flavor_kni.1001.a: "Dokonajmy sprzedaży wysp."
  flavor_kni.1001.b: "To wykluczone!"
  #Target Country Agrees
@@ -191,7 +191,7 @@
  flavor_kni.2001.b: "Odrzućmy ofertę."
  #The Sale of the Colonies - Target Country Agrees
  flavor_kni.2002.title: "[target_country.GetNameWithNoTooltip] kupuje nasze kolonie"
- flavor_kni.2002.desc: "Nasza propozycja została zaakceptowana i oficjalnie przekazujemy kontrolę nad terytoriami w regionie [ShowRegionName('caribbean_region')] w ręce kraju [target_country.GetName]. Otrzymana zapłata pozwoli nam wzmocnić naszą sytuację finansową, co pozwoli na właściwe utrzymanie naszych głównych ziem oraz obecności w basenie Morza Śródziemnego."
+ flavor_kni.2002.desc: "Nasza propozycja została zaakceptowana i oficjalnie przekazujemy kontrolę nad terytoriami w regionie [ShowRegionName('caribbean_region')] w ręce [target_country.Custom('C_DOP')]. Otrzymana zapłata pozwoli nam wzmocnić naszą sytuację finansową, co pozwoli na właściwe utrzymanie naszych głównych ziem oraz obecności w basenie Morza Śródziemnego."
  flavor_kni.2002.a: "To było potrzebne..."
  flavor_kni.2002.a.t: "Z powodzeniem sprzedaliśmy nasze kolonie krajowi [target_country.GetName]"
  #The Sale of the Colonies - Target Country Disagrees

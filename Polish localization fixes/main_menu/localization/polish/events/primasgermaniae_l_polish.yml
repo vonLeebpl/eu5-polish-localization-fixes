@@ -1,7 +1,7 @@
 ﻿l_polish:
  primasgermaniae.1.title: "Primas Germaniae"
  primasgermaniae.1.entry: "$primasgermaniae.1.title$"
- primasgermaniae.1.desc: "Od X wieku [target_country.GetGovernment.GetRulerTitle|l] z państwa [target_country.GetName] dzierży prestiżowy tytuł [ShowGovernmentReformName('primas_germaniae')]. Jest to najważniejszy #L [ShowReligionAdjective('catholic')|l]ki#! [target_country. GetGovernment.GetRulerTitle|l] w unii [GetUniqueInternationalOrganization('hre').GetName].\n\nNaturalnie, taki tytuł wzbudzi zazdrość wśród innych księstw Cesarstwa... [Select_CString(home_ruler.IsFemale,'Nasza władczyni','Nasz władca')], [home_ruler.GetName], musi mieć się na baczności i nie pozwolić, by $game_concept_prestige$ spadł zbyt nisko, w przeciwnym razie tytuł może nam się wymknąć z rąk!"
+ primasgermaniae.1.desc: "Od X wieku [target_country.GetGovernment.GetRulerTitle|l] z [target_country.Custom('C_DOP')] dzierży prestiżowy tytuł [ShowGovernmentReformName('primas_germaniae')]. Jest to najważniejszy #L [ShowReligionAdjective('catholic')|l]ki#! [target_country. GetGovernment.GetRulerTitle|l] w unii [GetUniqueInternationalOrganization('hre').GetName].\n\nNaturalnie, taki tytuł wzbudzi zazdrość wśród innych księstw Cesarstwa... [Select_CString(home_ruler.IsFemale,'Nasza władczyni','Nasz władca')], [home_ruler.GetName], musi mieć się na baczności i nie pozwolić, by $game_concept_prestige$ spadł zbyt nisko, w przeciwnym razie tytuł może nam się wymknąć z rąk!"
  primasgermaniae.1.a: "Ach tak..."
  primasgermaniae.2.title: "Tytuł Primas Germaniae zakwestionowany"
  primasgermaniae.2.desc: "[target_country.GetGovernment.GetRulerTitle] musi wiedzieć, że znaczna część społeczności #L [ShowReligionAdjective('catholic')|l]kiej#! straciła w nas wiarę! Krążą nawet pogłoski, że inne arcybiskupstwo planuje ubiegać się o nasz tytuł, [ShowGovernmentReformName('primas_germaniae')]!"
@@ -13,7 +13,7 @@
  primasgermaniae.3.b: "Dajmy temu spokój. Na razie..."
  opinion_supported_primas_germaniae: "Poparto wybór nowego Primas Germaniae"
  primasgermaniae.4.title: "Utracono Primas Germaniae"
- primasgermaniae.4.desc: "[original_prime.GetGovernment.GetRulerTitle] musi wiedzieć, że straciliśmy prestiżowy tytuł [ShowGovernmentReformName('primas_germaniae')]. Ze względu na naszą niską pozycję w unii [GetUniqueInternationalOrganization('hre').GetName] inny arcybiskup, [new_primae.GetGovernment.GetRuler.GetName] z państwa [new_primae.GetName], przejął ten tytuł!"
+ primasgermaniae.4.desc: "[original_prime.GetGovernment.GetRulerTitle] musi wiedzieć, że straciliśmy prestiżowy tytuł [ShowGovernmentReformName('primas_germaniae')]. Ze względu na naszą niską pozycję w unii [GetUniqueInternationalOrganization('hre').GetName] inny arcybiskup, [new_primae.GetGovernment.GetRuler.GetName] z [new_primae.Custom('C_DOP')], przejął ten tytuł!"
  primasgermaniae.4.a: "No trudno, pogratulujmy mu..."
  opinion_congratulated_new_primas_germaniae: "Pogratulowano nowemu Primas Germaniae"
  primasgermaniae.4.b: "Nie zapomnimy tego!"

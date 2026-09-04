@@ -64,7 +64,7 @@
  decline_of_mali.12.a: "Musimy odzyskać dominację!"
  decline_of_mali.12.a.tt: "Każda [pop|e] [ShowCultureName('soninke')|l] w każdej [Concept('location','lokacji')|e] w regionie [ShowAreaName('ghana_area')] zdominowanej przez tę kulturę sprawia dołącza do frakcji [mal_separatists_rebels.GetName|l] i traci [ShowNamedValue('pop_satisfaction_radical_penalty')|+=2%][Concept('pop_satisfaction', 'satysfakcji')|e]"
  decline_of_mali.12.b: "Niech robią, co chcą."
- decline_of_mali.12.b.tt: "Każda [location|e] w regionie [ShowAreaName('ghana_area')] zdominowana przez kulturę [ShowCultureName('soninke')|l] dołącza do nowo powstającego państwa [diawara_capital.GetName]."
+ decline_of_mali.12.b.tt: "Każda [location|e] w regionie [ShowAreaName('ghana_area')] zdominowana przez kulturę [ShowCultureName('soninke')|l] dołącza do nowo powstającego [diawara_capital.Custom('C_DOP')]."
  decline_of_mali.13.title: "[ShowCultureNameWithNoTooltip('tuareg')] – inwazja"
  decline_of_mali.13.entry: "Inwazja Tuaregów"
  decline_of_mali.13.desc: "Lud [ShowCultureName('tuareg')], nomadyczni Amazygowie zamieszkujący Saharę, buntują się przeciw władzy, jaką sprawuje nad nimi kraj [ROOT.GetCountry.GetName]. Wykorzystują osłabienie naszego państwa, aby okazać swoją niezależność i podjąć próbę stworzenia własnych państw na terytoriach północnych. Bunt ten jeszcze bardziej uszczupla dostępne nam zasoby i jeszcze bardziej zmniejsza nasze wpływy..."

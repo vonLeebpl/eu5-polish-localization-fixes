@@ -1,6 +1,6 @@
 ﻿l_polish:
  privateers.1.title: "Miejscowi kupcy domagają się wsparcia"
- privateers.1.desc: "Kupcy i kapitanowie jednostek kupieckich z kraju [ROOT.GetCountry.GetName] wysłali do rządu swojego przedstawiciela z informacją, że w ich ojczyźnie szaleje bezprawie, a statki i porty regularnie atakowane są przez piratów i korsarzy. Uważają, że rząd ich zaniedbał i proszą o fundusze na obronę przed narastającymi zagrożeniami. Jeśli nie spełnimy ich prośby, mogą uznać, że stracili już zbyt wiele i zabiorą się ze swoimi interesami gdzie indziej."
+ privateers.1.desc: "Kupcy i kapitanowie jednostek kupieckich z [ROOT.GetCountry.Custom('C_DOP')] wysłali do rządu swojego przedstawiciela z informacją, że w ich ojczyźnie szaleje bezprawie, a statki i porty regularnie atakowane są przez piratów i korsarzy. Uważają, że rząd ich zaniedbał i proszą o fundusze na obronę przed narastającymi zagrożeniami. Jeśli nie spełnimy ich prośby, mogą uznać, że stracili już zbyt wiele i zabiorą się ze swoimi interesami gdzie indziej."
  privateers.1.a: "Wysłać im czegokolwiek potrzebują."
  privateers.1.b: "Mają dość pieniędzy, by samodzielnie sfinansować budowę umocnień."
  refused_aid_traders: "Odmówiono pomocy kupcom"

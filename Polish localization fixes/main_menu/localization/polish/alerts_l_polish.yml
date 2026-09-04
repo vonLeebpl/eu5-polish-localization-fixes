@@ -251,7 +251,7 @@
  ALERT_POSSIBLE_FORMABLE_COUNTRY_ENTRY: "[FORMABLE_COUNTRY.GetTag]: [FORMABLE_COUNTRY.GetName|Y] (Tier [FORMABLE_COUNTRY.GetRankNum|W0])"
  ALERT_HELP_INFORMATION_TITLE: "Witaj w grze Europa Universalis V"
  ALERT_HELP_INFORMATION: "Zanim rozpoczniesz kampanię, radzimy przyjrzeć się @agenda! #high agendzie#!. Pozwoli to zapoznać się z kontekstem historycznym i wskazówkami dostosowanymi do sytuacji początkowej twojego [Concept('country','kraju')|e].\n\nMożesz też rzucić okiem na [Link('hints','','@hint! panel wskazówek')], aby wyświetlić ich listę."
- ALERT_NON_EXPERT_WELCOME_TITLE: "Rady początkowe dla kraju [Player.GetNameWithNoTooltip]"
+ ALERT_NON_EXPERT_WELCOME_TITLE: "Rady początkowe dla [Player.Custom('C_DOP')]"
  ALERT_NON_EXPERT_WELCOME: "Jeśli chcesz wiedzieć, jak zacząć swoim krajem, polecamy zapoznać się z wskazówką startową."
  ALERT_POPS_WITH_NEEDS: "Potrzeby społeczności"
  ALERT_POPS_WITH_NEEDS_TEXT: "[Concept('pops','Społecznościom')|e] brakuje [Concept('goods','towarów')|e] na niektórych [Concept('markets','rynkach')|e], co obniża ich [Concept('pop_satisfaction','satysfakcję')|e]. Nie jest to nasze zmartwienie, dopóki się nie [Concept('rebel','zbuntują')|e]."
