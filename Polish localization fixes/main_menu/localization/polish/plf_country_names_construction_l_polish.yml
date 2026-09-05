@@ -5,7 +5,7 @@
  country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank: "[AddTextIf(EqualTo_string('$NAME$','Wielka Brytania'), '$NAME$')][AddTextIf(EqualTo_string('$NAME$', 'Egipt'), '$PREFIX$ $RANK$ Egipski')][AddTextIf(Or(EqualTo_string('$NAME$', 'Viennois'),EqualTo_string('$NAME$', 'Ren')), '$RANK$ $NAME$')]"
  country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank_map: "[AddTextIf(EqualTo_string('$NAME$','Wielka Brytania'), '$NAME$')][AddTextIf(EqualTo_string('$NAME$', 'Egipt'), '$RANK$ $PREFIX$')][AddTextIf(Or(EqualTo_string('$NAME$', 'Viennois'),EqualTo_string('$NAME$', 'Ren')), '$RANK$ $NAME$')]"
  
- # --- Reszta Twoich kluczy z debugowaniem pozostaje całkowicie nienaruszona ---
+ # --- Reszta kluczy z debugowaniem pozostaje całkowicie nienaruszona ---
  country_name_construction_pol_static_name: "$PREFIX$ $RANK$ $NAME$"
  country_name_construction_pol_static_name_map: "$RANK$ $NAME$"
  country_name_construction_pol_knights_hospitaller: "$PREFIX$ $RANK$ Szpitalników"
@@ -26,8 +26,6 @@
  country_name_construction_pol_novgorod_map: "Nowogród"
  country_name_construction_pol_republic_march: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$PREFIX$ $RANK$ $ADJ$ka')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$')]"
  country_name_construction_pol_republic_march_map: "$NAME$"
-#  country_name_construction_pol_euro_adjective_monarchy: "$PREFIX$ $RANK$ $ADJ$kie (monarchia)"
-#  country_name_construction_pol_euro_adjective_monarchy_map: "$RANK$ $ADJ$kie"
  country_name_construction_pol_euro_empire: "$PREFIX$ $RANK$ $ADJ$kie"
  country_name_construction_pol_euro_empire_map: "$RANK$ $ADJ$kie"
  country_name_construction_pol_empire_descriptive: "$PREFIX$ $RANK$ $NAME$"
@@ -39,35 +37,13 @@
  country_name_construction_pol_tibet: "$PREFIX$ $RANK$ $ADJ$ka"
  country_name_construction_pol_tibet_map: "$RANK$ $ADJ$ka"
 
- # --- Europa: Świeckie monarchie o randze Królestwa lub Księstwa ---
- # Naprawiona linia mapy! Zamiast kodu, na mapę lądową podaje czyste i wydajne $NAME$.
-#  country_name_construction_pol_euro_kingdom_duchy: "[AddTextIf(EqualTo_string('Marchia', '$RANK$'), '$PREFIX$ $RANK$ $ADJ$ka (March in duch)')][AddTextIf(Not(EqualTo_string('Marchia', '$RANK$')), '$PREFIX$ $RANK$ ')]$plf_country_dop$ (Kingdom)"
-#  country_name_construction_pol_euro_kingdom_duchy_map: "$NAME$"
-
-#  # --- Europa: Świeckie monarchie o randze Hrabstwa ---
-#  country_name_construction_pol_euro_county: "[AddTextIf(EqualTo_string('Marchia', '$RANK$'), '$PREFIX$ $RANK$ $ADJ$ka (March in cty)')][AddTextIf(Not(EqualTo_string('Marchia', '$RANK$')), '$PREFIX$ $RANK$ ')]$plf_country_dop$ (County)"
-#  country_name_construction_pol_euro_county_map: "$NAME$"
-
  # --- Główny Master-Klucz wywoływany przez skrócony blok .txt ---
  # Silnik gry dynamicznie podstawi aktualną rangę ($RANK$) oraz automatycznie 
  # złoży tag z przyrostkiem _DOP, pobierając surowy tekst bezpośrednio z pamięci RAM (O(1)).
  country_name_construction_pol_euro_monarchy_master: "$PREFIX$ $RANK$ $plf_country_dop_gen$"
  country_name_construction_pol_euro_monarchy_master_map: "$RANK$ $plf_country_dop_gen$"
 
- # =========================================================================
- # MASTER-KLUCZE DLA EUROPY ZABEZPIECZAJĄCE EVOLUCJĘ PAŃSTW I MARCHII
- # =========================================================================
-#  country_name_construction_pol_euro_kingdom_duchy: "[AddTextIf(EqualTo_string('Marchia', '$RANK$'), '$PREFIX$ $RANK$ $ADJ$ka (March in duch)')][AddTextIf(Not(EqualTo_string('Marchia', '$RANK$')), '$PREFIX$ $RANK$ ')]$plf_country_dop$"
-#  country_name_construction_pol_euro_kingdom_duchy_map: "$NAME$"
-
-#  country_name_construction_pol_euro_county: "[AddTextIf(EqualTo_string('Marchia', '$RANK$'), '$PREFIX$ $RANK$ $ADJ$ka (March in cty)')][AddTextIf(Not(EqualTo_string('Marchia', '$RANK$')), '$PREFIX$ $RANK$ ')]$plf_country_dop$"
-#  country_name_construction_pol_euro_county_map: "$NAME$"
-
-
-
  # --- 2. Uniwersalne Sito Przymiotnikowe (Zabezpieczenie Marchii i Kolonii w .yml) ---
- # Pełna ochrona fleksyjna: Marchie dostają "-ka", a cała reszta dynamicznego świata oraz Polska/Prusy dostają "-kie".
- # Zero zagnieżdżeń, zero mega-zmiennych wewnątrz funkcji – parser Jomini przeczyta to w locie.
  country_name_construction_pol_euro_adjective_monarchy: "[AddTextIf(And(EqualTo_string('Elektorat', '$RANK$'), Not(EqualTo_string('$ADJ$','$NAME$'))), '$PREFIX$ $RANK$ $ADJ$ki')][AddTextIf(And(EqualTo_string('Marchia', '$RANK$'), Not(EqualTo_string('$ADJ$','$NAME$'))), '$PREFIX$ $RANK$ $ADJ$ka')][AddTextIf(And(And(Not(EqualTo_string('Marchia', '$RANK$')), Not(EqualTo_string('Elektorat', '$RANK$'))), Not(EqualTo_string('$ADJ$','$NAME$'))), '$PREFIX$ $RANK$ $ADJ$kie')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$')]"
  # country_name_construction_pol_euro_adjective_monarchy_map: "[AddTextIf(Or(EqualTo_string('Marchia', '$RANK$'),EqualTo_string('Elektorat', '$RANK$')), '$NAME$')][AddTextIf(And(Not(EqualTo_string('Marchia', '$RANK$')), Not(EqualTo_string('Elektorat', '$RANK$'))), '$PREFIX$ $RANK$ $ADJ$kie')]"
  country_name_construction_pol_euro_adjective_monarchy_map: "$NAME$"
