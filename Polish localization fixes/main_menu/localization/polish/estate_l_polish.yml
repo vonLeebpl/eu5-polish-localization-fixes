@@ -11,7 +11,7 @@
  crown_estate_desc: "Jest to serce i źródło władzy całego naszego kraju i rządu, a urząd ten jest sprawowany wyłącznie przez najwyższych rangą oficjeli i nie można go przyznać innym stanom.\n$estate_common_crown_ending$"
  dhimmi_estate: "Zimmi"
  dhimmi_estate_desc: "Ten stan reprezentuje mniejszości religijne w naszym [Concept('country','kraju')|e], które [ShowReligionGroupName('muslim')] uznaje za „ludy księgi” – zwykle jest to religia #L [ShowReligionGroupAdjective('christian')|l]a#! i #L [ShowReligionAdjective('judaism')|l]a#!, ale czasem pojęcie to obejmuje też inne [Concept('religions','religie')|e]. Ich status i przywileje mogą się znacznie różnić w zależności od kraju, podobnie jak ich organizacja i liczba.\n$estate_common_crown_ending$"
- tribes_estate: "Współplemieńcy"
+ tribes_estate: "Plemienni"
  tribes_estate_desc: "Ten stan reprezentuje różne plemiona i klany obecne w naszym [Concept('country','kraju')|e]. Są one tradycyjnie zorganizowane w linie i grupy pokrewieństwa rozproszone na obszarach wiejskich, które żyją i pracują w bardzo zróżnicowany sposób. Ich odległość i względna niezależność od głównych ośrodków władzy sprawiają, że trudno nimi rządzić, a przez odrębne zwyczaje mają zazwyczaj reputację przerażających i nieprzewidywalnych wojowników.\n$estate_common_crown_ending$"
  cossacks_estate: "Kozacy"
  cossacks_estate_desc: "Stan tej obejmuje różne ludy #L [ShowCultureName('cossack_culture')|l]kie#! obecne w naszym [Concept('country','kraju')|e]. Organizując się w częściowo nomadyczne, a częściowo zmilitaryzowane grupy, żyją one zwykle na pograniczu innych narodów, ale służą krajom wiernie i są przydatni, jeśli tylko zostaną do tego odpowiednio zachęceni.\n$estate_common_crown_ending$"
