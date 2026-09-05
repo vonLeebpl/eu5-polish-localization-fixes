@@ -8099,7 +8099,7 @@
  DYNASTY_HEAD_MARRY_OTHER_SETUP: "Kiedy [character|el] z naszego [Concept('country','kraju')|e] poślubia [Concept('dynasty_head','głowę dynastii')|e] innego [Concept('country','państwa')|e]."
  DYNASTY_HEAD_MARRY_OTHER_HEADER: "Zaaranżowano małżeństwo dla:"
  DYNASTY_HEAD_MARRY_OTHER_TITLE: "$DYNASTY$"
- DYNASTY_HEAD_MARRY_OTHER_DESC: "$HEAD$ kraju $LONGCOUNTRY$ i $TARGET$ z państwa $WHERE$ ogłosili zawarcie małżeństwa. Może to zbliży nasze kraje do siebie?"
+ DYNASTY_HEAD_MARRY_OTHER_DESC: "$HEAD$ z kraju $LONGCOUNTRY$ i $TARGET$ z państwa $WHERE$ ogłosili zawarcie małżeństwa. Może to zbliży nasze kraje do siebie?"
  DYNASTY_HEAD_MARRY_OTHER_EFFECTS: "[opinion|e] kraju $COUNTRY$ o nas [ShowBiasValue('opinion_dynasties_marrying')|+=0]"
  DYNASTY_HEAD_MARRY_OTHER_LOG: "$TARGET$ i $HEAD$ z dynastii $DYNASTY$ w $LONGCOUNTRY$ zawarli ślub."
  DYNASTY_HEAD_MARRY_OTHER_BTN1: "OK"
