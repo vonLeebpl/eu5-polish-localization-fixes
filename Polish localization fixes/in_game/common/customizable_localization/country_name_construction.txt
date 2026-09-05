@@ -285,18 +285,23 @@
 		}
 	}
 
-	# 7b. WYJĄTEK: Nowogród Wielki (Tag: NOV) - historyczny tytuł "Suwerenny Pan Wielki Nowogród"
-	# Tylko przy randze Kingdom - to jedyna ranga, dla której wanilia w ogóle
-	# definiuje ten specjalny tytuł (rank_kingdom_republic_novgorod, prefix
-	# "Sovereign Lord"). Przy innej randze ma spadać do ogólnego sita
-	# (republika niższej rangi -> "Republika Nowogrodzka", monarchia -> "Księstwo
-	# Nowogrodzkie" itd.), inaczej ten unikalny tytuł nigdy się nie odróżnia.
+	# 7b. WYJĄTEK: Nowogród Wielki (Tag: NOV) - historyczny tytuł "Gospodin"
+	# Mod celowo trzyma "Gospodin" jako nazwę rangi zarówno na Kingdom
+	# (rank_kingdom_republic_novgorod, prefix "Lord Suweren"), jak i na Duchy
+	# (rank_duchy_republic_novgorod, bez prefiksu) - to intencjonalne,
+	# historyczne ("Gospodin Wielki Nowogród" był używany niezależnie od
+	# formalnej rangi w grze). County (i każda inna ranga/typ rządu) nie ma
+	# takiego wpisu, więc naturalnie spada do ogólnego sita (republika ->
+	# "Republika Nowogrodzka", monarchia -> "Księstwo/Królestwo Nowogrodzkie").
 	text = {
 		localization_key = country_name_construction_pol_novgorod
 		trigger = {
 			tag = NOV
 			government_type = government_type:republic
-			country_rank_is_kingdom = yes
+			OR = {
+				country_rank_is_kingdom = yes
+				country_rank_is_duchy = yes
+			}
 		}
 	}
 
