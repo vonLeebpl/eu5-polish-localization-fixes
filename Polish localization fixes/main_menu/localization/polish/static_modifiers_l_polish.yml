@@ -779,7 +779,7 @@
  STATIC_MODIFIER_NAME_average_control_50: "$STATIC_MODIFIER_NAME_average_control$"
  STATIC_MODIFIER_NAME_civilian_barricades: "Cywilne barykady"
  STATIC_MODIFIER_NAME_head_of_the_cabinet_modifier: "Głowa gabinetu"
- STATIC_MODIFIER_NAME_crown_estate_head_of_cabinet_influence: "$crown_estate$ głową gabinetu"
+ STATIC_MODIFIER_NAME_crown_estate_head_of_cabinet_influence: "$crown_estate$ głowami gabinetu"
  STATIC_MODIFIER_NAME_nobles_estate_head_of_cabinet_influence: "Głowa gabinetu pochodząca ze szlachty"
  STATIC_MODIFIER_NAME_burghers_estate_head_of_cabinet_influence: "Głowa gabinetu pochodząca z mieszczan"
  STATIC_MODIFIER_NAME_clergy_estate_head_of_cabinet_influence: "Głowa gabinetu pochodząca z duchowieństwa"

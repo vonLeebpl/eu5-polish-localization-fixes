@@ -13,7 +13,7 @@
  PARLIAMENT_MODIFIER_WHEN_DEBATED: "Podczas gdy trwa debata nad kwestią:"
  PARLIAMENT_ESTATE_EXTRA_POWER_WHEN_DEBATED: "Wybór tej kwestii doda $VAL|2+=%$ do poparcia parlamentarnego"
  PARLIAMENT_SPECIAL_STATUS_EXTRA_POWER_WHEN_DEBATED: "Wybór tej kwestii sprawi, że więcej krajów o statusie specjalnym $SPECIAL_STATUS$ o $VAL|2+=%$ bardziej poprze parlament"
- EXTRA_SUPPORT_INFO_FOR_ISSUE_NONE: "#T Kwestia, na której skorzysta $crown_estate$#!\nTo kwestia, na której skorzysta $crown_estate$, nie ma więc dla niej wsparcia w [Concept('parliament','parlamencie')|e]."
+ EXTRA_SUPPORT_INFO_FOR_ISSUE_NONE: "#T Kwestia, na której skorzystają $crown_estate$#!\nTo kwestia, na której skorzystają $crown_estate$, nie ma więc dla niej wsparcia w [Concept('parliament','parlamencie')|e]."
  EXTRA_SUPPORT_INFO_FOR_ISSUE: "#T Kwestia, na której skorzystają [PARLIAMENT_ISSUE.GetEstateType.GetNameWithNoTooltip|l]#!\nWybór tej kwestii doda $VAL|2+=%$ do poparcia parlamentarnego, jako że kwestię tę popierają [PARLIAMENT_ISSUE.GetEstateType.GetName|l]."
  BASE_SPECIAL_STATUS_SUPPORT: "Poparcie statusu"
  EXTRA_SUPPORT_INFO_FOR_IO_ISSUE: "#T Kwestia, która dotyczy: [PARLIAMENT_ISSUE.GetSpecialStatus.GetNameWithNoTooltip|l]#!\nWybór tej kwestii doda $VAL|2+=%$ do poparcia parlamentarnego, jako że kwestię tę popiera [PARLIAMENT_ISSUE.GetEstateType.GetName|l]."
