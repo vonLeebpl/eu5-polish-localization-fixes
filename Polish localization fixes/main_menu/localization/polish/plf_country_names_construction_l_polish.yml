@@ -22,7 +22,7 @@
  country_name_construction_pol_bishopric_monarchy_map: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$ADJ$kie $RANK$')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$RANK$ $NAME$')]"
  country_name_construction_pol_theocracy_county: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$PREFIX$ $RANK$ $ADJ$kie')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$')]"
  country_name_construction_pol_theocracy_county_map: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$RANK$ $ADJ$kie')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$RANK$ $NAME$')]"
- country_name_construction_pol_novgorod: "Suwerenny Pan Wielki Nowogród"
+ country_name_construction_pol_novgorod: "$PREFIX$ $RANK$ $ADJ$ki"
  country_name_construction_pol_novgorod_map: "Nowogród"
  country_name_construction_pol_republic_march: "[AddTextIf(Not(EqualTo_string('$ADJ$','$NAME$')), '$PREFIX$ $RANK$ $ADJ$ka')][AddTextIf(EqualTo_string('$ADJ$','$NAME$'), '$PREFIX$ $RANK$ $NAME$')]"
  country_name_construction_pol_republic_march_map: "$NAME$"
