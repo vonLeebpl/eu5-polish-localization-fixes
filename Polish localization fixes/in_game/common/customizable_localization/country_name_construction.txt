@@ -286,11 +286,17 @@
 	}
 
 	# 7b. WYJĄTEK: Nowogród Wielki (Tag: NOV) - historyczny tytuł "Suwerenny Pan Wielki Nowogród"
+	# Tylko przy randze Kingdom - to jedyna ranga, dla której wanilia w ogóle
+	# definiuje ten specjalny tytuł (rank_kingdom_republic_novgorod, prefix
+	# "Sovereign Lord"). Przy innej randze ma spadać do ogólnego sita
+	# (republika niższej rangi -> "Republika Nowogrodzka", monarchia -> "Księstwo
+	# Nowogrodzkie" itd.), inaczej ten unikalny tytuł nigdy się nie odróżnia.
 	text = {
 		localization_key = country_name_construction_pol_novgorod
 		trigger = {
 			tag = NOV
 			government_type = government_type:republic
+			country_rank_is_kingdom = yes
 		}
 	}
 
