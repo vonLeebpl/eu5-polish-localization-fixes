@@ -8,7 +8,7 @@
  country_name_construction_prefix_name_rank_map: "$NAME$"
  country_name_construction_prefix_adjective_rank: "$PREFIX$ $RANK$ $NAME$"
  country_name_construction_prefix_adjective_rank_map: "$NAME$"
- country_name_construction_prefix_rank_of_name: "$PREFIX$ $RANK$ $NAME$"
+ country_name_construction_prefix_rank_of_name: "[AddTextIf(Not(EqualTo_string('$NAME$','Ameryka')), '$PREFIX$ $RANK$ $NAME$')][AddTextIf(EqualTo_string('$NAME$','Ameryka'), '$PREFIX$ $RANK$ Ameryki')]"
  country_name_construction_prefix_rank_of_name_map: "$NAME$"
   country_name_construction_prefix_name: "$PREFIX$ $NAME$"
   country_name_construction_prefix_name_map: "$PREFIX$ $NAME$"
