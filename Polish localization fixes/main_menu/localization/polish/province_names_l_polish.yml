@@ -2203,6 +2203,7 @@
  jativa_province: "$jativa$"
  orihuela_province: "$orihuela$"
  valencia_province: "$valencia$"
+ valencia_province_ADJ: "Walenc"
  mallorca_province: "Majorka"
  mallorca_province_ADJ: "Majorkańs" #auto
  algarve_province: "Algarve"
