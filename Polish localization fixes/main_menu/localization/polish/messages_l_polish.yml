@@ -66,7 +66,7 @@
  ####################################################
  #New Format
  ####################################################
- REGENCY_HEIR: "Status ten utrzyma się, dopóki $HEIR$ nie osiągnie pełnoletniości, co nastąpi w dniu $DATE$."
+ REGENCY_HEIR: "Status ten utrzyma się, dopóki $HEIR$ nie osiągnie pełnoletniości, co nastąpi w dniu $DATE$"
  NO_HEIR_REGENCY: "Obecnie nie posiadamy odpowiednich [Concept('heir','dziedziców')|e], więc może to trochę potrwać."
  REGENCY_SETUP: "Gdy w naszym kraju panuje [regency|el]."
  REGENCY_HEADER: "$MESSENGER$"
