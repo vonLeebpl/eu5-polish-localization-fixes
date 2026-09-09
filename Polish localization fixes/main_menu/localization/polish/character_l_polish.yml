@@ -144,7 +144,7 @@
  DEATH_REASON_vanished: "[Select_CString(CHARACTER.IsFemale,'Zniknęła','Zniknął')] z powierzchni ziemi..."
  DEATH_REASON_their_own_exploding_cannon: "[Select_CString(CHARACTER.IsFemale,'Zginęła','Zginął')], kiedy [CHARACTER.GetHerHis] własne działo wybuchło."
  DEATH_REASON_starvation: "[Select_CString(CHARACTER.IsFemale,'Zmarła','Zmarł')] z głodu."
- DEATH_REASON_wild_animal: "[Select_CString(CHARACTER.IsFemale,'Zginęła','Zginął')] w wyniku ataku dzikiego zwierzęcia."
+ DEATH_REASON_wild_animal: "[Select_CString(CHARACTER.IsFemale,'Zginęła','Zginął')] w wyniku ataku [CHARACTER.GetLocation.Custom('GetDangerousWildAnimalName_GEN')|l]."
  DEATH_REASON_cannibalism: "[Select_CString(CHARACTER.IsFemale,'Została pożarta','Został pożarty')] przez tłum pospólstwa."
  CHAR_DIED_DATE: "[CHARACTER.GetDeathAndAgeInfo] dnia $DATE|Y$\n"
  DIED_ON_DATE: "$DATE|Y$"

@@ -1,0 +1,17 @@
+﻿l_polish:
+ # Dopełniacz nazw groźnych dzikich zwierząt - dla GetDangerousWildAnimalName_GEN
+ # (funkcja jest waniliowa, niejęzykowa - wybiera zwierzę po geografii;
+ # brakowało tylko polskich form _GEN). Używane w DEATH_REASON_wild_animal.
+ dangerous_wild_animal_tiger_GEN: "tygrysa"
+ dangerous_wild_animal_elephant_GEN: "słonia"
+ dangerous_wild_animal_moose_GEN: "łosia"
+ dangerous_wild_animal_elk_GEN: "jelenia"
+ dangerous_wild_animal_lion_GEN: "lwa"
+ dangerous_wild_animal_boar_GEN: "dzika"
+ dangerous_wild_animal_wolf_GEN: "wilka"
+ dangerous_wild_animal_jaguar_GEN: "jaguara"
+ dangerous_wild_animal_dolphin_GEN: "delfina"
+ dangerous_wild_animal_whale_GEN: "wieloryba"
+ dangerous_wild_animal_shark_GEN: "rekina"
+ dangerous_wild_animal_kraken_GEN: "krakena"
+ dangerous_wild_animal_default_GEN: "dzikiego zwierzęcia"
