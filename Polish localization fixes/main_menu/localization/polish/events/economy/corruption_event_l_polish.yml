@@ -19,7 +19,7 @@
  corruption_event.6.a: "Rozpocząć śledztwo i natychmiast zastąpić skorumpowanych poborców podatkowych."
  corruption_event.6.b: "Pozwolić im przejść na emeryturę. Dobrze nam służyli w przeszłości."
  corruption_event.7.title: "Skorumpowany doradca"
- corruption_event.7.desc: "[ROOT.GetCountry.GetName] zmaga się z korupcją, jednak chcemy mieć pewność, że przynajmniej [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] może liczyć na zaufanych ludzi. Niedawno jednak jeden z doradców, któremu [ROOT.GetCountry.GetGovernment.GetRuler.GetName] wierzy najbardziej – [SCOPE.sCharacter('minister').GetName] – został przyłapany na braniu dużych łapówek od ludzi posiadających ogromne wpływy. Zdaje się, że łapówki wręczano [CString(SCOPE.sCharacter('minister').IsFemale,'jej','mu')], by [CString(SCOPE.sCharacter('minister').IsFemale,'doradzała','doradzał')] rządowi w taki sposób, aby korzystaliby na tym bogaci i wpływowi."
+ corruption_event.7.desc: "[ROOT.GetCountry.GetName] zmaga się z korupcją, jednak chcemy mieć pewność, że przynajmniej [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] może liczyć na zaufanych ludzi. Niedawno jednak jeden z doradców, któremu [ROOT.GetCountry.GetGovernment.GetRuler.GetName] wierzy najbardziej – [SCOPE.sCharacter('minister').GetName] – został przyłapany na braniu dużych łapówek od ludzi mających w naszym kraju ogromne wpływy. Łapówki te skłaniają [SCOPE.sCharacter('minister').GetHerHim] do doradzania rządowi w sposób sprzyjający interesom bogatych i wpływowych."
  corruption_event.7.a: "Publicznie ujawnimy te kłamstwa i przygotujemy egzekucję."
  corruption_event.7.b: "Przygotujemy dla doradcy emeryturę w areszcie domowym."
  corruption_event.7.c: "Udzielimy doradcy reprymendy. Stronnicze doradztwo to wciąż doradztwo."
