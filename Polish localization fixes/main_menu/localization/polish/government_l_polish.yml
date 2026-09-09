@@ -173,8 +173,8 @@
  HEIR_SELECTION_CAN_NOT_CHANGE_MODIFIER: "@trigger_no! Nie możemy wprowadzić zmian ze względu na modyfikator „[ShowModifierTypeName('blocked_from_changing_heir_selection')]”."
  #Regency
  CURRENT_REGENCY_TOOLTIP_NAME: "$REGENCY$"
- CURRENT_REGENCY_TOOLTIP_DESC: "W naszym kraju trwa obecnie $REGENCY$ (do #V $DATE$#!), co zapewnia następujące efekty: \n\n$EFFECTS$"
- CURRENT_REGENCY_INDEFINITELY_TOOLTIP_DESC: "W naszym kraju trwa #V bezterminowa#! $REGENCY$, co zapewnia następujące efekty: \n\n$EFFECTS$"
+ CURRENT_REGENCY_TOOLTIP_DESC: "W naszym kraju rządzi obecnie $REGENCY$ (do #V $DATE$#!), co zapewnia następujące efekty: \n\n$EFFECTS$"
+ CURRENT_REGENCY_INDEFINITELY_TOOLTIP_DESC: "W naszym kraju rządzi #V bezterminowo#! $REGENCY$, co zapewnia następujące efekty: \n\n$EFFECTS$"
  #Heir Selection custom rules
  supported_heirs_rule: "• Postacie muszą być wspierane przez obce państwa działaniem [ShowRelationTypeName('support_heir')] lub mieć naszą przychylność dzięki działaniu [ShowCharacterInteractionName('favor_heir')]"
  no_female_heirs_for_poland: "• W kraju [GetCountry('POL').GetName] dziedzic NIE może być płci żeńskiej"
