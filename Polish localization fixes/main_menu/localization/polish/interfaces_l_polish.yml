@@ -5710,7 +5710,7 @@
  QUICK_IS_ADMIRAL: "[CHARACTER.GetUnitPointer.GetName]: admirał"
  QUICK_IS_ARTIST: "[CHARACTER.GetArtistType.GetName]"
  QUICK_IS_CHILD: "[CHARACTER.GetCourtCountry.GetLongName] – dziecko"
- QUICK_IS_NORMAL: "[CHARACTER.GetCourtCountry.GetLongName] – nadworny $TITLE$"
+ QUICK_IS_NORMAL: "[CHARACTER.GetCourtCountry.GetLongName] – $TITLE$"
  QUICK_IS_DEAD: "[CHARACTER.GetCourtCountry.GetLongName] – nie żyje"
  CHAR_INTE_ONLY_FOREIGN: "@trigger_no! Dotyczy tylko obcych postaci"
  CHAR_INTE_ONLY_DOMESTIC: "@trigger_no! Dotyczy tylko postaci z naszego kraju."
