@@ -1,9 +1,9 @@
 ﻿l_polish:
  diplomatic_annex.1.title: "[target.GetNameWithNoTooltip]: aneksja"
- diplomatic_annex.1.desc: "Integracja prowincji [target.GetLongName] nie była łatwa, ale odkąd [target.GetCapital.GetName] to [ROOT.GetCountry.GetAdjective|l]ka [target.GetCapital.GetRank.GetNameWithNoTooltip|l], ziemie te mają szansę osiągnąć pełny potencjał i przyczynić się do większego dobrobytu naszego państwa.\n\nInnym krajom nie w smak była jednak nasza ekspansja terytorialna."
+ diplomatic_annex.1.desc: "Integracja prowincji [target.GetLongName] nie była łatwa, ale odkąd [target.GetCapital.GetName] to [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l][Select_CString(target.GetCapital.GetRank.IsDefault, 'ka', 'kie')] [target.GetCapital.GetRank.GetNameWithNoTooltip|l], ziemie te mają szansę osiągnąć pełny potencjał i przyczynić się do większego dobrobytu naszego państwa.\n\nInnym krajom nie w smak była jednak nasza ekspansja terytorialna."
  diplomatic_annex.1.a: "Oderint dum metuant!"
- every_subject_hates_us_tt: "[ROOT.GetCountry.GetLongName]: nasi [subjects|el] zmieniają [Concept('opinion','opinię')|e] o kraju o [ShowBiasValue('opinion_annexed_other_subject')|+=0]"
- every_annex_target_neighbor_hates_us_tt: "[ROOT.GetCountry.GetLongName]: każdy [country|el] sąsiadujący z państwem [target.GetName] zmienia [Concept('opinion','opinię')|e] o [ShowBiasValue('opinion_annexed_neighbor')|+=0]"
+ every_subject_hates_us_tt: "[ROOT.GetCountry.GetLongName]: nasi [subjects|el] zmieniają [Concept('opinion','opinię')|e] o nas o [ShowBiasValue('opinion_annexed_other_subject')|+=0]"
+ every_annex_target_neighbor_hates_us_tt: "[ROOT.GetCountry.GetLongName]: każdy [country|el] sąsiadujący z państwem [target.GetName] zmienia [Concept('opinion','opinię')|e] o nas o [ShowBiasValue('opinion_annexed_neighbor')|+=0]"
  opinion_annexed_neighbor: "Anektowano sąsiada"
  opinion_annexed_other_subject: "Anektowano kolejnego [Concept('subject','poddanego')|e]"
  historical_rival_events.1.title: "[rivalling_country.GetAdjectiveWithNoTooltip]ko–[target_country.GetAdjectiveWithNoTooltip|l]ka rywalizacja"
