@@ -387,7 +387,7 @@
  CIVILWAR_FACTION_tribes_estate_ADJECTIVE: "Plemienn."
  CIVILWAR_FACTION_cossacks_estate_ADJECTIVE: "Kozac"
  REBEL_NAME_religious: "[RELIGION.GetNameWithNoTooltip]: fanatycy"
- REBEL_NAME_nationalist: "[CULTURE.Custom('Culture_adj')|l]cy patrioci"
+ REBEL_NAME_nationalist: "[CULTURE.Custom('Culture_adj')|U]cy patrioci"
  REBEL_NAME_slave: "Powstanie [COUNTRY.GetAdjectiveWithNoTooltip|l]kich niewolników"
  REBEL_NAME_pretender: "[COUNTRY.GetAdjectiveWithNoTooltip]cy pretendenci"
  REBEL_NAME_estate: "[ESTATE.GetNameWithNoTooltip] powstańcy"
