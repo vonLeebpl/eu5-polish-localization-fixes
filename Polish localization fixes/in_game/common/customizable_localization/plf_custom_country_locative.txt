@@ -111,5 +111,5 @@
         fallback = yes
     }
 
-    if_invalid_loc = fallback_to_next_entry
+    if_invalid_loc = return_empty
 }
