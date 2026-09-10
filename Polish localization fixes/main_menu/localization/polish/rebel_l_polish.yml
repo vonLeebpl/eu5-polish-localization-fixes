@@ -62,7 +62,7 @@
  horde_civil_war_pretender: "Rywalizujący wódz – [COUNTRY.GetNameWithNoTooltip]"
  horde_civil_war_pretender_country: "Rywalizujący $ADJ$ki wódz"
  horde_civil_war_pretender_country_adjective: "Rywalizującego $ADJ$kiego wodza"
- rebellious_masses_name: "Zbuntowana tłuszcza [COUNTRY.Custom('C_DOP')]"
+ rebellious_masses_name: "Zbuntowana tłuszcza państwa [COUNTRY.GetNameWithNoTooltip]"
  rebellious_masses_name_country: "Zbuntowana tłuszcza ($ADJ$)"
  rebellious_masses_name_country_adjective: "Zbuntowana $ADJ$ka tłuszcza"
  revolutionary_rebel: "[COUNTRY.GetAdjectiveWithNoTooltip]cy rewolucjoniści"
