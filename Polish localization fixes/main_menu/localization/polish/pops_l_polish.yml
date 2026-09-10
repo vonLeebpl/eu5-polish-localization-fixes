@@ -41,4 +41,4 @@
  POP_TYPE_SCALE_FOR_ASS_CON_PRO: "Ulega [Concept('assimilates','asymilacji')|e] i [Concept('converts','nawróceniu')|e] z prędkością $VAL|2%V$."
  POP_TYPE_SCALE_FOR_PROMOTE_PRO: "[Concept('promoted','Awans')|e] z prędkością $VAL|2%V$."
  POP_TYPE_SCALE_FOR_MIGRATE_PRO: "[migrates|e] z prędkością $VAL|2%V$."
- POP_TYPE_SCALE_FOR_PROMOTE_PRO_BY_TYPE: "[POP_TYPE.GetName] [Concept('promote','awansuje')|e] w tempie $SPEED|2%V$.\n"
+ POP_TYPE_SCALE_FOR_PROMOTE_PRO_BY_TYPE: "[POP_TYPE.GetName] [Concept('promote','awansują')|e] w tempie $SPEED|2%V$.\n"
