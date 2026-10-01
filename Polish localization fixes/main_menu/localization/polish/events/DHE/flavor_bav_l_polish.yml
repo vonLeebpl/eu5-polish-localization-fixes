@@ -77,7 +77,7 @@
  flavor_bav.23.b: "Zamiast tego zainwestujmy w postęp wojskowy."
  flavor_bav.24.title: "Zabójstwo w opactwie"
  flavor_bav.24.entry: "$flavor_bav.24.title$"
- flavor_bav.24.desc: "[ShowBuildingTypeName('scriptorium')] w małej wiosce niedaleko [ShowLocationName('garmisch')] słynie z wybitnych ilustratorów i malarzy. Niedawno opactwem wstrząsnęła skandaliczna zbrodnia – na terenie tej szanowanej instytucji zamordowano młodego lorda. Na szczęście [target_artist.GetName], mieszkający w wiosce od lat, tworząc swoje arcydzieła, pomógł w śledztwie. Tak utalentowany artysta o bystrym, detektywistycznym umyśle, z pewnością będzie wspaniałym nabytkiem dla naszego kraju."
+ flavor_bav.24.desc: "[ShowBuildingTypeName('scriptorium')] w małej wiosce niedaleko [ShowLocationName('garmisch')] słynie z wybitnych ilustratorów i malarzy. Niedawno opactwem wstrząsnęła skandaliczna zbrodnia – na terenie tej szanowanej instytucji zamordowano młodego lorda. Na szczęście mieszkający w wiosce od lat i tworzący w niej swe arcydzieła [target_artist.GetName] pomógł w śledztwie. Tak utalentowany artysta o bystrym, detektywistycznym umyśle, z pewnością będzie wspaniałym nabytkiem dla naszego kraju."
  flavor_bav.24.a: "Niechaj [target_artist.GetNameWithNoTooltip] natychmiast do nas przybędzie."
  flavor_bav.24.a.entry: "Wezwać go natychmiast!"
  flavor_bav.24.b: "Na pewno sam dorobi się fortuny."

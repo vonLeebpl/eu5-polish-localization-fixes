@@ -3,6 +3,16 @@
  DISASTER_BREAKDOWN: "Analiza katastrofy"
  no_event_occurs_tt: "Nie występuje żadne [event|el]"
  an_event_occurs_tt: "Może wystąpić [event|el] związane z tą [Concept('disaster','katastrofą')|e]"
+ #Oligarchic Capture
+ #Disaster
+ oligarchic_capture: "Przejęcie oligarchiczne"
+ oligarchic_capture_desc: "Kontrola, jaką ma korona nad republiką, osłabła, przez co potężna frakcja sięga po stery państwa. Reformy prawa utknęły w miejscu, a opozycja jest uciszana. Jeśli nie zaczniemy działać, oligarchowie postawią się ponad wolą ludu..."
+ oligarchic_faction_name: "Frakcja oligarchiczna"
+ #Crisis of Faith
+ #Disaster
+ crisis_of_faith: "Kryzys wiary"
+ crisis_of_faith_desc: "Oddanie kościołowi państwowemu załamało się, przez co duchowni rywale wypełniają pustkę schizmą i reformą. Kler dzieli się na tych, którzy chcieliby czystki wśród heretyków, oraz tych, którzy chcieliby z nimi paktować. Nasza pozycja państwa naznaczonego przez niebiosa wisi na włosku..."
+ schismatic_clergy_name: "Duchowni schizmatycy"
  #Succession Crisis
  #Disaster
  succession_crisis: "Kryzys sukcesyjny"
@@ -204,6 +214,7 @@
  death_of_hayan_wuruk: "[GetCharacter('maj_hayam_wuruk').GetNameWithNoTooltip] ponosi śmierć"
  death_of_hayan_wuruk_desc: "[GetCharacter('maj_hayam_wuruk').GetName] nie żyje, a [GetCountry('MAJ').GetFlavorRank|l] pogrąża się w wielkim niepokoju. Okres ten może trwać wiele lat, ci zaś, którzy niegdyś się nam kłaniali, mogą się zbuntować i podać w wątpliwość naszą władzę. Dyskusja nad sukcesją i osłabienie naszej #L [GetCountry('MAJ').GetAdjective|l]kiej#! władzy to dwa najważniejsze problemy, którym trzeba natychmiast zaradzić, jeśli chcemy przetrwać tę katastrofę."
  hayan_wuruk_has_passed_tt: "[GetCharacter('maj_hayam_wuruk').GetName] zmarł w ciągu ostatnich #Y 10#! lat"
+ death_of_hayan_wuruk_time_limit_tt: "Jeśli [disaster|el] potrwa co najmniej #Y 20#! lat, zakończenie jej sprawi, że wszyscy nasi [subjects|el] zyskają wolność (#Y [THIS.GetVariable('maj_death_of_hayan_wuruk_timer').GetValue]#!/#Y 240#! miesięcy)"
  #Curse of Stefan Uros III
  #Disaster
  curse_of_stefan_uros_iii: "[GetCharacter('ser_stefan_decanski').GetNameWithNoTooltip] i jego klątwa"
@@ -237,7 +248,7 @@
  decline_of_empire_desc: "Nasze włości, niegdyś potężne i niezachwiane, teraz chwieją się na krawędzi upadku. Korupcja rozwija się w naszych instytucjach, w prowincjach panuje niepokój wywołany zaniedbaniami, zaś obce mocarstwa krążą niczym sępy, tylko czekając, by wyrwać ostatnie ochłapy naszej chwały. Złoty wiek, którym niegdyś się szczyciliśmy, poszedł w zapomnienie, a pęknięcia w naszych fundamentach powiększają się z każdym dniem. Jeśli nie podejmiemy szybko jakichś działań, by zająć się zgnilizną wewnątrz i odzyskać kontrolę, nasze imperium upadnie, pozostawiając po sobie jedynie ruiny i żal, będące cieniem dawnej chwały..."
  has_not_had_decline_of_empire_last_25_years: "Ta [disaster|el] nie wystąpiła w ostatnich #Y 25#! latach"
  not_recently_become_empire_tt: "Miał [Concept('country_rank','rangę kraju')|e] „[ShowCountryRankName('rank_empire')|l]” przez co najmniej #Y 15#! lat"
- complacent_decline_actions_price: "Koszt działań, gdy trwa $decline_of_empire$"
+ decline_of_empire_actions_price: "Koszt działań, gdy trwa $decline_of_empire$"
  cd_inspect_area: "Inspekcja obszaru"
  cd_inspect_area_desc: "[actor.GetFlavorRank] za długo spoczywa na laurach. Czas przypomnieć obszarom w naszych granicach, że to my rządzimy, tłamsząc wszelkie ambicje, jakie mogą mieć."
  selected_area_inspected_tt: "Wybrany [area|e] zostanie poddany inspekcji, przez co obniży się [pop_satisfaction|el] i [complacency|el], ale wzrośnie [control|el] jego kluczowych [Concept('provinces','prowincji')|e].\n#italic Skuteczność tej inspekcji zależy głównie od [Concept('population','populacji')|e] [Concept('area','obszaru')|e], jak również naszego modyfikatora [ShowModifierTypeName('legislative_efficiency')]#!"
@@ -278,3 +289,10 @@
  #Twilight of the Tsardom
  twilight_of_the_tsardom: "[ShowGovernmentReformNameWithNoTooltip('tsardom')] i jego zmierzch"
  twilight_of_the_tsardom_desc: "Od śmierci Iwana Asena II [GetCountry('BUL').GetName] zmagała się ze słabą władzą, konfliktami szlachty i presją zza granic. Obciążone zarówno podziałem wewnętrznym, jak i zagrożeniami zewnętrznymi, [GetCountry('BUL').GetFlavorRank|l] wkracza w niebezpieczny okres, z którego może wyjść obronną ręką lub popaść w ruinę."
+ crisis_of_faith_schismatic_clergy_won_civil_war_tt: "#Y Duchowieństwo Schizmatyckie#! wygrało wojnę domową"
+ oligarchic_capture_faction_won_civil_war_tt: "#Y Fakcja Oligarchiczna#! wygrała wojnę domową i przejęła kontrolę nad państwem"
+ oligarchic_faction_not_active_tt: "Nie ma aktywnej #Y Fakcji Oligarchicznej#! [rebels|e]"
+ rise_of_the_szlachta_burghers_empowered: "Wzmocnienie Mieszczaństwa"
+ rise_of_the_szlachta_crown_triumphant: "Triumf Korony"
+ rise_of_the_szlachta_nobles_ascendant: "Wzrost Szlachty"
+ schismatic_clergy_not_active_tt: "Nie ma aktywnego #Y Duchowieństwa Schizmatyckiego#! [rebels|e]"

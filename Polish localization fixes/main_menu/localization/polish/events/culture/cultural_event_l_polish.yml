@@ -54,3 +54,7 @@
  cultural_event.14.desc: "[ShowBuildingTypeName('university')] i jego rozkwitające życie intelektualne w prowincji [target_location.GetName] wymagają znacznych środków. Jeśli chcemy finansować rozwój scholastyki oraz humanizmu, jak też zaspokoić ponowny głód obcowania z dziedzictwem antyku, pieniądze z państwowego skarbca muszą popłynąć szerokim strumieniem\n\n[ShowBuildingTypeNameWithNoTooltip('university')] nie opływa w bogactwa, ale ma za to znakomitych akademików, którzy w zamian za wsparcie placówki znaczną kwotą byliby skłonni nam służyć. Cena jest wygórowana, ale dobry nauczyciel może się sprawdzić jako [ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle]..."
  cultural_event.14.a: "Głodne umysły nakarmić!"
  cultural_event.14.b: "Odmawiamy sfinansowania tej instytucji."
+ cultural_event.15.a: "Nasz lud stanie się [scope:new_merged_culture.GetName]."
+ cultural_event.15.b: "Pozostaniemy tym, kim byliśmy zawsze."
+ cultural_event.15.desc: "[scope:unifying_country.GetLongName] zjednoczyło ludy [scope:merged_group.GetName] w jeden lud [scope:new_merged_culture.GetName], a ich wysłannicy stoją teraz przed nami. Wezwają nas, byśmy odłożyli na bok nasze dawne podziały i przyjęli nazwę [scope:new_merged_culture.GetName], abyśmy mogli dzielić jeden lud i jeden los. Wyzbycie się tożsamości naszych przodków to rzecz niebagatelna."
+ cultural_event.15.title: "Jedność ludu [scope:new_merged_culture.GetName]"

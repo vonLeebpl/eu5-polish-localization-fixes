@@ -831,6 +831,10 @@
  iw_increase_tension_effect_tt: "[GetSituationByKey('italian_wars').GetName] – [situation_tension|el] rośnie o $VALUE|+$"
  iw_decrease_tension_effect_tt: "[GetSituationByKey('italian_wars').GetName] – [situation_tension|el] spada o $VALUE|-$"
  iw_reset_tension_effect_tt: "[GetSituationByKey('italian_wars').GetName] – [situation_tension|el] jest zresetowane do #Y 0#!"
+ #Battle for the Strait — influence_over_granada signed axis
+ change_influence_over_granada_effect_tt: "$influence_over_granada$ przesuwa się o $VALUE|+$ w kierunku [GetCountry('MOR').GetName]"
+ pull_granada_toward_castile_effect_tt: "$influence_over_granada$ przesuwa się o $VALUE|-$ w kierunku [GetCountry('CAS').GetName]"
+ #Battle for the Strait — granadan_sovereignty [0..100]
  challenge_action_locked_for_everyone_for_10_years_tt: "[action|e] [ShowGenericActionName('challenge_league_leadership')] nie będzie dostępne dla [Concept('members','członków')|e] naszej ligi przez #Y 10#! lat"
  historical_rival_key: "#Y $opinion_historical_rival$#!"
  ADD_HISTORICAL_RIVAL_EFFECT: "Państwo [TARGET_COUNTRY.GetName] postrzegane jako $historical_rival_key$"
@@ -879,5 +883,6 @@
  ####
  add_random_dip_ruler_trait_tt: "Nasza [Concept('ruler','osoba rządząca')|e] zyska losową [Concept('trait','cechę')|e] istotną dla [Concept('diplomacy','dyplomacji')|e]"
  add_random_dip_regent_trait_tt: "Nasza [Concept('regent','osoba sprawująca regencję')|e] zyska losową [Concept('trait','cechę')|e] istotną dla [Concept('diplomacy','dyplomacji')|e]"
+ gain_random_positive_trait_for_cabinet_tt: "Zyskuje losową pozytywną [Concept('trait','cechę')|e] pasującą do służby w naszym [Concept('cabinet','gabinecie')|e]"
  new_child_for_ruler: "[ROOT.GetCountry.GetGovernment.GetRulerTitle] ma nowe dziecko"
- reset_complacency_tt: "Nasza [complacency|el] zostanie zresetowana do #Y 0#!"
+ holy_war_scaled_gold_transfer_fallback_tt: "Płaci złoto państwu wysuwającemu żądania"

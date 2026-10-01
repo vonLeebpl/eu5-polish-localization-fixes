@@ -309,3 +309,4 @@
  flavor_lit.46.historical_info: "W połowie XIV wieku Litwa stała się ważną europejską siłą i jej władcy zaczęli skłaniać się ku bardziej uregulowanym praktykom dziedziczenia podobnym do tych z sąsiednich królestw chrześcijańskich. Pomogło to ustabilizować dynastię oraz stało warunkiem wstępnym dla późniejszej unii dynastycznej z Polską."
  flavor_lit.46.a: "Niech odtąd dziedziczy najstarszy syn."
  flavor_lit.46.b: "Nasze tradycje się sprawdzają – zachowamy je."
+ lit_offer_hand_to_poland_tt: "[GetCountry('POL').GetNameWithNoTooltip] zdecyduje, jak odpowiedzieć: może przyjąć propozycję, otwierając drogę do pokojowej unii, albo odmówić i otrzymać [casus_belli|e] do wysunięcia roszczeń do tronu"

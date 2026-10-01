@@ -193,3 +193,4 @@
  devotion_events.219.desc: "Nie minęło wiele miesięcy, odkąd wyznaczyliśmy nowego kadiego – sędziego orzekającego zgodnie z szariatem – dla każdej z naszych prowincji, ale wielu z nich już przychodzi do nas ze zmarszczonymi brwiami i zatroskanym wzrokiem. Mówią nam o dekadencji naszych poddanych, ich zbrodniach i bezbożnych wyborach. Przypominają nam surowo o hisbie – naszym bosko usankcjonowanym obowiązku interweniowania, nakazywania dobra i zakazywania zła. Prawa, jakie nadaje [ROOT.GetCountry.GetReligion.GetGodName], muszą być przestrzegane. Nasi ludzie potrzebują muṭṭawwi'īn – policji religijnej – do egzekwowania szariatu."
  devotion_events.219.a: "Znaleźć ochotników i wyszkolić ich na muḥtasibów."
  devotion_events.219.b: "To nie jest właściwy sposób rozwiązania problemu."
+ devotion_events.219.c: "Niech [ShowBureaucracyTypeNameWithNoTooltip('mazalim_court_bureaucracy')|l] wysłucha tych skarg."

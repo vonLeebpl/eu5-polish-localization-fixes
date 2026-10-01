@@ -50,3 +50,6 @@
  d008_orthodox_events.14.title: "Patriarcha przenosi się do Rzymu"
  d008_orthodox_events.14.desc: "[scope:actor.GetName] przenosi patriarchat ekumeniczny do Rzymu, wysuwając otwarte żądanie wobec naszego miasta."
  d008_orthodox_events.14.a: "Nigdy nie oddamy Rzymu."
+ d008_orthodox_events.4.b_destroyed: "Nie ma już nic, co można by zwrócić."
+ d008_orthodox_events.4.desc_destroyed: "[target_art.GetName] zostało zniszczone, będąc pod naszą opieką, i nie istnieje już, by można je zwrócić do [origin_country.GetName]."
+ d008_orthodox_events.6.desc_destroyed: "Pożyczenie [target_art.GetName] państwu [target_country.GetLongName] dobiegło końca. Niestety [target_art.GetNameWithNoTooltip] zostało zniszczone, będąc pod ich opieką, i nigdy nie zostanie nam zwrócone."

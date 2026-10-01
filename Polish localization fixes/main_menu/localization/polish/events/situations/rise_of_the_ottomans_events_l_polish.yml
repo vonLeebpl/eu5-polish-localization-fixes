@@ -13,7 +13,7 @@
  rise_of_the_ottomans.5.title: "Rozkwit narodu tureckiego"
  rise_of_the_ottomans.5.desc: "Nasze osiągnięcia wykroczyły poza najśmielsze marzenia i ambicje założyciela naszej dynastii. Co nas teraz czeka?"
  rise_of_the_ottomans.5.a: "Nasze państwo będzie trwać wiecznie!"
- ability_to_form_rum_tt: "Przywróć sułtanat Rum"
+ ability_to_form_rum_tt: "Zapewni możliwość przywrócenia sułtanatu Rumu"
  history_rewritten_tt: "#italic Historia została na nowo napisana. Stojąc u progu świetności naszego rosnącego kraju, przyswoimy spuściznę i chwałę tych, którzy utorowali dam drogę do wielkości.#!"
  rise_of_the_ottomans.6.title: "[ROOT.GetCountry.GetNameWithNoTooltip]: czas rozkwitu"
  rise_of_the_ottomans.6.desc: "Nasza walka z zagrożeniami ze strony sąsiadów sprawiła, że udało nam się osiągnąć silną pozycję, zarówno jeśli chodzi o kwestie wewnętrzne, jak i zewnętrzne, z jakimi mierzy się [ShowRegionName('anatolia_region')]. Dzięki nowym wpływom z pewnością rzucimy na kolana nawet swoich najpotężniejszych wrogów!"

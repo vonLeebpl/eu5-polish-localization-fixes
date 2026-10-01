@@ -3,7 +3,7 @@
  DAI_NGU_ADJ: "$DAI_NGU$"
  flavor_chi_dai.1.title: "[target_character.GetNameWithNoTooltip]"
  flavor_chi_dai.1.entry: "Hồ Quý Ly na dworze"
- flavor_chi_dai.1.desc: "Dzięki sprytnym posunięciom politycznym oraz głębokim koneksjom, [target_character.GetName] zdołałaprzeniknąć na #L [ROOT.GetCountry.GetAdjective|l]ki#! dwór. Choć jest to uzdolniony generał, jego ambicje to coś, o czym musimy pamiętać. Wiele osób uważa, że może on stanowić zagrożenie dla #L [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]kiej#! stabilności. Miejmy nadzieję, że to tylko plotki."
+ flavor_chi_dai.1.desc: "Dzięki sprytnym posunięciom politycznym oraz głębokim koneksjom, [target_character.GetName] zdołał przeniknąć na #L [ROOT.GetCountry.GetAdjective|l]ki#! dwór. Choć jest to uzdolniony generał, jego ambicje to coś, o czym musimy pamiętać. Wiele osób uważa, że może on stanowić zagrożenie dla [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]kiej stabilności. Miejmy nadzieję, że to tylko plotki."
  flavor_chi_dai.ho_quy_ly_historical_info: "Początek XV wieku to czas upadku dynastii Trần na rzecz jednego z ich ministrów imieniem $ho_dynasty$ $name_quy$ $name_ly$. Po przewrocie doszło do wojny z dynastią $MNG$, wskutek której Chińczycy zdołali zawładnąć Wietnamem w ramach prowincji $jiaozhi_province$. Okupacja ta trwała aż do 1428 roku, kiedy to chińska armia zmuszona była się wycofać po latach walk z wietnamskimi powstaniami."
  flavor_chi_dai.1.a: "Ciekawe"
  flavor_chi_dai.2.title: "Niespodziewany przewrót"
