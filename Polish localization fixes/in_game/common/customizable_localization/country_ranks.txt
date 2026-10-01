@@ -429,6 +429,48 @@
 		}
 	}
 
+	# PLF: przywrocone po konsolidacji wanilii 1.4 (usunieto stad dynastyczne
+	# wpisy Marynidow/Zajjanidow/Hafsydow/Nasrydow, zostawiajac tylko Mamelukow
+	# - przez co ich kraje spadaly do genrycznego rank_empire_muslim i golego,
+	# nieprzetlumaczonego GetDynasticPrefix). Tlumaczenia *_prefix nadal sa w
+	# government_names_l_polish.yml.
+	text = {
+		localization_key = rank_empire_muslim_marinids
+		trigger = {
+			tag = MOR
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:marinid_dynasty ?= this }
+			country_rank_is_empire = yes
+			religion.group = religion_group:muslim
+		}
+	}
+	text = {
+		localization_key = rank_empire_muslim_zayyanids
+		trigger = {
+			tag = TLE
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:zayyanid_dynasty ?= this }
+			country_rank_is_empire = yes
+			religion.group = religion_group:muslim
+		}
+	}
+	text = {
+		localization_key = rank_empire_muslim_hafsids
+		trigger = {
+			tag = TUN
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:hafsid_dynasty ?= this }
+			country_rank_is_empire = yes
+			religion.group = religion_group:muslim
+		}
+	}
+	text = {
+		localization_key = rank_empire_muslim_nasrids
+		trigger = {
+			tag = GRA
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:nasrid_dynasty ?= this }
+			country_rank_is_empire = yes
+			religion.group = religion_group:muslim
+		}
+	}
+
 	text = {
 		localization_key = rank_empire_tsar
 		trigger = {
@@ -988,6 +1030,44 @@
 		trigger = {
 			tag = MAM
 
+			country_rank_is_kingdom = yes
+			religion.group = religion_group:muslim
+		}
+	}
+
+	# PLF: przywrocone po konsolidacji wanilii 1.4 - patrz komentarz przy rank_empire_muslim_marinids.
+	text = {
+		localization_key = rank_kingdom_muslim_marinids
+		trigger = {
+			tag = MOR
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:marinid_dynasty ?= this }
+			country_rank_is_kingdom = yes
+			religion.group = religion_group:muslim
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_muslim_zayyanids
+		trigger = {
+			tag = TLE
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:zayyanid_dynasty ?= this }
+			country_rank_is_kingdom = yes
+			religion.group = religion_group:muslim
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_muslim_hafsids
+		trigger = {
+			tag = TUN
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:hafsid_dynasty ?= this }
+			country_rank_is_kingdom = yes
+			religion.group = religion_group:muslim
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_muslim_nasrids
+		trigger = {
+			tag = GRA
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:nasrid_dynasty ?= this }
 			country_rank_is_kingdom = yes
 			religion.group = religion_group:muslim
 		}
@@ -1629,6 +1709,44 @@
 				culture = { has_culture_group = culture_group:iberian_group }
 			}
 			religion.group ?= religion_group:muslim
+		}
+	}
+
+	# PLF: przywrocone po konsolidacji wanilii 1.4 - patrz komentarz przy rank_empire_muslim_marinids.
+	text = {
+		localization_key = rank_duchy_muslim_marinids
+		trigger = {
+			tag = MOR
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:marinid_dynasty ?= this }
+			country_rank_is_duchy = yes
+			religion.group = religion_group:muslim
+		}
+	}
+	text = {
+		localization_key = rank_duchy_muslim_zayyanids
+		trigger = {
+			tag = TLE
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:zayyanid_dynasty ?= this }
+			country_rank_is_duchy = yes
+			religion.group = religion_group:muslim
+		}
+	}
+	text = {
+		localization_key = rank_duchy_muslim_hafsids
+		trigger = {
+			tag = TUN
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:hafsid_dynasty ?= this }
+			country_rank_is_duchy = yes
+			religion.group = religion_group:muslim
+		}
+	}
+	text = {
+		localization_key = rank_duchy_muslim_nasrids
+		trigger = {
+			tag = GRA
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:nasrid_dynasty ?= this }
+			country_rank_is_duchy = yes
+			religion.group = religion_group:muslim
 		}
 	}
 

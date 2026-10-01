@@ -15,20 +15,3 @@
  dangerous_wild_animal_shark_GEN: "rekina"
  dangerous_wild_animal_kraken_GEN: "krakena"
  dangerous_wild_animal_default_GEN: "dzikiego zwierzęcia"
-
- # Przymiotniki dynastyczne dla GetDynasticPrefix (uzywane m.in. przez
- # country_name_construction_pol_static_name: "$PREFIX$ $RANK$ $NAME$").
- # Po konsolidacji w wanilii 1.4 rang rank_*_muslim_marinids/zayyanids/
- # hafsids/nasrids do generycznych rank_*_muslim przepadly wyzwalacze
- # dla osobnych wpisow *_prefix w government_names_l_polish.yml (nadal
- # tam sa, "Marynidzki"/"Zajjanidzki"/"Hafsydski"/"Nasrydzki", ale nic
- # juz ich nie wybiera). GetDynasticPrefix nie ma w ogole polskiego
- # przymiotnika dla tych dynastii i spada do golej nazwy dynastii
- # (marinid_dynasty: "Marinid") - stad "Marinid Sultanat Maroko" zamiast
- # "Marynidzki Sultanat Maroko". Klucz <dynasty>_ADJ to potwierdzona
- # konwencja silnika (patrz vanilla capet_dynasty_ADJ/carolingian_dynasty_ADJ
- # w dynasty_names_l_polish.yml).
- marinid_dynasty_ADJ: "Marynidzki"
- hafsid_dynasty_ADJ: "Hafsydski"
- nasrid_dynasty_ADJ: "Nasrydzki"
- zayyanid_dynasty_ADJ: "Zajjanidzki"
