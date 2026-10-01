@@ -470,6 +470,17 @@
 			religion.group = religion_group:muslim
 		}
 	}
+	# PLF: Rasulidzi (Jemen) - ten sam problem co Marynidzi/Hafsydzi/Nasrydzi/
+	# Zajjanidzi, ale nigdy nie mieli wlasnego wpisu (nie tylko po 1.4).
+	text = {
+		localization_key = rank_empire_muslim_rasulids
+		trigger = {
+			tag = YEM
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:rasulid_dynasty ?= this }
+			country_rank_is_empire = yes
+			religion.group = religion_group:muslim
+		}
+	}
 
 	text = {
 		localization_key = rank_empire_tsar
@@ -1068,6 +1079,15 @@
 		trigger = {
 			tag = GRA
 			ruler_or_heir_if_regent.dynasty ?= { dynasty:nasrid_dynasty ?= this }
+			country_rank_is_kingdom = yes
+			religion.group = religion_group:muslim
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_muslim_rasulids
+		trigger = {
+			tag = YEM
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:rasulid_dynasty ?= this }
 			country_rank_is_kingdom = yes
 			religion.group = religion_group:muslim
 		}
@@ -1745,6 +1765,15 @@
 		trigger = {
 			tag = GRA
 			ruler_or_heir_if_regent.dynasty ?= { dynasty:nasrid_dynasty ?= this }
+			country_rank_is_duchy = yes
+			religion.group = religion_group:muslim
+		}
+	}
+	text = {
+		localization_key = rank_duchy_muslim_rasulids
+		trigger = {
+			tag = YEM
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:rasulid_dynasty ?= this }
 			country_rank_is_duchy = yes
 			religion.group = religion_group:muslim
 		}
