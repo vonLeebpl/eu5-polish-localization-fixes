@@ -333,7 +333,7 @@
  royal_factories_reform: "Królewskie fabryki"
  royal_factories_reform_desc: "Królewskie fabryki to finansowane przez państwo manufaktury, które nadzoruje bezpośrednio [ShowEstateTypeName('crown_estate')|l]. Produkują towary strategiczne i luksusowe w ramach wsparcia merkantylistycznej, scentralizowanej polityki gospodarczej."
  royal_council_of_castile: "Królewska Rada Kastylii"
- royal_council_of_castile_desc: "$royal_council_of_castile$ to scentralizowana rada królewska, której zadaniem jest usprawnienie poboru podatków, wymiaru sprawiedliwości i administracji, jakie bezpośrednie nadzoruje [ShowEstateTypeName('crown_estate')|l]."
+ royal_council_of_castile_desc: "$royal_council_of_castile$ to scentralizowana rada królewska, której zadaniem jest usprawnienie poboru podatków, wymiaru sprawiedliwości i administracji, jakie bezpośrednio nadzorują [ShowEstateTypeName('crown_estate')|l]."
  nueva_planta: "Nueva Planta"
  nueva_planta_desc: "$nueva_planta$ to seria dekretów i reform, sformalizowane w celu zniesienia regionalnych przywilejów prawnych oraz stworzenia jednego, jednolitego państwa podlegającego władzy centralnej."
  crown_aragon_reform: "Korona Aragonii"
