@@ -42,3 +42,7 @@
  culture_getnamewithnotooltip_localisation: "[Culture.GetNameWithNoTooltip]"
  culturegroup_getnamewithnotooltip_localisation: "[CultureGroup.GetNameWithNoTooltip]"
  ##
+
+ ##
+ ## Decisions - "unique content" panel categories, 1.4
+ PLF_UNIQUE_CONTENT_CATEGORY_NAME: "[UniqueContentCategory.GetName]"
