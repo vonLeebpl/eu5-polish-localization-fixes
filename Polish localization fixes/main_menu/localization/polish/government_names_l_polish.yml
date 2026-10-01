@@ -370,7 +370,7 @@
  rank_duchy_muslim_zayyanids_ADJ: "$rank_duchy_muslim_ADJ$"
  rank_duchy_muslim_zayyanids_ruler_male: "$rank_duchy_muslim_ruler_male$"
  rank_duchy_muslim_zayyanids_ruler_female: "$rank_duchy_muslim_ruler_female$"
- rank_empire_muslim_hafsids_prefix: "Hafsydski"
+ rank_empire_muslim_hafsids_prefix: "Hafsydzki"
  rank_empire_muslim_hafsids: "$rank_empire_muslim$"
  rank_empire_muslim_hafsids_ADJ: "$rank_empire_muslim_ADJ$"
  rank_empire_muslim_hafsids_ruler_male: "$rank_empire_muslim_ruler_male$"
