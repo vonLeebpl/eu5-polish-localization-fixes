@@ -9,8 +9,12 @@
  country_name_construction_prefix_adjective_rank: "$PREFIX$ $RANK$ $NAME$"
  country_name_construction_prefix_adjective_rank_map: "$NAME$"
  country_name_construction_prefix_rank_of_name: "[AddTextIf(Not(EqualTo_string('$NAME$','Ameryka')), '$PREFIX$ $RANK$ $NAME$')][AddTextIf(EqualTo_string('$NAME$','Ameryka'), '$PREFIX$ $RANK$ Ameryki')]"
- country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank: "$PREFIX$ $RANK$ $ARTICLE$ $NAME$"
- country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank_map: "$PREFIX$ $RANK$"
+#  country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank: "$PREFIX$ $RANK$ $ARTICLE$ $NAME$"
+#  country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank_map: "$PREFIX$ $RANK$"
+# (zakomentowane: wanilia 1.4 odkomentowala ten klucz tez tutaj, co stworzylo
+# kolizje z nasza wlasciwa, inteligentna wersja w plf_country_names_construction_l_polish.yml
+# (ta z obsluga Egiptu/Wielkiej Brytanii/Viennois/Renu) - std "Mamlucki Sultanat Egipt"
+# zamiast "Mamlucki Sultanat Egipski" po scaleniu z 1.4.)
  country_name_construction_prefix_rank_of_name_map: "$NAME$"
   country_name_construction_prefix_name: "$PREFIX$ $NAME$"
   country_name_construction_prefix_name_map: "$PREFIX$ $NAME$"
