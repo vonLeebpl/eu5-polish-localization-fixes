@@ -48,7 +48,20 @@
 			}
 		}
 	}
-	
+
+	# NOWOŚĆ WANILII 1.4: Kalifat Hafsydów (Tunis). W praktyce prawdopodobnie
+	# i tak przechwytywany wcześniej przez naszą Sekcję 2 (5. ŚWIAT ISLAMU),
+	# zachowane dla zgodności z wanilią na wypadek, gdyby ten warunek trafił
+	# tu zanim cokolwiek innego go złapie.
+	text = {
+		localization_key = country_name_construction_prefix_rank_of_name
+		trigger = {
+			has_variable = hafsid_caliphate_name
+			country_rank_is_empire = yes
+			religion.group = religion_group:muslim
+		}
+	}
+
 	# UNIKALNE KORONY DYNASTYCZNE (Kastylia, Aragonia, Czechy, unia Polski)
 	text = {
 		localization_key = country_name_construction_crown
@@ -59,10 +72,7 @@
 				tag = CAS
 				AND = {
 					tag = POL
-					OR = {
-						is_in_union = yes
-						is_junior_partner = yes
-					}
+					has_advance = corona_regni_poloniae
 				}
 				AND = {
 					tag = BOH
