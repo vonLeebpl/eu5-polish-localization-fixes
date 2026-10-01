@@ -54,4 +54,7 @@
  raid_imperial_family_holdings_cta: "Kliknij, by najechać włości rodziny cesarskiej"
  hussite_tribunal: "Trybunał [ShowReligionAdjectiveWithNoTooltip('hussite')|l]ki"
  hussite_tribunal_desc: "Po opanowaniu lokacji nasi dowódcy powinni utworzyć polowe trybunały, by wykorzenić herezję #L [ShowReligionAdjective('hussite')|l]ką#! ze społeczności. Podejrzewani wyznawcy będą wzywani, by się jej publicznie wyprzeć albo stać się przykładem kary przed wszystkimi. Ci, którzy ulegną, na powrót przyjmą [ShowReligionName('catholic')|l], a tych, którzy odmówią, czeka więzienie lub śmierć. Niechaj [GetCountry('PAP').GetReligion.GetGodName] zlituje się nad ich duszami!"
+ tun_tax_raid: "Przeprowadzenie najazdu podatkowego"
+ tun_tax_raid_desc: "Niech nasz mahalla najedzie miejscowych pasterzy i rolników, by odebrać im bogactwa. Znajdziemy ich ukryte skrytki i zgromadzone dobra, a jeśli odmówią zapłacenia podatków, wymuszony okup będzie musiał wystarczyć."
+ tun_tax_raid_everyhighlighted_province: "Każda podświetlona [location|el]:"
  controller_is_not_owner_tt: "Jesteśmy obecnie [Concept('controller','kontrolerem')|e] tej [Concept('location','lokacji')|e] po [Concept('siege','oblężeniu')|e], ale nie jej [Concept('owner','właścicielem')|e]."

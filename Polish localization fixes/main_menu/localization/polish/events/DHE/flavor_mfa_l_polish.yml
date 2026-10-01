@@ -79,3 +79,4 @@
  flavor_mfa.1006.desc.negative: "Nie można ufać nikczemnej, zdradzieckiej #L [from_country.GetAdjective|l]kiej#! linii dynastii [target_character.GetDynasty.GetName]! Odmówili naszej pokornej prośbie pokojowego rozwiązania sytuacji. Zaprawdę te #L [ShowLanguageName('latin_language')|l]e#! diabły służą samemu Lucyferowi!"
  flavor_mfa.1006.affirmative: "Dziś zwycięża pokój."
  flavor_mfa.1006.negative: "Zdrada w rodzinie boli najbardziej."
+ mfa_start_war_against_byz_decision.desc.entry: "Nadszedł czas, by wezwać naszych sojuszników i wreszcie stawić czoła naszym pobratymcom w [ShowScriptedGeographyName('greece_geography')]."
