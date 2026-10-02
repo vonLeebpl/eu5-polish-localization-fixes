@@ -8321,7 +8321,7 @@
  LEGEND_KEY_LOCATION_RANK_COULD_BE: "Możliwa ranga: $RANK$"
  LEGEND_KEY_UNDER_CONSTRUCTION: "W budowie"
  LOAN_AMOUNT_WITH_REMAINING_INTEREST: "$AMOUNT|2$[gold_i] + $INTEREST|2$[gold_i]"
- MAINTENANCE_UNITTYPE_PER_1000: "Miesięczne [maintenance|e] (na #W 1000#! [strength])"
+ MAINTENANCE_UNITTYPE_PER_1000: "Miesięczne [maintenance|e] (przy [Concept('strength','sile')] #W 1000#!)"
  MARKET_GOOD_EXPORTS_TT_FORECAST_TITLE: "W tym miesiącu spodziewamy się [demand] ze strony [exports] na poziomie [Market.GetForecastExportTotal(Goods.Self)|W2] z powodu:"
  MARKET_GOOD_IMPORTS_TT_FORECAST_TITLE: "W tym miesiącu spodziewamy się [supply] z [imports] w wysokości [Market.GetForecastImportTotal(Goods.Self)|W2] z powodu:"
  MARKET_HUB_FOOD_TEXT_BURGHER_TRADE_BLOCKED: "[burgher_trade|E] nie wywiezie [food|e] z tego [market|e], dopóki [food_stockpile|e] pozostaje tak niskie."
