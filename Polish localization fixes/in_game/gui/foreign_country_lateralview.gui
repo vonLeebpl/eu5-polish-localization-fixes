@@ -96,14 +96,10 @@ types SubheaderTypes {
 	type diplomatic_relations_content = filtered_sorted_list {
 		datacontext = "[ForeignCountryView.GetDiplomaticRelationsSortSearch]"
 
-		blockoverride "scroll_list_is_empty" {
-			visible = "[IsDataModelEmpty(ForeignCountryView.GetDiplomaticRelations)]"
-		}
-
-		blockoverride "scroll_list_is_empty_text" {
-			position = { 0 87 }
-			text = "FOREIGN_COUNTRY_LIST_EMPTY"
-		}
+		# PLF: usunieto bloki "scroll_list_is_empty"/"scroll_list_is_empty_text"
+		# (odwolywaly sie do nieistniejacego klucza FOREIGN_COUNTRY_LIST_EMPTY -
+		# "Unlocalized text" w logu). Wanilia 1.4 sama usunela ten blockoverride
+		# z tego typu - dopasowano nasza kopie do aktualnej struktury wanilii.
 
 		blockoverride "scroll_list_setup" {
 			using = layoutpolicy_expanding
