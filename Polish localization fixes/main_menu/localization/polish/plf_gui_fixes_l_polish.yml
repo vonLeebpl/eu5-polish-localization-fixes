@@ -40,8 +40,8 @@
  ##
  ## SocietyTooltips Fixes
  culture_getnamewithnotooltip_localisation: "[Culture.GetNameWithNoTooltip]"
- culturegroup_getnamewithnotooltip_localisation: "[CultureGroup.GetNameWithNoTooltip]#color_yellow ka#!"
- languagefamily_getnamewithnotooltip_localisation: "[LanguageFamily.GetNameWithNoTooltip]#color_yellow ka#!"
+ culturegroup_getnamewithnotooltip_localisation: "[CultureGroup.GetNameWithNoTooltip]ka"
+ languagefamily_getnamewithnotooltip_localisation: "[LanguageFamily.GetNameWithNoTooltip]ka"
  ##
  ## CDPopEditor Fixes
  popentry_religiongetadjacentwithnotooltip_localization: "[PopEntry.GetReligion.GetAdjectiveWithNoTooltip][Select_CString(Or(EndsWith(PopEntry.GetReligion.GetAdjectiveWithNoTooltip, 'k'),Or(EndsWith(PopEntry.GetReligion.GetAdjectiveWithNoTooltip, 'n'),EndsWith(PopEntry.GetReligion.GetAdjectiveWithNoTooltip, 'ł'))),'a','ka')]"
