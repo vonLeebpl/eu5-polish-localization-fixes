@@ -5332,7 +5332,7 @@
  #CAS - Castile
  Avenger: "Mścicie[Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'lka','l')]"
  Cruel: "Okrutn[Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'a','y')]"
- Fratricidal: "Bratobójc[Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'a','zyni')]"
+ Fratricidal: "Bratobójca"
  Summoned: "Przyzwan[Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'a','y')]"
  Mute: "Niem[Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'a','y')]"
  Guzman: "Guzmán"
