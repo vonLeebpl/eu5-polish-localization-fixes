@@ -1124,7 +1124,7 @@
  COMPLACENCY_EFFECT_TT: "Jeśli @complacency! ma wartość [COUNTRY.GetCurrencyValue('complacency')] i trwają wymienione [disasters|e], wystąpią następujące efekty:"
  COMP_DISASTER_HEADER: "Te katastrofy aktywują efekty beztroski:"
  COMP_DISASTER_ENTRY: "$BULLET$ [DISASTER_TYPE.GetName]"
- POLITICAL_INFLUENCE_RESOURCE_TOOLTIP_T: "$game_concept_political_influence$ kraju [Country.GetNameWithNoTooltip]"
+ POLITICAL_INFLUENCE_RESOURCE_TOOLTIP_T: "[Country.GetNameWithNoTooltip]: $game_concept_political_influence$"
  POLITICAL_INFLUENCE_TT_TEXT_CHANGE: "[Country.GetFixedPointCurrencyValue('political_influence')|2]@political_influence! ma następujący wpływ:"
  MONTHLY_PI_INCREASE_IS_HEADER: "Miesięczna zmiana na poziomie $VAL|+=2$ ze względu na:"
  POLITICAL_INFLUENCE_CHAR_ENTRY: "[CHARACTER.GetName]: $VAL|+=2$"
