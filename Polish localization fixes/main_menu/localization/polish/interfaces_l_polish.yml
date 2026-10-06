@@ -1829,6 +1829,7 @@
  ALERT_DECISION_LINE_ENTRY: "$EFFECT_LIST_BULLET$ $NAME$"
  DECISION_HIDE_FROM_ALERT: "Ukryj w powiadomieniach"
  DECISION_UNHIDE_FROM_ALERT: "Pokaż w powiadomieniach"
+ DECISION_TT_OUTCOMES: "Wyniki i nagrody"
  TOPBAR_MISSION_INFO_CAN_BE_COMPLETED: "Udało ci się ukończyć misję #TOOLTIP:$BREAKDOWN_TAG$ $NAME|L$#!!"
  TOPBAR_MISSION_INFO_NO_TASKS: "(brak obecnych zadań)"
  TOPBAR_MISSION_INFO_CURRENT_TASKS: "Zadania do wykonania: $WHICH$"
