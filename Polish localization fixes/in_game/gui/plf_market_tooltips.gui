@@ -7,8 +7,9 @@
 # powtórkę "rynku Rynek Sevilla") używamy myślnika, bez zmiany reszty szablonu.
 template SpecificGoodsFromMarketContent {
 	TooltipListBase = {
-		block "data_from" { datacontext = "[Trade.GetFromMarket]" }
+		block "data_from" {}
 
+		visible = "[Market.IsValid]"
 		datacontext = "[Market.GetMarketEntry(Goods.Self)]"
 
 		blockoverride "block_title" {
@@ -43,7 +44,7 @@ template SpecificGoodsFromMarketContent {
 					widget = {
 						size = {15 22}
 
-						progressbar = {
+						progressbar_framed = {
 							parentanchor = center
 							size = { 5 22 }
 							using = progress_bar_green_alt
