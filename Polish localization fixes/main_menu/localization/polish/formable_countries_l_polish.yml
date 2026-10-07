@@ -32,7 +32,7 @@
  MCM_f: "Munster"
  MCM_f_desc: "Munster, czyli południowa wielka prowincja Irlandii, była domem dla królów takich jak Brian Śmiały, którzy niegdyś sięgali po arcykrólestwo nad całą wyspą. Dysponując żyznymi ziemiami Munster oraz portami nad Atlantykiem, wskrzesimy to starożytne królestwo i zapanujemy nad południem."
  SPA_f: "Hiszpania"
- SPA_f_desc: "Od przegranej Wizygotów po inwazji #L [ShowReligionGroupAdjective('muslim')|l]iej#! w VIII wieku Iberia stała się siedzibą wielu niezależnych królestw. Przez ten czas liczni władcy próbowali zjednoczyć region i ogłaszali się władcami „Hispanii”, „Spanii” albo „Hiszpanii”, jak jest nazywany obecnie. Ale to my będziemy tymi, którzy zjednoczą ten półwysep raz na zawsze!"
+ SPA_f_desc: "Od przegranej Wizygotów po inwazji #L muzułmańskiej#! w VIII wieku Iberia stała się siedzibą wielu niezależnych królestw. Przez ten czas liczni władcy próbowali zjednoczyć region i ogłaszali się władcami „Hispanii”, „Spanii” albo „Hiszpanii”, jak jest nazywany obecnie. Ale to my będziemy tymi, którzy zjednoczą ten półwysep raz na zawsze!"
  SPA_f_not_christian: "Każda [location|el], którą obejmuje [ShowRegionName('iberia_region')], musi [Concept('owned','należeć')|e] do [Concept('country','kraju')|e], gdzie obowiązuje religia #L [ShowReligionGroupAdjective('christian')|l]a#!, lub jednego z naszych [Concept('subjects','poddanych')|e]!"
  ADU_f: "Al-'Andalus"
  ADU_f_desc: "Niegdyś cała Iberia była rządzona przez wspaniałych muzułmańskich władców z Al-'Andalus, których władza dała jej niezrównane piękno oraz nowatorstwo. Cofnijmy rezultaty haniebnej #L [ShowReligionGroupAdjective('christian')|l]iej#! rekonkwisty i odzyskajmy prawowite ziemie naszych przodków."
