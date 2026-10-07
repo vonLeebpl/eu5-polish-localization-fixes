@@ -33,7 +33,7 @@
  flavor_hol.5.historical_info: "Pieśń #italic Wilhelmus#! lub #italic Wilhelmus van Nassouwe#! była bardzo popularna wśród holenderskiej ludności i w 1932 roku została uznany za oficjalny hymn narodowy Holandii. Willem van Oranje, znany też jako Wilhelm Orański, jest głównym bohaterem hymnu, który opowiada o nim, jego życiu i powodach jego walki z królem Hiszpanii. Pieśń napisano z perspektywy pierwszej osoby. Jak na hymn narodowy, tekst i melodia są niezwykle spokojne."
  flavor_hol.5.a: "Sfinansujmy hymn narodowy."
  flavor_hol.5.b: "Nie stać nas na to."
- flavor_hol.6.ottoman_trade_tt: "Potęga [ShowReligionGroupAdjective('muslim')|l]a kontroluje [ShowLocationName('constantinople')]"
+ flavor_hol.6.ottoman_trade_tt: "Potęga [ShowReligionGroupAdjective('muslim')|l]ka kontroluje [ShowLocationName('constantinople')]"
  flavor_hol.6.title: "Tulipanowy szał"
  flavor_hol.6.entry: "$flavor_hol.6.title$"
  flavor_hol.6.desc: "W miarę jak państwo [target_country.GetName] rozszerza swe granice, [ShowSubContinentName('middle_east')] i [ShowContinentName('europe')] łączą się, a tulipan trafia z miasta [ShowLocationName('constantinople')] w ręce kupców #L [ROOT.GetCountry.GetAdjective|l]kich#!. [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] bardzo docenili ten kwiat nie tylko ze względu na jego piękno, ale także wartość. W związku z tym wielu handlarzy zaczęło sprzedawać i spekulować wartością tego towaru. Jednak niewidzialna ręka rynku szybko położyła temu kres, gdy cena tulipana spadła – a wraz z nią [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l] masowo tracą stabilność finansową."

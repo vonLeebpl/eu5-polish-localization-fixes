@@ -1045,7 +1045,7 @@
  STATIC_MODIFIER_NAME_allowed_shogun_title: "Uznanie cesarskiego $JAPANESE_SHOGUNATE_LEADER_MALE$a"
  STATIC_MODIFIER_DESC_allowed_shogun_title: "Postać ta otrzymała zgodę na przyjęcie tytułu $JAPANESE_SHOGUNATE_LEADER_MALE$a."
  STATIC_MODIFIER_NAME_favoring_buddhism_schools: "Faworyzacja szkół buddyjskich"
- STATIC_MODIFIER_DESC_favoring_buddhism_schools: "Kraj ten obecnie faworyzuje szkoły #L [ShowReligionGroupAdjective('buddhist')|l]ie#!."
+ STATIC_MODIFIER_DESC_favoring_buddhism_schools: "Kraj ten obecnie faworyzuje szkoły #L [ShowReligionGroupAdjective('buddhist')|l]kie#!."
  STATIC_MODIFIER_NAME_favoring_kami_worship: "Faworyzacja czczenia kami"
  STATIC_MODIFIER_DESC_favoring_kami_worship: "Kraj ten obecnie faworyzuje czczenie rdzennego bóstwa kami."
  STATIC_MODIFIER_NAME_limited_kirishitan_movement: "Ograniczony ruch mnichów kirishitan"

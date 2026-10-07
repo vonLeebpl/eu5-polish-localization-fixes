@@ -43,7 +43,7 @@
  church_aspects.11.a: "Hojna darowizna powinna pomóc."
  church_aspects.11.b: "Poradzą sobie bez pomocy."
  church_aspects.12.title: "Wystarczalność Pisma Świętego"
- church_aspects.12.desc: "Nasz Kościół wierzy, że studiowanie Biblii to wszystko, co musi zrobić wierny, aby prowadzić życie zgodnie z tym, czego wymaga religia #L [ShowReligionGroupAdjective('christian')|l]a#! Wraz z postępem w technikach drukarskich i wynikającą z nich dostępnością Biblii, cel ten wydaje się być bardziej osiągalny niż kiedykolwiek. Te pełne poświęcenia studia zapewniają nam stabilność i zadowolenie społeczności."
+ church_aspects.12.desc: "Nasz Kościół wierzy, że studiowanie Biblii to wszystko, co musi zrobić wierny, aby prowadzić życie zgodnie z tym, czego wymaga religia #L [ShowReligionGroupAdjective('christian')|l]ka#! Wraz z postępem w technikach drukarskich i wynikającą z nich dostępnością Biblii, cel ten wydaje się być bardziej osiągalny niż kiedykolwiek. Te pełne poświęcenia studia zapewniają nam stabilność i zadowolenie społeczności."
  church_aspects.12.a: "Niech studiują."
  church_aspects.12.b: "Zadbajmy o jeszcze większą stabilność kraju."
  church_aspects.13.title: "Zawodność Pisma Świętego"

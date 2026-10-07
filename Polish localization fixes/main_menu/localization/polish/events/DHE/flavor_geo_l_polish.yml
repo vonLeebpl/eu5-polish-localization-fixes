@@ -33,7 +33,7 @@
  flavor_geo.5.a: "[target_character.GetShortNameWithNoTooltip] słusznie prawi w swoim liście."
  flavor_geo.5.a.entry: "W słowach najwyższej władzy jest wiele prawdy."
  flavor_geo.5.b: "Nie obchodzą nas tak podłe działania."
- every_christian_pop_gains_25_satisfaction_tt: "Każda #L [ShowReligionGroupAdjective('christian')|l]a#! [Concept('pop','społeczność')|e] w kraju [GetCountry('MAM').GetName] zyskuje [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [Concept('pop_satisfaction','satysfakcji')|e]."
+ every_christian_pop_gains_25_satisfaction_tt: "Każda #L [ShowReligionGroupAdjective('christian')|l]ka#! [Concept('pop','społeczność')|e] w kraju [GetCountry('MAM').GetName] zyskuje [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [Concept('pop_satisfaction','satysfakcji')|e]."
  flavor_geo.5.historical_info: "Gruziński władca Jerzy V utrzymywał relację z sułtanatem mameluków poprzez wymianę korespondencji ze swoim odpowiednikiem z dynastii Bahrytów. Dzięki jego dyplomatycznym działaniom na terenie Palestyny założono kilka klasztorów należących do Gruzińskiego Kościoła Prawosławnego. Innym efektem tej korespondencji było pozwolenie na swobodne przejście gruzińskich pielgrzymów podróżujących do Ziemi Świętej."
  flavor_geo.6.title: "Odpowiedź z kraju [target_country2.GetAdjectiveWithNoTooltip]"
  flavor_geo.6.desc.a: "Radujemy się z faktu pozytywnej odpowiedzi, którą dostarczył nam #L [target_country2.GetAdjective|l]ki#! [target_country2.GetGovernment.GetCourtTitle|l]. Podkreślając wspólne interesy dla naszych narodów, [target_character2.GetName] pragnie zawrzeć z nami sojusz!"

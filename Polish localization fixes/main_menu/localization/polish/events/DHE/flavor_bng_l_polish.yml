@@ -39,7 +39,7 @@
  flavor_bng.7.b.entry: "Postać woli siedzibę stolicy."
  flavor_bng.8.title: "Wiara [ShowReligionAdjectiveWithNoTooltip('hindu')|l]a ma pretendenta"
  flavor_bng.8.entry: "Hinduski pretendent"
- flavor_bng.8.desc: "#L [ShowReligionAdjective('hindu')]a#! społeczność [ROOT.GetCountry.Custom('C_LOC')] zjednoczyła się wokół miejscowego zarządcy. Urodzony w biednej rodzinie [target_character.GetName] ma dość jarzma, jakie religia #L [ShowReligionGroupAdjective('muslim')]a#! nakłada na państwo [ROOT.GetCountry.GetNameWithNoTooltip] i chce przejąć tron, na którym zasiada [target_character2.GetName]."
+ flavor_bng.8.desc: "#L [ShowReligionAdjective('hindu')]a#! społeczność [ROOT.GetCountry.Custom('C_LOC')] zjednoczyła się wokół miejscowego zarządcy. Urodzony w biednej rodzinie [target_character.GetName] ma dość jarzma, jakie religia #L [ShowReligionGroupAdjective('muslim')]ka#! nakłada na państwo [ROOT.GetCountry.GetNameWithNoTooltip] i chce przejąć tron, na którym zasiada [target_character2.GetName]."
  flavor_bng.8.a: "Może czas na nowy zarząd?"
  flavor_bng.8.b: "Do broni!"
  bng_muslim_nobles_become_disloyal_tt: "Wszystkie [pops|el] należące do stanu [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], których wyznaniem nie jest wiara #L [ShowReligionAdjective('hindu')|l]a#!, stracą [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction','satysfakcji')|e]"

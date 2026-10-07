@@ -74,7 +74,7 @@
  military_order_reform: "Zakon rycerski"
  military_order_reform_desc: "Zakony wojskowe powstały w średniowieczu jako zbrojne ramię Kościoła #L [ShowReligionAdjective('catholic')]kiego#!. Składają się z wojowników zwanych #italic miles#! oraz mnichów zwanych #italic fratres#!, którzy poprzysięgają bronić i szerzyć [ShowReligionGroupName('christian')|l]."
  abbey_reform: "Opactwo"
- abbey_reform_desc: "Opactwa stanowiły centra życia monastycznego od początków religii #L [ShowReligionGroupAdjective('christian')|l]iej#!. Na przestrzeni wieków stały się głównymi ośrodkami życia religijnego, wiedzy i edukacji, a także centrami rozwoju gospodarczego oraz społecznego."
+ abbey_reform_desc: "Opactwa stanowiły centra życia monastycznego od początków religii #L [ShowReligionGroupAdjective('christian')|l]kiej#!. Na przestrzeni wieków stały się głównymi ośrodkami życia religijnego, wiedzy i edukacji, a także centrami rozwoju gospodarczego oraz społecznego."
  prince_bishopric_reform: "Księstwo biskupie"
  prince_bishopric_reform_desc: "Książę-biskup jest wyświęconym duchownym, który jest równocześnie świeckim władcą określonego terytorium. Terytorium religijne, którym rządzi książę-biskup, nie musi pokrywać się z terytorium świeckim, które posiada."
  guru_leadership_reform: "Przywództwo guru"
@@ -625,7 +625,7 @@
  ayu_chatusadom: "Chatusadom"
  ayu_chatusadom_desc: "Oznaczający „cztery filary” $ayu_chatusadom$ to struktura ministerialna dzieląca rząd na dwie główne gałęzie: sprawy wojskowe i cywilne, przy czym te pierwsze są dodatkowo podzielone na cztery ministerstwa. Taki podział oraz jasny przydział zadań każdemu z nich sprawiają, że administracja staje się znacznie bardziej efektywna i jest przedłużeniem władzy głowy państwa."
  mandala_system: "System mandali"
- mandala_system_desc: "Mandala to system władzy, w którym niezależne miasta-państwa przysięgają lojalność przywódcy najsilniejszego z nich. Wywodząc się ze światopoglądu #L [ShowReligionGroupAdjective('dharmic')|l]ego#! i #L [ShowReligionGroupAdjective('buddhist')|l]iego#!, system ten opiera się na idei emanacji władzy z centralnego źródła. Właśnie dlatego każdy z tych politycznych organizmów jest lokalnym źródłem, a ich siła pochodzi z centralnego, najpotężniejszego ośrodka."
+ mandala_system_desc: "Mandala to system władzy, w którym niezależne miasta-państwa przysięgają lojalność przywódcy najsilniejszego z nich. Wywodząc się ze światopoglądu #L [ShowReligionGroupAdjective('dharmic')|l]ego#! i #L [ShowReligionGroupAdjective('buddhist')|l]kiego#!, system ten opiera się na idei emanacji władzy z centralnego źródła. Właśnie dlatego każdy z tych politycznych organizmów jest lokalnym źródłem, a ich siła pochodzi z centralnego, najpotężniejszego ośrodka."
  #Rise of the Ottomans
  legacy_of_the_ottomans: "Dziedzictwo Osmanów"
  legacy_of_the_ottomans_desc: "Po wiekach wojen i triumfów w końcu zjednoczyliśmy rozległe terytoria pod naszym sztandarem. Cała [ShowContinentName('europe')] zadrży na dźwięk naszych kroków!"
@@ -661,7 +661,7 @@
  guardians_of_ifriqiya: "Strażnicy Ifrikiji"
  guardians_of_ifriqiya_desc: "$TUN$ niesie dynastyczną pamięć punickiej dominacji Kartaginy, aghlabidzkiego emiratu Kairuanu i hafsyckich roszczeń do tytułu #italic Khalīfa#! – kalifa zachodniego świata muzułmańskiego po upadku Bagdadu. Nasi sułtani koronują się w meczecie Zaytuna, używając regaliów, które wiążą ich tron z tysiącletnią historią ifrikijskiej niepodległości, odmiennej od berberskich dynastii na zachodzie i mameluckiej potęgi na wschodzie. To niejednorodne dziedzictwo imperialne daje Tunezji prawomocność, z jaką nie mogą równać otaczające państwa Maghrebu ani pod względem trwałości, ani ciężaru doktryny."
  maghreb_ibadi_majlis_ammi_said: "Scentralizowane Majlis 'Ammi Sa'īd"
- maghreb_ibadi_majlis_ammi_said_desc: "Założona po upadku [ShowReligionAdjectiveWithNoTooltip('ibadi')|l]ich Rustamidów rada Majlis 'Ammi Sa'īd służyła jako zdecentralizowana forma rządów związkowych dla pozostałych państw w dolinie Mzab. Po powstaniu nowego [ShowReligionAdjectiveWithNoTooltip('ibadi')|l]iego państwa w regionie #L [ShowRegionName('maghreb_region')]u#! niegdyś zdecentralizowana rada została przekształcona w rdzeń biurokracji."
+ maghreb_ibadi_majlis_ammi_said_desc: "Założona po upadku [ShowReligionAdjectiveWithNoTooltip('ibadi')|l]kich Rustamidów rada Majlis 'Ammi Sa'īd służyła jako zdecentralizowana forma rządów związkowych dla pozostałych państw w dolinie Mzab. Po powstaniu nowego [ShowReligionAdjectiveWithNoTooltip('ibadi')|l]kiego państwa w regionie #L [ShowRegionName('maghreb_region')]u#! niegdyś zdecentralizowana rada została przekształcona w rdzeń biurokracji."
  #Ethiopia
  eth_wandering_court: "Miejscowe wysłuchania"
  eth_wandering_court_desc: "Zamiast mieć stały dwór, wolimy swobodę przenoszenia go wedle własnej woli w inne miejsca w kraju. [ShowPolicyName('itinerant_court_policy')] pozwoli nam sprawniej dostosować miejsce sprawowania rządów i zająć się problemami lokalnej ludności."

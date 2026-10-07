@@ -178,7 +178,7 @@
  court_and_country_desc: "Opór wobec rosnącej centralizacji naszego państwa osiągnął kulminację w formie ogólnego kryzysu i konfliktu między dworem a państwem. W zależności od tego, jak poradzimy sobie w tych trudnych czasach, możemy nawet stać się krajem silniejszym niż wcześniej... O ile przetrwamy tę burzę."
  court_and_country_tips_header: "Rada dla dworu i całego państwa"
  court_and_country_tips_tt: "Możemy zwiększyć nasze [Concept('crown_power','wpływy korony')|e] poprzez:\n$BULLET_WITH_TAB$cofnięcie [Concept('privileges','przywilejów')|e],\n$BULLET_WITH_TAB$zwiększenie [Concept('control','kontroli')|e] nad lokacjami,\n$BULLET_WITH_TAB$wzniesienie takiej budowli, jak [ShowBuildingTypeName('counting_house')|l],\n$BULLET_WITH_TAB$zwiększenie naszej [Concept('legitimacy','prawomocności')|e],\n$BULLET_WITH_TAB$wdrożenie określonych [Concept('policies','polityk')|e]."
- french_wars_religion_breakdown_tt: "Odsetek odpowiednich [Concept('religions','religii')|e] #L [ShowReligionGroupAdjective('christian')|l]ich#! w naszym [Concept('country','kraju')|e]\n[ShowReligionName('catholic')]:"
+ french_wars_religion_breakdown_tt: "Odsetek odpowiednich [Concept('religions','religii')|e] #L [ShowReligionGroupAdjective('christian')|l]kich#! w naszym [Concept('country','kraju')|e]\n[ShowReligionName('catholic')]:"
  x_catholic: "[Concept('catholic','katolickie')|e] [pops|el]: [GetCountry('FRA').GetReligionPercentage(GetReligionByKey('catholic'))|%2]"
  court_and_country_7_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] mogą odmówić zapłaty podatku w ramach [Concept('event','wydarzenia')|e]"
  court_and_country_8_tt: "Może dojść do lokalnych [Concept('revolt','rewolt')|e] wywołanych niestabilnością w ramach [Concept('event','wydarzenia')|e]"
@@ -230,7 +230,7 @@
  #French Wars of Religion Disaster
  #Disaster
  french_wars_religion: "Francuskie wojny religijne"
- french_wars_religion_desc: "W miarę jak [ShowContinentName('europe')] staje się miejscem narodzin nowych wyznań #L [ShowReligionGroupAdjective('christian')|l]ich#!, wynikające z tego napięcia religijne w naszym społeczeństwie osiągnęły punkt wrzenia. Otaczają nas teraz zbrojni fanatycy – zarazem heretycy, jak i obrońcy prawdziwej wiary – którzy zagrażają wciągnięciem całego kraju w gwałtowną wojnę domową."
+ french_wars_religion_desc: "W miarę jak [ShowContinentName('europe')] staje się miejscem narodzin nowych wyznań #L [ShowReligionGroupAdjective('christian')|l]kich#!, wynikające z tego napięcia religijne w naszym społeczeństwie osiągnęły punkt wrzenia. Otaczają nas teraz zbrojni fanatycy – zarazem heretycy, jak i obrońcy prawdziwej wiary – którzy zagrażają wciągnięciem całego kraju w gwałtowną wojnę domową."
  had_fwr_before_definitive_ending_tt: "Nie zakończono wcześniej tej katastrofy ani przez osiągnięcie [Concept('religious_unity','jedności religijnej')|e], ani przez podpisanie [Concept('policy','polityki')|e] „[ShowPolicyName('edict_of_nantes')]”."
  lutheran_huguenots: "Hugenoci luterańscy"
  calvinist_huguenots: "Hugenoci kalwińscy"

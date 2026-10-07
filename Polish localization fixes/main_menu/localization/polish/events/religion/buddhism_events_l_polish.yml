@@ -63,7 +63,7 @@
  buddhism_events.13.a: "Nadszedł czas na zmiany."
  buddhism_events.13.b: "Zostańmy przy starych zwyczajach."
  buddhism_events.14.title: "Podobizny bożków"
- buddhism_events.14.desc: "Nawrócenie kraju na religię #L [ShowReligionGroupAdjective('buddhist')|l]ą#! nie wydarzy się z dnia na dzień, a duża liczba mieszkańców w naszych granicach nadal praktykuje stare zwyczaje. Chcąc jednak szerzyć swoją religię, wielu czołowych lamów w naszym kraju potępiło powszechne podobizny wciąż czczone przez wiele osób i zażądało ich zniszczenia."
+ buddhism_events.14.desc: "Nawrócenie kraju na religię #L [ShowReligionGroupAdjective('buddhist')|l]ką#! nie wydarzy się z dnia na dzień, a duża liczba mieszkańców w naszych granicach nadal praktykuje stare zwyczaje. Chcąc jednak szerzyć swoją religię, wielu czołowych lamów w naszym kraju potępiło powszechne podobizny wciąż czczone przez wiele osób i zażądało ich zniszczenia."
  buddhism_events.14.a: "Spalić je wszystkie!"
  STATIC_MODIFIER_NAME_destruction_of_idols: "Zniszczenie bożków"
  STATIC_MODIFIER_DESC_destruction_of_idols: "Kampania mająca na celu zniszczenie pogańskich bożków w naszym kraju nie przysparza nam przyjaciół wśród zagorzałych zwolenników starej religii, ale znacznie przyspiesza nawrócenie wszystkich pogan, nawet jeśli można wątpić w szczerość niektórych z nich."

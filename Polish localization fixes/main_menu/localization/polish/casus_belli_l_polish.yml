@@ -91,7 +91,7 @@
  cb_hegemon_desc: "Ambicji oraz prestiżowi związanym z byciem hegemonem dorównują tylko najpotężniejsze narody. Wszyscy ugną kolana przed naszą siłą i splendorem!"
  cb_hegemon_ultimatum_desc: "Ta żałosna namiastka państwa odmawia spełnienia naszych żądań. Skoro nie chcą dobrowolnie ugiąć kolan, to nasze miecze ich do tego zmuszą."
  cb_free_the_mudejar: "Uwolnienie Mudejarów"
- cb_free_the_mudejar_desc: "Nasi #L [ShowReligionAdjective('sunni')|l]cy#! bracia z regionu [ShowRegionName('iberia_region')] są zmuszani do przyjmowania #italic takijji#!. Nie możemy dłużej pozwalać #L [ShowReligionGroupAdjective('christian')|l]im#! diabłom tak traktować naszego ludu."
+ cb_free_the_mudejar_desc: "Nasi #L [ShowReligionAdjective('sunni')|l]cy#! bracia z regionu [ShowRegionName('iberia_region')] są zmuszani do przyjmowania #italic takijji#!. Nie możemy dłużej pozwalać #L [ShowReligionGroupAdjective('christian')|l]kim#! diabłom tak traktować naszego ludu."
  cb_heretic_desc: "Spalić heretyków! Wypalić ich spaczony światopogląd w imię naszej wiary!"
  cb_horde_vs_civ_desc: "Między plemionami i osadnikami nie może być pokoju! Ich własność należy do ordy!"
  cb_humiliate_desc: "Musimy przypomnieć im, o ile gorsi są od nas!"

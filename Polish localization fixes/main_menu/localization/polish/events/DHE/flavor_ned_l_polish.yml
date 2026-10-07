@@ -103,7 +103,7 @@
  flavor_ned.17.d: "Nie mamy na to funduszy."
  flavor_ned.18.title: "Popyt na przyprawy"
  flavor_ned.18.entry: "$flavor_ned.18.title$"
- flavor_ned.18.desc: "Odkąd szlaki do lokacji $india$ zostały odcięte przez #L [ShowReligionGroupAdjective('muslim')|l]ich#! kupców, nasi ludzie stracili dostęp do luksusowych towarów. [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] z regionu [target_market.GetName] szukają nowych morskich szlaków, które na nowo umożliwiłyby nam handel przyprawami. Co by się nie działo, [target_character.GetName] musi odzyskać $india$."
+ flavor_ned.18.desc: "Odkąd szlaki do lokacji $india$ zostały odcięte przez #L [ShowReligionGroupAdjective('muslim')|l]kich#! kupców, nasi ludzie stracili dostęp do luksusowych towarów. [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] z regionu [target_market.GetName] szukają nowych morskich szlaków, które na nowo umożliwiłyby nam handel przyprawami. Co by się nie działo, [target_character.GetName] musi odzyskać $india$."
  flavor_ned.18.a: "Płyńmy do Indii."
  NED_SECURE_SPICE_FOR_BONUSES: "Jeśli uda nam się importować [ShowGoodsName('pepper')|l] na [market|el] w regionie [target_market.GetName], na pewno na tym skorzystamy."
  flavor_ned.19.title: "Wolność idei"

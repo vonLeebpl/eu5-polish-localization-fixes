@@ -49,7 +49,7 @@
  #The Knights of the New World
  flavor_kni.12.title: "Rycerze nowego świata"
  flavor_kni.12.entry: "$flavor_kni.12.title$"
- flavor_kni.12.desc: "[ROOT.GetCountry.GetFlavorRank] z powodzeniem ustanawia swoją pierwszą kolonię w regionie [ShowRegionName('caribbean_region')], bastionie wiary i azylu dla #L [ShowReligionGroupAdjective('christian')|l]ich#! osadników z dala od zawirowań na kontynencie [ShowContinentName('europe')]. Kolonia ta jest świadectwem naszej misji, posiadając zarówno wartość strategiczną, jak i będąc nową granicą dla wpływów naszego państwa. Mimo że jest ona cennym atutem, nie ma zgody co do tego, czy powinniśmy bardziej rozwijać nasze kolonialne ambicje."
+ flavor_kni.12.desc: "[ROOT.GetCountry.GetFlavorRank] z powodzeniem ustanawia swoją pierwszą kolonię w regionie [ShowRegionName('caribbean_region')], bastionie wiary i azylu dla #L [ShowReligionGroupAdjective('christian')|l]kich#! osadników z dala od zawirowań na kontynencie [ShowContinentName('europe')]. Kolonia ta jest świadectwem naszej misji, posiadając zarówno wartość strategiczną, jak i będąc nową granicą dla wpływów naszego państwa. Mimo że jest ona cennym atutem, nie ma zgody co do tego, czy powinniśmy bardziej rozwijać nasze kolonialne ambicje."
  flavor_kni.12.a: "Skupmy zasoby na dalszej kolonizacji."
  flavor_kni.12.b: "To drugorzędna sprawa."
  flavor_kni.12.historical_info: "$flavor_kni.1000.historical_info$"
@@ -80,7 +80,7 @@
  #The Knights Turn to Piracy
  flavor_kni.16.title: "Rycerze zmieniają się w piratów"
  flavor_kni.16.entry: "$flavor_kni.16.title$"
- flavor_kni.16.desc: "Jako że [ROOT.GetCountry.GetFlavorRank|l] zmaga się z problemami gospodarczymi, część naszych ludzi zaczęła uciekać się do desperackich działań. Szukając bogactwa i przygód, wielu rycerzy zaczęło atakować łodzie #L [ShowReligionGroupAdjective('muslim')|l]ich#! kupców i plądrować je, by utrzymać swój wystawny styl życia. Część nawet w zupełności porzuciła naszą sprawę, zmieniając się w korsarzy lub zaciągając do obcych flot dla osobistych korzyści. I choć część uważa takie działania za haniebne, inni argumentują, że ataki te są konieczne, by utrzymać [ROOT.GetCountry.GetFlavorRank|l] na powierzchni."
+ flavor_kni.16.desc: "Jako że [ROOT.GetCountry.GetFlavorRank|l] zmaga się z problemami gospodarczymi, część naszych ludzi zaczęła uciekać się do desperackich działań. Szukając bogactwa i przygód, wielu rycerzy zaczęło atakować łodzie #L [ShowReligionGroupAdjective('muslim')|l]kich#! kupców i plądrować je, by utrzymać swój wystawny styl życia. Część nawet w zupełności porzuciła naszą sprawę, zmieniając się w korsarzy lub zaciągając do obcych flot dla osobistych korzyści. I choć część uważa takie działania za haniebne, inni argumentują, że ataki te są konieczne, by utrzymać [ROOT.GetCountry.GetFlavorRank|l] na powierzchni."
  flavor_kni.16.a: "Nie jesteśmy w stanie ich powstrzymać."
  flavor_kni.16.b: "Potępmy te działania i przywróćmy dyscyplinę."
  flavor_kni.16.c: "Przymknijmy oko, jeśli tylko dzielą się łupem."

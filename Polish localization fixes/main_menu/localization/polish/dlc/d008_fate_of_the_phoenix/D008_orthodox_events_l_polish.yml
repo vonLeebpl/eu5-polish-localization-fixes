@@ -21,7 +21,7 @@
  d008_orthodox_events.6.desc: "Wypożyczenie ikony [target_art.GetName] dobiegło końca. Jednak [target_country.GetLongName] odmawia jej zwrotu. [target_country.GetName] przedstawia tylko słabe wymówki w próbie usprawiedliwienia tej skandalicznej odmowy."
  d008_orthodox_events.6.a: "Zapłacą za tę zniewagę!"
  d008_orthodox_events.7.title: "[target_pentarchy.GetNameWithNoTooltip] – zdobycie"
- d008_orthodox_events.7.desc: "Miasto [target_pentarchy.GetName], jedna z siedzib pentarchii, wielkich ośrodków świata #L [ShowReligionGroupAdjective('christian')|l]iego#!, trafiło w nasze ręce. [target_patriarch.GetName] zasiada teraz na tronie, a my głosimy chwałę religii #L [ShowReligionAdjective('orthodox')|l]ej#!."
+ d008_orthodox_events.7.desc: "Miasto [target_pentarchy.GetName], jedna z siedzib pentarchii, wielkich ośrodków świata #L [ShowReligionGroupAdjective('christian')|l]kiego#!, trafiło w nasze ręce. [target_patriarch.GetName] zasiada teraz na tronie, a my głosimy chwałę religii #L [ShowReligionAdjective('orthodox')|l]ej#!."
  d008_orthodox_events.7.a: "Pentarchia będzie nasza!"
  d008_orthodox_events.8.title: "[target_pentarchy.GetNameWithNoTooltip] – utrata"
  d008_orthodox_events.8.desc: "Odebrano nam miasto [target_pentarchy.GetName], a wraz z nim władzę oraz respekt, jakie daje. Czy Bóg nas opuścił? Kościół #L [ShowReligionAdjective('orthodox')]y#! [ROOT.GetCountry.Custom('C_DOP')] z pewnością na tym ucierpi."
