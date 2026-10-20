@@ -599,3 +599,5 @@
  integration_level_icon_colonized: "@integration_colonized!"
  integration_level_icon_conquered: "@integration_conquered!"
  integration_level_icon_core: "@integration_core!"
+ SUBJECT_OF_BIAS: "[SUBJECT_TYPE.GetName] państwa [TARGET_COUNTRY.GetName]"
+ integration_level_icon_integrated: "@integration_integrated!"

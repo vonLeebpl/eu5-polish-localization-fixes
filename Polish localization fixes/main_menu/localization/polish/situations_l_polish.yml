@@ -966,3 +966,4 @@
  timeline_note_little_ice_age_end: "[GetSituationByKey('little_ice_age').GetName] ustępuje, a zimy znów łagodnieją."
  western_schism_4_tt: "Nie można zwołać soboru, by zakończyć schizmę"
  wont_be_auto_defended_by_overlord_join_war_tt: "NIE jest obecnie zwolniony z automatycznej obrony podczas wojny"
+ HYW_STALEMATE: "Impas"

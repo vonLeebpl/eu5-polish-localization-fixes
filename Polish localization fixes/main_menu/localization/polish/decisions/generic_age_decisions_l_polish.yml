@@ -51,3 +51,7 @@
  disempower_the_parliament_decision_cooldown_tt: "$sponsor_a_cathedral_cooldown_tt$"
  jewish_expulsion_threat.a: "Postawić ultimatum."
  jewish_expulsion_threat_cooldown_tt: "$sponsor_a_cathedral_cooldown_tt$"
+ STATIC_MODIFIER_NAME_jewish_expulsion_threat: "Groźba wydalenia"
+ jewish_expulsion_threat.desc: "Korona wystosowuje formalne ultimatum: społeczności żydowskie mają płacić podatek nadzwyczajny albo stawić czoła wygnaniu. Groźba natychmiast zapewnia przypływ gotówki od przestraszonej ludności, ale atmosfera niepewności zakłóca sieci handlowe od dawna zarządzane przez pośredników żydowskich."
+ jewish_expulsion_threat.title: "Groźba wydalenia"
+ jews_may_choose_to_leave_tt: "Most of our [ShowReligionAdjective('judaism')] [pops|e] will migrate to neighboring [countries|e]\n\nEach [location|e] they leave will suffer the [ShowModifier('jewish_expulsion_threat')], scaled by its share of [ShowReligionAdjectiveWithNoTooltip('judaism')] [pops]"

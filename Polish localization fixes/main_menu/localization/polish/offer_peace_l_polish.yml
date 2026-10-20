@@ -442,3 +442,6 @@
  claim_throne_of_naples_entry: "Ubiegaj się o tron kraju [GetCountry('NAP').GetNameWithNoTooltip]"
  claim_throne_of_naples_entry_short: "$claim_throne_of_naples_entry$"
  claim_throne_of_naples_desc: "Nasza kontrola nad częściami państwa [GetCountry('NAP').GetLongName] stanowi dla nas wystarczające uzasadnienie, by wypowiedzieć wojnę i przejąć pozostałe ziemie dla siebie."
+ PEACE_OFFER_BALANCE_LOCATION: "[LOCATION.GetRank.GetIcon] [LOCATION.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$#!@gold_balance!"
+ PEACE_OFFER_BALANCE_LOCATION_TOTAL: "#T $NAME$#!\nPrognozowana zmiana [Concept('balance','salda')|e] przy kontroli $CONTROL|0%$ w wysokości $VAL|+=2$@gold_balance! ze względu na:"
+ PEACE_OFFER_BALANCE_TOTAL: "#T $NAME$#!\nPrognozowana zmiana [Concept('balance','salda')|e] w wysokości $VAL|+=2$@gold_balance! ze względu na:"

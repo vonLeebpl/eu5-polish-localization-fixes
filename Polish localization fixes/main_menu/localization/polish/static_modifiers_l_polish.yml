@@ -2879,3 +2879,6 @@
  STATIC_MODIFIER_NAME_no_heir: "Brak dziedzica"
  STATIC_MODIFIER_NAME_num_of_foreign_markets_with_merchants: "Zagraniczne [market_centers|e] z [merchant|e]"
  STATIC_MODIFIER_NAME_pilgrim_ruler: "Władca pielgrzym"
+ STATIC_MODIFIER_NAME_historical_capital: "[historical_capital|e]"
+ STATIC_MODIFIER_NAME_receiving_parias_payments: "Handel subsaharyjski"
+ STATIC_MODIFIER_NAME_underage_heir: "Niepełnoletni dziedzic"

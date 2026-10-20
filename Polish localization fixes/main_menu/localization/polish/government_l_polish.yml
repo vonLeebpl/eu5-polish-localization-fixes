@@ -1347,3 +1347,4 @@
  SET_CABINET_ACTION_WRONG_RELIGION: "@trigger_no![CHARACTER.GetName] nie wyznaje [RELIGION.GetName] i nie może jej krzewić."
  SET_CABINET_COMMANDER_WARNING: "@warning_icon![CHARACTER.GetName] zostanie zwolniony z dowodzenia [UNIT.GetName], by dołączyć do [cabinet|e]."
  merge_culture_group_assimilate_tt: "Część [pops|e] należących do [culture_group|e] zostaje natychmiast [assimilated|e] do nowej [culture|e]. Odsetek konwertowanych jest wyższy dla kultury [accepted_culture|e] niż dla jedynie [tolerated_culture_short|e], tym wyższy, im bliższy jest jej [language|e] nowej Kulturze, oraz tym wyższy, im większe są [control|e] i [pop_satisfaction|e]. [discriminated_cultures|e] nie ulegają asymilacji."
+ direct_domestic_migration_action_progress_long_wordier: "@population! [SCOPE.sProvince('source').GetTotalPopulation] @orange_right! [SCOPE.sProvince('destination').GetTotalPopulation] ([SCOPE.sProvince('destination').GetMigrationChange]@migration_speed!)"

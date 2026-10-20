@@ -1152,3 +1152,4 @@
  tatar_overlord_is_subject_tt: "[GetCountry('GLH').GetLongName] popadła pod wpływy innego mocarstwa i nie może już pełnić roli [ShowSpecialStatusName('tatar_overlord')]"
  union_cannot_join_tt: "Kraje nie mogą bezpośrednio przystąpić do [union|e]. O przynależności decyduje wspólny [ruler|e] oraz sukcesja."
  union_cannot_leave_tt: "Kraje nie mogą bezpośrednio opuścić [union|e]. Przynależność kończy się, gdy kraje przestają dzielić tego samego [ruler|e] w wyniku sukcesji."
+ CELESTIAL_AUTHORITY_CHANGE_FORMAT: "$KEY$: $VALUE|+=5$"

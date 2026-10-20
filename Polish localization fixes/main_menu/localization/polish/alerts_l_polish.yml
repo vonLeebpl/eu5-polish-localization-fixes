@@ -452,3 +452,5 @@
  ALERT_CAN_PROMOTE_INDUSTRY_TITLE: "Dostępny rozwój przemysłu"
  ALERT_POSSIBLE_EXPEDITION: "[expedition|e] jest gotowa do wyruszenia:"
  ALERT_POSSIBLE_EXPEDITION_TITLE: "Dostępna ekspedycja"
+ ALERT_EXPEDITION_ENTRY: "$BULLET_WITH_TAB$[EXPEDITION_TYPE.GetName]"
+ ALERT_TRIGGER_WARNING: "@warning_icon!"

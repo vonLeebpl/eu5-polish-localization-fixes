@@ -258,3 +258,4 @@
  MARRY_NOBLE_SELECT_CHARACTER: "Poślub $CHARACTER$"
  marry_lowborn_choose_estate: "Z którym [estate|e] powinni się skoligacić przez małżeństwo?"
  marry_noble_recipient_effect: "[CHARACTER.GetName] zostanie [married|e] ze szlachcicem, którego wybierzemy."
+ marry_noble_effect: "[CHARACTER.GetName] jest w związku małżeńskim z: [TARGET_CHARACTER.GetName]"

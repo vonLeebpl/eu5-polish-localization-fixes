@@ -999,3 +999,4 @@
  crown_expel_order_holding_desc: "Korona zamierza wypędzić zakon religijny z jednej z naszych [holdings|E], ograniczając jego wpływ na królestwo."
  pa_endow_order_holding: "Nadaj nową włość zakonną"
  pa_endow_order_holding_desc: "[estate|e] domaga się, by królestwo nadało nową [holding|E] jednemu z zakonów religijnych."
+ pa_endow_order_holding_simple: "Przekup stan"

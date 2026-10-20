@@ -59,3 +59,4 @@
  CLICK_ACTION_ROAD_BUILDER_TOGGLE_MODE: "Przełącz tryb budowania"
  CLICK_ACTION_ROAD_BUILDER_SET_SOURCE: "Buduj drogi z lokacji [LOCATION.GetName]"
  CLICK_ACTION_ROAD_BUILDER_SET_SOURCE_DISABLED: "@trigger_no! Możesz budować drogi wyłącznie z lokacji własnej lub [Concept('subjects','poddanych')|e]"
+ CLICK_ACTION_SELECT_PROVINCE_DEF_RIGHT: "Przejdź do: [ProvinceDefinition.GetNameWithNoTooltip]"

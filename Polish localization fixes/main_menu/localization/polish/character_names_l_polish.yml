@@ -32223,3 +32223,6 @@
  Tavares: "Tavares"
  CHARACTER_NAME_ORDER_CATALAN_ELIDED: "$PREFIX$$NAME$ $NUMBER$ $NICKNAME$ $LASTNAME$ $SUFFIX$"
  nick_hayreddin: "$name_khayr.name_al_din.turkish_language$"
+ CHARACTER_NAME_ORDER_CATALAN: "$PREFIX$ $NAME$ $NUMBER$ $NICKNAME$ $LASTNAME$ $SUFFIX$"
+ character_title_nobility_catalan_vowel: "N'"
+ character_title_nobility_catalan_vowel_female: "N'"

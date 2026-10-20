@@ -1421,3 +1421,5 @@
  custom_search_filter_trades_origin_category_name: "Źródło handlu"
  custom_search_filter_trades_origin_group_name: "Źródło handlu"
  province_andalusi_population: "[ShowCultureName('andalusi')] Populacja"
+ character_info_place_relative_throne: "Informacje o postaci"
+ province_uncontrolled_wealth: "Niekontrolowane bogactwo"
