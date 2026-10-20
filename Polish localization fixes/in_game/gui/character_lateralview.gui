@@ -1864,7 +1864,7 @@ types CharacterPanel {
 								hbox = {
 
 									character_abilities = {
-										visible = "[And(Not(Character.IsArtist), Character.ShowsStats)]"
+										visible = "[Not(Character.IsArtist)]"
 	
 										blockoverride "abilities_format" {
 											layoutpolicy_vertical = expanding
