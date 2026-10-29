@@ -1,0 +1,13 @@
+﻿l_polish:
+ spa_seize_control_of_the_orders.title: "Przejęcie majątków zakonów"
+ spa_seize_control_of_the_orders.desc: "Zakony religijne [ShowRegionName('iberia_region')] odegrały istotną rolę w odparciu muzułmańskiego zagrożenia i przywróceniu naszego panowania nad półwyspem. Jednakże teraz, gdy nasza #italic Reconquista#! została zakończona, musimy podporządkować te zakony bezpośredniej kontroli naszego rządu i skierować je ku przyszłej roli mężów stanu i administratorów, zamiast wojowników i rycerzy."
+ spa_seize_control_of_the_orders.a: "Przejmijmy wszystkie ich majątki!"
+ spa_seize_control_of_the_orders.b: "Pozwólmy im zachować większość ich ziem."
+ establish_council_of_military_orders_tt: "Powstanie [ShowBureaucracyTypeName('spa_council_of_military_orders_bureaucracy')]"
+ established_council_of_military_orders_tt: "Decyzją „$spa_seize_control_of_the_orders.title$” utworzono biurokrację „[ShowBureaucracyTypeName('spa_council_of_military_orders_bureaucracy')]”."
+ spa_council_of_crusade_decision.title: "Powstanie $spa_council_of_crusade_bureaucracy$"
+ spa_council_of_crusade_decision.desc: "Obrona naszej wiary, nawet na obcych brzegach, musi zostać pobłogosławiona przez najwyższy autorytet. Za zgodą [pope] staniemy się pierwszym bastionem wiary #L [ShowReligionAdjective('catholic')|l]kiej#!!"
+ spa_council_of_crusade_decision.a: "Poprośmy o zgodę papieską."
+ establish_council_of_crusade_tt: "Powstanie [ShowBureaucracyTypeName('spa_council_of_crusade_bureaucracy')]"
+ established_council_of_crusade_tt: "Decyzją „$spa_council_of_crusade_decision.title$” utworzono biurokrację „[ShowBureaucracyTypeName('spa_council_of_crusade_bureaucracy')]”."
+ spa_seize_control_of_the_orders_tt: "Każda [location|e], którą posiadamy w regionie [ShowRegionName('iberia_region')], przestanie być posiadłością iberyjskiego wojskowego [religious_order|e]"
