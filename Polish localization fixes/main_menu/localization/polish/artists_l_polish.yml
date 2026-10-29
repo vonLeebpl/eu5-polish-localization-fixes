@@ -1422,7 +1422,7 @@
  lalibela_church_st_george_work_of_art: "Świątynia Świętego Jerzego w Lalibeli"
  lalibela_church_st_george_work_of_art_desc: "Kościół św. Jerzego, wykuty w skale za panowania króla Lalibeli w XII wieku, stanowi szczytowe osiągnięcie etiopskiej architektury monolitycznej. Powstały z pragnienia stworzenia #italic nowej Jerozolimy#!, odzwierciedla religijne aspiracje epoki oraz odrębne chrześcijańskie dziedzictwo kraju $ETH$."
  montserrat_work_of_art: "Opactwo Najświętszej Marii Panny z Montserrat"
- montserrat_work_of_art_desc: "Położony na górze Montserrat, przechowuje [ShowWorkOfArtName('moreneta_key')], będąc zarazem niezwykle ważnym ośrodkiem duchowości i pielgrzymek. Jest ponadto symbolem tożsamości kulturowej [ShowCultureName('catalan')]."
+ montserrat_work_of_art_desc: "Położony na górze Montserrat, przechowuje [ShowWorkOfArtName('moreneta_key')], będąc zarazem niezwykle ważnym ośrodkiem duchowości i pielgrzymek. Jest ponadto symbolem katalońskiej tożsamości kulturowej."
  parthenon_of_athens_work_of_art: "Partenon w $ORIGIN$"
  parthenon_of_athens_work_of_art_desc: "Wzniesiony w latach 447–432 p.n.e. na ateńskim Akropolu Partenon został poświęcony bogini Atenie, patronce miasta Aten. Zaprojektowany przez architektów Iktinosa i Kallikratesa pod nadzorem rzeźbiarza Fidiasza, swoją formą nawiązuje do ideałów klasycznej architektury greckiej. Proporcje świątyni oraz jej dekoracja rzeźbiarska odzwierciedlały zarówno dumę obywatelską, jak i religijne oddanie. W średniowieczu pełnił funkcję zarówno kościoła, jak i twierdzy."
  qarawiyyin_fez_work_of_art: "Meczet al-Karawijjin"

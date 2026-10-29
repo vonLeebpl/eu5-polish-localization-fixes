@@ -8671,7 +8671,7 @@
  THIRD_IS_SYSTEM_AUTOMATED_TRIGGER: "[COUNTRY.GetName] zautomatyzował(a) $SYSTEM|Y$"
  THIRD_IS_VALID_GOAL_FOR_CHARTER_TRIGGER: "[ROOT.GetNameWithNoTooltip] jest możliwym celem dla tej [colonial_charter|e]"
  character_named_script_value_less_than: "[CHARACTER.GetName] jest młodszy/a niż $VALUE|0$"
- dominant_culture_is_of_jurchen_group: "[dominant_culture|e] należy do [ShowCultureGroupName('jurchen_group')] [culture_group_short|e]"
+ dominant_culture_is_of_jurchen_group: "[dominant_culture|eU] należy do [Concept('culture_group_short','grupy')|e]: [ShowCultureGroupName('jurchen_group')]"
  location_controller_not_equal: "$NOT_location_controller_equal$"
  location_valid_for_calling: "[LOCATION.GetName] to odpowiednia siedziba dla [TARGET_CALLING.GetName] [calling|e]"
  location_valid_for_religious_order_type: "[LOCATION.GetName] spełnia wymogi założycielskie dla [TARGET_RELIGIOUS_ORDER_TYPE.GetName]"
