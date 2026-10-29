@@ -1097,7 +1097,13 @@
  monarchy_female_celtic_traditions_reform: "Wódzyni"
  monarchy_male_celtic_traditions_reform: "Wódz"
 
- country_name_construction_crown: "$country_name_construction_prefix_rank_of_name$"
- country_name_construction_crown_map: "$country_name_construction_prefix_rank_of_name_map$"
- country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank: "$PREFIX$ $RANK$ $ARTICLE$ $NAME$"
- country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank_map: "$PREFIX$ $RANK$"
+ # (zakomentowane ponownie - patrz komentarz na początku pliku: ten sam klucz
+ # został przypadkiem doklejony tutaj przez automatyczny sync brakujących kluczy
+ # wanilii 1.4.5/DLC D009, co ponownie skolidowało z plf_country_names_construction_l_polish.yml
+ # i przywróciło bug "Korona Kastylia"/"Mamlucki Sutanat Egipt" (2026-10-29).
+ # Dodatkowo country_name_construction.txt już w ogóle nie używa tych wspólnych
+ # kluczy dla korony/MAM/GBR/DAU/PAL - rozbite na osobne klucze per-tag.)
+ # country_name_construction_crown: "$country_name_construction_prefix_rank_of_name$"
+ # country_name_construction_crown_map: "$country_name_construction_prefix_rank_of_name_map$"
+ # country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank: "$PREFIX$ $RANK$ $ARTICLE$ $NAME$"
+ # country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank_map: "$PREFIX$ $RANK$"

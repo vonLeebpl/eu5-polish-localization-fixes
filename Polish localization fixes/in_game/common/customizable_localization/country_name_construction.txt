@@ -63,22 +63,38 @@
 	}
 
 	# UNIKALNE KORONY DYNASTYCZNE (Kastylia, Aragonia, Czechy, unia Polski)
+	# Rozbite na osobne klucze per-tag (zamiast dopasowania $NAME$ wewnątrz jednej
+	# wspólnej wartości) - od 1.4.5/DLC D009 dopasowanie EqualTo_string('Kastylia','$NAME$')
+	# przestało trafiać, mimo że sam trigger (tag=CAS + country_rank_is_kingdom) wciąż
+	# działa poprawnie (widać to po poprawnym "Korona" z rank_kingdom_crown).
 	text = {
-		localization_key = country_name_construction_crown
+		localization_key = country_name_construction_crown_cas
 		trigger = {
 			country_rank_is_kingdom = yes
-			OR = {
-				tag = ARA
-				tag = CAS
-				AND = {
-					tag = POL
-					has_advance = corona_regni_poloniae
-				}
-				AND = {
-					tag = BOH
-					has_variable = crown_of_bohemia_variable
-				}
-			}
+			tag = CAS
+		}
+	}
+	text = {
+		localization_key = country_name_construction_crown_ara
+		trigger = {
+			country_rank_is_kingdom = yes
+			tag = ARA
+		}
+	}
+	text = {
+		localization_key = country_name_construction_crown_pol
+		trigger = {
+			country_rank_is_kingdom = yes
+			tag = POL
+			has_advance = corona_regni_poloniae
+		}
+	}
+	text = {
+		localization_key = country_name_construction_crown_boh
+		trigger = {
+			country_rank_is_kingdom = yes
+			tag = BOH
+			has_variable = crown_of_bohemia_variable
 		}
 	}
 
@@ -92,22 +108,30 @@
 	}
 
 	# SPECYFICZNE UNIE I REFORMY PARADOXU (Przeniesione na szczyt dla bezbłędnej detekcji GBR/MAM/DAU/PAL)
+	# Rozbite na osobne klucze per-tag - ta sama przyczyna jak przy koronach wyżej:
+	# dopasowanie po $NAME$ (np. EqualTo_string('$NAME$','Egipt')) przestało trafiać.
 	text = {
-		localization_key = country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank
+		localization_key = country_name_construction_gbr_uk
+		trigger = {
+			tag = GBR
+			coa_def_GBR_uk_trigger = yes
+		}
+	}
+	text = {
+		localization_key = country_name_construction_mam_egypt
+		trigger = {
+			tag = MAM
+			OR = {
+				country_rank = country_rank:rank_empire
+				country_rank = country_rank:rank_kingdom
+			}
+			religion.group = religion_group:muslim
+		}
+	}
+	text = {
+		localization_key = country_name_construction_rank_name_only
 		trigger = {
 			OR = {
-				AND = {
-					tag = GBR
-					coa_def_GBR_uk_trigger = yes
-				}
-				AND = {
-					tag = MAM
-					OR = {
-						country_rank = country_rank:rank_empire
-						country_rank = country_rank:rank_kingdom
-					}
-					religion.group = religion_group:muslim
-				}
 				AND = {
 					tag = DAU
 					OR = {

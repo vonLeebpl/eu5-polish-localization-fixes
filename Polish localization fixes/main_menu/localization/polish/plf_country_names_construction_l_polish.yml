@@ -1,10 +1,21 @@
 ﻿l_polish:
  # --- Dedykowany, oryginalny klucz dla Unii Dynastycznych (Koron na szczycie pliku .txt) ---
- country_name_construction_crown: "[AddTextIf(EqualTo_string('Polska', '$NAME$'), '$PREFIX$ $RANK$ Polska')][AddTextIf(EqualTo_string('Kastylia', '$NAME$'), '$PREFIX$ $CAS_LONG$')][AddTextIf(EqualTo_string('Aragon', '$NAME$'), '$PREFIX$ $ARA_LONG$')][AddTextIf(EqualTo_string('Czechy', '$NAME$'), '$PREFIX$ $RANK$ Czech')]"
- country_name_construction_crown_map: "$country_name_construction_crown$"
- country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank: "[AddTextIf(EqualTo_string('$NAME$','Wielka Brytania'), '$NAME$')][AddTextIf(EqualTo_string('$NAME$', 'Egipt'), '$PREFIX$ $RANK$ Egipski')][AddTextIf(Or(EqualTo_string('$NAME$', 'Viennois'),EqualTo_string('$NAME$', 'Ren')), '$RANK$ $NAME$')]"
- country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank_map: "[AddTextIf(EqualTo_string('$NAME$','Wielka Brytania'), '$NAME$')][AddTextIf(EqualTo_string('$NAME$', 'Egipt'), '$RANK$ $PREFIX$')][AddTextIf(Or(EqualTo_string('$NAME$', 'Viennois'),EqualTo_string('$NAME$', 'Ren')), '$RANK$ $NAME$')]"
- 
+ # Klucze per-tag (bez dopasowania $NAME$) - patrz country_name_construction.txt
+ country_name_construction_crown_cas: "$PREFIX$ $CAS_LONG$"
+ country_name_construction_crown_cas_map: "$CAS_LONG$"
+ country_name_construction_crown_ara: "$PREFIX$ $ARA_LONG$"
+ country_name_construction_crown_ara_map: "$ARA_LONG$"
+ country_name_construction_crown_pol: "$PREFIX$ $RANK$ Polska"
+ country_name_construction_crown_pol_map: "$RANK$ Polska"
+ country_name_construction_crown_boh: "$PREFIX$ $RANK$ Czech"
+ country_name_construction_crown_boh_map: "$RANK$ Czech"
+ country_name_construction_gbr_uk: "$NAME$"
+ country_name_construction_gbr_uk_map: "$NAME$"
+ country_name_construction_mam_egypt: "$PREFIX$ $RANK$ Egipski"
+ country_name_construction_mam_egypt_map: "$RANK$ $PREFIX$"
+ country_name_construction_rank_name_only: "$RANK$ $NAME$"
+ country_name_construction_rank_name_only_map: "$RANK$ $NAME$"
+
  # --- Reszta kluczy z debugowaniem pozostaje całkowicie nienaruszona ---
  country_name_construction_pol_static_name: "$PREFIX$ $RANK$ $NAME$"
  country_name_construction_pol_static_name_map: "$RANK$ $NAME$"
