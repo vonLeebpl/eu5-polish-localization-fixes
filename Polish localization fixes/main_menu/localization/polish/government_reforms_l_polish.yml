@@ -789,3 +789,4 @@
  gives_centralization_through_farfanes_tt: "Posiadanie wielu [ShowUnitDefinitionName('a_farfanes')] w stosunku do naszej całkowitej\n[Concept('military_strength','siły wojskowej')|e] da do #Y +0,25%#! do: [ShowModifierTypeName('monthly_towards_centralization')]"
  gives_crown_power_through_farfanes_tt: "Posiadanie wielu [ShowUnitDefinitionName('a_farfanes')] w stosunku do naszej całkowitej\n[Concept('military_strength','siły wojskowej')|e] da do #G +50%#! do: [ShowModifierTypeName('global_crown_estate_power')]"
  has_unlocked_centralization_buff: "Odblokowano „[ShowModifierTypeName('monthly_towards_centralization')]” z [Concept('event','wydarzenia')|e] #Y $flavor_tun.10.entry$#!"
+ monthly_control_with_tribes_satisfaction: "[ShowModifierTypeName('global_monthly_control')] może wahać się od #R -0,5%#! do #G +0,5%#! w zależności od [estate_satisfaction|e] stanu [ShowEstateTypeName('tribes_estate')]"

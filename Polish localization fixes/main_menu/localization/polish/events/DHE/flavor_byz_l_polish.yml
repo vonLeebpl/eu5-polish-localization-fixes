@@ -593,3 +593,5 @@
  variable_tt_court_wants_inward: "Dwór woli konsolidację wewnętrzną"
  variable_tt_disinterested_in_migration_events: "Cesarstwo nie widzi interesu w zachęcaniu do migracji"
  variable_tt_thessaloniki_pop_sat: "[ShowLocationName('thessaloniki')] i nasilające się niepokoje"
+ byz_ayd_second_or_third_strongest_beylik_tt: "[GetCountry('AYD').GetName] jest drugim lub trzecim najsilniejszym bejlikiem"
+ byz_tur_strongest_beylik_tt: "[GetCountry('TUR').GetName] jest najsilniejszym bejlikiem"

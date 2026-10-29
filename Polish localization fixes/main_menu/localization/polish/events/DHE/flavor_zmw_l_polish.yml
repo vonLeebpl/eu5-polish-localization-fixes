@@ -62,3 +62,4 @@
  flavor_zmw.1201.a: "Mają rację. Wyrzeknijmy się [ShowReligionNameWithNoTooltip('catholic')|l]u."
  flavor_zmw.1201.b: "Musimy przyjąć światło [ShowReligionNameWithNoTooltip('catholic')|l]u."
  flavor_zmw.1201.historical_info: "Nawrócenie Mwenemutapy przez Gonçala da Silveirę spotkało się protestami ze strony muzułmańskich kupców z wybrzeża, którzy działają na terenie Zimbabwe. Kupcy sprzeciwiali się nawróceniu i w rezultacie dopięli swego. Gonçalo da Silveira został uduszony przez ludzi króla, a kolejne misje katolickie otrzymały zakaz wstępu, co położyło kres katolicyzmowi w Zimbabwe."
+ flavor_zmw.1101.c: "Człowiek, który zna te ziemie, zasługuje na miejsce przy naszym [ROOT.GetCountry.GetGovernment.GetCourtTitle]."

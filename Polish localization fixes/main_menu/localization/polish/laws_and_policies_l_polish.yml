@@ -2282,3 +2282,7 @@
  yorkist_tradition_tt: "Odblokowano to przez [decision|e]"
  state_piracy_policy_at: "Opinia o nas każdego znanego [Concept('country','kraju')|e], w którym obowiązuje [policy|el] „[ShowPolicyName('anti_piracy_policy')]”, ulega zmianie o [ShowBiasValue('allows_state_piracy_modifier')|+=0]."
  state_piracy_policy_dt: "Opinia o nas każdego znanego [Concept('country','kraju')|e], w którym obowiązuje [policy|el] „[ShowPolicyName('anti_piracy_policy')]”, ulega zmianie o [ShowBiasValue('allows_state_piracy_modifier')|-=0]."
+ itinerant_court_policy_at_risk_tt: "#italic [ShowBuildingTypeName('itinerant_court_seat')] zostanie utracone, jeśli [ShowSocietyDirectionName('decentralization')] jest niższe niż #W 10#! #!"
+ union_codified_inheritance_policy_no_sp_dt: "#R Nie istnieje żaden [ShowSpecialStatusName('senior_partner')]#!"
+ would_no_stability_hit_from_high_opinion_tt: "Ma [Concept('opinion','opinię')|e] niższą niż [GetDefine('NDiplomacy','OPINION_GOOD_RELATIONS')|=] wobec wroga"
+ would_not_break_truces_tt: "Nie ma [truce|e] z wrogiem"

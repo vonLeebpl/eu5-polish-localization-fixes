@@ -2318,3 +2318,5 @@
  PERIPHORA_ENDED_CAPTURED: "Jest zajęte przez państwo [COUNTRY.GetName]."
  PERIPHORA_ENDED_NO_PATH: "Nie ma możliwości dotarcia do celu."
  PERIPHORA_ENDED_FINISHED: "Lud świętuje, gdy przybywa do celu."
+ convert_religion_effect_tt: "Nasz [country|e] przejdzie na wybraną [religion|e], podobnie jak nasz [ruler|e], [consort|e], [heir|e] oraz [children|e] naszego [ruler]."
+ crusade_privileges_bull_effect_tt: "Każdy uczestnik [crusade|e] zyskuje [ROOT.GetStaticModifier('crusade_privileges').GetNameWithTooltip] na 5 lat"

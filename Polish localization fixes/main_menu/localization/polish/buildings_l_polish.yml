@@ -1163,3 +1163,5 @@
  italian_court_building_desc: "Dzięki utrzymywaniu dworów zarówno w kraju, jak i w regionie [ShowRegionName('italy_region')] możemy skuteczniej zarządzać ich notablami."
  lieutenancy_dlc_tt: "Jeśli jest mniej niż [SCOPE.sCountry('actor').GetModifierValue('num_lieutenancy')] budowli typu [ShowBuildingTypeName('lieutenancy')] w państwie [SCOPE.sCountry('actor').GetNameWithNoTooltip] (obecnie [SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('lieutenancy')|V])."
  local_governor_dlc_tt: "Jeśli jest mniej niż [SCOPE.sCountry('actor').GetModifierValue('num_local_governors')] budowli typu [ShowBuildingTypeName('local_governor')] w państwie [SCOPE.sCountry('actor').GetNameWithNoTooltip] (obecnie [SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('local_governor')|V])."
+ rgo_enhancement_category: "Wzmocnienie surowców"
+ rgo_enhancement_category_desc: "Są to budynki, które same w sobie nic nie produkują, a jedynie zwiększają ilość [raw_materials|e] już wydobywanych w danej lokacji. Są obsadzane przed innymi budynkami, ponieważ pozostawienie ich bezczynnymi marnuje produkcję, którą mogłyby pomnożyć."

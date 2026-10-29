@@ -1348,3 +1348,7 @@
  SET_CABINET_COMMANDER_WARNING: "@warning_icon![CHARACTER.GetName] zostanie zwolniony z dowodzenia [UNIT.GetName], by dołączyć do [cabinet|e]."
  merge_culture_group_assimilate_tt: "Część [pops|e] należących do [culture_group|e] zostaje natychmiast [assimilated|e] do nowej [culture|e]. Odsetek konwertowanych jest wyższy dla kultury [accepted_culture|e] niż dla jedynie [tolerated_culture_short|e], tym wyższy, im bliższy jest jej [language|e] nowej Kulturze, oraz tym wyższy, im większe są [control|e] i [pop_satisfaction|e]. [discriminated_cultures|e] nie ulegają asymilacji."
  direct_domestic_migration_action_progress_long_wordier: "@population! [SCOPE.sProvince('source').GetTotalPopulation] @orange_right! [SCOPE.sProvince('destination').GetTotalPopulation] ([SCOPE.sProvince('destination').GetMigrationChange]@migration_speed!)"
+ HEIR_SELECTION_ALLOW_RELIGIOUS_FIGURE: "• Zezwól na postacie duchowne"
+ REMOVE_CABINET_HEAD_OF_CABINET: "@trigger_no![CHARACTER.GetName] pełni funkcję: [head_of_the_cabinet|e] i nie może zostać odwołany."
+ REMOVE_CABINET_MEMBER: "Odwołaj $game_concept_character$ z tego $game_concept_cabinet_seat$"
+ REMOVE_CABINET_TT: "Odwołanie [CHARACTER.GetName] z tego [cabinet_seat|e] będzie kosztować $COST$."

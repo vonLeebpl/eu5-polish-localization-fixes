@@ -1391,3 +1391,4 @@
  variable_tt_spa_enable_peruvian_rebellion: "W Peru narasta bunt przeciwko hiszpańskiej władzy"
  variable_tt_spa_tupac_revolt: "Túpac Amaru II stoi na czele wielkiego powstania andyjskiego"
  variable_tt_spa_execute_tupac: "Túpac Amaru II zostaje stracony w Cuzco"
+ flavor_cas.1200.a.possession_tt: "Będziemy mogli ustanowić [ShowPolicyName('right_of_possesion')]"

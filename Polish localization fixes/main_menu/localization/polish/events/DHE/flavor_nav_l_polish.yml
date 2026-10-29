@@ -180,3 +180,7 @@
  navarre_charles_ii_claim_to_france_appanage_route.a: "Nadszedł czas, by wywołać wojnę domową i zdobyć tron!"
  navarre_charles_ii_claim_to_france_appanage_route.desc: "$navarre_charles_ii_claim_to_france.desc$"
  navarre_charles_ii_claim_to_france_appanage_route.title: "$navarre_charles_ii_claim_to_france.title$"
+ variable_tt_agramonteses_backed_consort: "Ród Agramonte ma wpływy na dworze i jest bliskim sojusznikiem małżonka władcy"
+ variable_tt_beaumont_backed_heir: "Ród Beaumont ma wpływy na dworze i popiera dziedzica"
+ variable_tt_nav_enable_ambitions_of_charles_ii_ambition_events: "Wydarzyło się [dynamic_historical_event|e]: $flavor_nav.2.entry$"
+ variable_tt_nav_enable_blood_feud_faction_events: "$flavor_nav.8.entry$ [dynamic_historical_event|e] miało miejsce"

@@ -1097,3 +1097,7 @@
  monarchy_female_celtic_traditions_reform: "Wódzyni"
  monarchy_male_celtic_traditions_reform: "Wódz"
 
+ country_name_construction_crown: "$country_name_construction_prefix_rank_of_name$"
+ country_name_construction_crown_map: "$country_name_construction_prefix_rank_of_name_map$"
+ country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank: "$PREFIX$ $RANK$ $ARTICLE$ $NAME$"
+ country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank_map: "$PREFIX$ $RANK$"

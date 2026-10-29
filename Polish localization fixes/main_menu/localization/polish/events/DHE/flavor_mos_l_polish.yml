@@ -1000,3 +1000,5 @@
  flavor_mos.115.historical_info: "James Bruce uczestniczył w kilku kampaniach wojskowych przeciwko Imperium Osmańskiemu jako generał-major artylerii. Uważany jest za jedną z najbardziej wykształconych osób w Rosji w tamtym okresie, przyczyniając się do rozwoju astronomii i nauki, pisząc kilka ksiąg, które później przekazał Akademii Nauk. Przypisuje mu się otwarcie pierwszego obserwatorium w Rosji w Wieży Sucharewa, dzięki czemu zyskał reputację alchemika i maga."
  flavor_mos.52.tt2: "W posiadaniu dzieła [ShowWorkOfArtName('tale_of_the_princes_of_vladimir')]"
  flavor_mos.90.tt5: "Odblokowuje ekspedycję Wielkiego Poselstwa, którą [ROOT.GetCountry.GetGovernment.GetRuler.GetName] może podjąć w dowolnym momencie"
+ flavor_mos.38.tt1: "$trinity_lavra_st_sergius_work_of_art$ znajduje się w miejscowości [ShowLocationName('pushkino')]"
+ flavor_mos.38.tt2: "$st_sergius_relics$ znajdują się w miejscowości [ShowLocationName('pushkino')]"

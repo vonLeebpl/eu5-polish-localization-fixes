@@ -886,3 +886,4 @@
  gain_random_positive_trait_for_cabinet_tt: "Zyskuje losową pozytywną [Concept('trait','cechę')|e] pasującą do służby w naszym [Concept('cabinet','gabinecie')|e]"
  new_child_for_ruler: "[ROOT.GetCountry.GetGovernment.GetRulerTitle] ma nowe dziecko"
  holy_war_scaled_gold_transfer_fallback_tt: "Płaci złoto państwu wysuwającemu żądania"
+ reset_influence_over_granada_effect_tt: "$influence_over_granada$ wraca do neutralnego poziomu, niwecząc wszystkie zyski, jakie osiągnęła [GetCountry('CAS').GetName]"

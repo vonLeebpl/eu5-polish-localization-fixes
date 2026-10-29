@@ -35,3 +35,4 @@
  IO_POLICIES: "[international_organizations|e] – polityki"
  IO_NON_LEADERS: "[international_organizations|e] – nie-przywódcy"
  MODIFIER_NODE_NAME_GOVERNMENT: "$ADJ$ki rząd"
+ auto_modifier_current_scale: "Efekty aktualnie pomnożone przez $VALUE|2Y$ z powodu: $FACTORS$"

@@ -569,3 +569,4 @@
  flavor_ven.100.a: "Wspierajmy jego innowacje."
  flavor_ven.100.b: "Odmówmy wsparcia dla takich wynalazków opartych wyłącznie na domysłach."
  flavor_ven.100.historical_info: "Tytus Liwiusz Burattini (Tito Livio Burattini) był cenionym weneckim naukowcem, który odbył dalekie podróże po Europie i Afryce, a następnie spędził znaczną część swego życia pracując na terenach Polski i Litwy. Burattini sporządził wstępny projekt statku powietrznego zwanego latającym smokiem. Choć maszyna nigdy nie wzbiła się w powietrze z pilotem na pokładzie, to stanowi jeden z najstarszych zachowanych projektów aeronautycznych. Uczony przyczynił się również do rozwoju miernictwa – wprowadził pojęcie metra jako uniwersalnej jednostki pomiarowej opartej o długość wahadła zegarowego."
+ flavor_ven.2.trigger_tt: "[ShowLocationName('constantinople')] jest własnością kraju [GetCountry('TUR').GetNameWithNoTooltip]"

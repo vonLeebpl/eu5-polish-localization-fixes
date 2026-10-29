@@ -1461,3 +1461,4 @@
  INCOMING_OFFER_incite_desertion: "Pod osłoną nocy wysłannik kraju $ACTOR$ wkradł się do naszego obozu z sakwami obciążonymi srebrem. Proponuje obfite mieszki, jeśli dyskretnie porzucimy świętą wojnę i wycofamy swoje sztandary ze sprawy, przysięgając, że nikt nigdy nie musi się dowiedzieć o tej umowie, a także że pieniądze przejdą w nasze ręce jeszcze przed pierwszym brzaskiem. Jak mamy odpowiedzieć na tę pokusę?\n\n$INFO$"
  incite_desertion_reject_effect_text: "$generic_reject_offer_effect_string$"
  incite_desertion_reject_effect_text_past: "$generic_reject_offer_effect_string_past$"
+ bestow_kingdom_title_declined_recently_tt: "Nie odrzucili ostatnio oferowanego przez nas $kingdom_title$"

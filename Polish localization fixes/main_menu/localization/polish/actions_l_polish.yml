@@ -1416,3 +1416,7 @@
  favor_heir_desc_specific: "[SCOPE.sCharacter('target').GetName] będzie [Select_CString(SCOPE.sCharacter('target').IsFemale,'faworyzowana','faworyzowany')] jako [Select_CString(SCOPE.sCharacter('target').IsFemale,'nasza następna władczyni','nasz następny władca')]."
  favor_heir_past: "[SCOPE.sCharacter('target').GetName] jest [Select_CString(SCOPE.sCharacter('target').IsFemale,'faworyzowana','faworyzowany')]!"
  favor_heir_tt: "[SCOPE.sCharacter('target').GetName] będzie [Select_CString(SCOPE.sCharacter('target').IsFemale,'faworyzowana','faworyzowany')] jako nasz [heir|el], stając się prawomocnie jednym z naszych dziedziców."
+ ask_clergy_for_legitimacy_ruler_tt: "Władca nie został jeszcze poparty"
+ council_of_trent_withdraw_vote: "Wycofaj głos"
+ council_of_trent_withdraw_vote_desc: "Wycofaj swój głos w obecnej debacie nad [policy|e] i wróć do krajów, które jeszcze nie głosowały."
+ council_of_trent_withdraw_vote_locked_tt: "Głos kraju [SCOPE.sCountry('actor').GetName|U] w sprawie „$policy_vote$” jest zablokowany: [SCOPE.sCountry('actor').GetName] zaproponował głosowanie."

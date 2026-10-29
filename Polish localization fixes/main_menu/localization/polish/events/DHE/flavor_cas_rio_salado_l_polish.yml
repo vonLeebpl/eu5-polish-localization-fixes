@@ -33,3 +33,4 @@
  flavor_cas_rio_salado.7.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  flavor_cas_rio_salado.7.a.entry: "$common_string_brilliant$"
  flavor_cas_rio_salado.7.b: "Nie stać nas na to."
+ castile_less_likely_to_conquer_portugal_tt: "[target_ally.GetName] będzie znacznie mniej skłonne do [conquer|e] [ShowAreaName('north_portugal_area')] lub [ShowAreaName('south_portugal_area')]"

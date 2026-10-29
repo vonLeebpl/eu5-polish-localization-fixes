@@ -296,3 +296,7 @@
  rise_of_the_szlachta_crown_triumphant: "Triumf Korony"
  rise_of_the_szlachta_nobles_ascendant: "Wzrost Szlachty"
  schismatic_clergy_not_active_tt: "Nie ma aktywnego #Y Duchowieństwa Schizmatyckiego#! [rebels|e]"
+ rise_of_the_szlachta_burghers_empowered_desc: "Przesuwa nas zdecydowanie w stronę [ShowSocietyDirectionName('plutocracy')], a po rozpoczęciu [ShowAgeName('age_4_reformation')] także w stronę [ShowSocietyDirectionName('mercantilism')]. [ShowEstateTypeName('burghers_estate')] zyskują do trzech różnych [estate_privilege|e]. Odtąd potrzebujemy znacznie mniej [societal_value|e], [legitimacy|e] oraz [ShowEstateTypeName('burghers_estate')] [estate_power|e], by stać się [ShowGovernmentTypeName('republic')]."
+ rise_of_the_szlachta_crown_triumphant_desc: "Przyznaje #Y $STATIC_MODIFIER_NAME_pol_supremacy_over_the_nobles_modifier$ #! na 20 lat, skalowane naszymi [crown_power|e]. Odbiera do trzech [estate_privilege|e] posiadanych przez $nobles_estate_szlachta$ i znacznie podnosi naszą [stability|e]."
+ rise_of_the_szlachta_nobles_ascendant_desc: "Zastępuje naszą główną [government_reform|e] przez [ShowGovernmentReformName('rule_of_the_sejm')], czyniąc nas [ShowGovernmentTypeName('monarchy')], jeśli jeszcze nim nie jesteśmy. $nobles_estate_szlachta$ zyskują [ShowEstatePrivilegeName('golden_liberty')], a nasza korona odtąd przechodzi zgodnie z zasadą [ShowHeirSelectionName('elective_succession')]."
+ variable_rise_of_szlachta_burghers_outcome_variable_tt: "[ShowEstateTypeName('burghers_estate')] przejęli władzę"

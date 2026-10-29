@@ -781,3 +781,5 @@
  cas_regimiento_unlocks_cuantia_tt: "Pozwala nam rekrutować [ShowUnitDefinitionName('a_caballeria_de_cuantia')]"
  jewish_ghetto_ordinance_pop_satisfaction_tt: "Społeczności żydowskie w całym państwie są zamykane w gettach, co powoduje poważny spadek zadowolenia"
  jewish_tax_farming_grant_scale_desc: "Procent populacji wyznającej [ShowReligionName('judaism')] w naszym [country]"
+ lon_principado_de_asturias: "Principado de Asturias"
+ lon_principado_de_asturias_desc: "Księstwo Asturii to oficjalny tytuł nadawany prawowitemu następcy korony, zobowiązujący szlachtę do uznania legalnej sukcesji i obdarzający następcę symboliczną władzą najstarszego chrześcijańskiego królestwa."
