@@ -95,7 +95,6 @@ types SubheaderTypes {
 
 	type diplomatic_relations_content = filtered_sorted_list {
 		datacontext = "[ForeignCountryView.GetDiplomaticRelationsSortSearch]"
-
 		# PLF: usunieto bloki "scroll_list_is_empty"/"scroll_list_is_empty_text"
 		# (odwolywaly sie do nieistniejacego klucza FOREIGN_COUNTRY_LIST_EMPTY -
 		# "Unlocalized text" w logu). Wanilia 1.4 sama usunela ten blockoverride
@@ -119,6 +118,7 @@ types SubheaderTypes {
 				
 				#AI Disposition
 				header_paper_card_horizontal = {
+					visible = "[Not(Country.HasHumanController)]"
 					blockoverride "header_paper_card_size"{
 						size = { -1 85 }
 					}
@@ -1334,7 +1334,7 @@ lateralview = {
 						layoutpolicy_horizontal = fixed
 						layoutpolicy_vertical = fixed
 						autoresize = yes
-						maximumsize = { 420 -1 }
+						maximumsize = { 330 -1 }
 						text = "[ForeignCountryView.GetCountry.GetLongNameWithNoTooltip]"
 					}
 
@@ -1574,11 +1574,6 @@ lateralview = {
 									tooltipwidget = { using = HumanPlayerDisposition_tooltip }
 									visible = "[Country.HasHumanController]"
 									spacing = 5
-
-									icon = {
-										size = { 20 20 }
-										texture = "[GetAiDispositionIcon(Country.Self)]"
-									}
 									icon = {
 										size = { 20 20 }
 										texture = "gfx/interface/icons/outliner/human_player.dds"
@@ -2822,7 +2817,7 @@ lateralview = {
 									blockoverride "text_bottom" {
 										margin_left = 100
 										maximumsize = { 180 -1 }
-										text = "[Player.GetPossibleTotalSubjectsAmount]"
+										text = "[Max_int32(Player.GetPossibleTotalSubjectsAmount, '(int32)0')]"
 									}
 								}
 							}
