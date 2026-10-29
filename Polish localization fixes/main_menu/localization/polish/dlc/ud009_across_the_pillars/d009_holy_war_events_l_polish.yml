@@ -1,0 +1,22 @@
+﻿l_polish:
+ holy_war.11.title: "Najeźdźcy na pograniczu"
+ holy_war.11.desc: "#italic Cabalgada#! z [cabalgada_raider.GetName] przetoczyła się przez nasze pogranicze, paląc wioski i łupiąc wszystko, co się dało, po czym czmychnęła z powrotem za granicę. Nasze niebronione ziemie leżą splądrowane. Czy wezwiemy pospolite ruszenie, by strzegło marchii, czy pozwolimy, by ta zniewaga przeszła bez echa?"
+ holy_war.11.a: "Zwołać pospolite ruszenie na pogranicze!"
+ holy_war.11.b: "Nie możemy nic zrobić, musimy to znieść."
+
+ holy_war.12.title: "Żądanie trybutu"
+ holy_war.12.desc: "Wysłannicy [parias_demander.GetName] przybywają na nasz dwór z surowym przesłaniem: szykuje się przeciw nam [crusade|e], a jeśli nie zapłacimy trybutu, jej armie wkroczą na nasze ziemie. Nasi doradcy ostrzegają, że nasze złoto kupi nam jedynie czas, tłumiąc ich żądzę krwi, lecz nigdy jej nie gasząc. Czy zapłacimy, by odwlec rozrachunek, czy im się przeciwstawimy i przygotujemy na nadchodzącą burzę?"
+ holy_war.12.a: "Zapłać trybut i kup sobie czas."
+ holy_war.12.a.tt: "Opóźnia [crusade|e], cofając jej przygotowania o #G 30#! i obniżając jej gorliwość religijną o #G 10#!"
+ holy_war.12.b: "Nie damy się zastraszyć. Niech przyjdą."
+ holy_war.12.b.tt: "Podnosi gorliwość religijną [crusade|e] o #R 10#!"
+
+ holy_war.15.title: "Najeźdźcy z południa"
+ holy_war.15.desc: "#italic Ḡazw#! z [ghazw_raider.GetName] przetoczył się przez nasze pogranicze, paląc wioski i łupiąc wszystko, co się dało, po czym czmychnął z powrotem za granicę. Nasze niebronione ziemie leżą splądrowane. Czy wezwiemy pospolite ruszenie, by strzegło marchii, czy pozwolimy, by ta zniewaga przeszła bez echa?"
+ holy_war.15.a: "Zwołać pospolite ruszenie na pogranicze!"
+ holy_war.15.b: "Nie możemy nic zrobić, musimy to znieść."
+
+ holy_war.16.title: "Najeźdźcy z morza"
+ holy_war.16.desc: "Korsarze z [shore_raider.GetName] runęli na nasze wybrzeże, plądrując porty i uprowadzając naszych ludzi w kajdanach, nim ich żagle zniknęły za horyzontem. Nasze niebronione wybrzeża leżą splądrowane. Czy wezwiemy pospolite ruszenie, by strzegło wybrzeża, czy pozwolimy, by ta zniewaga przeszła bez echa?"
+ holy_war.16.a: "Zwołać pospolite ruszenie na wybrzeże!"
+ holy_war.16.b: "Nie możemy nic zrobić, musimy to znieść."
