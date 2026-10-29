@@ -8109,7 +8109,9 @@ lateralview = {
 													tooltipwidget = {
 														ContextualTooltipType = {
 															blockoverride "title_text" {
-																text = "[cores] in [Location.GetNameWithNoTooltip]"
+																# PLF: wanilia miała zahardkodowane angielskie " in " - patrz
+																# analogiczna poprawka w select_interaction_cards/industry.gui
+																text = "[cores] w lokacji [Location.GetNameWithNoTooltip]"
 															}
 															blockoverride "title_icon" {
 																icon = {
