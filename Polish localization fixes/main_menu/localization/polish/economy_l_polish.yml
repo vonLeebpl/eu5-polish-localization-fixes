@@ -827,4 +827,4 @@
  SUBVENTION_TRADE_BREAKDOWN: "#T Koszt subwencji#!\n[TRADE.GetName]\nKoszt [Concept('subvention','subwencji')|e] w tej [Concept('trade','transakcji handlowej')|e]:$VAL|2-=L$[gold_i]\n[TRADE.GetTariffInfo]"
  SUBVENTION_TRADE_EXPORT_ENTRY: "$AMOUNT|2Y$ [TRADE.GetGoods.GetIcon] [TRADE.GetFromMarket.GetShortNameWithNoTooltip]@trade_capacity! @orange_right! [TRADE.GetToMarket.GetShortNameWithNoTooltip]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|2-=L$[gold_i]#!"
  SUBVENTION_TRADE_IMPORT_ENTRY: "$AMOUNT|2Y$ [TRADE.GetGoods.GetIcon] [TRADE.GetToMarket.GetShortNameWithNoTooltip]@trade_capacity! @blue_left! [TRADE.GetFromMarket.GetShortNameWithNoTooltip]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|2-=L$[gold_i]#!"
- SUBVENTION_TRADE_OVERFLOW: "...i z $NUM$ innych transakcji: $VAL|2-=L$[gold_i]"
+ SUBVENTION_TRADE_OVERFLOW: "I $VAL|2-=L$[gold_i] z $NUM$ innych transakcji handlowych."

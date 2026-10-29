@@ -5485,7 +5485,7 @@
  MODIFIER_TYPE_NAME_num_ostrogs: "Liczba ostrogów"
  MODIFIER_TYPE_NAME_peasants_estate_allowed_noble_marriage: "$peasants_estate$ — dozwoleni do małżeństwa"
  MODIFIER_TYPE_NAME_tribes_estate_allowed_noble_marriage: "$tribes_estate$ — dozwolone do małżeństwa"
- MODIFIER_TYPE_NAME_vacate_cabinet_for_command_cost_modifier: "Koszt zwolnienia gabinetu na potrzeby dowodzenia"
+ MODIFIER_TYPE_NAME_vacate_cabinet_for_command_cost_modifier: "Koszt zamiany gabinetu na dowodzenie"
  MODIFIER_TYPE_DESC_dawa_bureaucracy_impact_modifier: "Jak bardzo [bureaucracy|el] wpływa na [country|el]."
  MODIFIER_TYPE_NAME_dawa_bureaucracy_impact_modifier: "$dawa_bureaucracy$ – wpływ"
  MODIFIER_TYPE_NAME_horses_impacts_inflation: "Wpływ koni na inflację"

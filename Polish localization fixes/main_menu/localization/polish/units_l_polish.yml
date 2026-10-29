@@ -2551,5 +2551,5 @@
  a_camel_auxiliary_desc: "$a_camel_auxiliary$ to juczna kolumna zaopatrzeniowa pustynnego pogranicza - poganiacze i opiekunowie z klanów karawaniarskich, których zwierzęta niosą zboże, wodę i namioty armii przez tereny, na których kolumna wozów utknęłaby już po dniu marszu. Nie stają w szeregu bitewnym; pojią swe zwierzęta przy pustynnych studniach, do których nie dociera żadna droga dla wozów, i utrzymują zaopatrzenie kampanii głęboko w pustkowiu."
  n_barbary_fusta: "Fusta barbaryjska"
  n_barbary_fusta_desc: "Smukła, chyża galera popularna na Wybrzeżu Barbaryjskim. Uzbrojona jedynie symbolicznie, polega raczej na szybkości i płytkim zanurzeniu niż na sile ognia, i może być zaciągana z naszych nadmorskich osad w czasach wojny."
- CFI_INITIATIVE_BASE: "#T Daily Chance to Engage#!\nBase [initiative|e]: $VAL|2%G$"
+ CFI_INITIATIVE_BASE: "#T Dzienna szansa na nawiązanie walki#!\nPodstawowa [initiative|el]: $VAL|2%G$"
  CFI_INITIATIVE_UNIT: "[SUBUNIT.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2%G$#!"

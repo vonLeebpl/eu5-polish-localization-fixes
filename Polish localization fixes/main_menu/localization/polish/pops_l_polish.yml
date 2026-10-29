@@ -42,4 +42,4 @@
  POP_TYPE_SCALE_FOR_PROMOTE_PRO: "[Concept('promoted','Awans')|e] z prędkością $VAL|2%V$."
  POP_TYPE_SCALE_FOR_MIGRATE_PRO: "[migrates|e] z prędkością $VAL|2%V$."
  POP_TYPE_SCALE_FOR_PROMOTE_PRO_BY_TYPE: "[POP_TYPE.GetName] [Concept('promote','awansują')|e] w tempie $SPEED|2%V$.\n"
- POP_TYPE_SCALE_FOR_PROMOTE_PRO_BY_TYPE_MODIFIED: "[POP_TYPE.GetName] [promote|e] at #TOOLTIP:$BREAKDOWN_TAG$ $SPEED|2%L$#! speed.\n"
+ POP_TYPE_SCALE_FOR_PROMOTE_PRO_BY_TYPE_MODIFIED: "[POP_TYPE.GetName] [Concept('promote','awansują')|e] w tempie #TOOLTIP:$BREAKDOWN_TAG$ $SPEED|2%L$#!.\n"
