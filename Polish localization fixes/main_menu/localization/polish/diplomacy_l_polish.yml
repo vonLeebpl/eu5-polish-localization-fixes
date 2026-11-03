@@ -2227,6 +2227,8 @@
  INVALID_WAR_GOAL: "Niesprawiedliwa wojna"
  war_goal_enforce_military_access: "$generic_war_goal_superiority$"
  war_goal_enforce_military_access_desc: "$generic_war_goal_superiority_desc$"
+ war_goal_enforce_tariff_exemption: "$generic_war_goal_superiority$"
+ war_goal_enforce_tariff_exemption_desc: "$generic_war_goal_superiority_desc$"
  war_goal_destroy_army: "$generic_war_goal_destroy_army$"
  war_goal_destroy_army_desc: "$generic_war_goal_destroy_army_desc$"
  war_goal_superiority_raiding: "$generic_war_goal_superiority$"

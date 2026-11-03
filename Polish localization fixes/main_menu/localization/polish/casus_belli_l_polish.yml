@@ -236,6 +236,8 @@
  secure_italy_valid_locations_tt: "[location.GetName] mieści się w regionie [ShowRegionName('italy_region')]"
  cb_recover_defaulted_debt: "Odzyskanie niespłaconej pożyczki"
  cb_recover_defaulted_debt_desc: "Zmuśmy dłużników, którzy nie spłacili nam swoich pożyczek, do powrotu do stołu negocjacyjnego pod groźbą miecza."
+ cb_tariff_dispute: "Spór o cła"
+ cb_tariff_dispute_desc: "Ich [tariffs|e] wykrwawiają naszych kupców. Sprawimy, że nasze towary będą swobodnie przepływać przez ich [markets|e]."
  RECOVER_DEFAULTED_DEBT_WAR_NAME: "Wojna o niespłacony dług państwa [SCOPE.sCountry('defender').GetName]"
  JURCHEN_UNIFICATION_WAR_NAME: "Wojna zjednoczeniowa Dżurdżenów"
  cb_secure_italy_PROV: "$cb_secure_italy$ bierze na cel prowincję [PROVINCE.GetName]"

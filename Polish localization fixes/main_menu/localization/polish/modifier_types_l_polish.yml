@@ -5439,7 +5439,7 @@
  MODIFIER_TYPE_NAME_unlocked_consulate_sea_town_right: "Aktywuj konsulat morski"
  MODIFIER_TYPE_DESC_unlocked_consulate_sea_town_right: "Aktywuje [town_rights|el] „[ShowTownRightsName('ara_consulate_sea_town_rights')]”"
  MODIFIER_TYPE_NAME_allow_appoint_adelantado_mayor: "Może użyć: [ShowCharacterInteractionNameWithNoTooltip('cas_appoint_adelantado_mayor')]"
- MODIFIER_TYPE_DESC_allow_appoint_adelantado_mayor: "Aktywuje [Concept('character_interaction','interakcję')|e] „[ShowCharacterInteractionName('cas_appoint_adelantado_mayor')]” zwiększającą naszą [Concept('control','kontrolę')|e] i wzmacniającą [fortifications|el] w posiadanych przez nas [Concept('locations','lokacjach')|e] w regionach [ShowAreaName('andalusia_area')], [ShowAreaName('granada_area')] i [ShowAreaName('murcia_area')]."
+ MODIFIER_TYPE_DESC_allow_appoint_adelantado_mayor: "Aktywuje [Concept('character_interaction','interakcję')|e] „[ShowCharacterInteractionName('cas_appoint_adelantado_mayor')]” zwiększającą naszą [Concept('control','kontrolę')|e] i wzmacniającą [fortifications|el] w posiadanych przez nas [Concept('locations','lokacjach')|e] w regionach [ShowAreaName('andalusia_area')], [ShowAreaName('granada_area')] i [ShowAreaName('murcia_area')]. Wymaga również osiągnięcia pierwszego kamienia milowego na naszą korzyść w [situation|e] [ShowSituationName('battle_for_the_strait')]."
  MODIFIER_TYPE_NAME_num_lieutenancy: "Liczba porucznikostw"
  MODIFIER_TYPE_DESC_num_lieutenancy: "Określa, ile budowli typu [ShowBuildingTypeName('lieutenancy')] może zbudować państwo."
  #Battle for the Strait
