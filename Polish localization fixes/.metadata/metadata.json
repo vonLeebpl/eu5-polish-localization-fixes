@@ -1,8 +1,8 @@
 ﻿{
 	"name":	"Polish localization fixes",
 	"id":	"vonleebpl.polish_localization_fixes",
-	"version":	"0.5",
-	"supported_game_version":	"1.4.5",
+	"version":	"0.6",
+	"supported_game_version":	"1.4.7",
 	"short_description":	"Various fixes for polish localization of EU5.",
 	"picture":	"thumbnail.png",
 	"tags":	["Fixes", "Translation"],
