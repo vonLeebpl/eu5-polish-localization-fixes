@@ -1,4 +1,4 @@
-﻿types CombatTooltipTypes
+types CombatTooltipTypes
 {
 	type TooltipCombatStatsList = TooltipListBase {
 		ontextcontextchanged = "[SetStringPairListFromTextContext(PdxGuiWidget.AccessSelf)]"
@@ -149,6 +149,13 @@ template SubUnitFamily_tooltip {
 	ContextualTooltipType = {
 		blockoverride "title_text" {
 			text = "[SubUnitDefinitionFamily.GetNameWithNoTooltip]"
+		}
+
+		blockoverride "title_icon" {
+			icon = {
+				using = tooltip_title_icon_size
+				texture = "gfx/interface/icons/unit_view/unit_family.dds"
+			}
 		}
 
 		blockoverride "concept_link" {
