@@ -34,6 +34,7 @@
     text = { localization_key = AGJ_DOP trigger = {tag = AGJ}}
     text = { localization_key = AGN_DOP trigger = {tag = AGN}}
     text = { localization_key = AGW_DOP trigger = {tag = AGW}}
+    text = { localization_key = AHG_DOP trigger = {tag = AHG}}
     text = { localization_key = AHI_DOP trigger = {tag = AHI}}
     text = { localization_key = AHO_DOP trigger = {tag = AHO}}
     text = { localization_key = AHT_DOP trigger = {tag = AHT}}
@@ -47,6 +48,7 @@
     text = { localization_key = AIT_DOP trigger = {tag = AIT}}
     text = { localization_key = AIX_DOP trigger = {tag = AIX}}
     text = { localization_key = AJC_DOP trigger = {tag = AJC}}
+    text = { localization_key = AJJ_DOP trigger = {tag = AJJ}}
     text = { localization_key = AJU_DOP trigger = {tag = AJU}}
     text = { localization_key = AKG_DOP trigger = {tag = AKG}}
     text = { localization_key = AKI_DOP trigger = {tag = AKI}}
@@ -66,11 +68,13 @@
     text = { localization_key = ALG_DOP trigger = {tag = ALG}}
     text = { localization_key = ALI_DOP trigger = {tag = ALI}}
     text = { localization_key = ALL_DOP trigger = {tag = ALL}}
+    text = { localization_key = ALM_DOP trigger = {tag = ALM}}
     text = { localization_key = ALN_DOP trigger = {tag = ALN}}
     text = { localization_key = ALO_DOP trigger = {tag = ALO}}
     text = { localization_key = ALS_DOP trigger = {tag = ALS}}
     text = { localization_key = ALT_DOP trigger = {tag = ALT}}
     text = { localization_key = ALU_DOP trigger = {tag = ALU}}
+    text = { localization_key = ALV_DOP trigger = {tag = ALV}}
     text = { localization_key = ALY_DOP trigger = {tag = ALY}}
     text = { localization_key = AMA_DOP trigger = {tag = AMA}}
     text = { localization_key = AMB_DOP trigger = {tag = AMB}}
@@ -147,6 +151,7 @@
     text = { localization_key = ATQ_DOP trigger = {tag = ATQ}}
     text = { localization_key = ATR_DOP trigger = {tag = ATR}}
     text = { localization_key = ATT_DOP trigger = {tag = ATT}}
+    text = { localization_key = ATU_DOP trigger = {tag = ATU}}
     text = { localization_key = ATV_DOP trigger = {tag = ATV}}
     text = { localization_key = ATZ_DOP trigger = {tag = ATZ}}
     text = { localization_key = AUD_DOP trigger = {tag = AUD}}
@@ -224,6 +229,7 @@
     text = { localization_key = BIA_DOP trigger = {tag = BIA}}
     text = { localization_key = BIB_DOP trigger = {tag = BIB}}
     text = { localization_key = BID_DOP trigger = {tag = BID}}
+    text = { localization_key = BIJ_DOP trigger = {tag = BIJ}}
     text = { localization_key = BIM_DOP trigger = {tag = BIM}}
     text = { localization_key = BIN_DOP trigger = {tag = BIN}}
     text = { localization_key = BIO_DOP trigger = {tag = BIO}}
@@ -451,6 +457,7 @@
     text = { localization_key = CPQ_DOP trigger = {tag = CPQ}}
     text = { localization_key = CPU_DOP trigger = {tag = CPU}}
     text = { localization_key = CRA_DOP trigger = {tag = CRA}}
+    text = { localization_key = CRD_DOP trigger = {tag = CRD}}
     text = { localization_key = CRH_DOP trigger = {tag = CRH}}
     text = { localization_key = CRI_DOP trigger = {tag = CRI}}
     text = { localization_key = CRJ_DOP trigger = {tag = CRJ}}
@@ -911,6 +918,7 @@
     text = { localization_key = ITZ_DOP trigger = {tag = ITZ}}
     text = { localization_key = IUW_DOP trigger = {tag = IUW}}
     text = { localization_key = IVG_DOP trigger = {tag = IVG}}
+    text = { localization_key = IWL_DOP trigger = {tag = IWL}}
     text = { localization_key = IWS_DOP trigger = {tag = IWS}}
     text = { localization_key = IXA_DOP trigger = {tag = IXA}}
     text = { localization_key = IXL_DOP trigger = {tag = IXL}}
@@ -920,6 +928,7 @@
     text = { localization_key = IZC_DOP trigger = {tag = IZC}}
     text = { localization_key = IZO_DOP trigger = {tag = IZO}}
     text = { localization_key = IZT_DOP trigger = {tag = IZT}}
+    text = { localization_key = JAE_DOP trigger = {tag = JAE}}
     text = { localization_key = JAL_DOP trigger = {tag = JAL}}
     text = { localization_key = JAP_DOP trigger = {tag = JAP}}
     text = { localization_key = JAW_DOP trigger = {tag = JAW}}
@@ -962,6 +971,7 @@
     text = { localization_key = KAB_DOP trigger = {tag = KAB}}
     text = { localization_key = KAD_DOP trigger = {tag = KAD}}
     text = { localization_key = KAG_DOP trigger = {tag = KAG}}
+    text = { localization_key = KAH_DOP trigger = {tag = KAH}}
     text = { localization_key = KAI_DOP trigger = {tag = KAI}}
     text = { localization_key = KAL_DOP trigger = {tag = KAL}}
     text = { localization_key = KAM_DOP trigger = {tag = KAM}}
@@ -971,6 +981,7 @@
     text = { localization_key = KAS_DOP trigger = {tag = KAS}}
     text = { localization_key = KAU_DOP trigger = {tag = KAU}}
     text = { localization_key = KAW_DOP trigger = {tag = KAW}}
+    text = { localization_key = KAY_DOP trigger = {tag = KAY}}
     text = { localization_key = KAZ_DOP trigger = {tag = KAZ}}
     text = { localization_key = KBD_DOP trigger = {tag = KBD}}
     text = { localization_key = KBK_DOP trigger = {tag = KBK}}
@@ -993,6 +1004,7 @@
     text = { localization_key = KGK_DOP trigger = {tag = KGK}}
     text = { localization_key = KGN_DOP trigger = {tag = KGN}}
     text = { localization_key = KGR_DOP trigger = {tag = KGR}}
+    text = { localization_key = KGS_DOP trigger = {tag = KGS}}
     text = { localization_key = KHD_DOP trigger = {tag = KHD}}
     text = { localization_key = KHF_DOP trigger = {tag = KHF}}
     text = { localization_key = KHG_DOP trigger = {tag = KHG}}
@@ -1405,6 +1417,7 @@
     text = { localization_key = MTY_DOP trigger = {tag = MTY}}
     text = { localization_key = MTZ_DOP trigger = {tag = MTZ}}
     text = { localization_key = MUA_DOP trigger = {tag = MUA}}
+    text = { localization_key = MUC_DOP trigger = {tag = MUC}}
     text = { localization_key = MUG_DOP trigger = {tag = MUG}}
     text = { localization_key = MUH_DOP trigger = {tag = MUH}}
     text = { localization_key = MUI_DOP trigger = {tag = MUI}}
@@ -1860,6 +1873,7 @@
     text = { localization_key = SED_DOP trigger = {tag = SED}}
     text = { localization_key = SEN_DOP trigger = {tag = SEN}}
     text = { localization_key = SER_DOP trigger = {tag = SER}}
+    text = { localization_key = SEV_DOP trigger = {tag = SEV}}
     text = { localization_key = SFA_DOP trigger = {tag = SFA}}
     text = { localization_key = SFC_DOP trigger = {tag = SFC}}
     text = { localization_key = SFR_DOP trigger = {tag = SFR}}
@@ -2144,6 +2158,7 @@
     text = { localization_key = TOG_DOP trigger = {tag = TOG}}
     text = { localization_key = TOH_DOP trigger = {tag = TOH}}
     text = { localization_key = TOJ_DOP trigger = {tag = TOJ}}
+    text = { localization_key = TOL_DOP trigger = {tag = TOL}}
     text = { localization_key = TON_DOP trigger = {tag = TON}}
     text = { localization_key = TOO_DOP trigger = {tag = TOO}}
     text = { localization_key = TOQ_DOP trigger = {tag = TOQ}}
