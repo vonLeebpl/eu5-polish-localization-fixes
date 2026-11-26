@@ -189,7 +189,7 @@
  flavor_ser.240.title: "Ilyrizm"
  flavor_ser.240.entry: "$flavor_ser.240.title$"
  flavor_ser.240.desc: "[ShowInstitutionName('enlightenment')] i duch #L południowo[ShowCultureGroupName('slavic_group')|l]kiej#! jedności zainspirował ilyristów, którzy postulują stworzenie zjednoczonej, wolnej od jarzma obcych ciemiężców ojczyzny wszystkich Słowian. Ilyryjscy myśliciele i aktywiści roztaczają kuszącą wizję zjednoczonego i niezależnego [ShowCultureGroupNameWithNoTooltip('slavic_group')|l]kiego kraju, którą porwali wyobraźnię naszego #L [ROOT.GetCountry.GetAdjective|l]kiego#! ludu.\n\nWezwanie do jedności i wyzwolenia, jakie niosą, jest niezwykle zgodne z naszymi narodowymi aspiracjami. Niesie ono jednak ze sobą również znaczące trudności – realizacja tej wizji może okazać się prowokacją dla niedzielącej z nami etnosu ludności kraju."
- flavor_ser.240.a: "Południowo[ShowCultureGroupNameWithNoTooltip('slavic_group')|l] jedność to nasz najwyższy priorytet!"
+ flavor_ser.240.a: "Południowo[ShowCultureGroupNameWithNoTooltip('slavic_group')|l]ka jedność to nasz najwyższy priorytet!"
  flavor_ser.240.b: "Ryzykowalibyśmy destabilizację."
  flavor_ser.240.historical_info: "Ilyryzm był XIX-wiecznym politycznym i kulturalnym ruchem mającym na celu wzbudzenie poczucia południowo słowiańskiej jedności i narodowej świadomości wśród Chorwatów, Słoweńców i Serbów. Inspirował się oświeceniowym i romantycznym nacjonalizmem, pragnął wskrzesić i promować słowiańskie języki i kulturę. Położył podwaliny pod przyszłe starania podejmowane w celu politycznego zjednoczenia i uniezależnienia się od cudzoziemskiej władzy."
  flavor_ser.250.title: "[target_character.GetNameWithNoTooltip]"

@@ -1,5 +1,5 @@
 ﻿l_polish:
- latinization_vs_hellenization.1.title: "[ShowCultureGroupNameWithNoTooltip('greek_group')] mądrość i jej echa"
+ latinization_vs_hellenization.1.title: "#L [ShowCultureGroupNameWithNoTooltip('greek_group')]ka#! mądrość i jej echa"
  latinization_vs_hellenization.1.desc: "W klasztorach i audytoriach lokacji [target_location.GetName] kolekcje pism teologicznych i dzieł ojców kościoła krążą zarówno wśród wiernych, jak i wykształconych. Kazania oraz komentarze czerpią z głębokich studni wiedzy prawosławnej, a kopie tych tekstów zaczynają trafiać w ręce notabli niegreckich ku rosnącemu zaniepokojeniu dworzan, którzy wiążą naszą przyszłość z łacińskim zachodem."
  latinization_vs_hellenization.1.a: "Niechaj ich spostrzeżenia wzbogacą nasze ziemie."
  latinization_vs_hellenization.1.b: "Ta fascynacja starymi pergaminami zaszła za daleko."

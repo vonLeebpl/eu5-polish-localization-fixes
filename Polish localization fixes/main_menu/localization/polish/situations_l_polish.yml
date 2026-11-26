@@ -547,7 +547,7 @@
  fall_of_delhi_become_neutral: "Zachowanie neutralności"
  #Red Turban Rebellions
  red_turban_rebellions: "Bunt Czerwonych Turbanów"
- red_turban_rebellions_desc: "[ShowCultureGroupName('chinese_group')] populacja buntuje się przeciwko swoim #L [GetCountry('CHI').GetCulture.Custom('Culture_adj')|l]kim#! suwerenom. Buntownicy ogłosili utworzenie własnych niepodległych państw, rzucając [GetCountry('CHI').GetName] w wir wojny domowej, która zagraża istnieniu dynastii $YUA$..."
+ red_turban_rebellions_desc: "#L [ShowCultureGroupName('chinese_group')]ka#! populacja buntuje się przeciwko swoim #L [GetCountry('CHI').GetCulture.Custom('Culture_adj')|l]kim#! suwerenom. Buntownicy ogłosili utworzenie własnych niepodległych państw, rzucając [GetCountry('CHI').GetName] w wir wojny domowej, która zagraża istnieniu dynastii $YUA$..."
  red_turban_rebellions_strongest_red_turban_rebel_tt: "[GetInternationalOrganizationType('red_turban_rebels').GetName] mają przywódcę, który musi posiadać #Y 65%#! [Concept('locations','lokacji')|e] składających się na [GetUniqueInternationalOrganization('middle_kingdom').GetName]"
  RTR_EMPEROR: "[THIS.GetLocation.GetOwner.GetName], [GetUniqueInternationalOrganization('middle_kingdom').GetLeaderTitle|l] ([GetUniqueInternationalOrganization('middle_kingdom').GetNameWithNoTooltip])"
  RTR_STRONGEST_REBEL: "[THIS.GetLocation.GetOwner.GetName], wódz buntowników o największej sile ($rtr_yuan_allegiance$: #R [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"

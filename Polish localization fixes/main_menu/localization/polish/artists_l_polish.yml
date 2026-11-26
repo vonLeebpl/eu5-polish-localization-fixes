@@ -1000,11 +1000,11 @@
  jap_winter_landscape_desc: "[GetCharacter('sesshu_toyo').GetName] namalował $jap_winter_landscape$, łącząc #L [ShowCultureGroupName('japanese_group')|l]ki#! styl malarstwa tuszem z #L [ShowCultureGroupName('chinese_group')|l]im#!."
  #Iroquois
  traditions_of_jigonsaseh: "Jigonsaseh, Matka Narodów"
- traditions_of_jigonsaseh_desc: "Jigonsaseh, kluczowa postać w procesie tworzenia Konfederacji [ShowCultureGroupName('haudenosaunee_group')], okazała się sprytną mediatorką i zjednoczycielką."
+ traditions_of_jigonsaseh_desc: "Jigonsaseh, kluczowa postać w procesie tworzenia Konfederacji #L [ShowCultureGroupName('haudenosaunee_group')]kiej#!, okazała się sprytną mediatorką i zjednoczycielką."
  the_tragedy_of_hiawatha: "Tragedia Hiawaty"
- the_tragedy_of_hiawatha_desc: "Hiawatha, będący z początku gniewnym człowiekiem, zmienił się i wyruszył w podróż, aby szerzyć nauki Wielkiego Pokoju. Chociaż nie odniósł sukcesu, wysiłki Hiawathy okazały się kluczowe dla zjednoczenia konfederacji [ShowCultureGroupName('haudenosaunee_group')]."
+ the_tragedy_of_hiawatha_desc: "Hiawatha, będący z początku gniewnym człowiekiem, zmienił się i wyruszył w podróż, aby szerzyć nauki Wielkiego Pokoju. Chociaż nie odniósł sukcesu, wysiłki Hiawathy okazały się kluczowe dla zjednoczenia konfederacji #L [ShowCultureGroupName('haudenosaunee_group')|l]kiej#!."
  the_cleansing_of_tadodaho: "Oczyszczenie Tadodaho"
- the_cleansing_of_tadodaho_desc: "Chociaż Tadodaho był tyranem, ostatecznie został „oczyszczony” ze zła i stał się ostatnim elementem jednoczącym ludy [ShowCultureGroupName('haudenosaunee_group')], pełniąc funkcję głównego wodza."
+ the_cleansing_of_tadodaho_desc: "Chociaż Tadodaho był tyranem, ostatecznie został „oczyszczony” ze zła i stał się ostatnim elementem jednoczącym ludy #L [ShowCultureGroupName('haudenosaunee_group')|l]kie#!, pełniąc funkcję głównego wodza."
  #Prussia
  humboldts_cosmos: "Kosmos"
  humboldts_cosmos_desc: "$humboldts_cosmos$ to wielotomowe arcydzieło, które przedstawia spójną wizję świata przyrody, łącząc szczegółowe obserwacje naukowe z refleksjami filozoficznymi. Jego celem jest wykazanie wzajemnych powiązań między wszystkimi zjawiskami fizycznymi."

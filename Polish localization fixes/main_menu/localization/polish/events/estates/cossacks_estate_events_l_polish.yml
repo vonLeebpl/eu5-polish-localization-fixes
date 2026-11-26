@@ -39,7 +39,7 @@
  cossack_estate_events.10.a: "Niedorzeczne."
  cossack_estate_events.10.b: "Spełnijmy ich żądania."
  cossack_estate_events.11.title: "Ludzie przenoszą się na stepy"
- cossack_estate_events.11.desc: "Stepy zajmują dużą powierzchnię naszego kraju, zatem wielu ludzi zastanawia się, jak wykorzystać potencjał tych terenów. Oczywiście [ShowCultureGroupName('tatar_group')|l] ludy żyją tam odkąd przybyli ze wschodu, ale ich obyczaje są zupełnie inne niż te znane naszej populacji. Jednakże region w pobliżu prowincji [target_migration_province.GetName] interesuje wielu ludzi, którzy są gotowi przenieść się tam i szukać szczęścia w nowym miejscu."
+ cossack_estate_events.11.desc: "Stepy zajmują dużą powierzchnię naszego kraju, zatem wielu ludzi zastanawia się, jak wykorzystać potencjał tych terenów. Oczywiście #L [ShowCultureGroupName('tatar_group')|l]kie#! ludy żyją tam odkąd przybyli ze wschodu, ale ich obyczaje są zupełnie inne niż te znane naszej populacji. Jednakże region w pobliżu prowincji [target_migration_province.GetName] interesuje wielu ludzi, którzy są gotowi przenieść się tam i szukać szczęścia w nowym miejscu."
  cossack_estate_events.11.a: "To naprawdę śmiały ruch."
  cossack_estate_events.11.b: "Nie ma mowy, nikt się nie przeprowadzi bez naszej zgody."
  cossack_estate_events.12.title: "Rodząca się [ShowCultureNameWithNoTooltip('cossack_culture')|l] kultura"
