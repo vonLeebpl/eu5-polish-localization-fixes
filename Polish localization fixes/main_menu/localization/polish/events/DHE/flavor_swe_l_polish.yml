@@ -271,7 +271,7 @@
  flavor_swe.42.desc: "Wraz z przyjęciem reformacji nadszedł czas, by przetłumaczyć Pismo Święte na język #L [ShowLanguageName('finnish_language')|l]#!. To z pewnością ogromnie przyczyni się do stworzenia jednolitej #L $finnish_cadj_l$kiej#! kultury w naszym kraju.\n\n„Uczcie się teraz, starzy i młodzi, którzy macie świeże serce, przykazania Boże oraz umysł, abyście poznali język [ShowDialectNameWithNoTooltip('finnish_dialect')|l]”."
  flavor_swe.42.historical_info: "Mikael Agricola urodził się w regionie Nyland, studiował w Wyborgu, a następnie został biskupem Åbo. Uważa się go za ojca pisanego języka fińskiego, jako że napisał pierwszą książkę opublikowaną w języku fińskim – elementarz i katechizm – oraz modlitewnik, a następnie przetłumaczył na język fiński Nowy Testament."
  flavor_swe.42.a: "#italic Abckiria#! ukaże się drukiem."
- flavor_swe.42.tt: "Mieszkańcy regionów [ShowCultureGroupName('tavastland')], [ShowCultureGroupName('savolax')] i [ShowCultureGroupName('kvenland')] będą teraz uważać się za obywateli #L $finnish_cadj_l$kich#!."
+ flavor_swe.42.tt: "#L $tavastian_cadj$cy#!, #L $savonian_cadj_l$cy#! i #L $kvens_cadj_l$cy#! będą teraz uważać się za obywateli #L $finnish_cadj_l$kich#!."
  flavor_swe.42.b: "Nie jest to dla nas istotne."
  flavor_swe.43.title: "Pierwsze książki wydane drukiem!"
  flavor_swe.43.entry: "$flavor_swe.43.title$"

@@ -296,7 +296,7 @@
  ICE_f: "$ICE$"
  ICE_f_desc: "Okoliczności sprawiły, że nasze islandzkie posiadłości stały się najważniejszą częścią naszego kraju. Przyjmijmy tę nową tożsamość i utwórzmy państwo $ICE$. Wzmocnimy lokalne instytucje, stanowczo umacniając nasze prawo do rządzenia wyspą i zjednoczenia naszego ludu."
  KAZ_f: "$KAZ$"
- KAZ_f_desc: "Gdzieś na omiatanych wichrem odległych stepach lud #L [ShowCultureName('kazakh')|l]ki#! żyje swobodnie bez wspólnego władcy, przez co stajemy się podatni na ataki z zewnątrz. Jednak gdybyśmy w końcu zebrali się razem pod władzą jednego przywódcy i dzielili tożsamość jako naród, moglibyśmy odwrócić ten los. Zjednoczymy się przeto pod jedną flagą, by rządzić morzem traw jako potężny $KAZ$."
+ KAZ_f_desc: "Gdzieś na omiatanych wichrem odległych stepach lud kazachski żyje swobodnie bez wspólnego władcy, przez co stajemy się podatni na ataki z zewnątrz. Jednak gdybyśmy w końcu zebrali się razem pod władzą jednego przywódcy i dzielili tożsamość jako naród, moglibyśmy odwrócić ten los. Zjednoczymy się przeto pod jedną flagą, by rządzić morzem traw jako potężny $KAZ$."
  MIR_f: "$MIR$"
  MIR_f_desc: "Naszą jest wyspa wielu wpływów, konglomerat kultur tworzący unikatowe synkretyczne wierzenia i style życia. Mimo że ta mieszanka różnie przyczynia się do naszej wielkości, powinniśmy promować ideę ludu zjednoczonego wbrew ich różnicom. Pod naszym przywództwem zjednoczone państwo malgaskie pozwoli naszej wyspie prosperować i zapewni stabilność – oraz większą władzę – naszemu ludowi."
  MOR_f: "$MOR$"

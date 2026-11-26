@@ -1702,7 +1702,7 @@
  bathoubwrai_god: "Bathoubwrai"
  bathoubwrai_god_desc: "$bathoubwrai_god$ to najwyższy bóg z panteonu #L [ShowReligionAdjective('bathou_religion')|l]kiego#!."
  mainao_god: "Mainao"
- mainao_god_desc: "$mainao_god$ to bogini chroniąca pola ryżowe ludu #L [ShowCultureName('map_bodo')|l]kiego#!."
+ mainao_god_desc: "$mainao_god$ to bogini chroniąca pola ryżowe ludu #L $bodo_culture_cadj_l$kiego#!."
  song_bwrai_god: "Song Bwrai"
  song_bwrai_god_desc: "$song_bwrai_god$ to bóg domostwa ludu kultury $bodo_culture_cadj_l$kiej."
  bura_bagh_raja_god: "Bura Bagh Raja"
