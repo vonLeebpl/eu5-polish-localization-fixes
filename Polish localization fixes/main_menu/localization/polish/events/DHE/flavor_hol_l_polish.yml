@@ -146,7 +146,7 @@
  flavor_hol.22.desc: "[ShowPopTypeName('peasants')] z regionu [ShowAreaName('friesland_area')], niezadowoleni z zachowania naszych wojsk na ich ziemiach, chwycili za broń przeciwko nam. Wraz z najemnymi żołnierzami, ci buntownicy odnieśli niewielkie sukcesy na lądzie, ale przeprowadzili już kilka zaskakujących manewrów na morzu. W istocie, rewolucjoniści są w równym stopniu piratami, co żołnierzami i jeśli wkrótce ich nie powstrzymamy, ucierpi na tym nasz transport morski."
  flavor_hol.22.a: "Zmiażdżyć zdrajców."
  frisian_independence_fighter: "$frisian$ bojownicy o niepodległość"
- flavor_hol.22.a.tt: "Wszystkie [pops|e] #L [ShowCultureName('frisian')|l]kie#! dołączą do [Concept('rebel','buntowników')|e] z frakcji [target_rebel.GetName]"
+ flavor_hol.22.a.tt: "Wszystkie [pops|e] #L $frisian_cadj_l$kie#! dołączą do [Concept('rebel','buntowników')|e] z frakcji [target_rebel.GetName]"
  flavor_hol.23.title: "[target_character.GetNameWithNoTooltip] – książę filozofów"
  flavor_hol.23.entry: "Baruch Spinoza, książę filozofów"
  flavor_hol.23.desc: "Innowacyjne idee i myśli są aktywnie promowane w państwie #L [ROOT.GetCountry.GetCulture.Custom('Culture_adj')|l]kim#!, co z kolei pobudza bardziej dociekliwe umysły, starające się wspierać społeczeństwo swoimi przemyśleniami. Jednym z takich intelektualistów jest [target_character.GetName], który zajmuje się kilkoma dziedzinami filozofii."

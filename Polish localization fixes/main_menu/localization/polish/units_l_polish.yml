@@ -740,7 +740,7 @@
  a_longbowmen_desc: "$a_longbowmen$ sprawdzają się doskonale nie tylko dzięki potężnej broni, lecz także wieloletniemu treningowi łuczniczemu."
  a_late_longbowmen: "Reformowani łucznicy z długimi łukami"
  a_late_longbowmen_desc: "Niewielkie innowacje w wyposażeniu i organizacji pozwalają na prowadzenie ciągłego, niszczycielskiego ostrzału zdolnego rozbić wszelkie formacje poza najsilniej opancerzonymi."
- longbowmen_levy_requirement_tt: "Dostępni społecznościom #L [ShowCultureName('welsh')|l]kim#! oraz z kultur podstawowej i akceptowanej z zintegrowanych terytoriów, gdy uchwalone jest prawo [ShowPolicyName('longbow_competitions')]"
+ longbowmen_levy_requirement_tt: "Dostępni społecznościom #L $welsh_cadj_l$kim#! oraz z kultur podstawowej i akceptowanej z zintegrowanych terytoriów, gdy uchwalone jest prawo [ShowPolicyName('longbow_competitions')]"
  a_hwacha: "Hwacha"
  a_hwacha_desc: "$a_hwacha$ dysponuje niszczycielską siłą ognia – potrafi zasypywać wroga salwami napędzanymi rakietowo strzałami lub bełtami o żelaznych grotach. Ze względu na ograniczoną manewrowość pełni w bitwach głównie rolę defensywną."
  a_schiltron: "Schiltron"

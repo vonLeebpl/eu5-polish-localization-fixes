@@ -89,7 +89,7 @@
  flavor_rus.13.historical_info: "Ułożenie soborowe było kodeksem praw przyjętym w Carstwie Rosyjskim przez reprezentatywne zgromadzenie rosyjskich posiadaczy ziemskich. Jego celem było ustanowienie zaktualizowanych ram prawnych dla wymiaru sprawiedliwości, odświeżenie prawa karnego i cywilnego, jak również przepisów dotyczących spraw społecznych oraz gospodarczych. Utrwalał poddaństwo, wzmacniając istniejący porządek społeczny i przywiązując chłopów do ziemi."
  flavor_rus.14.title: "Reformy Nikona"
  flavor_rus.14.entry: "$flavor_rus.14.title$"
- flavor_rus.14.desc: "Kultury #L [ShowCultureName('greek_culture')|l]ka#! i #TOOLTIP:CULTUREGROUP,russian_group,X #L wschodniosłowiańska#!#! oraz ich kościoły wraz z upływem czasu zaczęły się coraz bardziej różnić, przez co istnieje kilka rozbieżności w modlitewnikach, ceremoniałach oraz projektowaniu ikon. Powinniśmy podjąć kroki i zmodernizować kościół, aby między naszymi dwiema autokefalicznymi społecznościami panowała harmonia."
+ flavor_rus.14.desc: "Kultury #L $greek_culture_cadj_l$ka#! i #TOOLTIP:CULTUREGROUP,russian_group,X #L wschodniosłowiańska#!#! oraz ich kościoły wraz z upływem czasu zaczęły się coraz bardziej różnić, przez co istnieje kilka rozbieżności w modlitewnikach, ceremoniałach oraz projektowaniu ikon. Powinniśmy podjąć kroki i zmodernizować kościół, aby między naszymi dwiema autokefalicznymi społecznościami panowała harmonia."
  flavor_rus.14.a: "Zmodernizujmy kościół."
  flavor_rus.14.b: "Posłuchajmy rady raskołników."
  flavor_rus.14.tt2: "Może wprowadzać religijne reformy, jeśli otrzyma stanowisko w [Concept('cabinet','gabinecie')|e]."

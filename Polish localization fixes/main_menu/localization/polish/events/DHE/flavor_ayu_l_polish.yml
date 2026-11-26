@@ -1,7 +1,7 @@
 ﻿l_polish:
  flavor_ayu.1.title: "Powstaje $ayutthaya$"
  flavor_ayu.1.entry: "$flavor_ayu.1.title$"
- flavor_ayu.1.desc: "Połączywszy pod swymi rządami terytoria państw [GetCountry('LAV').GetName] i [GetCountry('ADH').GetName], [target_ruler.GetName] ma jeszcze śmielsze plany. Korzystając z bliskich powiązań z ludem kraju [GetCountry('SPN').GetName], przedstawia propozycję założenia nowego miasta na ziemiach regionu [target_location.GetName], skąd zamierza rządzić wszystkimi zjednoczonymi terytoriami. Miasto i ten nowy naród mają nosić nazwę $ayutthaya$, zyskując odrębną #L [ShowCultureName('thai_culture')|l]ką#! tożsamość, inną niż [ShowLanguageName('sanskrit_language')|l] z regionu [target_location.GetNameWithNoTooltip]."
+ flavor_ayu.1.desc: "Połączywszy pod swymi rządami terytoria państw [GetCountry('LAV').GetName] i [GetCountry('ADH').GetName], [target_ruler.GetName] ma jeszcze śmielsze plany. Korzystając z bliskich powiązań z ludem kraju [GetCountry('SPN').GetName], przedstawia propozycję założenia nowego miasta na ziemiach regionu [target_location.GetName], skąd zamierza rządzić wszystkimi zjednoczonymi terytoriami. Miasto i ten nowy naród mają nosić nazwę $ayutthaya$, zyskując odrębną #L $thai_culture_cadj_l$ką#! tożsamość, inną niż [ShowLanguageName('sanskrit_language')|l] z regionu [target_location.GetNameWithNoTooltip]."
  flavor_ayu.1.a: "Nowe miasto i kraj wzniosą się ponad wszystko!"
  flavor_ayu.1.b: "Nasza tożsamość nie jest definiowana tylko przez jedno miasto."
  flavor_ayu.1.c: "Fundusze na ten cel można lepiej wykorzystać gdzie indziej."

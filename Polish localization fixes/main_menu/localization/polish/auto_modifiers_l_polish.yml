@@ -57,7 +57,7 @@
  AUTO_MODIFIER_NAME_peasants_percentage_in_country: "Odsetek, jaki stanowią [ShowPopTypeName('peasants')|l]"
  AUTO_MODIFIER_NAME_larger_than_expected_army: "Armia większa niż oczekiwano"
  AUTO_MODIFIER_NAME_byz_greek_culture: "[primary_culture|e] w greckiej [Concept('culture_group','grupie kultur')|e]"
- AUTO_MODIFIER_NAME_byz_roman_culture: "[primary_culture|e] to kultura [ShowCultureName('roman_culture')|l]ka"
+ AUTO_MODIFIER_NAME_byz_roman_culture: "[primary_culture|e] to kultura $roman_culture_cadj_l$ka"
  AUTO_MODIFIER_NAME_byz_romance_culture: "[Concept('language','Językiem')|eU] [Concept('primary_culture','kultury podstawowej')|e] jest [ShowLanguageFamilyName('romance_language_family')|l]ki"
  AUTO_MODIFIER_NAME_byz_capital_constantinople: "[capital|e] to [ShowLocationName('constantinople')]"
  AUTO_MODIFIER_NAME_byz_capital_rome: "[ShowCityName('rome')] – [capital|el]"

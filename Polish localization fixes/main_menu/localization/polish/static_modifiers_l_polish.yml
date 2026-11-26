@@ -42,7 +42,7 @@
  STATIC_MODIFIER_NAME_interdict: "Interdykt"
  STATIC_MODIFIER_NAME_inflation_impact: "[inflation|e]"
  STATIC_MODIFIER_NAME_chi_factional_strife: "Frakcyjny spór"
- STATIC_MODIFIER_DESC_chi_factional_strife: "Konflikt między frakcją #L [ShowCultureName('mongolian_culture')|l]ką#! a konfucjańską grupą, której językiem był chińki, doprowadził do zabójstwa poprzedniego cesarza oraz ogólnego osłabienia #L [GetCountry('CHI').GetAdjective|l]kiej#! władzy centralnej, biurokracji i wojska."
+ STATIC_MODIFIER_DESC_chi_factional_strife: "Konflikt między frakcją #L $mongolian_culture_cadj_l$ką#! a konfucjańską grupą, której językiem był chińki, doprowadził do zabójstwa poprzedniego cesarza oraz ogólnego osłabienia #L [GetCountry('CHI').GetAdjective|l]kiej#! władzy centralnej, biurokracji i wojska."
  STATIC_MODIFIER_NAME_chi_administration_in_disarray: "Administracja w rozsypce"
  STATIC_MODIFIER_DESC_chi_administration_in_disarray: "Nawet jeśli wszystkie kłopoty kraju [GetCountry('CHI').GetName] zostaną rozwiązane, a konflikt między różnymi frakcjami zostanie zażegnany, problemy administracyjne nie znikną w najbliższej przyszłości."
  STATIC_MODIFIER_NAME_chi_yuan_religious_stability: "Władza religijna w Yuan"
@@ -1937,7 +1937,7 @@
  STATIC_MODIFIER_NAME_vij_bukka_raya_reign: "Rządy Bukki Raji"
  STATIC_MODIFIER_DESC_vij_bukka_raya_reign: "Chcąc zaprowadzić dobrobyt w naszej krainie, Bukka Raja odnowi miasta, by wynieść je na nowe wyżyny."
  STATIC_MODIFIER_NAME_vij_curtailed_tamil_rebels: "Nieudany bunt Tamilów"
- STATIC_MODIFIER_DESC_vij_curtailed_tamil_rebels: "Tej postaci nie udało się odzyskać niepodległości dla [ShowCultureNameWithNoTooltip('tamil')|l]kiej ludności."
+ STATIC_MODIFIER_DESC_vij_curtailed_tamil_rebels: "Tej postaci nie udało się odzyskać niepodległości dla $tamil_cadj_l$kiej ludności."
  STATIC_MODIFIER_NAME_preserved_vijayanagar: "Zachowano Miasto Zwycięstwa"
  STATIC_MODIFIER_DESC_preserved_vijayanagar: "Zamiast niszczyć miasto [ShowLocationName('vijayanagar')], zdecydowaliśmy się zachować to miejsce dla potomności."
  #Cossacks
