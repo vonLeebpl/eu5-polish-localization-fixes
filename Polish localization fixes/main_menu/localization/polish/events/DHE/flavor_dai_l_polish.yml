@@ -29,7 +29,7 @@
  flavor_dai.4.entry: "$flavor_dai.4.title$"
  flavor_dai.4.desc: "[ROOT.GetCountry.GetLongName] to coraz liczebniejsze państwo i wciąż przypomina prawdziwe imperium, jak [GetUniqueInternationalOrganization('middle_kingdom').GetName]. Nasi doradcy radzą zbudować wielką cytadelę, której [Select_CString(target_character.IsFemale,'patronką byłaby','patronem byłby')] [target_character.GetName]."
  flavor_dai.4.desc.a: "$flavor_dai.4.desc$ Uważają też, że [target_location.GetRank.GetName|l] [target_location.GetName] jest miejscem, w którym może znaleźć się choćby #L [ROOT.GetCountry.GetGovernment.GetAdjective|l]ki#! [ROOT.GetCountry.GetGovernment.GetCourtTitle|l]. Inni jednak uważają, że miasto stołeczne [capital_location.GetName] może zostać jeszcze rozbudowane."
- flavor_dai.4.desc.b: "$flavor_dai.4.desc$ [target_location.GetRank.GetName] [target_location.GetName] ulegnie rozbudowie i będzie się tam znajdować #L [ROOT.GetCountry.GetGovernment.GetAdjective|l].#! [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] ([ROOT.GetCountry.GetNameWithNoTooltip])."
+ flavor_dai.4.desc.b: "$flavor_dai.4.desc$ [target_location.GetRank.GetName] [target_location.GetName] ulegnie rozbudowie i będzie się tam znajdować nasz [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] ([ROOT.GetCountry.GetNameWithNoTooltip])."
  flavor_dai.4.historical_info: "Cesarskie miasto Huế to otoczony murami teren w cytadeli stolicy cesarskiej dynastii Nguyễn. Zbudowano je w 1803 roku, kiedy to Nguyễn Ánh ostatecznie zjednoczył Việt Nam po stuleciu podzielenia między panami Trịnh i Nguyễn."
  flavor_dai.4.a: "[target_location.GetNameWithNoTooltip] to znakomite miejsce na stolicę."
  flavor_dai.4.a.entry: "[ShowLocationNameWithNoTooltip('amarendrapura')] będzie świetną stolicą."

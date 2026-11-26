@@ -32,7 +32,7 @@
  invite_foreign_advisor_decision.b: "Nasi własni doradcy wystarczą."
  invite_foreign_advisor_cooldown_tt: "$sponsor_a_cathedral_cooldown_tt$"
  disempower_the_parliament_decision: "Challenge the Rights of the Parliament"
- disempower_the_parliament_decision_desc: "Over the last centuries our parliament has acquired certain rights that limit our government in its own freedom. We should look towards those with entrenched seats in the parliament and revoke their rights!"
+ disempower_the_parliament_decision_desc: "W ciągu ostatnich stuleci nasz parlament zdobył pewne prawa, które ograniczają samowolę rządu. Powinniśmy przyjrzeć się tym, którzy okopali się w parlamencie, i odebrać im ich prawa!"
  disempower_the_parliament_decision.a: "Musimy ograniczyć władzę parlamentu."
  disempower_the_parliament_decision.b: "To nie jest właściwy moment, by rzucić wyzwanie parlamentowi."
  abolish_serfdom_decision.title: "Zniesienie pańszczyzny"
