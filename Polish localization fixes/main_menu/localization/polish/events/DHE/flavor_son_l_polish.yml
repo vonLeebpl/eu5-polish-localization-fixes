@@ -47,7 +47,7 @@
  flavor_son.7.a.entry: "[ShowReligionGroupNameWithNoTooltip('muslim')] wskaże nam drogę."
  flavor_son.7.b: "Uszanujmy prawa niewiernych."
  son_all_non_muslim_pops_gain_satisfaction_tt: "Wszystkie [pop|e], których religią nie jest [ShowReligionGroupName('muslim')|l], zyskają [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] [Concept('pop_satisfaction','satysfakcji')|e]."
- flavor_son.8.title: "Nawracanie narodów wyznających [ShowReligionGroupAdjectiveWithNoTooltip('folk_african_group')|l]"
+ flavor_son.8.title: "Nawracanie narodów wyznających religie #L [ShowReligionGroupAdjectiveWithNoTooltip('folk_african_group')|l]ie#!"
  flavor_son.8.entry: "Nawracanie narodów wyznających afrykańskie religie ludowe"
  flavor_son.8.desc: "Choć [ShowRegionName('guinea_region')] nie zna większej potęgi niż nasza, wciąż są tam narody, których religią nie jest [ShowReligionGroupName('muslim')|l]. Możemy zmusić je do nawrócenia, jednak [target_character.GetName] woli sięgnąć po pokojowe metody. Chce wykorzystać dyplomację do krzewienia wiary #L [ShowReligionGroupAdjectiveWithNoTooltip('muslim')|l]kiej#!, zamiast sięgać po miecz, co wywołałoby tylko większe niepokoje."
  flavor_son.8.a: "To całkiem dobry pomysł."

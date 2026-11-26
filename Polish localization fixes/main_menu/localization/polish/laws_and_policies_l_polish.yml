@@ -1744,7 +1744,7 @@
  crown_religious_jurisdiction_desc: "Wpływy, jakie posiadają [GetCountry('PAP').GetName] i [ShowSpecialStatusNameWithNoTooltip('curia')|l], zostały znacznie ograniczone na rzecz bezpośredniej jurysdykcji, jaką ma teraz rząd nad #L [GetCountry('SCO').GetAdjective|l]kimi#! instytucjami religijnymi."
  limited_curia_oversight: "Ograniczony dostęp kurii"
  limited_curia_oversight_desc: "Rząd zachowuje większość wpływów nad #L [GetCountry('SCO').GetAdjective|l]kimi#! instytucjami religijnymi, zaś wysocy rangą duchowni otrzymali specjalne prawa umożliwiające im otwarty dialog z kurią."
- sco_colonial_affairs_law: "[GetCountry('SCO').GetAdjectiveWithNoTooltip] kwestie kolonialne"
+ sco_colonial_affairs_law: "Kwestie kolonialne [GetCountry('SCO').Custom('C_DOP')]"
  sco_colonial_affairs_law_desc: "Jeśli opowieści o bogactwach nowego świata są prawdziwe, [GetCountry('SCO').GetName] może wiele zyskać, tworząc pokaźną bazę kolonialną – jednocześnie jednak zbyt duża ambicja może przynieść katastrofalne skutki stabilności gospodarczej państwa."
  sco_no_colonial_affairs: "Brak przedsięwzięć kolonizacyjnych"
  sco_no_colonial_affairs_desc: "Przedsięwzięcia kolonialne i próby zakładania kompanii handlowych w nowym świecie zostały uznane za zbyt duże ryzyko dla #L [GetCountry('SCO').GetAdjective|l]kiej#! stabilności finansowej."

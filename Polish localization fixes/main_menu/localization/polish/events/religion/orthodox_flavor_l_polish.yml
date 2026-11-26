@@ -44,7 +44,7 @@
  orthodox_flavor.10.a: "Uchwalenie ambasady byłoby dla nas korzystne."
  orthodox_flavor.10.b: "Skodyfikujmy wojny przeciwko niewiernym."
  orthodox_flavor.11.title: "Pentarchia"
- orthodox_flavor.11.desc: "Religia [ShowReligionGroupAdjective('christian')|l] – [ShowReligionName('orthodox')|l] – odzyskała dzięki nam wszystkie pięć Patriarchatów i przywróciliśmy starą Pentarchię, tym samym skutecznie kończąc wielką schizmę wschodu i zachodu. Choć dla niektórych krajów świata [ShowReligionName('catholic')|l] wciąż może być nadrzędny, państwo kościelne, [GetCountry('PAP').GetFlavorRank|l], straciło swój osławiony prymat jako prawowity następca świętego Piotra, a [ShowLocationName('rome')] i jego biskup nie są już najważniejsi."
+ orthodox_flavor.11.desc: "#L [ShowReligionGroupAdjective('christian')]kie#! [ShowReligionName('orthodox')|l] odzyskało dzięki nam wszystkie pięć Patriarchatów i przywróciliśmy starą Pentarchię, tym samym skutecznie kończąc wielką schizmę wschodu i zachodu. Choć dla niektórych krajów świata [ShowReligionName('catholic')|l] wciąż może być nadrzędny, państwo kościelne, [GetCountry('PAP').GetFlavorRank|l], straciło swój osławiony prymat jako prawowity następca świętego Piotra, a [ShowLocationName('rome')] i jego biskup nie są już najważniejsi."
  orthodox_flavor.11.a: "Rana się zagoiła!"
  orthodox_flavor.100.title: "Synod roku [GetCurrentYear]"
  orthodox_flavor.100.desc: "Sprawy duchowne naszego królestwa wymagają ostrożności i uwagi, jeśli chcemy zachować nasze tradycje, których podstawą jest wiara [ShowReligionAdjective('orthodox')|l]a. Aby przedyskutować te kwestie i ustalić wspólny cel dla całej naszej duchowej domeny, niezwłocznie zwołany zostanie najświętszy [ShowGenericActionName('orthodox_synod')|l]."

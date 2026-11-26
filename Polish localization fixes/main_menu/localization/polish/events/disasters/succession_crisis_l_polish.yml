@@ -1,7 +1,7 @@
 ﻿l_polish:
  #Events
  succession_crisis.1.title: "Walka o [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ką koronę"
- succession_crisis.1.desc: "Lata niewłaściwego zarządzania, intryg dworskich i niestabilnych rządów stały się przyczyną naszego upadku! Niczym cienie o zmierzchu, wiele prominentnych figur o [ROOT.GetCountry.GetGovernment.GetAdjective|l] aspiracjach zebrało się, aby podjąć żałosną próbę buntu. Ich zdaniem na [ROOT.GetCountry.GetAdjective|l]kim tronie ma zasiąść [scope_pretender.GetName]."
+ succession_crisis.1.desc: "Lata niewłaściwego zarządzania, intryg dworskich i niestabilnych rządów stały się przyczyną naszego upadku! Niczym cienie o zmierzchu, wiele prominentnych figur o własnych aspiracjach zebrało się, aby podjąć żałosną próbę buntu. Ich zdaniem na [ROOT.GetCountry.GetAdjective|l]kim tronie ma zasiąść [scope_pretender.GetName]."
  succession_crisis.1.a: "Zatknijcie tę pustą głowę na kiju!"
  succession_crisis.1.tt: "Kilka z naszych [Concept('provinces', 'prowincji')|e] niezadowolonych z naszych rządów zmieni stronę, a [scope_pretender.GetNameWithNoTooltip] urośnie w siłę."
  succession_crisis.2.title: "Lokalny sprzeciw"

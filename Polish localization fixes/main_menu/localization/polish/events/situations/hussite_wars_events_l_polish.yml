@@ -87,7 +87,7 @@
  hussite_wars.6.a: "Wyplenimy tych heretyków!"
  hussite_wars.6.b: "Nie jesteśmy papieskimi sługusami!"
  hussite_wars.7.title: "Wiara [ShowReligionAdjectiveWithNoTooltip('hussite')|l]ka w kłopotach"
- hussite_wars.7.desc: "Strudzony posłaniec zawitał na nasz dwór, przynosząc wieści o podłej krucjacie, która wyruszyła z ziemi [GetCountry('PAP').GetAdjective|l] przeciw krajowi [GetCountry('BOH').GetName]. Opowiedział o brutalności, spalonej ziemi i nieustannych walkach, w których udział biorą zarówno żołnierze, jak i pospólstwo.\n\nPosłaniec wychwala więź braterską między naszymi narodami i prosi o pomoc dla swojego wykrwawianego ludu. [GetCountry('BOH').GetNameWithNoTooltip] prosi o pomoc!"
+ hussite_wars.7.desc: "Strudzony posłaniec zawitał na nasz dwór, przynosząc wieści o podłej krucjacie, która wyruszyła z ziem [GetCountry('PAP').Custom('C_DOP')] przeciw krajowi [GetCountry('BOH').GetName]. Opowiedział o brutalności, spalonej ziemi i nieustannych walkach, w których udział biorą zarówno żołnierze, jak i pospólstwo.\n\nPosłaniec wychwala więź braterską między naszymi narodami i prosi o pomoc dla swojego wykrwawianego ludu. [GetCountry('BOH').GetNameWithNoTooltip] prosi o pomoc!"
  hussite_wars.7.a: "I [GetCountry('POL').GetNameWithNoTooltip] odpowie. Przygotować kawalerię!"
  hussite_wars.7.b: "To nierozsądne..."
  teutons_hussite_wars_tt: "Wydarzenie „#Y Pobożne wezwanie do broni#!” odbywa się w kraju [GetCountry('TEU').GetLongName]"

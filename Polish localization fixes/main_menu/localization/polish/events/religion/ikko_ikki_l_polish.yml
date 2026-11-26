@@ -33,7 +33,7 @@
  ikko_ikki.7.a: "Będą służyć naszym celom."
  ikko_ikki.7.b: "Ich wpływy stają się zbyt duże."
  ikko_ikki.8.title: "Wsparcie dla $ikko_ikki$"
- ikko_ikki.8.desc: "Od pewnego czasu wspieramy rozwój społeczności świątynnych [target_io.GetName], w rezultacie czego jesteśmy kojarzeni z $ikko_ikki$. Przywódcy osiedli wokół świątyń [ShowReligionGroupAdjective('buddhist')|l] mają duże wpływy w naszym społeczeństwie, ale [ROOT.GetCountry.GetFlavorRank|l] cieszy się też ich zagorzałym poparciem."
+ ikko_ikki.8.desc: "Od pewnego czasu wspieramy rozwój społeczności świątynnych [target_io.GetName], w rezultacie czego jesteśmy kojarzeni z $ikko_ikki$. Przywódcy osiedli wokół świątyń #L [ShowReligionGroupAdjective('buddhist')|l]kich#! mają duże wpływy w naszym społeczeństwie, ale [ROOT.GetCountry.GetFlavorRank|l] cieszy się też ich zagorzałym poparciem."
  ikko_ikki.8.a: "Wspierajmy ich dalej, są przydatni."
  ikko_ikki.8.b: "Być może zapewniamy im zbyt duże wsparcie."
  ikko_ikki.9.title: "Budda Nieograniczonego Światła"

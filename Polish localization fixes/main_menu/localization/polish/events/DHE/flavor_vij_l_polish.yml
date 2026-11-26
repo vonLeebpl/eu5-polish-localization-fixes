@@ -125,7 +125,7 @@
  flavor_vij.22.entry: "Nauka od islamskich wojowników"
  flavor_vij.22.desc: "Byliśmy dotychczas w stanie nieustannego konfliktu z #L [ShowReligionGroupAdjective('Muslim)|l]imi#! nacjami, ale nie powinno nam to przesłaniać przewag wroga na polu walki. Ich kawaleria, która szkoleniem góruje nad rodzimą, od zawsze stanowi problem dla naszych formacji piechoty. Być może powinniśmy przyswoić sobie jej taktykę i wdrożyć ją w #L [ROOT.GetCountry.GetAdjective|l]kiej#! armii."
  flavor_vij.22.a: "Ta innowacja zapewni nam wiele zwycięstw."
- flavor_vij.22.b: "[ShowReligionGroupAdjectiveWithNoTooltip('muslim')] w szeregach naszej armii? Niedoczekanie!"
+ flavor_vij.22.b: "#L [ShowReligionGroupAdjectiveWithNoTooltip('muslim')]cy#! w szeregach naszej armii? Niedoczekanie!"
  vijay_riders_may_only_be_recruited_from_muslim_provinces: "[ShowUnitDefinitionName('a_muslim_riders_vijay')] mogą być werbowani w [Concept('locations','lokacjach')|e], w których [ShowReligionGroupName('muslim')] jest dominującą religią."
  flavor_vij.23.title: "Wsparcie dla literatury [ShowLanguageNameWithNoTooltip('kannada_language')]ej"
  flavor_vij.23.entry: "Wsparcie dla literatury kannadzkiej"

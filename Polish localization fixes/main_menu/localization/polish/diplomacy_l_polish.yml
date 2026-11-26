@@ -3092,7 +3092,7 @@
  INCITE_DESERTION_LOYAL_TO_THE_CAUSE: "Lojalność wobec sprawy"
  PEACE_NOT_POSSIBLE_INTERSECTING_LOCATIONS_WITH: "@trigger_no! Ten traktat dotyczy tych samych lokacji co następujący traktat, #italic #bold $TREATY$#!#!"
  PEACE_NOT_POSSIBLE_TO_COMBINE_WITH: "@trigger_no! Tego traktatu nie można połączyć z #bold $TREATY$#!, który jest już częścią propozycji."
- ROYAL_MARRIAGE_NOT_SAME_GROUP_CHARACTER: "@trigger_no! [CHARACTER.GetName] wyznaje wiarę, która nie jest [TARGET_CHARACTER.GetReligion.GetGroup.GetAdjective|l] i dlatego nie możemy zawrzeć [Concept('royal_marriages','małżeństwa królewskiego')|e] ani doprowadzić do [Concept('betrothals', 'zaręczyn')|e]."
+ ROYAL_MARRIAGE_NOT_SAME_GROUP_CHARACTER: "@trigger_no! [CHARACTER.GetName] wyznaje wiarę, która nie należy do grupy [TARGET_CHARACTER.GetReligion.GetGroup.GetName|l] i dlatego nie możemy zawrzeć [Concept('royal_marriages','małżeństwa królewskiego')|e] ani doprowadzić do [Concept('betrothals', 'zaręczyn')|e]."
  ROYAL_MARRIAGE_OUR_CHARACTER_NOT_IN_OUR_COUNTRY: "@trigger_no![CHARACTER.GetName] nie znajduje się w kraju [COUNTRY.GetName]."
  SELLPROV_ANTAGONISM_REDUCTION: "To okazja dla państwa $RECIPIENT$, która zmniejsza jego [antagonism|el] wobec nas o $VAL|<=2$. Im taniej, tym bardziej."
  WAR_DESCRIPTION_CASUS_BELLI: "Wojna zaczęła się z [casus_belli|el] $CASUS_BELLI$."

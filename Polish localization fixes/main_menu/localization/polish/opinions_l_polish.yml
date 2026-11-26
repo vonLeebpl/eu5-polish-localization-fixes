@@ -67,7 +67,7 @@
  OPINION_RELIGION_GENERAL_VIEW_ENTRY: "#L [RELIGION.GetAdjective][Select_CString(Or(EndsWith(RELIGION.GetAdjectiveWithNoTooltip, 'k'),Or(EndsWith(RELIGION.GetAdjectiveWithNoTooltip, 'n'),EndsWith(RELIGION.GetAdjectiveWithNoTooltip, 'ł'))),'a','ka')]#! opinia, jaką cieszy się [TARGET_RELIGION.GetName|l]: $VAL|0=+$\n"
  OPINION_RELIGION_ENTRY: "#L [RELIGION.GetAdjective][Select_CString(Or(EndsWith(RELIGION.GetAdjectiveWithNoTooltip, 'k'),Or(EndsWith(RELIGION.GetAdjectiveWithNoTooltip, 'n'),EndsWith(RELIGION.GetAdjectiveWithNoTooltip, 'ł'))),'a','ka')]#! opinia na temat krajów wyznających religię #L [TARGET_RELIGION.GetAdjective][Select_CString(Or(EndsWith(TARGET_RELIGION.GetAdjectiveWithNoTooltip, 'k'),Or(EndsWith(TARGET_RELIGION.GetAdjectiveWithNoTooltip, 'n'),EndsWith(TARGET_RELIGION.GetAdjectiveWithNoTooltip, 'ł'))),'ą','ką')]#!: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|L0=+$#!\n"
  OPINION_EXCOMMUNICATED: "[CHARACTER.GetName] jest [Select_CString(CHARACTER.IsFemale,'ekskomunikowana','ekskomunikowany')]"
- CULTURE_BREAKDOWN_TOOLTIP: "#T Dystrybucja kultury [CULTURE.Custom('Culture_adj')|l]kiej#!\n#L [CULTURE.Custom('Culture_adj')|l]#! [Concept('pops','społeczności')|e] zamieszkują następujące [provinces|el]:"
+ CULTURE_BREAKDOWN_TOOLTIP: "#T Dystrybucja kultury [CULTURE.Custom('Culture_adj')|l]kiej#!\n#L [CULTURE.Custom('Culture_adj')|l]kie#! [Concept('pops','społeczności')|e] zamieszkują następujące [provinces|el]:"
  CULTURE_BREAKDOWN_TOOLTIP_ENTRY: "@province! [PROVINCE.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $POP_SIZE|L$#!"
  ICI_HEADER: "Kultura [CULTURE.GetNameWithNoTooltip|l] w prowincji [PROVINCE.GetNameWithNoTooltip]"
  ICI_POP_ENTRY: "[POP.GetName]: [POP.GetSize] [POP.GetType.GetIcon]"

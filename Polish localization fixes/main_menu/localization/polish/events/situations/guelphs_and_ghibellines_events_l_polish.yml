@@ -55,7 +55,7 @@
  guelphs_and_ghibellines.100.b.tt: "[GetUniqueInternationalOrganization('ghibellines_io').GetName] nie mogą liczyć na nasze przywództwo, dopóki nie opuścimy frakcji i ponownie do niej nie dołączymy"
  guelphs_and_ghibellines.100.c: "[GetUniqueInternationalOrganization('ghibellines_io').GetNameWithNoTooltip] osiągną pod naszym przywództwem zwycięstwo!"
  guelphs_and_ghibellines.1000.title: "[target.GetNameWithNoTooltip]"
- guelphs_and_ghibellines.1000.desc: "Przybyli do nas [actor.GetAdjective|l] ambasadorowie, prosząc o wsparcie w trwającym konflikcie, jakim jest [target.GetName]. Twierdzą oni, że mamy obowiązek do nich dołączyć, ponieważ nasza frakcja to także [target_1.Custom('GetGAGOwnFaction')|l]."
+ guelphs_and_ghibellines.1000.desc: "Przybyli do nas ambasadorowie [actor.Custom('C_DOP')], prosząc o wsparcie w trwającym konflikcie, jakim jest [target.GetName]. Twierdzą oni, że mamy obowiązek do nich dołączyć, ponieważ nasza frakcja to także [target_1.Custom('GetGAGOwnFaction')|l]."
  guelphs_and_ghibellines.1000.a: "Pomożemy im, rzecz jasna."
  guelphs_and_ghibellines.1000.b: "Nic nie zyskamy na tym konflikcie."
  guelphs_and_ghibellines.1001.title: "[target_1.GetNameWithNoTooltip] dołącza do nas!"

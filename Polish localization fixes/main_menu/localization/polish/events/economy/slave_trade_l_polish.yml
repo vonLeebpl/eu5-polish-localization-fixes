@@ -11,5 +11,5 @@
  slave_trade.5.a: "Kolejne wielkie kłopoty..."
  slave_trade.5.b: "Musimy przywrócić ład!"
  slave_trade.6.title: "Spalenie ośrodka handlu niewolnikami"
- slave_trade.6.desc: "[from.GetAdjective] mieszkańcy spalili nasz [ShowBuildingTypeName('slave_center')|l] na obszarze zwanym [slave_location.GetName]. To zasadny powód do wojny!"
+ slave_trade.6.desc: "Mieszkańcy [from.Custom('C_DOP')] spalili nasz [ShowBuildingTypeName('slave_center')|l] na obszarze zwanym [slave_location.GetName]. To zasadny powód do wojny!"
  slave_trade.6.a: "I być może tak właśnie się to skończy..."

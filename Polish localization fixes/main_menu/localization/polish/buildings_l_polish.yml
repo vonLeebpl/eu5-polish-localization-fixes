@@ -504,7 +504,7 @@
  belvedere_palace: "Pałac Belwederski"
  belvedere_palace_desc: "$belvedere_palace$ to duży pałac w Wiedniu znany ze swego rozmachu architektonicznego oraz roli centrum kulturalnego, w którym mieści się ogromna kolekcja europejskich dzieł sztuki."
  sco_palace_of_holyroodhouse: "Pałac Holyrood"
- sco_palace_of_holyroodhouse_desc: "$sco_palace_of_holyroodhouse$ stanowi symbol jednego z wielu stylów architektonicznych #L [ShowCultureName('scottish')|l]kiego#! renesansu. Ten olbrzymi gotycki pałac to jedna z najbardziej cenionych rezydencji [ShowCultureNameWithNoTooltip('scottish')|l]kiej rodziny [GetCountry('SCO').GetGovernment.GetAdjective|l]."
+ sco_palace_of_holyroodhouse_desc: "$sco_palace_of_holyroodhouse$ stanowi symbol jednego z wielu stylów architektonicznych #L [ShowCultureName('scottish')|l]kiego#! renesansu. Ten olbrzymi gotycki pałac to jedna z najbardziej cenionych rezydencji [ShowCultureNameWithNoTooltip('scottish')|l]kiej rodziny królewskiej."
  fra_louvre_museum: "Luwr"
  fra_louvre_museum_desc: "Pałac Luwr, niegdyś symbol francuskiego rodu królewskiego, został zmieniony w muzeum, w którym podziwiać można najwspanialsze dzieła, jakimi dysponuje [GetCountry('FRA').GetNameWithNoTooltip]."
  #Unique Buildings

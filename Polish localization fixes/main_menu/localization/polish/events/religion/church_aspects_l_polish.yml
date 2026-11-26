@@ -23,7 +23,7 @@
  church_aspects.6.a: "Poprzyjmy istniejącą wersję."
  church_aspects.6.b: "Zamówmy nowy przekład."
  church_aspects.7.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] inwestują swoje zarobki"
- church_aspects.7.desc: "Nasze śmiałe odejście od ogólnej doktryny [ShowReligionGroupAdjective('christian')|l] i zezwolenie na lichwę mocno się opłaciło. Nasi [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] są bogatsi niż kiedykolwiek wcześniej i prosperują dzięki pobieranym opłatom. [target_ruler.GetName] cieszy się z tego powodu ich ogromną wdzięcznością, dlatego postanowili zasponsorować projekt, którego domem będzie [target_location.GetName]."
+ church_aspects.7.desc: "Nasze śmiałe odejście od ogólnej doktryny #L [ShowReligionGroupAdjective('christian')|l]kiej#! i zezwolenie na lichwę mocno się opłaciło. Nasi [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] są bogatsi niż kiedykolwiek wcześniej i prosperują dzięki pobieranym opłatom. [target_ruler.GetName] cieszy się z tego powodu ich ogromną wdzięcznością, dlatego postanowili zasponsorować projekt, którego domem będzie [target_location.GetName]."
  church_aspects.7.a: "Nowy [ShowBuildingTypeNameWithNoTooltip('university')|l] będzie mile widziany."
  church_aspects.7.b: "[ROOT.GetCountry.GetReligion.GetGodName] z pewnością doceni, jeśli zostanie wzniesiona nowa [ShowBuildingTypeNameWithNoTooltip('cathedral')|l]."
  church_aspects.8.title: "Nauczanie w ubóstwie"

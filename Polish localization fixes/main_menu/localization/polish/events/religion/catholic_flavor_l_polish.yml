@@ -24,7 +24,7 @@
  catholic_flavor.6.desc: "Od najznamienitszego szlachcica po najpośledniejszego chłopa, ludzie wierzą, że oddawanie czci relikwiom skraca czas pobytu w czyśćcu. Traktat sprzeciwiający się tej praktyce znaleziono na drzwiach jednego z naszych kościołów w prowincji [unrest_province.GetName], gdzie znajduje się pokaźna kolekcja relikwii. Czy w tych skargach tej rozprawy jest jakaś prawda, czy też składają je jedynie zaprzańcy i heretycy próbujący zaszkodzić jedności, jaką cieszy się [GetInternationalOrganization('catholic_church').GetName], nasza jedyna prawdziwa droga do zbawienia?"
  catholic_flavor.6.a: "Dopiero co kupiliśmy buteleczkę z mlekiem Maryi Dziewicy!"
  catholic_flavor.6.b: "Tylko [ROOT.GetCountry.GetReligion.GetGodName] może nam przebaczyć."
- catholic_flavor.6.b.tt: "[ShowReligionAdjective('catholic')] populacja prowincji [unrest_province.GetName] będzie z tego niezadowolona."
+ catholic_flavor.6.b.tt: "#L [ShowReligionAdjective('catholic')]ka#! populacja prowincji [unrest_province.GetName] będzie z tego niezadowolona."
  catholic_flavor.7.title: "Kult maryjny"
  catholic_flavor.7.desc: "Najświętsza Maryja Panna, Matka naszego Pana, Jezusa Chrystusa, jest Królową Nieba i orędowniczką wielu łask. Jest wzorem kobiecości, a jej święte macierzyństwo zapewnia jej miejsce po prawicy Boga. Czy aby na pewno? Ostatnio radykalni teologowie twierdzą, że takie wstawiennictwo nie jest potrzebne. Czy mają rację, czy też takie graniczące z herezją stwierdzenia są zagrożeniem dla Świętej Matki kościoła?"
  catholic_flavor.7.a: "Niech Madonna im wybaczy."

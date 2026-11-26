@@ -663,7 +663,7 @@
  intervene_in_subject_regular_war_effect_text: "[SCOPE.sCountry('recipient').GetName]: kraj [SCOPE.sCountry('actor').GetName] dołączy do [Concept('war','wojny')|e] po ich stronie"
  intervene_in_subject_regular_war_effect_text_past: "[SCOPE.sCountry('recipient').GetName]: kraj [SCOPE.sCountry('actor').GetName] dołączył do [Concept('war','wojny')|e] po ich stronie"
  call_appanage_to_war: "Wezwanie apanaży do wojny"
- call_appanage_to_war_act: "Wezwij [SCOPE.sCountry('recipient').GetAdjective|l] apanaż do wsparcia nas w wojnie."
+ call_appanage_to_war_act: "Wezwij apanaż [SCOPE.sCountry('recipient').Custom('C_DOP')] do wsparcia nas w wojnie."
  call_appanage_to_war_desc: "Wezwiemy nasze apanaże do walki w [Concept('war','wojnie')|e] przeciwko [Concept('hostile','wrogiemu')|e] krajowi."
  call_appanage_to_war_effect_text: "[SCOPE.sCountry('actor').GetName]: nastąpi wezwanie apanażu ([SCOPE.sCountry('recipient').GetName]) do udziału w wojnie."
  call_appanage_to_war_effect_text_past: "[SCOPE.sCountry('actor').GetName]: wezwano apanaż ([SCOPE.sCountry('recipient').GetName]) do udziału w wojnie."
